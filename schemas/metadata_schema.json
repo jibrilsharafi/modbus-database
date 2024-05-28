@@ -1,0 +1,254 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Modbus Device Metadata",
+    "type": "object",
+    "properties": {
+        "manufacturer": {
+            "type": "string",
+            "description": "The name of the manufacturer of the device."
+        },
+        "model": {
+            "type": "string",
+            "description": "The model identifier of the device."
+        },
+        "description": {
+            "type": "string",
+            "description": "A brief description of the device."
+        },
+        "version": {
+            "type": "string",
+            "description": "The version of the device or firmware."
+        },
+        "url": {
+            "type": "string",
+            "format": "uri",
+            "description": "A URL to the device documentation or product page."
+        },
+        "tags": {
+            "type": "object",
+            "properties": {
+                "industry": {
+                    "type": "string",
+                    "enum": [
+                        "Energy",
+                        "Manufacturing",
+                        "Healthcare",
+                        "Building Automation",
+                        "Agriculture",
+                        "Transportation",
+                        "Water Management",
+                        "Telecommunications",
+                        "Oil and Gas",
+                        "Smart Cities"
+                    ],
+                    "description": "The industry in which the device is used."
+                },
+                "application": {
+                    "type": "string",
+                    "enum": [
+                        "Energy Metering",
+                        "Control",
+                        "Monitoring",
+                        "Automation",
+                        "Data Collection",
+                        "Diagnostics",
+                        "Predictive Maintenance",
+                        "Environmental Monitoring",
+                        "Security",
+                        "Process Optimization",
+                        "Energy Generation",
+                        "Energy Storage",
+                        "Backup Power"
+                    ],
+                    "description": "The specific application or functionality of the device."
+                }
+            },
+            "required": [
+                "industry",
+                "application"
+            ],
+            "additionalProperties": false
+        },
+        "connection": {
+            "oneOf": [
+                {
+                    "type": "object",
+                    "properties": {
+                        "RTU": {
+                            "type": "object",
+                            "properties": {
+                                "baudrate": {
+                                    "type": "integer",
+                                    "description": "The baud rate for the RTU connection."
+                                },
+                                "parity": {
+                                    "type": "string",
+                                    "enum": [
+                                        "none",
+                                        "even",
+                                        "odd"
+                                    ],
+                                    "description": "The parity for the RTU connection."
+                                },
+                                "data_bits": {
+                                    "type": "integer",
+                                    "enum": [
+                                        5,
+                                        6,
+                                        7,
+                                        8
+                                    ],
+                                    "description": "The number of data bits for the RTU connection."
+                                },
+                                "stop_bits": {
+                                    "type": "integer",
+                                    "enum": [
+                                        1,
+                                        2
+                                    ],
+                                    "description": "The number of stop bits for the RTU connection."
+                                },
+                                "slave_id": {
+                                    "type": "integer",
+                                    "description": "The slave ID for the RTU connection."
+                                },
+                                "endianess": {
+                                    "type": "string",
+                                    "enum": [
+                                        "big",
+                                        "little"
+                                    ],
+                                    "description": "The endianess for the RTU connection."
+                                }
+                            },
+                            "required": [
+                                "baudrate",
+                                "parity",
+                                "data_bits",
+                                "stop_bits",
+                                "slave_id",
+                                "endianess"
+                            ],
+                            "additionalProperties": false
+                        },
+                        "TCP": {
+                            "type": "object",
+                            "properties": {
+                                "ip_address": {
+                                    "type": "string",
+                                    "format": "ipv4",
+                                    "description": "The IP address for the TCP connection."
+                                },
+                                "port": {
+                                    "type": "integer",
+                                    "description": "The port for the TCP connection."
+                                },
+                                "slave_id": {
+                                    "type": "integer",
+                                    "description": "The slave ID for the TCP connection."
+                                }
+                            },
+                            "additionalProperties": false
+                        }
+                    },
+                    "required": [
+                        "RTU"
+                    ],
+                    "additionalProperties": false
+                },
+                {
+                    "type": "object",
+                    "properties": {
+                        "RTU": {
+                            "type": "object",
+                            "properties": {
+                                "baudrate": {
+                                    "type": "integer",
+                                    "description": "The baud rate for the RTU connection."
+                                },
+                                "parity": {
+                                    "type": "string",
+                                    "enum": [
+                                        "none",
+                                        "even",
+                                        "odd"
+                                    ],
+                                    "description": "The parity for the RTU connection."
+                                },
+                                "data_bits": {
+                                    "type": "integer",
+                                    "enum": [
+                                        5,
+                                        6,
+                                        7,
+                                        8
+                                    ],
+                                    "description": "The number of data bits for the RTU connection."
+                                },
+                                "stop_bits": {
+                                    "type": "integer",
+                                    "enum": [
+                                        1,
+                                        2
+                                    ],
+                                    "description": "The number of stop bits for the RTU connection."
+                                },
+                                "slave_id": {
+                                    "type": "integer",
+                                    "description": "The slave ID for the RTU connection."
+                                },
+                                "endianess": {
+                                    "type": "string",
+                                    "enum": [
+                                        "big",
+                                        "little"
+                                    ],
+                                    "description": "The endianess for the RTU connection."
+                                }
+                            },
+                            "additionalProperties": false
+                        },
+                        "TCP": {
+                            "type": "object",
+                            "properties": {
+                                "ip_address": {
+                                    "type": "string",
+                                    "format": "ipv4",
+                                    "description": "The IP address for the TCP connection."
+                                },
+                                "port": {
+                                    "type": "integer",
+                                    "description": "The port for the TCP connection."
+                                },
+                                "slave_id": {
+                                    "type": "integer",
+                                    "description": "The slave ID for the TCP connection."
+                                }
+                            },
+                            "required": [
+                                "ip_address",
+                                "port",
+                                "slave_id"
+                            ],
+                            "additionalProperties": false
+                        }
+                    },
+                    "required": [
+                        "TCP"
+                    ],
+                    "additionalProperties": false
+                }
+            ]
+        }
+    },
+    "required": [
+        "manufacturer",
+        "model",
+        "description",
+        "version",
+        "url",
+        "tags",
+        "connection"
+    ],
+    "additionalProperties": false
+}

@@ -1,0 +1,79 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "patternProperties": {
+        "^[0-9]+$": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "function_codes": {
+                    "type": "array",
+                    "items": {
+                        "type": "integer",
+                        "enum": [
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6,
+                            15,
+                            16
+                        ]
+                    },
+                    "minItems": 1
+                },
+                "size": {
+                    "type": "integer"
+                },
+                "data_type": {
+                    "type": "string",
+                    "enum": [
+                        "int16",
+                        "uint16",
+                        "int32",
+                        "uint32",
+                        "int64",
+                        "uint64",
+                        "float",
+                        "double",
+                        "string",
+                        "boolean"
+                    ]
+                },
+                "unit": {
+                    "type": "string"
+                },
+                "access": {
+                    "type": "string",
+                    "enum": [
+                        "read",
+                        "write",
+                        "read/write"
+                    ]
+                },
+                "scaling_factor": {
+                    "type": "number"
+                },
+                "scaling_offset": {
+                    "type": "number"
+                }
+            },
+            "required": [
+                "name",
+                "description",
+                "function_codes",
+                "data_type",
+                "unit",
+                "access"
+            ],
+            "additionalProperties": false
+        }
+    },
+    "additionalProperties": false
+}

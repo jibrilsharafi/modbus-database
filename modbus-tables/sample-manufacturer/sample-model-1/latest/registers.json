@@ -1,0 +1,38 @@
+{
+    "1": {
+        "name": "Motor Start",
+        "description": "Start the motor",
+        "function_codes": [1, 5],
+        "access": "read/write",
+        "size": 1
+    },
+    "10001": {
+        "name": "Switch Status",
+        "description": "Whether the switch is on or off",
+        "function_codes": 2,
+        "access": "read",
+        "size": 1
+    },
+    "30001": {
+        "name": "Temperature",
+        "description": "Current temperature reading",
+        "function_codes": 3,
+        "size": 1,
+        "data_type": "int",
+        "unit": "celsius",
+        "access": "read",
+        "scaling_factor": 0.1,
+        "scaling_offset": 0
+    },
+    "40001": {
+        "name": "Setpoint Temperature",
+        "description": "Setpoint temperature for the thermostat",
+        "function_codes": [3, 16],
+        "size": 2,
+        "data_type": "float",
+        "unit": "celsius",
+        "access": "read/write",
+        "scaling_factor": 0.1,
+        "scaling_offset": 0
+    }
+}

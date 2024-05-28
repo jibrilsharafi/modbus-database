@@ -1,0 +1,26 @@
+{
+    "manufacturer": "Sample Manufacturer",
+    "model": "Sample Model 1",
+    "description": "Example device",
+    "version": "v1",
+    "url": "http://www.example.com",
+    "tags": {
+        "industry": "(Energy | Manufacturing | Healthcare | Building Automation | Agriculture | Transportation | Water Management | Telecommunications | Oil and Gas | Smart Cities)",
+        "application": "(Energy Metering | Control | Monitoring | Automation | Data Collection | Diagnostics | Predictive Maintenance | Environmental Monitoring | Security | Process Optimization | Energy Generation | Energy Storage | Backup Power)"
+    },
+    "connection": {
+        "RTU": {
+            "baudrate": 9600,
+            "parity": "(none | even | odd)",
+            "data_bits": 8,
+            "stop_bits": 1,
+            "slave_id": 1,
+            "endianess": "(big | little)"
+        },
+        "TCP": {
+            "ip_address": "XXX.XXX.XXX.XXX",
+            "port": 502,
+            "slave_id": 1
+        }
+    }
+}
