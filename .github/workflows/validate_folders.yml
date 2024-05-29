@@ -1,4 +1,4 @@
-name: Format Validation
+name: Folder Structure Validation
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  validate-format:
+  validate-structure:
 
     runs-on: ubuntu-latest
 
@@ -22,5 +22,5 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-    - name: Validate JSON format
-      run: python utils/validate_json.py
+    - name: Validate folder structure
+      run: python utils/validate_folders.py
