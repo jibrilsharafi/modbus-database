@@ -2,8 +2,16 @@
 
 This repository hosts a collection of Modbus tables from various manufacturers. The goal is to build a comprehensive database that can be used in projects requiring Modbus communication, eliminating the need to manually find and write Modbus maps.
 
-## Structure
+## Devices
 
+| Manufacturer | Model | Industry | Application |
+|--------------|-------|----------|-------------|
+| **[BTicino](modbus-tables/BTicino)** | [F4N200](modbus-tables/BTicino/F4N200) | Energy | Energy Metering |
+| **[BTicino](modbus-tables/BTicino)** | [F4N200](modbus-tables/BTicino/F4N200) | Energy | Energy Metering |
+
+
+
+## Structure
 The Modbus tables are organized in the `modbus-tables` directory, with subdirectories for each manufacturer and model.
 
 ## Usage
