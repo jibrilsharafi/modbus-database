@@ -1,0 +1,21 @@
+{
+    "manufacturer": "BTicino",
+    "model": "F4N200",
+    "description": "Three-phase energy meter with LCD display. Registers from 5889 to 29923 not mapped.",
+    "version": "IDP000050EN_02",
+    "url": "https://dar.bticino.it/asset/Documents/IDP000050EN_02.pdf",
+    "tags": {
+        "industry": "Energy",
+        "application": "Energy Metering"
+    },
+    "connection": {
+        "RTU": {
+            "baudrate": 9600,
+            "parity": "none",
+            "data_bits": 8,
+            "stop_bits": 1,
+            "slave_id": 1,
+            "endianess": "big"
+        }
+    }
+}
