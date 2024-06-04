@@ -1,8 +1,9 @@
 name: Update README
 
 on:
-    pull_request:
-        types: [opened, synchronize, reopened]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
     update-readme:

@@ -43,8 +43,10 @@ def format_devices(devices: List[Dict[str, Any]]) -> list[str]:
     formatted.append("| Manufacturer | Model | Industry | Application |")
     formatted.append("|--------------|-------|----------|-------------|")
     for device in sorted(devices, key=lambda x: (x["manufacturer"].lower(), x["model"].lower())):
+        manufacturer_path = f"{MODBUS_TABLE_DIRECTORY}/{device['manufacturer']}"
+        model_path = f"{manufacturer_path}/{device['model']}/latest"
         formatted.append(
-            f"| **[{device['manufacturer']}]({device['path']})** | [{device['model']}]({device['path']}/{device['model']}) | {device['tags']['industry']} | {device['tags']['application']} |"
+            f"| **[{device['manufacturer']}]({manufacturer_path})** | [{device['model']}]({model_path}) | {device['tags']['industry']} | {device['tags']['application']} |"
         )
     return formatted
 
