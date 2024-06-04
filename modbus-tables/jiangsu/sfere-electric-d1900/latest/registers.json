@@ -1,0 +1,502 @@
+{
+    "262": {
+        "name": "Import-active-energy",
+        "description": "Import-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "264": {
+        "name": "Export-active-enregy",
+        "description": "Export-active-enregy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "266": {
+        "name": "Import-reactive-energy",
+        "description": "Import-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "varh",
+        "access": "read"
+    },
+    "268": {
+        "name": "Export-reactive-energy",
+        "description": "Export-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "varh",
+        "access": "read"
+    },
+    "270": {
+        "name": "Apparent-energy",
+        "description": "Apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "272": {
+        "name": "First-quadrant-reactive-energy",
+        "description": "First-quadrant-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "varh",
+        "access": "read"
+    },
+    "274": {
+        "name": "Second-quadrant-reactive-energy",
+        "description": "Second-quadrant-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "varh",
+        "access": "read"
+    },
+    "276": {
+        "name": "Third-quadrant-reactive-energy",
+        "description": "Third-quadrant-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "varh",
+        "access": "read"
+    },
+    "278": {
+        "name": "Fourth-quadrant-reactive-energy",
+        "description": "Fourth-quadrant-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "varh",
+        "access": "read"
+    },
+    "280": {
+        "name": "Active-energy-[total",
+        "description": "Active-energy-[total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "282": {
+        "name": "Active-energy-[tip",
+        "description": "Active-energy-[tip",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "284": {
+        "name": "Active-energy-[peak",
+        "description": "Active-energy-[peak",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "286": {
+        "name": "Active-energy-[level",
+        "description": "Active-energy-[level",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "288": {
+        "name": "Active-energy-[valley",
+        "description": "Active-energy-[valley",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "290": {
+        "name": "Active-energy-of-this-month-[total/tip/peak/level/valley",
+        "description": "Active-energy-of-this-month-[total/tip/peak/level/valley",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "300": {
+        "name": "Active-energy-of-last-month-[total/tip/peak/level/valley",
+        "description": "Active-energy-of-last-month-[total/tip/peak/level/valley",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "310": {
+        "name": "Active-energy-of-the-month-before",
+        "description": "Active-energy-of-the-month-before",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "2": {
+        "name": "Current",
+        "description": "Current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4": {
+        "name": "Active-power",
+        "description": "Active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "6": {
+        "name": "Reactive-power",
+        "description": "Reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "8": {
+        "name": "Apparent-power",
+        "description": "Apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "10": {
+        "name": "Power-factor",
+        "description": "Power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "14": {
+        "name": "Import-active-energy",
+        "description": "Import-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "16": {
+        "name": "Export-active-energy",
+        "description": "Export-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "18": {
+        "name": "Import-reactive-energy",
+        "description": "Import-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "1550": {
+        "name": "Max.-reactive-power-demand-value-of-this-month",
+        "description": "Max.-reactive-power-demand-value-of-this-month",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "1551": {
+        "name": "Max.-apparent-power-demand-value-of-this-month",
+        "description": "Max.-apparent-power-demand-value-of-this-month",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "1552": {
+        "name": "Active-power-demand-value-at-present",
+        "description": "Active-power-demand-value-at-present",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "1553": {
+        "name": "Reactive-power-demand-value-at-present",
+        "description": "Reactive-power-demand-value-at-present",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "1554": {
+        "name": "Apparent-power-demand-value-at-present",
+        "description": "Apparent-power-demand-value-at-present",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "1556": {
+        "name": "Power-on-record-times-and-year",
+        "description": "Power-on-record-times-and-year",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read"
+    },
+    "1557": {
+        "name": "Power-on-record-month-and-data",
+        "description": "Power-on-record-month-and-data",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read"
+    },
+    "1558": {
+        "name": "Power-on-record-hour-and-minute",
+        "description": "Power-on-record-hour-and-minute",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read"
+    },
+    "1559": {
+        "name": "Programming-record-times-and-year",
+        "description": "Programming-record-times-and-year",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read"
+    },
+    "1560": {
+        "name": "Programming-record-month-and-day",
+        "description": "Programming-record-month-and-day",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read"
+    },
+    "1561": {
+        "name": "Programming-record-hour-and-minute",
+        "description": "Programming-record-hour-and-minute",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read"
+    },
+    "1562": {
+        "name": "Energy-clearing-times-and-year",
+        "description": "Energy-clearing-times-and-year",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read"
+    },
+    "1563": {
+        "name": "Energy-clearing-month-and-day",
+        "description": "Energy-clearing-month-and-day",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read"
+    },
+    "1564": {
+        "name": "Energy-clearing-hour-and-minute",
+        "description": "Energy-clearing-hour-and-minute",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read"
+    },
+    "512": {
+        "name": "Voltage",
+        "description": "Voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "513": {
+        "name": "Current",
+        "description": "Current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "A",
+        "access": "read"
+    },
+    "514": {
+        "name": "Active-power",
+        "description": "Active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "515": {
+        "name": "Reactive-power",
+        "description": "Reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "516": {
+        "name": "Apparent-power",
+        "description": "Apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "517": {
+        "name": "Power-factor",
+        "description": "Power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "518": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "1536": {
+        "name": "Max.-voltage-value",
+        "description": "Max.-voltage-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "1537": {
+        "name": "Max.-current-value",
+        "description": "Max.-current-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "A",
+        "access": "read"
+    },
+    "1538": {
+        "name": "Max.-active-power-value",
+        "description": "Max.-active-power-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    }
+}

@@ -1,0 +1,502 @@
+{
+    "99": {
+        "name": "Phase-to-neutral-voltage-(V1)",
+        "description": "Phase-to-neutral-voltage-(V1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "101": {
+        "name": "Phase-to-neutral-voltage-(V2)",
+        "description": "Phase-to-neutral-voltage-(V2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "103": {
+        "name": "Phase-to-neutral-voltage-(V3)",
+        "description": "Phase-to-neutral-voltage-(V3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "105": {
+        "name": "Average-voltage",
+        "description": "Average-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "107": {
+        "name": "Voltage-(v12)",
+        "description": "Voltage-(v12)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "109": {
+        "name": "Voltage-(v23)",
+        "description": "Voltage-(v23)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "111": {
+        "name": "Voltage-(v31)",
+        "description": "Voltage-(v31)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "113": {
+        "name": "Phase-line-current-(L1)",
+        "description": "Phase-line-current-(L1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ampere",
+        "access": "read"
+    },
+    "115": {
+        "name": "Phase-line-current-(L2)",
+        "description": "Phase-line-current-(L2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ampere",
+        "access": "read"
+    },
+    "117": {
+        "name": "Phase-line-current-(L3)",
+        "description": "Phase-line-current-(L3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ampere",
+        "access": "read"
+    },
+    "119": {
+        "name": "Neutral-line-current-(ln)",
+        "description": "Neutral-line-current-(ln)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ampere",
+        "access": "read"
+    },
+    "121": {
+        "name": "Phase-active-current-(I1)",
+        "description": "Phase-active-current-(I1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ampere",
+        "access": "read"
+    },
+    "123": {
+        "name": "Phase-active-current-(I2)",
+        "description": "Phase-active-current-(I2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ampere",
+        "access": "read"
+    },
+    "125": {
+        "name": "Phase-active-current-(I3)",
+        "description": "Phase-active-current-(I3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ampere",
+        "access": "read"
+    },
+    "127": {
+        "name": "Phase-reactive-current-(R1)",
+        "description": "Phase-reactive-current-(R1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ampere",
+        "access": "read"
+    },
+    "129": {
+        "name": "Phase-reactive-current-(R2)",
+        "description": "Phase-reactive-current-(R2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ampere",
+        "access": "read"
+    },
+    "131": {
+        "name": "Phase-reactive-current-(R3)",
+        "description": "Phase-reactive-current-(R3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ampere",
+        "access": "read"
+    },
+    "133": {
+        "name": "Power-factor-(Q1)",
+        "description": "Power-factor-(Q1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "135": {
+        "name": "Power-factor-(Q2)",
+        "description": "Power-factor-(Q2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "137": {
+        "name": "Power-factor-(Q3)",
+        "description": "Power-factor-(Q3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "139": {
+        "name": "Avg-power-factor-(qa)",
+        "description": "Avg-power-factor-(qa)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "141": {
+        "name": "Phase-active-power-(kt1)",
+        "description": "Phase-active-power-(kt1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "143": {
+        "name": "Phase-active-power-(kt2)",
+        "description": "Phase-active-power-(kt2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "145": {
+        "name": "Phase-active-power-(kt3)",
+        "description": "Phase-active-power-(kt3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "147": {
+        "name": "Phase-active-power-(kt)",
+        "description": "Phase-active-power-(kt)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KW",
+        "access": "read"
+    },
+    "149": {
+        "name": "Phase-reactive-power-(kv1)",
+        "description": "Phase-reactive-power-(kv1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAr",
+        "access": "read"
+    },
+    "151": {
+        "name": "Phase-reactive-power-(kv2)",
+        "description": "Phase-reactive-power-(kv2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAr",
+        "access": "read"
+    },
+    "153": {
+        "name": "Phase-reactive-power-(kv3)",
+        "description": "Phase-reactive-power-(kv3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAr",
+        "access": "read"
+    },
+    "155": {
+        "name": "Phase-reactive-power-(kv)",
+        "description": "Phase-reactive-power-(kv)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAr",
+        "access": "read"
+    },
+    "157": {
+        "name": "Phase-apparent-power-(ka1)",
+        "description": "Phase-apparent-power-(ka1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "159": {
+        "name": "Phase-apparent-power-(ka2)",
+        "description": "Phase-apparent-power-(ka2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "161": {
+        "name": "Phase-apparent-power-(ka3)",
+        "description": "Phase-apparent-power-(ka3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "163": {
+        "name": "Phase-apparent-power-(ka)",
+        "description": "Phase-apparent-power-(ka)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "165": {
+        "name": "Ph-ang-(a12)",
+        "description": "Ph-ang-(a12)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Degree",
+        "access": "read"
+    },
+    "167": {
+        "name": "Ph-ang-(a23)",
+        "description": "Ph-ang-(a23)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Degree",
+        "access": "read"
+    },
+    "169": {
+        "name": "Ph-ang-(a31)",
+        "description": "Ph-ang-(a31)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Degree",
+        "access": "read"
+    },
+    "171": {
+        "name": "Frequency-hz-(fq)",
+        "description": "Frequency-hz-(fq)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "173": {
+        "name": "Meter-real-time-(rt)",
+        "description": "Meter-real-time-(rt)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Seconds",
+        "access": "read"
+    },
+    "175": {
+        "name": "Meter-temperature",
+        "description": "Meter-temperature",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Degree Centi",
+        "access": "read"
+    },
+    "177": {
+        "name": "R-phase-voltage-total-harmonic-distortion",
+        "description": "R-phase-voltage-total-harmonic-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "179": {
+        "name": "Y-phase-voltage-total-harmonic-distortion",
+        "description": "Y-phase-voltage-total-harmonic-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "181": {
+        "name": "B-phase-voltage-total-harmonic-distortion",
+        "description": "B-phase-voltage-total-harmonic-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "183": {
+        "name": "R-phase-current-total-harmonic-distortion",
+        "description": "R-phase-current-total-harmonic-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "185": {
+        "name": "Y-phase-current-total-harmonic-distortion",
+        "description": "Y-phase-current-total-harmonic-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "187": {
+        "name": "B-phase-current-total-harmonic-distortion",
+        "description": "B-phase-current-total-harmonic-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "189": {
+        "name": "R-phase-power-total-harmonic-distortion",
+        "description": "R-phase-power-total-harmonic-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "191": {
+        "name": "Y-phase-power-total-harmonic-distortion",
+        "description": "Y-phase-power-total-harmonic-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "193": {
+        "name": "B-phase-power-total-harmonic-distortion",
+        "description": "B-phase-power-total-harmonic-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "199": {
+        "name": "Active-total-import",
+        "description": "Active-total-import",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "201": {
+        "name": "Active-total-export",
+        "description": "Active-total-export",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    }
+}

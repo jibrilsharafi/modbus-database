@@ -1,0 +1,502 @@
+{
+    "2000": {
+        "name": "Phase-1-power-factor",
+        "description": "Phase-1-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2002": {
+        "name": "Phase-2-power-factor",
+        "description": "Phase-2-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2004": {
+        "name": "Phase-3-power-factor",
+        "description": "Phase-3-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2006": {
+        "name": "Average-of-PF1,-PF2,-PF3",
+        "description": "Average-of-PF1,-PF2,-PF3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2008": {
+        "name": "Phase-1-displacement-power-factor",
+        "description": "Phase-1-displacement-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2010": {
+        "name": "Phase-2-displacement-power-factor",
+        "description": "Phase-2-displacement-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2012": {
+        "name": "Phase-3-displacement-power-factor",
+        "description": "Phase-3-displacement-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2014": {
+        "name": "Average-of-DPF1,-DPF2,-DPF3",
+        "description": "Average-of-DPF1,-DPF2,-DPF3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2016": {
+        "name": "Phase-1-frequency",
+        "description": "Phase-1-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "2018": {
+        "name": "Phase-2-frequency",
+        "description": "Phase-2-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "2020": {
+        "name": "Phase-3-frequency",
+        "description": "Phase-3-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "2022": {
+        "name": "Average-of-freq1,-freq2,-freq3",
+        "description": "Average-of-freq1,-freq2,-freq3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "2024": {
+        "name": "Range:2-52",
+        "description": "Range:2-52",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2025": {
+        "name": "Range:2-52",
+        "description": "Range:2-52",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2026": {
+        "name": "Range:2-52",
+        "description": "Range:2-52",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2027": {
+        "name": "Phase-1-X-times-harmonics-current-distortion",
+        "description": "Phase-1-X-times-harmonics-current-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2029": {
+        "name": "Phase-2-X-times-harmonics-current",
+        "description": "Phase-2-X-times-harmonics-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2031": {
+        "name": "Phase-3-X-times-harmonics-current-distortion",
+        "description": "Phase-3-X-times-harmonics-current-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2033": {
+        "name": "Average-of-I1THDx,-I2THDx,-I3THDx",
+        "description": "Average-of-I1THDx,-I2THDx,-I3THDx",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2035": {
+        "name": "Phase-1-y-times-harmonics-current-distortion",
+        "description": "Phase-1-y-times-harmonics-current-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2037": {
+        "name": "Phase-2-y-times-harmonics-current-distortion",
+        "description": "Phase-2-y-times-harmonics-current-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2039": {
+        "name": "Phase-3-y-times-harmonics-current-distortion",
+        "description": "Phase-3-y-times-harmonics-current-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2041": {
+        "name": "Average-of-U1THDy,-U2THDy,-U3THDy",
+        "description": "Average-of-U1THDy,-U2THDy,-U3THDy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2043": {
+        "name": "Phase-1-z-times-harmonics-current-distortion",
+        "description": "Phase-1-z-times-harmonics-current-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2045": {
+        "name": "Phase-2-z-times-harmonics-current-distortion",
+        "description": "Phase-2-z-times-harmonics-current-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2047": {
+        "name": "Phase-3-z-times-harmonics-current-distortion",
+        "description": "Phase-3-z-times-harmonics-current-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2049": {
+        "name": "Average-of-U1THDz,-U2THDz,-U3THDz",
+        "description": "Average-of-U1THDz,-U2THDz,-U3THDz",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2051": {
+        "name": "Phase-1-total-harmonics-current-distortion",
+        "description": "Phase-1-total-harmonics-current-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2053": {
+        "name": "Phase-2-total-harmonics-current-distortion",
+        "description": "Phase-2-total-harmonics-current-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2055": {
+        "name": "Phase-3-total-harmonics-current-distortion",
+        "description": "Phase-3-total-harmonics-current-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2057": {
+        "name": "Average-of-U1THD,-U2THD,-U3THD",
+        "description": "Average-of-U1THD,-U2THD,-U3THD",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2059": {
+        "name": "Phase-1-x-times-harmonics-current",
+        "description": "Phase-1-x-times-harmonics-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "2061": {
+        "name": "Phase-2-x-times-harmonics-current",
+        "description": "Phase-2-x-times-harmonics-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "2063": {
+        "name": "Phase-3-x-times-harmonics-current",
+        "description": "Phase-3-x-times-harmonics-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "2065": {
+        "name": "Average-of-U1THx,-U2THx,-U3THx",
+        "description": "Average-of-U1THx,-U2THx,-U3THx",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "2067": {
+        "name": "Phase-1-y-times-harmonics-current",
+        "description": "Phase-1-y-times-harmonics-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "2069": {
+        "name": "Phase-2-y-times-harmonics-current",
+        "description": "Phase-2-y-times-harmonics-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "2071": {
+        "name": "Phase-3-y-times-harmonics-current",
+        "description": "Phase-3-y-times-harmonics-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "2073": {
+        "name": "Average-of-U1THy,-U2THy,-U3THy",
+        "description": "Average-of-U1THy,-U2THy,-U3THy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "2075": {
+        "name": "Phase-1-z-times-harmonics-current",
+        "description": "Phase-1-z-times-harmonics-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "2077": {
+        "name": "Phase-2-z-times-harmonics-current",
+        "description": "Phase-2-z-times-harmonics-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "2079": {
+        "name": "Phase-3-z-times-harmonics-current",
+        "description": "Phase-3-z-times-harmonics-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "2081": {
+        "name": "Average-of-U1THz,-U2THz,-U3THz",
+        "description": "Average-of-U1THz,-U2THz,-U3THz",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "2083": {
+        "name": "Phase-1-X-times-harmonics-voltage-distortion",
+        "description": "Phase-1-X-times-harmonics-voltage-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2085": {
+        "name": "Phase-2-X-times-harmonics-voltage-distortion",
+        "description": "Phase-2-X-times-harmonics-voltage-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2087": {
+        "name": "Phase-3-X-times-harmonics-voltage",
+        "description": "Phase-3-X-times-harmonics-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2089": {
+        "name": "Average-of-U1THDx,-U2THDx,-U3THDx",
+        "description": "Average-of-U1THDx,-U2THDx,-U3THDx",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2091": {
+        "name": "Phase-1-y-times-harmonics-voltage-distortion",
+        "description": "Phase-1-y-times-harmonics-voltage-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2093": {
+        "name": "Phase-2-y-times-harmonics-voltage-distortion",
+        "description": "Phase-2-y-times-harmonics-voltage-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2095": {
+        "name": "Phase-3-y-times-harmonics-voltage-distortion",
+        "description": "Phase-3-y-times-harmonics-voltage-distortion",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    }
+}

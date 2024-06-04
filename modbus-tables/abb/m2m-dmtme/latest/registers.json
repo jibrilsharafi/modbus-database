@@ -1,0 +1,502 @@
+{
+    "4096": {
+        "name": "3-phase-system-voltage",
+        "description": "3-phase-system-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "4098": {
+        "name": "Phase-voltage-L1-N",
+        "description": "Phase-voltage-L1-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "4100": {
+        "name": "Phase-voltage-L2-N",
+        "description": "Phase-voltage-L2-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "4102": {
+        "name": "Phase-voltage-L3-N",
+        "description": "Phase-voltage-L3-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "4104": {
+        "name": "Line-voltage-L1-2",
+        "description": "Line-voltage-L1-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "4106": {
+        "name": "Line-voltage-L2-3",
+        "description": "Line-voltage-L2-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "4108": {
+        "name": "Line-voltage-L3-1",
+        "description": "Line-voltage-L3-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "4110": {
+        "name": "3-phase-system-current",
+        "description": "3-phase-system-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "mA",
+        "access": "read"
+    },
+    "4112": {
+        "name": "Line-current-L1",
+        "description": "Line-current-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "mA",
+        "access": "read"
+    },
+    "4114": {
+        "name": "Line-current-L2",
+        "description": "Line-current-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "mA",
+        "access": "read"
+    },
+    "4116": {
+        "name": "Line-current-L3",
+        "description": "Line-current-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "mA",
+        "access": "read"
+    },
+    "4118": {
+        "name": "3-phase-system-power-factor",
+        "description": "3-phase-system-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "4120": {
+        "name": "Power-factor-L1",
+        "description": "Power-factor-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "4122": {
+        "name": "Power-factor-L2",
+        "description": "Power-factor-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "4124": {
+        "name": "Power-factor-L3",
+        "description": "Power-factor-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "4126": {
+        "name": "3-phase-system-cos",
+        "description": "3-phase-system-cos",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "4128": {
+        "name": "Phase-cos-1",
+        "description": "Phase-cos-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "4130": {
+        "name": "Phase-cos-2",
+        "description": "Phase-cos-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "4132": {
+        "name": "Phase-cos-3",
+        "description": "Phase-cos-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "4134": {
+        "name": "3-phase-system-apparent-power",
+        "description": "3-phase-system-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4136": {
+        "name": "Apparent-power-L1",
+        "description": "Apparent-power-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4138": {
+        "name": "Apparent-power-L2",
+        "description": "Apparent-power-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4140": {
+        "name": "Apparent-power-L3",
+        "description": "Apparent-power-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4142": {
+        "name": "3-phase-system-active-power",
+        "description": "3-phase-system-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "4144": {
+        "name": "Active-power-L1",
+        "description": "Active-power-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "4146": {
+        "name": "Active-power-L2",
+        "description": "Active-power-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "4148": {
+        "name": "Active-power-L3",
+        "description": "Active-power-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "4150": {
+        "name": "3-phase-system-reactive-power",
+        "description": "3-phase-system-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "4152": {
+        "name": "Reactive-power-L1",
+        "description": "Reactive-power-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "4154": {
+        "name": "Reactive-power-L2",
+        "description": "Reactive-power-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "4156": {
+        "name": "Reactive-power-L3",
+        "description": "Reactive-power-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "4158": {
+        "name": "3-phase-system-active-energy",
+        "description": "3-phase-system-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4160": {
+        "name": "3-phase-system-reactive-energy",
+        "description": "3-phase-system-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VArh",
+        "access": "read"
+    },
+    "4166": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "mHz",
+        "access": "read"
+    },
+    "4192": {
+        "name": "Max-line-current-L1",
+        "description": "Max-line-current-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "mA",
+        "access": "read"
+    },
+    "4194": {
+        "name": "Max-line-current-L2",
+        "description": "Max-line-current-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "mA",
+        "access": "read"
+    },
+    "4196": {
+        "name": "Max-line-current-L3",
+        "description": "Max-line-current-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "mA",
+        "access": "read"
+    },
+    "4198": {
+        "name": "Max-3-phase-system-active-power",
+        "description": "Max-3-phase-system-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "4200": {
+        "name": "Max-3-phase-system-apparent-power",
+        "description": "Max-3-phase-system-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4208": {
+        "name": "3-phase-system-active-power-15-aver",
+        "description": "3-phase-system-active-power-15-aver",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "4210": {
+        "name": "3-phase-system-apparent-power-15-aver",
+        "description": "3-phase-system-apparent-power-15-aver",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4212": {
+        "name": "Active-energy-L1",
+        "description": "Active-energy-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4214": {
+        "name": "Active-energy-L2",
+        "description": "Active-energy-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4216": {
+        "name": "Active-energy-L3",
+        "description": "Active-energy-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4218": {
+        "name": "Reactive-energy-L1",
+        "description": "Reactive-energy-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VArh",
+        "access": "read"
+    },
+    "4220": {
+        "name": "Reactive-energy-L2",
+        "description": "Reactive-energy-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VArh",
+        "access": "read"
+    },
+    "4222": {
+        "name": "Reactive-energy-L3",
+        "description": "Reactive-energy-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VArh",
+        "access": "read"
+    },
+    "4224": {
+        "name": "Max-3-phase-system-active-power-15-aver",
+        "description": "Max-3-phase-system-active-power-15-aver",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "4226": {
+        "name": "Voltage-ThdF-L1",
+        "description": "Voltage-ThdF-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "4228": {
+        "name": "Voltage-ThdF-L2",
+        "description": "Voltage-ThdF-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Watt",
+        "access": "read"
+    }
+}

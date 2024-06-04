@@ -1,0 +1,502 @@
+{
+    "40520": {
+        "name": "AC-Current",
+        "description": "AC-Current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "40521": {
+        "name": "Phase-A-Current",
+        "description": "Phase-A-Current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "40522": {
+        "name": "Phase-B-Current",
+        "description": "Phase-B-Current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "40523": {
+        "name": "Phase-C-Current",
+        "description": "Phase-C-Current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "40524": {
+        "name": "Scale-factor-[A_SF]",
+        "description": "Scale-factor-[A_SF]",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40525": {
+        "name": "Phase-Voltage-AB",
+        "description": "Phase-Voltage-AB",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "40526": {
+        "name": "Phase-Voltage-BC",
+        "description": "Phase-Voltage-BC",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "40527": {
+        "name": "Phase-Voltage-CA",
+        "description": "Phase-Voltage-CA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "40528": {
+        "name": "Phase-Voltage-AN",
+        "description": "Phase-Voltage-AN",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "40529": {
+        "name": "Phase-Voltage-BN",
+        "description": "Phase-Voltage-BN",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "40530": {
+        "name": "Phase-Voltage-CN",
+        "description": "Phase-Voltage-CN",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "40531": {
+        "name": "Scale-factor-[V_SF]",
+        "description": "Scale-factor-[V_SF]",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40532": {
+        "name": "AC-Power",
+        "description": "AC-Power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "W",
+        "access": "read"
+    },
+    "40533": {
+        "name": "Scale-factor-[W_SF]",
+        "description": "Scale-factor-[W_SF]",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40534": {
+        "name": "Line-Frequency",
+        "description": "Line-Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "40535": {
+        "name": "Scale-factor-[HZ_SF]",
+        "description": "Scale-factor-[HZ_SF]",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40536": {
+        "name": "AC-Apparent-Power",
+        "description": "AC-Apparent-Power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40537": {
+        "name": "Scale-factor-[VA_SF]",
+        "description": "Scale-factor-[VA_SF]",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40538": {
+        "name": "AC-Reactive-Power",
+        "description": "AC-Reactive-Power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "var",
+        "access": "read"
+    },
+    "40539": {
+        "name": "Scale-factor-[VAR_SF]",
+        "description": "Scale-factor-[VAR_SF]",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40540": {
+        "name": "AC-Power-Factor",
+        "description": "AC-Power-Factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Pct",
+        "access": "read"
+    },
+    "40541": {
+        "name": "Scale-factor-[PF_SF]",
+        "description": "Scale-factor-[PF_SF]",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40542": {
+        "name": "AC-Energy",
+        "description": "AC-Energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "40544": {
+        "name": "Scale-factor-[WH_SF]",
+        "description": "Scale-factor-[WH_SF]",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40545": {
+        "name": "DC-Current",
+        "description": "DC-Current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "40546": {
+        "name": "Scale-factor-[DCA_SF]",
+        "description": "Scale-factor-[DCA_SF]",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40547": {
+        "name": "DC-Voltage",
+        "description": "DC-Voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "40548": {
+        "name": "Scale-factor-[DCV_SF]",
+        "description": "Scale-factor-[DCV_SF]",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40549": {
+        "name": "DC-Power",
+        "description": "DC-Power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "W",
+        "access": "read"
+    },
+    "40550": {
+        "name": "Scale-factor-[DCW_SF]",
+        "description": "Scale-factor-[DCW_SF]",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40551": {
+        "name": "Cabinet-Temperature",
+        "description": "Cabinet-Temperature",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "C",
+        "access": "read"
+    },
+    "40552": {
+        "name": "Heat-Sink-Temperature",
+        "description": "Heat-Sink-Temperature",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "C",
+        "access": "read"
+    },
+    "40553": {
+        "name": "Transformer-Temperature",
+        "description": "Transformer-Temperature",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "C",
+        "access": "read"
+    },
+    "40554": {
+        "name": "Other-Temperature",
+        "description": "Other-Temperature",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "C",
+        "access": "read"
+    },
+    "40555": {
+        "name": "Scale-factor-[TMP_SF]",
+        "description": "Scale-factor-[TMP_SF]",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40556": {
+        "name": "Enumerated-value.--Operating-state",
+        "description": "Enumerated-value.--Operating-state",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40557": {
+        "name": "Vendor-specific-operating-state-code",
+        "description": "Vendor-specific-operating-state-code",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40558": {
+        "name": "Bitmask-value.-Event-fields",
+        "description": "Bitmask-value.-Event-fields",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40560": {
+        "name": "Reserved-for-future-use",
+        "description": "Reserved-for-future-use",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40562": {
+        "name": "Vendor-defined-events",
+        "description": "Vendor-defined-events",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40564": {
+        "name": "Vendor-defined-events",
+        "description": "Vendor-defined-events",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40566": {
+        "name": "Vendor-defined-events",
+        "description": "Vendor-defined-events",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40568": {
+        "name": "Vendor-defined-events",
+        "description": "Vendor-defined-events",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40630": {
+        "name": "Type-of-DER-device.-Default-value-is-4-to-indicate-PV-device.",
+        "description": "Type-of-DER-device.-Default-value-is-4-to-indicate-PV-device.",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40631": {
+        "name": "Continuous-power-output-capability-of-the-inverter.",
+        "description": "Continuous-power-output-capability-of-the-inverter.",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "W",
+        "access": "read"
+    },
+    "40632": {
+        "name": "Scale-factor",
+        "description": "Scale-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40633": {
+        "name": "Continuous-Volt-Ampere-capability-of-the-inverter.",
+        "description": "Continuous-Volt-Ampere-capability-of-the-inverter.",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40634": {
+        "name": "Scale-factor",
+        "description": "Scale-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40635": {
+        "name": "Continuous-VAR-capability-of-the-inverter-in-quadrant-1.",
+        "description": "Continuous-VAR-capability-of-the-inverter-in-quadrant-1.",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "var",
+        "access": "read"
+    },
+    "40636": {
+        "name": "Continuous-VAR-capability-of-the-inverter-in-quadrant-2.",
+        "description": "Continuous-VAR-capability-of-the-inverter-in-quadrant-2.",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "var",
+        "access": "read"
+    }
+}

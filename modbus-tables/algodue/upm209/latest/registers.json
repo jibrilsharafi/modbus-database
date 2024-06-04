@@ -1,0 +1,502 @@
+{
+    "4608": {
+        "name": "Phase-1-N-voltage-MAX",
+        "description": "Phase-1-N-voltage-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4610": {
+        "name": "Phase-2-N-voltage-MAX",
+        "description": "Phase-2-N-voltage-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4612": {
+        "name": "Phase-3-N-voltage-MAX",
+        "description": "Phase-3-N-voltage-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4614": {
+        "name": "Line-12-voltage-MAX",
+        "description": "Line-12-voltage-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4616": {
+        "name": "Line-23-voltage-MAX",
+        "description": "Line-23-voltage-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4618": {
+        "name": "Line-31-voltage-MAX",
+        "description": "Line-31-voltage-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4620": {
+        "name": "System-voltage-MAX",
+        "description": "System-voltage-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4622": {
+        "name": "Phase-1-current-MAX",
+        "description": "Phase-1-current-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4624": {
+        "name": "Phase-2-current-MAX",
+        "description": "Phase-2-current-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4626": {
+        "name": "Phase-3-current-MAX",
+        "description": "Phase-3-current-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4628": {
+        "name": "Neutral-current-MAX",
+        "description": "Neutral-current-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4630": {
+        "name": "System-current-MAX",
+        "description": "System-current-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4632": {
+        "name": "Phase-1-imported-active-power-MAX",
+        "description": "Phase-1-imported-active-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4634": {
+        "name": "Phase-1-exported-active-power-MAX",
+        "description": "Phase-1-exported-active-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4636": {
+        "name": "Phase-2-imported-active-power-MAX",
+        "description": "Phase-2-imported-active-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4638": {
+        "name": "Phase-2-exported-active-power-MAX",
+        "description": "Phase-2-exported-active-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4640": {
+        "name": "Phase-3-imported-active-power-MAX",
+        "description": "Phase-3-imported-active-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4642": {
+        "name": "Phase-3-exported-active-power-MAX",
+        "description": "Phase-3-exported-active-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4644": {
+        "name": "System-imported-active-power-MAX",
+        "description": "System-imported-active-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4646": {
+        "name": "System-exported-active-power-MAX",
+        "description": "System-exported-active-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4648": {
+        "name": "Phase-1-imported-apparent-power-MAX",
+        "description": "Phase-1-imported-apparent-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4650": {
+        "name": "Phase-1-exported-apparent-power-MAX",
+        "description": "Phase-1-exported-apparent-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4652": {
+        "name": "Phase-2-imported-apparent-power-MAX",
+        "description": "Phase-2-imported-apparent-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4654": {
+        "name": "Phase-2-exported-apparent-power-MAX",
+        "description": "Phase-2-exported-apparent-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4656": {
+        "name": "Phase-3-imported-apparent-power-MAX",
+        "description": "Phase-3-imported-apparent-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4658": {
+        "name": "Phase-3-exported-apparent-power-MAX",
+        "description": "Phase-3-exported-apparent-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4660": {
+        "name": "System-imported-apparent-power-MAX",
+        "description": "System-imported-apparent-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4662": {
+        "name": "System-exported-apparent-power-MAX",
+        "description": "System-exported-apparent-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4664": {
+        "name": "Phase-1-imported-reactive-power-MAX",
+        "description": "Phase-1-imported-reactive-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4666": {
+        "name": "Phase-1-exported-reactive-power-MAX",
+        "description": "Phase-1-exported-reactive-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4668": {
+        "name": "Phase-2-imported-reactive-power-MAX",
+        "description": "Phase-2-imported-reactive-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4670": {
+        "name": "Phase-2-exported-reactive-power-MAX",
+        "description": "Phase-2-exported-reactive-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4672": {
+        "name": "Phase-3-imported-reactive-power-MAX",
+        "description": "Phase-3-imported-reactive-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4674": {
+        "name": "Phase-3-exported-reactive-power-MAX",
+        "description": "Phase-3-exported-reactive-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4676": {
+        "name": "System-imported-reactive-power-MAX",
+        "description": "System-imported-reactive-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4678": {
+        "name": "System-exported-reactive-power-MAX",
+        "description": "System-exported-reactive-power-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4680": {
+        "name": "Phase-1-inductive-power-factor-MAX",
+        "description": "Phase-1-inductive-power-factor-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4682": {
+        "name": "Phase-1-capacitive-power-factor-MAX",
+        "description": "Phase-1-capacitive-power-factor-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4684": {
+        "name": "Phase-2-inductive-power-factor-MAX",
+        "description": "Phase-2-inductive-power-factor-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4686": {
+        "name": "Phase-2-capacitive-power-factor-MAX",
+        "description": "Phase-2-capacitive-power-factor-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4688": {
+        "name": "Phase-3-inductive-power-factor-MAX",
+        "description": "Phase-3-inductive-power-factor-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4690": {
+        "name": "Phase-3-capacitive-power-factor-MAX",
+        "description": "Phase-3-capacitive-power-factor-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4692": {
+        "name": "System-inductive-power-factor-MAX",
+        "description": "System-inductive-power-factor-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4694": {
+        "name": "System-capacitive-power-factor-MAX",
+        "description": "System-capacitive-power-factor-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4696": {
+        "name": "Phase-1-imported-tangent-MAX",
+        "description": "Phase-1-imported-tangent-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4698": {
+        "name": "Phase-1-exported-tangent-MAX",
+        "description": "Phase-1-exported-tangent-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4700": {
+        "name": "Phase-2-imported-tangent-MAX",
+        "description": "Phase-2-imported-tangent-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4702": {
+        "name": "Phase-2-exported-tangent-MAX",
+        "description": "Phase-2-exported-tangent-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4704": {
+        "name": "Phase-3-imported-tangent-MAX",
+        "description": "Phase-3-imported-tangent-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4706": {
+        "name": "Phase-3-exported-tangent-MAX",
+        "description": "Phase-3-exported-tangent-MAX",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    }
+}

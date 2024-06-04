@@ -1,0 +1,502 @@
+{
+    "1": {
+        "name": "System-time",
+        "description": "System-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2": {
+        "name": "Day-of-week",
+        "description": "Day-of-week",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3": {
+        "name": "Month",
+        "description": "Month",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4": {
+        "name": "Day",
+        "description": "Day",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "5": {
+        "name": "Year",
+        "description": "Year",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "6": {
+        "name": "Week-of-month",
+        "description": "Week-of-month",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "7": {
+        "name": "Time-not-in-normal-since-reset",
+        "description": "Time-not-in-normal-since-reset",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "14": {
+        "name": "Time-not-in-normal",
+        "description": "Time-not-in-normal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "15": {
+        "name": "Time-in-emergency",
+        "description": "Time-in-emergency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "16": {
+        "name": "Days-of-operation",
+        "description": "Days-of-operation",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "17": {
+        "name": "Transfers",
+        "description": "Transfers",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "18": {
+        "name": "Month-in-operation",
+        "description": "Month-in-operation",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "19": {
+        "name": "Day-in-operation",
+        "description": "Day-in-operation",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "20": {
+        "name": "Year-in-operation",
+        "description": "Year-in-operation",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "21": {
+        "name": "Voltage-A-B-normal",
+        "description": "Voltage-A-B-normal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "22": {
+        "name": "Voltage-B-C-normal",
+        "description": "Voltage-B-C-normal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "23": {
+        "name": "Voltage-ca-normal",
+        "description": "Voltage-ca-normal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "24": {
+        "name": "Freq.-Ac-normal",
+        "description": "Freq.-Ac-normal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "25": {
+        "name": "Voltage-A-B-emerg",
+        "description": "Voltage-A-B-emerg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "26": {
+        "name": "Voltage-B-C-emerg",
+        "description": "Voltage-B-C-emerg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "27": {
+        "name": "Voltage-ca-emerg",
+        "description": "Voltage-ca-emerg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "28": {
+        "name": "Freq.-Ac-emerg",
+        "description": "Freq.-Ac-emerg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "29": {
+        "name": "Exerciser-time-remaining",
+        "description": "Exerciser-time-remaining",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "30": {
+        "name": "Month-of-last-exercise",
+        "description": "Month-of-last-exercise",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "31": {
+        "name": "Day-of-last-exercise",
+        "description": "Day-of-last-exercise",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "32": {
+        "name": "Year-of-last-exercise",
+        "description": "Year-of-last-exercise",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "33": {
+        "name": "Time-of-last-outage",
+        "description": "Time-of-last-outage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "34": {
+        "name": "Month-of-last-outage",
+        "description": "Month-of-last-outage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "35": {
+        "name": "Day-of-last-outage",
+        "description": "Day-of-last-outage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "36": {
+        "name": "Year-of-last-outage",
+        "description": "Year-of-last-outage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "37": {
+        "name": "Duration-of-last-outage",
+        "description": "Duration-of-last-outage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "38": {
+        "name": "History-event-#1-code",
+        "description": "History-event-#1-code",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39": {
+        "name": "History-event-#2-code",
+        "description": "History-event-#2-code",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40": {
+        "name": "History-event-#2-month",
+        "description": "History-event-#2-month",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "41": {
+        "name": "History-event-#2-day",
+        "description": "History-event-#2-day",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "42": {
+        "name": "History-event-#2-year",
+        "description": "History-event-#2-year",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "43": {
+        "name": "History-event-#3-code",
+        "description": "History-event-#3-code",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "44": {
+        "name": "History-event-#3-month",
+        "description": "History-event-#3-month",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "45": {
+        "name": "History-event-#3-day",
+        "description": "History-event-#3-day",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "46": {
+        "name": "History-event-#3-year",
+        "description": "History-event-#3-year",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "47": {
+        "name": "History-event-#4-code",
+        "description": "History-event-#4-code",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "48": {
+        "name": "History-event-#4-month",
+        "description": "History-event-#4-month",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "49": {
+        "name": "History-event-#4-day",
+        "description": "History-event-#4-day",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "50": {
+        "name": "History-event-#4-year",
+        "description": "History-event-#4-year",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "51": {
+        "name": "Alert-code",
+        "description": "Alert-code",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "77": {
+        "name": "Off-to-emergency-time-delay",
+        "description": "Off-to-emergency-time-delay",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "78": {
+        "name": "Off-to-normal-time-delay",
+        "description": "Off-to-normal-time-delay",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "79": {
+        "name": "Engine-start-time-delay",
+        "description": "Engine-start-time-delay",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "80": {
+        "name": "Normal-to-emerg.-Time-delay",
+        "description": "Normal-to-emerg.-Time-delay",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "81": {
+        "name": "Emerg.-To-normal-time-delay",
+        "description": "Emerg.-To-normal-time-delay",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    }
+}

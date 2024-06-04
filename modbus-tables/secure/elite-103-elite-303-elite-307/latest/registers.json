@@ -1,0 +1,502 @@
+{
+    "16": {
+        "name": "MODBUS-ID-(-start-from-1-up-to-247)",
+        "description": "MODBUS-ID-(-start-from-1-up-to-247)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "18": {
+        "name": "Protocol-version-(MS-byte)-and-revision-(LS-byte)",
+        "description": "Protocol-version-(MS-byte)-and-revision-(LS-byte)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "19": {
+        "name": "MODBUS-baud-rate",
+        "description": "MODBUS-baud-rate",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "29": {
+        "name": "Metre-type:-3W/4Wire-info",
+        "description": "Metre-type:-3W/4Wire-info",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "31": {
+        "name": "CT-primary",
+        "description": "CT-primary",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "33": {
+        "name": "Ct-secondary",
+        "description": "Ct-secondary",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "35": {
+        "name": "PT-primary",
+        "description": "PT-primary",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "37": {
+        "name": "PT-secondary",
+        "description": "PT-secondary",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "39": {
+        "name": "Pole:-number-of-poles-for-RPM",
+        "description": "Pole:-number-of-poles-for-RPM",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "41": {
+        "name": "Slip:-slip-of-the-motor",
+        "description": "Slip:-slip-of-the-motor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "43": {
+        "name": "Update-rate:-display-update-rates",
+        "description": "Update-rate:-display-update-rates",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "45": {
+        "name": "Energy-reset-:-0x01",
+        "description": "Energy-reset-:-0x01",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "47": {
+        "name": "Demand-reset:-0x01",
+        "description": "Demand-reset:-0x01",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "49": {
+        "name": "Demand-time",
+        "description": "Demand-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "51": {
+        "name": "Alert-ON/OFF",
+        "description": "Alert-ON/OFF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "55": {
+        "name": "Alert-threshold-high-current",
+        "description": "Alert-threshold-high-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "57": {
+        "name": "Alert-threshold-high-PF",
+        "description": "Alert-threshold-high-PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "59": {
+        "name": "Alert-threshold-high-frequency",
+        "description": "Alert-threshold-high-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "61": {
+        "name": "Alert-threshold-high-W",
+        "description": "Alert-threshold-high-W",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "63": {
+        "name": "Alert-threshold-high-VAr",
+        "description": "Alert-threshold-high-VAr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "65": {
+        "name": "Alert-threshold-high-VA",
+        "description": "Alert-threshold-high-VA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "69": {
+        "name": "Alert-threshold-low-current",
+        "description": "Alert-threshold-low-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "71": {
+        "name": "Alert-threshold-low-PF",
+        "description": "Alert-threshold-low-PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "73": {
+        "name": "Alert-threshold-low-frequency",
+        "description": "Alert-threshold-low-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "75": {
+        "name": "Alert-threshold-low-W",
+        "description": "Alert-threshold-low-W",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "77": {
+        "name": "Alert-threshold-low-VAr",
+        "description": "Alert-threshold-low-VAr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "79": {
+        "name": "Alert-threshold-low-VA",
+        "description": "Alert-threshold-low-VA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "99": {
+        "name": "V1:-R-phase-to-neutral-voltage",
+        "description": "V1:-R-phase-to-neutral-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "101": {
+        "name": "V2:-Y-phase-to-neutral-voltage",
+        "description": "V2:-Y-phase-to-neutral-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "103": {
+        "name": "V3:-B-phase-to-neutral-voltage",
+        "description": "V3:-B-phase-to-neutral-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "105": {
+        "name": "Vavg:-average-voltage",
+        "description": "Vavg:-average-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "107": {
+        "name": "V12:-RY-voltage",
+        "description": "V12:-RY-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "109": {
+        "name": "V23:-YB-voltage",
+        "description": "V23:-YB-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "111": {
+        "name": "V31:-BR-voltage",
+        "description": "V31:-BR-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "113": {
+        "name": "L1:-R-phase-line-current",
+        "description": "L1:-R-phase-line-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "115": {
+        "name": "L2:-Y-phase-line-current",
+        "description": "L2:-Y-phase-line-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "117": {
+        "name": "L3:-B-phase-line-current",
+        "description": "L3:-B-phase-line-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "119": {
+        "name": "LN:-neutral-line-current",
+        "description": "LN:-neutral-line-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "133": {
+        "name": "Q1:-power-factor",
+        "description": "Q1:-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "135": {
+        "name": "Q2:-power-factor",
+        "description": "Q2:-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "137": {
+        "name": "Q3:-power-factor",
+        "description": "Q3:-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "139": {
+        "name": "QA:-avg-power-factor",
+        "description": "QA:-avg-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "141": {
+        "name": "KT1:-R--phase-active-power",
+        "description": "KT1:-R--phase-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "143": {
+        "name": "KT2:-Y--phase-active-power",
+        "description": "KT2:-Y--phase-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "145": {
+        "name": "KT3:-B--phase-active-power",
+        "description": "KT3:-B--phase-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "147": {
+        "name": "KT:-3-phase-active-power",
+        "description": "KT:-3-phase-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "149": {
+        "name": "KV1:-R--phase-reactive-power",
+        "description": "KV1:-R--phase-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "151": {
+        "name": "KV2:-Y--phase-reactive-power",
+        "description": "KV2:-Y--phase-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "153": {
+        "name": "KV3:-B--phase-reactive-power",
+        "description": "KV3:-B--phase-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "155": {
+        "name": "KV:-3-phase-reactive-power",
+        "description": "KV:-3-phase-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAr",
+        "access": "read"
+    }
+}

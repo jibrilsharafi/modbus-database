@@ -1,0 +1,502 @@
+{
+    "1": {
+        "name": "Communication-speed",
+        "description": "Communication-speed",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "bps",
+        "access": "read"
+    },
+    "2": {
+        "name": "Communication-check-mod",
+        "description": "Communication-check-mod",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3": {
+        "name": "Wiring-mode",
+        "description": "Wiring-mode",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "wire",
+        "access": "read"
+    },
+    "4": {
+        "name": "Secondary-side-rated-voltage-ue",
+        "description": "Secondary-side-rated-voltage-ue",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "5": {
+        "name": "Secondary-side-rated-current-value-ie",
+        "description": "Secondary-side-rated-current-value-ie",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "6": {
+        "name": "Primary-side-rated-voltage-PU",
+        "description": "Primary-side-rated-voltage-PU",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kV",
+        "access": "read"
+    },
+    "8": {
+        "name": "Backlight-delay-time",
+        "description": "Backlight-delay-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "9": {
+        "name": "Relay-1-delay-time",
+        "description": "Relay-1-delay-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "second",
+        "access": "read"
+    },
+    "14": {
+        "name": "Voltage-primary-side-and",
+        "description": "Voltage-primary-side-and",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "16": {
+        "name": "Primary-side-and-secondary-side-coefficient-of-current",
+        "description": "Primary-side-and-secondary-side-coefficient-of-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "18": {
+        "name": "Power,-primary-and-secondary-side-coefficients",
+        "description": "Power,-primary-and-secondary-side-coefficients",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "53": {
+        "name": "First-channel-switching-input",
+        "description": "First-channel-switching-input",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "61": {
+        "name": "First-channel-switching-output",
+        "description": "First-channel-switching-output",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "62": {
+        "name": "Second-channel-switching-output",
+        "description": "Second-channel-switching-output",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "63": {
+        "name": "Third-channel-switching-output",
+        "description": "Third-channel-switching-output",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "64": {
+        "name": "Fourth-channel-switching-output",
+        "description": "Fourth-channel-switching-output",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "133": {
+        "name": "Second",
+        "description": "Second",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "242": {
+        "name": "Neutral-current",
+        "description": "Neutral-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "243": {
+        "name": "Phase-voltage-uan",
+        "description": "Phase-voltage-uan",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "244": {
+        "name": "Phase-voltage-ubn",
+        "description": "Phase-voltage-ubn",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "245": {
+        "name": "Phase-voltage-ucn",
+        "description": "Phase-voltage-ucn",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "246": {
+        "name": "Line-voltage-uab",
+        "description": "Line-voltage-uab",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "247": {
+        "name": "Line-voltage-ubc",
+        "description": "Line-voltage-ubc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "248": {
+        "name": "Line-voltage-uca",
+        "description": "Line-voltage-uca",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "249": {
+        "name": "Phase-current-ia",
+        "description": "Phase-current-ia",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "250": {
+        "name": "Phase-current-ib",
+        "description": "Phase-current-ib",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "251": {
+        "name": "Phase-current-ic",
+        "description": "Phase-current-ic",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "252": {
+        "name": "Frequency-F",
+        "description": "Frequency-F",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "253": {
+        "name": "Phase-A-active-power-pa",
+        "description": "Phase-A-active-power-pa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "W",
+        "access": "read"
+    },
+    "255": {
+        "name": "Phase-B-active-power-pb",
+        "description": "Phase-B-active-power-pb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "W",
+        "access": "read"
+    },
+    "257": {
+        "name": "Phase-C-active-power-pc",
+        "description": "Phase-C-active-power-pc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "W",
+        "access": "read"
+    },
+    "259": {
+        "name": "Total.Active-power-PTotal",
+        "description": "Total.Active-power-PTotal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "W",
+        "access": "read"
+    },
+    "261": {
+        "name": "Phase-A-reactive-power-qa",
+        "description": "Phase-A-reactive-power-qa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "var",
+        "access": "read"
+    },
+    "263": {
+        "name": "Phase-B-reactive-power-qb",
+        "description": "Phase-B-reactive-power-qb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "var",
+        "access": "read"
+    },
+    "265": {
+        "name": "Phase-C-reactive-power-qc",
+        "description": "Phase-C-reactive-power-qc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "var",
+        "access": "read"
+    },
+    "267": {
+        "name": "TotalReactive-power-QTotal",
+        "description": "TotalReactive-power-QTotal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "var",
+        "access": "read"
+    },
+    "269": {
+        "name": "Phase-A-apparent-powerSa",
+        "description": "Phase-A-apparent-powerSa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "271": {
+        "name": "Phase-B-apparent-powerSb",
+        "description": "Phase-B-apparent-powerSb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "273": {
+        "name": "Phase-C-apparent-powerSc",
+        "description": "Phase-C-apparent-powerSc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "275": {
+        "name": "TotalApparent-power-STotal",
+        "description": "TotalApparent-power-STotal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "277": {
+        "name": "Phase-A-power-factor",
+        "description": "Phase-A-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "278": {
+        "name": "Phase-B-power-factor",
+        "description": "Phase-B-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "279": {
+        "name": "Phase-C-power-factor",
+        "description": "Phase-C-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "280": {
+        "name": "Total-power-factor",
+        "description": "Total-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "287": {
+        "name": "Phase-A-current-K-factor",
+        "description": "Phase-A-current-K-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "288": {
+        "name": "Phase-B-current-K-factor",
+        "description": "Phase-B-current-K-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "289": {
+        "name": "Phase-C-current-K-factor",
+        "description": "Phase-C-current-K-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "299": {
+        "name": "Unbalance-factor-of-voltage",
+        "description": "Unbalance-factor-of-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "300": {
+        "name": "Unbalance-factor-of-current",
+        "description": "Unbalance-factor-of-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "301": {
+        "name": "Maximum-demand",
+        "description": "Maximum-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    }
+}

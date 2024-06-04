@@ -1,0 +1,502 @@
+{
+    "1": {
+        "name": "Phase-B-voltage",
+        "description": "Phase-B-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2": {
+        "name": "Phase-C-voltage",
+        "description": "Phase-C-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "3": {
+        "name": "Line-ab-voltage",
+        "description": "Line-ab-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "4": {
+        "name": "Line-bc-voltage",
+        "description": "Line-bc-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "5": {
+        "name": "Line-ca-voltage",
+        "description": "Line-ca-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "6": {
+        "name": "Phase-A-current",
+        "description": "Phase-A-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "7": {
+        "name": "Phase-B-current",
+        "description": "Phase-B-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "8": {
+        "name": "Phase-C-current",
+        "description": "Phase-C-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "9": {
+        "name": "Neutral-current",
+        "description": "Neutral-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "10": {
+        "name": "Total-active-power",
+        "description": "Total-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "12": {
+        "name": "Total-reactive-power",
+        "description": "Total-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "14": {
+        "name": "Total-power-factor",
+        "description": "Total-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "15": {
+        "name": "Phase-A-active-power",
+        "description": "Phase-A-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "W",
+        "access": "read"
+    },
+    "16": {
+        "name": "Phase-B-active-power",
+        "description": "Phase-B-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "W",
+        "access": "read"
+    },
+    "17": {
+        "name": "Phase-C-active-power",
+        "description": "Phase-C-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "W",
+        "access": "read"
+    },
+    "18": {
+        "name": "Phase-A-reactive-power",
+        "description": "Phase-A-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "W",
+        "access": "read"
+    },
+    "19": {
+        "name": "Phase-B-reactive-power",
+        "description": "Phase-B-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "W",
+        "access": "read"
+    },
+    "20": {
+        "name": "Phase-C-reactive-power",
+        "description": "Phase-C-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "W",
+        "access": "read"
+    },
+    "21": {
+        "name": "Phase-A-power-factor",
+        "description": "Phase-A-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "22": {
+        "name": "Phase-B-power-factor",
+        "description": "Phase-B-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "23": {
+        "name": "Phase-C-power-factor",
+        "description": "Phase-C-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "24": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "25": {
+        "name": "Total-active-energy",
+        "description": "Total-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "27": {
+        "name": "Total-reactive-energy",
+        "description": "Total-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "29": {
+        "name": "Input-active-energy",
+        "description": "Input-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "31": {
+        "name": "Output-active-energy",
+        "description": "Output-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "33": {
+        "name": "Input-reactive-energy",
+        "description": "Input-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "35": {
+        "name": "Output-reactive-energy",
+        "description": "Output-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "37": {
+        "name": "On-off-status",
+        "description": "On-off-status",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "38": {
+        "name": "Relay-status",
+        "description": "Relay-status",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39": {
+        "name": "Alarm-status",
+        "description": "Alarm-status",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40": {
+        "name": "Ct-ratio",
+        "description": "Ct-ratio",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "42": {
+        "name": "Average-phase-voltage",
+        "description": "Average-phase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "43": {
+        "name": "Average-line-voltage",
+        "description": "Average-line-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "44": {
+        "name": "Average-phase-current",
+        "description": "Average-phase-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "45": {
+        "name": "Current-unbalance-rate",
+        "description": "Current-unbalance-rate",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "46": {
+        "name": "Phase-A-apparent-power",
+        "description": "Phase-A-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "47": {
+        "name": "Phase-B-apparent-power",
+        "description": "Phase-B-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "48": {
+        "name": "Phase-C-apparent-power",
+        "description": "Phase-C-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "49": {
+        "name": "Total-apparent-power",
+        "description": "Total-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "51": {
+        "name": "Grid-input-active-energy",
+        "description": "Grid-input-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "53": {
+        "name": "Grid-output-active-energy",
+        "description": "Grid-output-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "55": {
+        "name": "Grid-total-active-energy",
+        "description": "Grid-total-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "57": {
+        "name": "Grid-input-reactive-energy",
+        "description": "Grid-input-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "59": {
+        "name": "Grid-output-reactive-energy",
+        "description": "Grid-output-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "61": {
+        "name": "Grid-totalreactive-energy",
+        "description": "Grid-totalreactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "63": {
+        "name": "Generator-input-active-energy",
+        "description": "Generator-input-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "65": {
+        "name": "Generator-output-active-energy",
+        "description": "Generator-output-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "67": {
+        "name": "Generator-total-active-energy",
+        "description": "Generator-total-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "69": {
+        "name": "Generator-input-reactive-energy",
+        "description": "Generator-input-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    }
+}

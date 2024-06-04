@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "Firmware-revision",
+        "description": "Firmware-revision",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3": {
+        "name": "Oem-identification",
+        "description": "Oem-identification",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4": {
+        "name": "Meter-options",
+        "description": "Meter-options",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "6": {
+        "name": "#-meter-power-ups",
+        "description": "#-meter-power-ups",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "7": {
+        "name": "#-peak-demand-resets",
+        "description": "#-peak-demand-resets",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "8": {
+        "name": "Meter-on-time",
+        "description": "Meter-on-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "10": {
+        "name": "#-flash-erase-cycles",
+        "description": "#-flash-erase-cycles",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "12": {
+        "name": "Device-type",
+        "description": "Device-type",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "14": {
+        "name": "Demand-interval-down-counter",
+        "description": "Demand-interval-down-counter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "99": {
+        "name": "Vln-a",
+        "description": "Vln-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "100": {
+        "name": "Vln-b",
+        "description": "Vln-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "101": {
+        "name": "Vln-c",
+        "description": "Vln-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "102": {
+        "name": "Vln-avg",
+        "description": "Vln-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "103": {
+        "name": "Vll-ab",
+        "description": "Vll-ab",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "104": {
+        "name": "Vll-bc",
+        "description": "Vll-bc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "105": {
+        "name": "Vll-ca",
+        "description": "Vll-ca",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "106": {
+        "name": "Vll-avg",
+        "description": "Vll-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "107": {
+        "name": "I-a",
+        "description": "I-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "108": {
+        "name": "I-b",
+        "description": "I-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "109": {
+        "name": "I-c",
+        "description": "I-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "110": {
+        "name": "I-avg",
+        "description": "I-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "111": {
+        "name": "I-demand",
+        "description": "I-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "112": {
+        "name": "I-peak-demand",
+        "description": "I-peak-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "113": {
+        "name": "I4",
+        "description": "I4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "114": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "115": {
+        "name": "PF-sign-total",
+        "description": "PF-sign-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "116": {
+        "name": "PF-sign-a",
+        "description": "PF-sign-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "117": {
+        "name": "PF-sign-b",
+        "description": "PF-sign-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "118": {
+        "name": "PF-sign-c",
+        "description": "PF-sign-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "119": {
+        "name": "kW-total",
+        "description": "kW-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "120": {
+        "name": "kVAR-total",
+        "description": "kVAR-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "121": {
+        "name": "kVA-total",
+        "description": "kVA-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "122": {
+        "name": "kW-a",
+        "description": "kW-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "123": {
+        "name": "kW-b",
+        "description": "kW-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "124": {
+        "name": "kW-c",
+        "description": "kW-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "125": {
+        "name": "kVAR-a",
+        "description": "kVAR-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "126": {
+        "name": "kVAR-b",
+        "description": "kVAR-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "127": {
+        "name": "kVAR-c",
+        "description": "kVAR-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "128": {
+        "name": "kVA-a",
+        "description": "kVA-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "129": {
+        "name": "kVA-b",
+        "description": "kVA-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "130": {
+        "name": "kVA-c",
+        "description": "kVA-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "131": {
+        "name": "kW-demand",
+        "description": "kW-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "132": {
+        "name": "kW-peak-demand",
+        "description": "kW-peak-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "133": {
+        "name": "kVAR-demand",
+        "description": "kVAR-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "134": {
+        "name": "kVA-demand",
+        "description": "kVA-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "135": {
+        "name": "kVAR-peak-demand",
+        "description": "kVAR-peak-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "136": {
+        "name": "kVA-peak-demand",
+        "description": "kVA-peak-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "137": {
+        "name": "kWh-del",
+        "description": "kWh-del",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "139": {
+        "name": "kWh-rec",
+        "description": "kWh-rec",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "141": {
+        "name": "kVARh-del",
+        "description": "kVARh-del",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    }
+}

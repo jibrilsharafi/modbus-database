@@ -1,0 +1,502 @@
+{
+    "199": {
+        "name": "Vrn",
+        "description": "Vrn",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "203": {
+        "name": "Vbn",
+        "description": "Vbn",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "213": {
+        "name": "Avg.-Vpp",
+        "description": "Avg.-Vpp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "215": {
+        "name": "Ir",
+        "description": "Ir",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "219": {
+        "name": "Lb",
+        "description": "Lb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "221": {
+        "name": "Avg.-I",
+        "description": "Avg.-I",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "229": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "231": {
+        "name": "System-pf",
+        "description": "System-pf",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "239": {
+        "name": "System-kw",
+        "description": "System-kw",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "241": {
+        "name": "System-kvar",
+        "description": "System-kvar",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "243": {
+        "name": "System-kva",
+        "description": "System-kva",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "267": {
+        "name": "Rising-demand",
+        "description": "Rising-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "269": {
+        "name": "Max-demand",
+        "description": "Max-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "271": {
+        "name": "Dg-kwh",
+        "description": "Dg-kwh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "273": {
+        "name": "Dg-kvarh",
+        "description": "Dg-kvarh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "275": {
+        "name": "Eb-kwh",
+        "description": "Eb-kwh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "277": {
+        "name": "Eb-kvarh",
+        "description": "Eb-kvarh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "281": {
+        "name": "Dg-kvah",
+        "description": "Dg-kvah",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "283": {
+        "name": "Eb-kvah",
+        "description": "Eb-kvah",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "285": {
+        "name": "3rd-hvr",
+        "description": "3rd-hvr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "287": {
+        "name": "Sth-hvr",
+        "description": "Sth-hvr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "289": {
+        "name": "7th-hvr",
+        "description": "7th-hvr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "291": {
+        "name": "9th-hvr",
+        "description": "9th-hvr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "293": {
+        "name": "11th-hvr",
+        "description": "11th-hvr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "295": {
+        "name": "13th-hvr",
+        "description": "13th-hvr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "297": {
+        "name": "15th-hvr",
+        "description": "15th-hvr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "299": {
+        "name": "Thd-vr",
+        "description": "Thd-vr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "301": {
+        "name": "3rd-hlr",
+        "description": "3rd-hlr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "303": {
+        "name": "Sth-hlr",
+        "description": "Sth-hlr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "305": {
+        "name": "7th-hlr",
+        "description": "7th-hlr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "307": {
+        "name": "9th-hlr",
+        "description": "9th-hlr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "309": {
+        "name": "11th-hlr",
+        "description": "11th-hlr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "311": {
+        "name": "13th-hlr",
+        "description": "13th-hlr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "313": {
+        "name": "15th-hlr",
+        "description": "15th-hlr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "315": {
+        "name": "Thd-ir",
+        "description": "Thd-ir",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "349": {
+        "name": "3rd-hvb",
+        "description": "3rd-hvb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "351": {
+        "name": "Sth-hvb",
+        "description": "Sth-hvb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "353": {
+        "name": "7th-hvb",
+        "description": "7th-hvb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "355": {
+        "name": "9th-hvb",
+        "description": "9th-hvb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "357": {
+        "name": "11th-hvb",
+        "description": "11th-hvb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "359": {
+        "name": "13th-hvb",
+        "description": "13th-hvb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "361": {
+        "name": "15th-hvb",
+        "description": "15th-hvb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "363": {
+        "name": "Thd-vb",
+        "description": "Thd-vb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "365": {
+        "name": "3rd-hlb",
+        "description": "3rd-hlb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "367": {
+        "name": "Sth-hlb",
+        "description": "Sth-hlb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "369": {
+        "name": "7th-hlb",
+        "description": "7th-hlb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "371": {
+        "name": "9th-hlb",
+        "description": "9th-hlb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "373": {
+        "name": "11th-hlb",
+        "description": "11th-hlb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "375": {
+        "name": "13th-hlb",
+        "description": "13th-hlb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "377": {
+        "name": "15th-hlb",
+        "description": "15th-hlb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    }
+}

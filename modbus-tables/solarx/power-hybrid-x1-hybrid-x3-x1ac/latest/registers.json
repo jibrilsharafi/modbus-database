@@ -1,0 +1,502 @@
+{
+    "1": {
+        "name": "Grid-current-(X1)",
+        "description": "Grid-current-(X1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2": {
+        "name": "Grid-power-(X1)",
+        "description": "Grid-power-(X1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "W",
+        "access": "read"
+    },
+    "3": {
+        "name": "Pv-voltage1-(Hybrid)",
+        "description": "Pv-voltage1-(Hybrid)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "4": {
+        "name": "Pv-voltage2-(Hybrid)",
+        "description": "Pv-voltage2-(Hybrid)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "5": {
+        "name": "Pv-current1-(Hybrid)",
+        "description": "Pv-current1-(Hybrid)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "6": {
+        "name": "Pv-current2-(Hybrid)",
+        "description": "Pv-current2-(Hybrid)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "7": {
+        "name": "Grid-frequency-(X1)",
+        "description": "Grid-frequency-(X1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "8": {
+        "name": "Temperature",
+        "description": "Temperature",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "9": {
+        "name": "Run-mode",
+        "description": "Run-mode",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "10": {
+        "name": "Powerdc1-(Hybrid)",
+        "description": "Powerdc1-(Hybrid)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "W",
+        "access": "read"
+    },
+    "11": {
+        "name": "Powerdc2-(Hybrid)",
+        "description": "Powerdc2-(Hybrid)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "W",
+        "access": "read"
+    },
+    "12": {
+        "name": "Temper-fault-value",
+        "description": "Temper-fault-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "13": {
+        "name": "Pv1Volt-fault-value",
+        "description": "Pv1Volt-fault-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "14": {
+        "name": "Pv2Volt-fault-value",
+        "description": "Pv2Volt-fault-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "15": {
+        "name": "Gfci-fault-value",
+        "description": "Gfci-fault-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "mA",
+        "access": "read"
+    },
+    "16": {
+        "name": "Grid-volt-fault-value",
+        "description": "Grid-volt-fault-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "17": {
+        "name": "Grid-freq-fault-value-T",
+        "description": "Grid-freq-fault-value-T",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "18": {
+        "name": "Dci-fault-value",
+        "description": "Dci-fault-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "mA",
+        "access": "read"
+    },
+    "19": {
+        "name": "Time-count-down",
+        "description": "Time-count-down",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "ms",
+        "access": "read"
+    },
+    "20": {
+        "name": "Bat-voltage-charge1",
+        "description": "Bat-voltage-charge1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "V",
+        "access": "read"
+    },
+    "21": {
+        "name": "Bat-current-charge1",
+        "description": "Bat-current-charge1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "A",
+        "access": "read"
+    },
+    "22": {
+        "name": "Batpower-charge1",
+        "description": "Batpower-charge1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "W",
+        "access": "read"
+    },
+    "23": {
+        "name": "BMS-connect-state",
+        "description": "BMS-connect-state",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "24": {
+        "name": "Temperature-bat",
+        "description": "Temperature-bat",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "28": {
+        "name": "Battery-capacity",
+        "description": "Battery-capacity",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "29": {
+        "name": "Output-energy-Charge.LSB",
+        "description": "Output-energy-Charge.LSB",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "30": {
+        "name": "Output-energy-Charge.MSB",
+        "description": "Output-energy-Charge.MSB",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "31": {
+        "name": "BMS-warning-LSB",
+        "description": "BMS-warning-LSB",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "32": {
+        "name": "Output-energy-charge-today",
+        "description": "Output-energy-charge-today",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "33": {
+        "name": "Input-energy-Charge.LSB",
+        "description": "Input-energy-Charge.LSB",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "34": {
+        "name": "Input-energy-Charge.MSB",
+        "description": "Input-energy-Charge.MSB",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "35": {
+        "name": "Input-energy-charge-today",
+        "description": "Input-energy-charge-today",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "36": {
+        "name": "BMS-charge-max-current",
+        "description": "BMS-charge-max-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "37": {
+        "name": "BMS-discharge-max-current",
+        "description": "BMS-discharge-max-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "38": {
+        "name": "BMS-warning-MSB",
+        "description": "BMS-warning-MSB",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "64": {
+        "name": "Inv-fault-Message.LSB",
+        "description": "Inv-fault-Message.LSB",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "65": {
+        "name": "Inv-fault-Message.MSB",
+        "description": "Inv-fault-Message.MSB",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "67": {
+        "name": "Mgr-fault-message",
+        "description": "Mgr-fault-message",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "70": {
+        "name": "Feedin-power-(meter)",
+        "description": "Feedin-power-(meter)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "w",
+        "access": "read"
+    },
+    "72": {
+        "name": "Feedin-energy-total-(meter)",
+        "description": "Feedin-energy-total-(meter)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kwh",
+        "access": "read"
+    },
+    "74": {
+        "name": "Consum-energy-total-(meter)",
+        "description": "Consum-energy-total-(meter)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kwh",
+        "access": "read"
+    },
+    "76": {
+        "name": "EPS-volt-(X1)",
+        "description": "EPS-volt-(X1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "77": {
+        "name": "EPS-current-(X1)",
+        "description": "EPS-current-(X1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "78": {
+        "name": "EPS-power-(X1)",
+        "description": "EPS-power-(X1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "79": {
+        "name": "EPS-frequency-(X1)",
+        "description": "EPS-frequency-(X1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "80": {
+        "name": "Etoday-togrid",
+        "description": "Etoday-togrid",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kwh",
+        "access": "read"
+    },
+    "82": {
+        "name": "Etotal-togrid",
+        "description": "Etotal-togrid",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kwh",
+        "access": "read"
+    },
+    "84": {
+        "name": "Lock-state",
+        "description": "Lock-state",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "102": {
+        "name": "Bus-volt",
+        "description": "Bus-volt",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "103": {
+        "name": "W-dcv-fault-val",
+        "description": "W-dcv-fault-val",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    }
+}

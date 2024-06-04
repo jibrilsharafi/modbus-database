@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "Volts-2",
+        "description": "Volts-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4": {
+        "name": "Volts-3",
+        "description": "Volts-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "6": {
+        "name": "Current-1",
+        "description": "Current-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "8": {
+        "name": "Current-2",
+        "description": "Current-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "10": {
+        "name": "Current-3",
+        "description": "Current-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12": {
+        "name": "W1",
+        "description": "W1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "14": {
+        "name": "W2",
+        "description": "W2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16": {
+        "name": "W3",
+        "description": "W3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "18": {
+        "name": "VA-1",
+        "description": "VA-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "20": {
+        "name": "VA-2",
+        "description": "VA-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "22": {
+        "name": "VA-3",
+        "description": "VA-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "24": {
+        "name": "VAR-1",
+        "description": "VAR-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "26": {
+        "name": "VAR-2",
+        "description": "VAR-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "28": {
+        "name": "VAR-3",
+        "description": "VAR-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "30": {
+        "name": "PF-1",
+        "description": "PF-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "32": {
+        "name": "PF-2",
+        "description": "PF-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "34": {
+        "name": "PF-3",
+        "description": "PF-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "36": {
+        "name": "Phase-angle-1",
+        "description": "Phase-angle-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "38": {
+        "name": "Phase-angle-2",
+        "description": "Phase-angle-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40": {
+        "name": "Phase-angle-3",
+        "description": "Phase-angle-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "42": {
+        "name": "Volts-av-g",
+        "description": "Volts-av-g",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "44": {
+        "name": "Volts-sum",
+        "description": "Volts-sum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "46": {
+        "name": "Current-avg",
+        "description": "Current-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "48": {
+        "name": "Current-sum",
+        "description": "Current-sum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "50": {
+        "name": "Watt-avg",
+        "description": "Watt-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "52": {
+        "name": "Watt-sum",
+        "description": "Watt-sum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "54": {
+        "name": "VA-av-g",
+        "description": "VA-av-g",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "56": {
+        "name": "VA-sum",
+        "description": "VA-sum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "58": {
+        "name": "VAR-av-g",
+        "description": "VAR-av-g",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "60": {
+        "name": "VAR-sum",
+        "description": "VAR-sum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "62": {
+        "name": "PF-avg",
+        "description": "PF-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "64": {
+        "name": "PF-sum",
+        "description": "PF-sum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "66": {
+        "name": "Phase-angle-avg",
+        "description": "Phase-angle-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "68": {
+        "name": "Phase-angle-sum",
+        "description": "Phase-angle-sum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "70": {
+        "name": "Freq",
+        "description": "Freq",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "72": {
+        "name": "Wh-import-/-utility",
+        "description": "Wh-import-/-utility",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "74": {
+        "name": "Wh-export-/-gen",
+        "description": "Wh-export-/-gen",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "76": {
+        "name": "Capacitive-/-utility-VARh",
+        "description": "Capacitive-/-utility-VARh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "78": {
+        "name": "Inductive-/-gen-VARh",
+        "description": "Inductive-/-gen-VARh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "80": {
+        "name": "VAh-/-vah-utility",
+        "description": "VAh-/-vah-utility",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "82": {
+        "name": "VAh-gen-(Only-2340)",
+        "description": "VAh-gen-(Only-2340)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "84": {
+        "name": "W-demand-(Import-/-utility-/-gen)",
+        "description": "W-demand-(Import-/-utility-/-gen)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "86": {
+        "name": "W-max-demand-(Import-/-utility)",
+        "description": "W-max-demand-(Import-/-utility)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "88": {
+        "name": "W-demand-(Export)",
+        "description": "W-demand-(Export)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "90": {
+        "name": "W-max-demand-(Export-/-gen)",
+        "description": "W-max-demand-(Export-/-gen)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "92": {
+        "name": "Old-W-max-demand-(Import-/-utility)",
+        "description": "Old-W-max-demand-(Import-/-utility)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "94": {
+        "name": "Old-W-max-demand-(Export-/-gen)",
+        "description": "Old-W-max-demand-(Export-/-gen)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "96": {
+        "name": "Old-VA-utility-max-demand",
+        "description": "Old-VA-utility-max-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "98": {
+        "name": "Old-A-utility-max-demand",
+        "description": "Old-A-utility-max-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "100": {
+        "name": "VA-demand-(Utility-/-gen)",
+        "description": "VA-demand-(Utility-/-gen)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    }
+}

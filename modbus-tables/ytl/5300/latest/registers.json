@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "Meter-ID",
+        "description": "Meter-ID",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3": {
+        "name": "Baud-rate",
+        "description": "Baud-rate",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4": {
+        "name": "Software-version",
+        "description": "Software-version",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "6": {
+        "name": "Hardware-version",
+        "description": "Hardware-version",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "9": {
+        "name": "S0-output-rate",
+        "description": "S0-output-rate",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "11": {
+        "name": "Combined-code",
+        "description": "Combined-code",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12": {
+        "name": "HOLIDAY-WEEKEND-T",
+        "description": "HOLIDAY-WEEKEND-T",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "13": {
+        "name": "Cycle-time",
+        "description": "Cycle-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "14": {
+        "name": "L1-voltage",
+        "description": "L1-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16": {
+        "name": "L2-voltage",
+        "description": "L2-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "18": {
+        "name": "L3-voltage",
+        "description": "L3-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "20": {
+        "name": "Grid-frequency",
+        "description": "Grid-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "22": {
+        "name": "L1-current",
+        "description": "L1-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "24": {
+        "name": "L2-current",
+        "description": "L2-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "26": {
+        "name": "L3-current",
+        "description": "L3-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "28": {
+        "name": "Total-active-power",
+        "description": "Total-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "30": {
+        "name": "L1-active-power",
+        "description": "L1-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "32": {
+        "name": "L2-active-power",
+        "description": "L2-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "34": {
+        "name": "L3-active-power",
+        "description": "L3-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "36": {
+        "name": "Total-reactive-power",
+        "description": "Total-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "38": {
+        "name": "L1-reactive-power",
+        "description": "L1-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40": {
+        "name": "L2-reactive-power",
+        "description": "L2-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "42": {
+        "name": "L3-reactive-power",
+        "description": "L3-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "44": {
+        "name": "Total-apparent-power",
+        "description": "Total-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "46": {
+        "name": "L1-apparent-power",
+        "description": "L1-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "48": {
+        "name": "L2-apparent-power",
+        "description": "L2-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "50": {
+        "name": "L3-apparent-power",
+        "description": "L3-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "52": {
+        "name": "Total-power-factor",
+        "description": "Total-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "54": {
+        "name": "Power-factor",
+        "description": "Power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "56": {
+        "name": "Power-factor",
+        "description": "Power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "58": {
+        "name": "Power-factor",
+        "description": "Power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "60": {
+        "name": "Time",
+        "description": "Time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "64": {
+        "name": "Season-ON/OFF",
+        "description": "Season-ON/OFF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "65": {
+        "name": "CRC-CODE",
+        "description": "CRC-CODE",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "256": {
+        "name": "Total-active-energy",
+        "description": "Total-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "258": {
+        "name": "L1-total-active-energy",
+        "description": "L1-total-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "260": {
+        "name": "L2-total-active-energy",
+        "description": "L2-total-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "262": {
+        "name": "L3-total-active-energy",
+        "description": "L3-total-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "264": {
+        "name": "Forward-active-energy",
+        "description": "Forward-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "266": {
+        "name": "L1-forward-active-energy",
+        "description": "L1-forward-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "268": {
+        "name": "L2-forward-active-energy",
+        "description": "L2-forward-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "270": {
+        "name": "L3-forward-active-energy",
+        "description": "L3-forward-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "272": {
+        "name": "Reverse-active-energy",
+        "description": "Reverse-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "274": {
+        "name": "L1-reverse-active-energy",
+        "description": "L1-reverse-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "276": {
+        "name": "L2-reverse-active-energy",
+        "description": "L2-reverse-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "278": {
+        "name": "L3-reverse-active-energy",
+        "description": "L3-reverse-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "280": {
+        "name": "Total-reactive-energy",
+        "description": "Total-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "282": {
+        "name": "L1-reactive-energy",
+        "description": "L1-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "284": {
+        "name": "L2-reactive-energy",
+        "description": "L2-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "286": {
+        "name": "L3-reactive-energy",
+        "description": "L3-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    }
+}

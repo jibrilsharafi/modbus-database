@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "Voltage,-L2",
+        "description": "Voltage,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "4": {
+        "name": "Voltage,-L3",
+        "description": "Voltage,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "6": {
+        "name": "Current,-L1",
+        "description": "Current,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "8": {
+        "name": "Current,-L2",
+        "description": "Current,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "10": {
+        "name": "Current,-L3",
+        "description": "Current,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "12": {
+        "name": "Current,-L-N",
+        "description": "Current,-L-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "14": {
+        "name": "Voltage,-L1-L2",
+        "description": "Voltage,-L1-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "16": {
+        "name": "Voltage,-L2-L3",
+        "description": "Voltage,-L2-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "18": {
+        "name": "Voltage,-L1-L3",
+        "description": "Voltage,-L1-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "20": {
+        "name": "Active-power,-L1",
+        "description": "Active-power,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "22": {
+        "name": "Active-power,-L2",
+        "description": "Active-power,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "24": {
+        "name": "Active-power,-L3",
+        "description": "Active-power,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "26": {
+        "name": "Reactive-power,-L1",
+        "description": "Reactive-power,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "28": {
+        "name": "Reactive-power,-L2",
+        "description": "Reactive-power,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "30": {
+        "name": "Reactive-power,-L3",
+        "description": "Reactive-power,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "32": {
+        "name": "Apparent-power,-L1",
+        "description": "Apparent-power,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "34": {
+        "name": "Apparent-power,-L2",
+        "description": "Apparent-power,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "36": {
+        "name": "Apparent-power,-L3",
+        "description": "Apparent-power,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "38": {
+        "name": "Power-factor,-L1",
+        "description": "Power-factor,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "40": {
+        "name": "Power-factor,-L1",
+        "description": "Power-factor,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "42": {
+        "name": "Power-factor,-L1",
+        "description": "Power-factor,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "44": {
+        "name": "Total-import-active-power",
+        "description": "Total-import-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "46": {
+        "name": "Total-export-active-power",
+        "description": "Total-export-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "48": {
+        "name": "Total-inductive-reactive-power",
+        "description": "Total-inductive-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "50": {
+        "name": "Total-capacitive-reactive-power",
+        "description": "Total-capacitive-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "52": {
+        "name": "Total-apparent-power",
+        "description": "Total-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "54": {
+        "name": "Average-inductive-CosF",
+        "description": "Average-inductive-CosF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "56": {
+        "name": "Average-capacitive-CosF",
+        "description": "Average-capacitive-CosF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "58": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "60": {
+        "name": "Voltage-angle,-L1",
+        "description": "Voltage-angle,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Deg",
+        "access": "read"
+    },
+    "62": {
+        "name": "Voltage-angle,-L2",
+        "description": "Voltage-angle,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Deg",
+        "access": "read"
+    },
+    "64": {
+        "name": "Voltage-angle,-L3",
+        "description": "Voltage-angle,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Deg",
+        "access": "read"
+    },
+    "66": {
+        "name": "Current-angle,-L1",
+        "description": "Current-angle,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Deg",
+        "access": "read"
+    },
+    "68": {
+        "name": "Current-angle,-L2",
+        "description": "Current-angle,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Deg",
+        "access": "read"
+    },
+    "70": {
+        "name": "Current-angle,-L3",
+        "description": "Current-angle,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Deg",
+        "access": "read"
+    },
+    "84": {
+        "name": "Digital-inputs",
+        "description": "Digital-inputs",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "86": {
+        "name": "Import-active-energy-1",
+        "description": "Import-active-energy-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "90": {
+        "name": "Export-active-energy-1",
+        "description": "Export-active-energy-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "94": {
+        "name": "Inductive-reactive-energy-1",
+        "description": "Inductive-reactive-energy-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "VArh",
+        "access": "read"
+    },
+    "98": {
+        "name": "Capacitive-reactive-energy-1",
+        "description": "Capacitive-reactive-energy-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "VArh",
+        "access": "read"
+    },
+    "102": {
+        "name": "Import-active-energy-2",
+        "description": "Import-active-energy-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "106": {
+        "name": "Export-active-energy-2",
+        "description": "Export-active-energy-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "110": {
+        "name": "Inductive-reactive-energy-2",
+        "description": "Inductive-reactive-energy-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "VArh",
+        "access": "read"
+    },
+    "114": {
+        "name": "Capacitive-reactive-energy-2",
+        "description": "Capacitive-reactive-energy-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "VArh",
+        "access": "read"
+    },
+    "118": {
+        "name": "Voltage,-min,-L1",
+        "description": "Voltage,-min,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "120": {
+        "name": "Voltage,-min,-L2",
+        "description": "Voltage,-min,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "122": {
+        "name": "Voltage,-min,-L3",
+        "description": "Voltage,-min,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "124": {
+        "name": "Voltage,-min,-L1-L2",
+        "description": "Voltage,-min,-L1-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "126": {
+        "name": "Voltage,-min,-L2-L3",
+        "description": "Voltage,-min,-L2-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "128": {
+        "name": "Voltage,-min,-L3-L1",
+        "description": "Voltage,-min,-L3-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    }
+}

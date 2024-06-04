@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "L2-phase-voltage",
+        "description": "L2-phase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Vot",
+        "access": "read"
+    },
+    "4": {
+        "name": "L3-phase-voltage",
+        "description": "L3-phase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Vot",
+        "access": "read"
+    },
+    "6": {
+        "name": "L1-phase-current",
+        "description": "L1-phase-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Amper",
+        "access": "read"
+    },
+    "8": {
+        "name": "L2-phase-current",
+        "description": "L2-phase-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Amper",
+        "access": "read"
+    },
+    "10": {
+        "name": "L3-phase-current",
+        "description": "L3-phase-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Amper",
+        "access": "read"
+    },
+    "12": {
+        "name": "Neutral-current",
+        "description": "Neutral-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Amper",
+        "access": "read"
+    },
+    "14": {
+        "name": "L1-L2-phase-phase-voltage",
+        "description": "L1-L2-phase-phase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Vot",
+        "access": "read"
+    },
+    "16": {
+        "name": "L2-L3-phase-phase-voltage",
+        "description": "L2-L3-phase-phase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Vot",
+        "access": "read"
+    },
+    "18": {
+        "name": "L3-L1-phase-phase-voltage",
+        "description": "L3-L1-phase-phase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Vot",
+        "access": "read"
+    },
+    "20": {
+        "name": "L1-phase-active-power",
+        "description": "L1-phase-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "22": {
+        "name": "L2-phase-active-power",
+        "description": "L2-phase-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "24": {
+        "name": "L3-phase-active-power",
+        "description": "L3-phase-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "26": {
+        "name": "L1-phase-reactive-power",
+        "description": "L1-phase-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "28": {
+        "name": "L2-phase-reactive-power",
+        "description": "L2-phase-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "30": {
+        "name": "L3-phase-reactive-power",
+        "description": "L3-phase-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "32": {
+        "name": "L1-phase-apparent-power",
+        "description": "L1-phase-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "34": {
+        "name": "L2-phase-apparent-power",
+        "description": "L2-phase-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "36": {
+        "name": "L3-phase-apparent-power",
+        "description": "L3-phase-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "38": {
+        "name": "L1-phase-cos",
+        "description": "L1-phase-cos",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "40": {
+        "name": "L2-phase-cos",
+        "description": "L2-phase-cos",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "42": {
+        "name": "L3-phase-cos",
+        "description": "L3-phase-cos",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "44": {
+        "name": "Total-import-active-power",
+        "description": "Total-import-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "46": {
+        "name": "Total-export-active-power",
+        "description": "Total-export-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "48": {
+        "name": "Total-inductive-reactive-power",
+        "description": "Total-inductive-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "50": {
+        "name": "Total-capacitive-reactive-power",
+        "description": "Total-capacitive-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "52": {
+        "name": "Total-apparent-power",
+        "description": "Total-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "54": {
+        "name": "Average-inductive-cos",
+        "description": "Average-inductive-cos",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "56": {
+        "name": "Average-capacitive-cos",
+        "description": "Average-capacitive-cos",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "58": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "88": {
+        "name": "Import-active-energy-1",
+        "description": "Import-active-energy-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "92": {
+        "name": "Export-active-energy-1",
+        "description": "Export-active-energy-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "96": {
+        "name": "Inductive-reactive-energy-1",
+        "description": "Inductive-reactive-energy-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VArh",
+        "access": "read"
+    },
+    "100": {
+        "name": "Capacitive-reactive-energy-1",
+        "description": "Capacitive-reactive-energy-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VArh",
+        "access": "read"
+    },
+    "104": {
+        "name": "Import-active-energy-2",
+        "description": "Import-active-energy-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "108": {
+        "name": "Export-active-energy-2",
+        "description": "Export-active-energy-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "112": {
+        "name": "Inductive-reactive-energy-2",
+        "description": "Inductive-reactive-energy-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VArh",
+        "access": "read"
+    },
+    "116": {
+        "name": "Capacitive-reactive-energy-2",
+        "description": "Capacitive-reactive-energy-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VArh",
+        "access": "read"
+    },
+    "118": {
+        "name": "L1-phase-min.-voltage",
+        "description": "L1-phase-min.-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Vot",
+        "access": "read"
+    },
+    "120": {
+        "name": "L2-phase-min.-voltage",
+        "description": "L2-phase-min.-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Vot",
+        "access": "read"
+    },
+    "122": {
+        "name": "L3-phase-min.-voltage",
+        "description": "L3-phase-min.-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Vot",
+        "access": "read"
+    },
+    "124": {
+        "name": "L1-L2-phase-phase-min.-voltage",
+        "description": "L1-L2-phase-phase-min.-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Vot",
+        "access": "read"
+    },
+    "126": {
+        "name": "L2-L3-phase-phase-min.-voltage",
+        "description": "L2-L3-phase-phase-min.-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Vot",
+        "access": "read"
+    },
+    "128": {
+        "name": "L3-L1-phase-phase-min.-voltage",
+        "description": "L3-L1-phase-phase-min.-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Vot",
+        "access": "read"
+    },
+    "130": {
+        "name": "L1-phase-min.-current",
+        "description": "L1-phase-min.-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Amper",
+        "access": "read"
+    },
+    "132": {
+        "name": "L2-phase-min.-current",
+        "description": "L2-phase-min.-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Amper",
+        "access": "read"
+    },
+    "134": {
+        "name": "L3-phase-min.-current",
+        "description": "L3-phase-min.-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Amper",
+        "access": "read"
+    },
+    "136": {
+        "name": "L1-phase-min.-active-power",
+        "description": "L1-phase-min.-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "138": {
+        "name": "L2-phase-min.-active-power",
+        "description": "L2-phase-min.-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "140": {
+        "name": "L3-phase-min.-active-power",
+        "description": "L3-phase-min.-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "142": {
+        "name": "L1-phase-min.-reactive-power",
+        "description": "L1-phase-min.-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    }
+}

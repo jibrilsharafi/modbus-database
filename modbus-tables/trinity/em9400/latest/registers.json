@@ -1,0 +1,502 @@
+{
+    "199": {
+        "name": "Vrn",
+        "description": "Vrn",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "201": {
+        "name": "Vyn",
+        "description": "Vyn",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "203": {
+        "name": "Vbn",
+        "description": "Vbn",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "205": {
+        "name": "Avg-vpn",
+        "description": "Avg-vpn",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "207": {
+        "name": "Vry",
+        "description": "Vry",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "209": {
+        "name": "Vyb",
+        "description": "Vyb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "211": {
+        "name": "Vbr",
+        "description": "Vbr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "213": {
+        "name": "Avg-vpp",
+        "description": "Avg-vpp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "215": {
+        "name": "Ir",
+        "description": "Ir",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "217": {
+        "name": "Iy",
+        "description": "Iy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "219": {
+        "name": "Ib",
+        "description": "Ib",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "221": {
+        "name": "Avg-amp",
+        "description": "Avg-amp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "223": {
+        "name": "In",
+        "description": "In",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "225": {
+        "name": "Pf-R",
+        "description": "Pf-R",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "227": {
+        "name": "Pf-Y",
+        "description": "Pf-Y",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "229": {
+        "name": "Pf-B",
+        "description": "Pf-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "231": {
+        "name": "Sys-pf",
+        "description": "Sys-pf",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "233": {
+        "name": "Kw-R",
+        "description": "Kw-R",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "235": {
+        "name": "Kw-Y",
+        "description": "Kw-Y",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "237": {
+        "name": "Kw-B",
+        "description": "Kw-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "239": {
+        "name": "Sys-kw",
+        "description": "Sys-kw",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "241": {
+        "name": "Kva-R",
+        "description": "Kva-R",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "243": {
+        "name": "Kva-Y",
+        "description": "Kva-Y",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "245": {
+        "name": "Kva-B",
+        "description": "Kva-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "247": {
+        "name": "Sys-kva",
+        "description": "Sys-kva",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "249": {
+        "name": "Kvar-R",
+        "description": "Kvar-R",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "251": {
+        "name": "Kvar-Y",
+        "description": "Kvar-Y",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "253": {
+        "name": "Kvar-B",
+        "description": "Kvar-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "255": {
+        "name": "Sys-kvar",
+        "description": "Sys-kvar",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "257": {
+        "name": "Sys-freq",
+        "description": "Sys-freq",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "259": {
+        "name": "Kwh",
+        "description": "Kwh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "261": {
+        "name": "Kvah",
+        "description": "Kvah",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "263": {
+        "name": "Kvarh-lg",
+        "description": "Kvarh-lg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "265": {
+        "name": "Kvarh-ld",
+        "description": "Kvarh-ld",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "267": {
+        "name": "Total-kvarh",
+        "description": "Total-kvarh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "269": {
+        "name": "Voltage-R-Y-angle",
+        "description": "Voltage-R-Y-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "271": {
+        "name": "Voltage-R-B-angle",
+        "description": "Voltage-R-B-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "273": {
+        "name": "Current-R-Y-angle",
+        "description": "Current-R-Y-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "275": {
+        "name": "Current-R-B-angle",
+        "description": "Current-R-B-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "277": {
+        "name": "Voltage-unbalance(%)-R-phase",
+        "description": "Voltage-unbalance(%)-R-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "279": {
+        "name": "Voltage-unbalance(%)-Y-phase",
+        "description": "Voltage-unbalance(%)-Y-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "281": {
+        "name": "Voltage-unbalance(%)-B-phase",
+        "description": "Voltage-unbalance(%)-B-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "283": {
+        "name": "Current-unbalance(%)-R-phase",
+        "description": "Current-unbalance(%)-R-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "285": {
+        "name": "Current-unbalance(%)-Y-phase",
+        "description": "Current-unbalance(%)-Y-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "287": {
+        "name": "Gurrent-unbalance(%)-B-phase",
+        "description": "Gurrent-unbalance(%)-B-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "289": {
+        "name": "On-minute",
+        "description": "On-minute",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "291": {
+        "name": "On-hour",
+        "description": "On-hour",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "293": {
+        "name": "Run-minute",
+        "description": "Run-minute",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "295": {
+        "name": "Run-hour",
+        "description": "Run-hour",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "297": {
+        "name": "Vr-thd",
+        "description": "Vr-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    }
+}

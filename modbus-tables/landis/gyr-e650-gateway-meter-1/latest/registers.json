@@ -1,0 +1,502 @@
+{
+    "40015": {
+        "name": "Hours:-format-hhmmss",
+        "description": "Hours:-format-hhmmss",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40017": {
+        "name": "Data-format-aammgg",
+        "description": "Data-format-aammgg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40019": {
+        "name": "Meter-serial-number-(read-by-dlms)",
+        "description": "Meter-serial-number-(read-by-dlms)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40021": {
+        "name": "Reset-meter-count",
+        "description": "Reset-meter-count",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40023": {
+        "name": "Total-active-energy-a+",
+        "description": "Total-active-energy-a+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40025": {
+        "name": "Total-active-energy-previous-month-A-+",
+        "description": "Total-active-energy-previous-month-A-+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40027": {
+        "name": "Total-active-energy-slot-1-a+",
+        "description": "Total-active-energy-slot-1-a+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40029": {
+        "name": "Total-active-energy-slot-1-previous-month-A-+",
+        "description": "Total-active-energy-slot-1-previous-month-A-+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40031": {
+        "name": "Total-active-energy-slot-2-a+",
+        "description": "Total-active-energy-slot-2-a+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40033": {
+        "name": "Total-active-energy-slot-2-previous-month-A-+",
+        "description": "Total-active-energy-slot-2-previous-month-A-+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40035": {
+        "name": "Total-active-energy-slot-3-a+",
+        "description": "Total-active-energy-slot-3-a+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40037": {
+        "name": "Total-active-energy-slot-3-previous-month-A-+",
+        "description": "Total-active-energy-slot-3-previous-month-A-+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40039": {
+        "name": "Total-active-energy-slot-4-a+",
+        "description": "Total-active-energy-slot-4-a+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40041": {
+        "name": "Total-active-energy-slot-4-previous-month-A-+",
+        "description": "Total-active-energy-slot-4-previous-month-A-+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40043": {
+        "name": "Total-active-energy-A",
+        "description": "Total-active-energy-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40045": {
+        "name": "Total-active-energy-previous-month-A",
+        "description": "Total-active-energy-previous-month-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40047": {
+        "name": "Total-active-energy-slot-1-A",
+        "description": "Total-active-energy-slot-1-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40049": {
+        "name": "Total-active-energy-slot-1-previous-month-A",
+        "description": "Total-active-energy-slot-1-previous-month-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40051": {
+        "name": "Total-active-energy-slot-2-A",
+        "description": "Total-active-energy-slot-2-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40053": {
+        "name": "Total-active-energy-slot-2-previous-month-A",
+        "description": "Total-active-energy-slot-2-previous-month-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40055": {
+        "name": "Total-active-energy-slot-3-A",
+        "description": "Total-active-energy-slot-3-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40057": {
+        "name": "Total-active-energy-slot-3-previous-month-A",
+        "description": "Total-active-energy-slot-3-previous-month-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40059": {
+        "name": "Total-active-energy-slot-4-A",
+        "description": "Total-active-energy-slot-4-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40061": {
+        "name": "Total-active-energy-slot-4-previous-month-A",
+        "description": "Total-active-energy-slot-4-previous-month-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40063": {
+        "name": "Reactive-total-energy-Q1",
+        "description": "Reactive-total-energy-Q1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40065": {
+        "name": "Reactive-total-energy-previous-month-Q1",
+        "description": "Reactive-total-energy-previous-month-Q1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40067": {
+        "name": "Reactive-total-energy-slot-1-Q1",
+        "description": "Reactive-total-energy-slot-1-Q1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40069": {
+        "name": "Reactive-total-energy-slot-1-previous-month-Q1",
+        "description": "Reactive-total-energy-slot-1-previous-month-Q1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40071": {
+        "name": "Reactive-total-energy-slot-2-Q1",
+        "description": "Reactive-total-energy-slot-2-Q1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40073": {
+        "name": "Reactive-total-energy-slot-2-previous-month-Q1",
+        "description": "Reactive-total-energy-slot-2-previous-month-Q1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40075": {
+        "name": "Reactive-total-energy-slot-3-Q1",
+        "description": "Reactive-total-energy-slot-3-Q1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40077": {
+        "name": "Reactive-total-energy-slot-3-previous-month-Q1",
+        "description": "Reactive-total-energy-slot-3-previous-month-Q1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40079": {
+        "name": "Reactive-total-energy-slot-4-Q1",
+        "description": "Reactive-total-energy-slot-4-Q1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40081": {
+        "name": "Reactive-total-energy-slot-4-previous-month-Q1",
+        "description": "Reactive-total-energy-slot-4-previous-month-Q1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40083": {
+        "name": "Reactive-total-energy-Q2",
+        "description": "Reactive-total-energy-Q2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40085": {
+        "name": "Reactive-total-energy-previous-month-Q2",
+        "description": "Reactive-total-energy-previous-month-Q2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40087": {
+        "name": "Reactive-total-energy-slot-1-Q2",
+        "description": "Reactive-total-energy-slot-1-Q2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40089": {
+        "name": "Reactive-total-energy-slot-1-previous-month-Q2",
+        "description": "Reactive-total-energy-slot-1-previous-month-Q2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40091": {
+        "name": "Reactive-total-energy-slot-2-Q2",
+        "description": "Reactive-total-energy-slot-2-Q2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40093": {
+        "name": "Reactive-total-energy-slot-2-previous-month-Q2",
+        "description": "Reactive-total-energy-slot-2-previous-month-Q2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40095": {
+        "name": "Reactive-total-energy-slot-3-Q2",
+        "description": "Reactive-total-energy-slot-3-Q2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40097": {
+        "name": "Reactive-total-energy-slot-3-previous-month-Q2",
+        "description": "Reactive-total-energy-slot-3-previous-month-Q2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40099": {
+        "name": "Reactive-total-energy-slot-4-Q2",
+        "description": "Reactive-total-energy-slot-4-Q2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40101": {
+        "name": "Reactive-total-energy-slot-4-previous-month-Q2",
+        "description": "Reactive-total-energy-slot-4-previous-month-Q2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40103": {
+        "name": "Reactive-total-energy-Q3",
+        "description": "Reactive-total-energy-Q3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40105": {
+        "name": "Reactive-total-energy-previous-month-Q3",
+        "description": "Reactive-total-energy-previous-month-Q3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40107": {
+        "name": "Reactive-total-energy-slot-1-Q3",
+        "description": "Reactive-total-energy-slot-1-Q3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40109": {
+        "name": "Reactive-total-energy-slot-1-previous-month-Q3",
+        "description": "Reactive-total-energy-slot-1-previous-month-Q3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40111": {
+        "name": "Reactive-total-energy-slot-2-Q3",
+        "description": "Reactive-total-energy-slot-2-Q3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40113": {
+        "name": "Reactive-total-energy-slot-2-previous-month-Q3",
+        "description": "Reactive-total-energy-slot-2-previous-month-Q3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    }
+}

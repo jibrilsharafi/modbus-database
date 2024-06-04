@@ -1,0 +1,11 @@
+{
+    "manufacturer": "schneider",
+    "model": "electric-pm700",
+    "description": "",
+    "version": "",
+    "url": "https://www.aggsoft.com/serial-data-logger/tutorials/modbus-data-logging/schneider-electric-pm700.htm",
+    "tags": {
+        "industry": "Unknown",
+        "application": "Unknown"
+    }
+}

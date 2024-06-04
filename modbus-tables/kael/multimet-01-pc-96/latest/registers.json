@@ -1,0 +1,502 @@
+{
+    "1": {
+        "name": "Company-code-(7436)",
+        "description": "Company-code-(7436)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2": {
+        "name": "Product-code-(88503)",
+        "description": "Product-code-(88503)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "4": {
+        "name": "Barcode-check-(9)",
+        "description": "Barcode-check-(9)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "5": {
+        "name": "Program-version-(V2.22)(0x0222)",
+        "description": "Program-version-(V2.22)(0x0222)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "6": {
+        "name": "User-define-device-number-H",
+        "description": "User-define-device-number-H",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "7": {
+        "name": "User-define-device-number-L",
+        "description": "User-define-device-number-L",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "8": {
+        "name": "File-system-version-(V1.00)(0x0100)",
+        "description": "File-system-version-(V1.00)(0x0100)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4092": {
+        "name": "RealTime-date-year-month-(0xYYMM)",
+        "description": "RealTime-date-year-month-(0xYYMM)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4093": {
+        "name": "RealTime-date-day-hour-(0xDDHH)",
+        "description": "RealTime-date-day-hour-(0xDDHH)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4094": {
+        "name": "RealTime-date-minute-second-(0xMMSS)",
+        "description": "RealTime-date-minute-second-(0xMMSS)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4095": {
+        "name": "VTRFWM",
+        "description": "VTRFWM",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4096": {
+        "name": "CTRF",
+        "description": "CTRF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4097": {
+        "name": "Device-working-informations",
+        "description": "Device-working-informations",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4098": {
+        "name": "Phase1-voltage-TRMS-value",
+        "description": "Phase1-voltage-TRMS-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4099": {
+        "name": "Phase2-voltage-TRMS-value",
+        "description": "Phase2-voltage-TRMS-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4100": {
+        "name": "Phase3-voltage-TRMS-value",
+        "description": "Phase3-voltage-TRMS-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4101": {
+        "name": "Phase1-current-TRMS-value",
+        "description": "Phase1-current-TRMS-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4102": {
+        "name": "Phase2-current-TRMS-value",
+        "description": "Phase2-current-TRMS-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4103": {
+        "name": "Phase3-current-TRMS-value",
+        "description": "Phase3-current-TRMS-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4104": {
+        "name": "Phase1-active-power-TRMS-value",
+        "description": "Phase1-active-power-TRMS-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4105": {
+        "name": "Phase2-active-power-TRMS-value",
+        "description": "Phase2-active-power-TRMS-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4106": {
+        "name": "Phase3-active-power-TRMS-value",
+        "description": "Phase3-active-power-TRMS-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4107": {
+        "name": "Phase1-reactive-power-TRMS-value",
+        "description": "Phase1-reactive-power-TRMS-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4108": {
+        "name": "Phase2-reactive-power-TRMS-value",
+        "description": "Phase2-reactive-power-TRMS-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4109": {
+        "name": "Phase3-reactive-power-TRMS-value",
+        "description": "Phase3-reactive-power-TRMS-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4110": {
+        "name": "Phase1-appeared-power-TRMS-value",
+        "description": "Phase1-appeared-power-TRMS-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4111": {
+        "name": "Phase2-appeared-power-TRMS-value",
+        "description": "Phase2-appeared-power-TRMS-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4112": {
+        "name": "Phase3-appeared-power-TRMS-value",
+        "description": "Phase3-appeared-power-TRMS-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4113": {
+        "name": "Phase1-CosFiValue",
+        "description": "Phase1-CosFiValue",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4114": {
+        "name": "Phase2-CosFiValue",
+        "description": "Phase2-CosFiValue",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4115": {
+        "name": "Phase3-CosFiValue",
+        "description": "Phase3-CosFiValue",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4116": {
+        "name": "Sum-CosFiValue",
+        "description": "Sum-CosFiValue",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4117": {
+        "name": "Phase1-PowerFactor",
+        "description": "Phase1-PowerFactor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4118": {
+        "name": "Phase2-PowerFactor",
+        "description": "Phase2-PowerFactor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4119": {
+        "name": "Phase3-PowerFactor",
+        "description": "Phase3-PowerFactor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4120": {
+        "name": "SUM-PowerFactor",
+        "description": "SUM-PowerFactor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4121": {
+        "name": "Total-active-power",
+        "description": "Total-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4122": {
+        "name": "Total-positive-ReactivePower-(+q)-(unsigned)",
+        "description": "Total-positive-ReactivePower-(+q)-(unsigned)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4123": {
+        "name": "Total-negative-reactive-power-(-q)-(unsigned)",
+        "description": "Total-negative-reactive-power-(-q)-(unsigned)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4124": {
+        "name": "Sum-reactive-power-((+q)-(-q))",
+        "description": "Sum-reactive-power-((+q)-(-q))",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4125": {
+        "name": "Sum-appeared-power",
+        "description": "Sum-appeared-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4126": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4127": {
+        "name": "Phase-order-number-of-frequency-supply-phase",
+        "description": "Phase-order-number-of-frequency-supply-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4133": {
+        "name": "Phase-current-connection-and-error-messages",
+        "description": "Phase-current-connection-and-error-messages",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4134": {
+        "name": "Voltage1-ZerocrossOver-(Referance)(Everytime-0)",
+        "description": "Voltage1-ZerocrossOver-(Referance)(Everytime-0)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4135": {
+        "name": "Current1-ZeroCrossover-(Angle-value)(0-359)",
+        "description": "Current1-ZeroCrossover-(Angle-value)(0-359)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4136": {
+        "name": "Voltage2-ZerocrossOver-(Angle-value)(0-359)",
+        "description": "Voltage2-ZerocrossOver-(Angle-value)(0-359)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4137": {
+        "name": "Current2-ZeroCrossover-(Angle-value)(0-359)",
+        "description": "Current2-ZeroCrossover-(Angle-value)(0-359)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4138": {
+        "name": "Voltage3-ZerocrossOver-(Angle-value)(0-359)",
+        "description": "Voltage3-ZerocrossOver-(Angle-value)(0-359)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4139": {
+        "name": "Current3-ZeroCrossover-(Angle-value)(0-359)",
+        "description": "Current3-ZeroCrossover-(Angle-value)(0-359)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    }
+}

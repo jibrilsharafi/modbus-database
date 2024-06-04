@@ -1,0 +1,502 @@
+{
+    "628": {
+        "name": "Ethernet-physical-connection",
+        "description": "Ethernet-physical-connection",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "629": {
+        "name": "Baud-rate",
+        "description": "Baud-rate",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "630": {
+        "name": "Parity",
+        "description": "Parity",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "631": {
+        "name": "Wire-mode",
+        "description": "Wire-mode",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "632": {
+        "name": "Port-protocol-mode",
+        "description": "Port-protocol-mode",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "633": {
+        "name": "PM8ECC-reset-counter",
+        "description": "PM8ECC-reset-counter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "634": {
+        "name": "Frame-type",
+        "description": "Frame-type",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "1100": {
+        "name": "Current,-phase-A",
+        "description": "Current,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Amps/Scale",
+        "access": "read"
+    },
+    "1101": {
+        "name": "Current,-phase-B",
+        "description": "Current,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Amps/Scale",
+        "access": "read"
+    },
+    "1102": {
+        "name": "Current,-phase-C",
+        "description": "Current,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Amps/Scale",
+        "access": "read"
+    },
+    "1103": {
+        "name": "Current,-neutral",
+        "description": "Current,-neutral",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Amps/Scale",
+        "access": "read"
+    },
+    "1104": {
+        "name": "Current,-ground",
+        "description": "Current,-ground",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Amps/Scale",
+        "access": "read"
+    },
+    "1105": {
+        "name": "Current,-3-phase-average",
+        "description": "Current,-3-phase-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Amps/Scale",
+        "access": "read"
+    },
+    "1107": {
+        "name": "Current,-unbalance,-phase-A",
+        "description": "Current,-unbalance,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "%",
+        "access": "read"
+    },
+    "1108": {
+        "name": "Current,-unbalance,-phase-B",
+        "description": "Current,-unbalance,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "%",
+        "access": "read"
+    },
+    "1109": {
+        "name": "Current,-unbalance,-phase-C",
+        "description": "Current,-unbalance,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "%",
+        "access": "read"
+    },
+    "1110": {
+        "name": "Current,-unbalance,-max",
+        "description": "Current,-unbalance,-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "%",
+        "access": "read"
+    },
+    "1120": {
+        "name": "Voltage,-A-B",
+        "description": "Voltage,-A-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Volts/Scale",
+        "access": "read"
+    },
+    "1121": {
+        "name": "Voltage,-B-C",
+        "description": "Voltage,-B-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Volts/Scale",
+        "access": "read"
+    },
+    "1122": {
+        "name": "Voltage,-C-A",
+        "description": "Voltage,-C-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Volts/Scale",
+        "access": "read"
+    },
+    "1123": {
+        "name": "Voltage,-L-L-average",
+        "description": "Voltage,-L-L-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Volts/Scale",
+        "access": "read"
+    },
+    "1124": {
+        "name": "Voltage,-A-N",
+        "description": "Voltage,-A-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Volts/Scale",
+        "access": "read"
+    },
+    "1125": {
+        "name": "Voltage,-B-N",
+        "description": "Voltage,-B-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Volts/Scale",
+        "access": "read"
+    },
+    "1126": {
+        "name": "Voltage,-C-N",
+        "description": "Voltage,-C-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Volts/Scale",
+        "access": "read"
+    },
+    "1127": {
+        "name": "Voltage,-N-R",
+        "description": "Voltage,-N-R",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Volts/Scale",
+        "access": "read"
+    },
+    "1128": {
+        "name": "Voltage,-L-N-average",
+        "description": "Voltage,-L-N-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Volts/Scale",
+        "access": "read"
+    },
+    "1129": {
+        "name": "Voltage,-unbalance,-A-B",
+        "description": "Voltage,-unbalance,-A-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "%",
+        "access": "read"
+    },
+    "1130": {
+        "name": "Voltage,-unbalance,-B-C",
+        "description": "Voltage,-unbalance,-B-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "%",
+        "access": "read"
+    },
+    "1131": {
+        "name": "Voltage,-unbalance,-C-A",
+        "description": "Voltage,-unbalance,-C-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "%",
+        "access": "read"
+    },
+    "1132": {
+        "name": "Voltage,-unbalance,-max-L-L",
+        "description": "Voltage,-unbalance,-max-L-L",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "%",
+        "access": "read"
+    },
+    "1133": {
+        "name": "Voltage,-unbalance,-A-N",
+        "description": "Voltage,-unbalance,-A-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "%",
+        "access": "read"
+    },
+    "1134": {
+        "name": "Voltage,-unbalance,-B-N",
+        "description": "Voltage,-unbalance,-B-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "%",
+        "access": "read"
+    },
+    "1135": {
+        "name": "Voltage,-unbalance,-C-N",
+        "description": "Voltage,-unbalance,-C-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "%",
+        "access": "read"
+    },
+    "1136": {
+        "name": "Voltage,-unbalance,-max-L-N",
+        "description": "Voltage,-unbalance,-max-L-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "%",
+        "access": "read"
+    },
+    "1140": {
+        "name": "Real-power,-phase-A",
+        "description": "Real-power,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW/Scale",
+        "access": "read"
+    },
+    "1141": {
+        "name": "Real-power,-phase-B",
+        "description": "Real-power,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW/Scale",
+        "access": "read"
+    },
+    "1142": {
+        "name": "Real-power,-phase-C",
+        "description": "Real-power,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW/Scale",
+        "access": "read"
+    },
+    "1143": {
+        "name": "Real-power,-total",
+        "description": "Real-power,-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW/Scale",
+        "access": "read"
+    },
+    "1144": {
+        "name": "Reactive-power,-phase-A",
+        "description": "Reactive-power,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAr/Scale",
+        "access": "read"
+    },
+    "1145": {
+        "name": "Reactive-power,-phase-B",
+        "description": "Reactive-power,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAr/Scale",
+        "access": "read"
+    },
+    "1146": {
+        "name": "Reactive-power,-phase-C",
+        "description": "Reactive-power,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAr/Scale",
+        "access": "read"
+    },
+    "1147": {
+        "name": "Reactive-power,-total",
+        "description": "Reactive-power,-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAr/Scale",
+        "access": "read"
+    },
+    "1148": {
+        "name": "Apparent-power,-phase-A",
+        "description": "Apparent-power,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA/Scale",
+        "access": "read"
+    },
+    "1149": {
+        "name": "Apparent-power,-phase-B",
+        "description": "Apparent-power,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA/Scale",
+        "access": "read"
+    },
+    "1150": {
+        "name": "Apparent-power,-phase-C",
+        "description": "Apparent-power,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA/Scale",
+        "access": "read"
+    },
+    "1151": {
+        "name": "Apparent-power,-total",
+        "description": "Apparent-power,-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA/Scale",
+        "access": "read"
+    },
+    "1160": {
+        "name": "True-power-factor,-phase-A",
+        "description": "True-power-factor,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "1161": {
+        "name": "True-power-factor,-phase-B",
+        "description": "True-power-factor,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "1162": {
+        "name": "True-power-factor,-phase-C",
+        "description": "True-power-factor,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "1163": {
+        "name": "True-power-factor,-total",
+        "description": "True-power-factor,-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    }
+}

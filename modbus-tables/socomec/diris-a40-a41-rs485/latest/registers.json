@@ -1,0 +1,502 @@
+{
+    "10511": {
+        "name": "Hour-meter",
+        "description": "Hour-meter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "1",
+        "access": "read"
+    },
+    "10513": {
+        "name": "Phase-to-phase-voltage-u12",
+        "description": "Phase-to-phase-voltage-u12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "10515": {
+        "name": "Phase-to-phase-voltage-u23",
+        "description": "Phase-to-phase-voltage-u23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "10517": {
+        "name": "Phase-to-phase-voltage-u31",
+        "description": "Phase-to-phase-voltage-u31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "10519": {
+        "name": "Phase-to-neutral-voltage-phase-1",
+        "description": "Phase-to-neutral-voltage-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "10521": {
+        "name": "Phase-to-neutral-voltage-phase-2",
+        "description": "Phase-to-neutral-voltage-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "10523": {
+        "name": "Phase-to-neutral-voltage-phase-3",
+        "description": "Phase-to-neutral-voltage-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "10525": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "10527": {
+        "name": "Phase-current-1",
+        "description": "Phase-current-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "10529": {
+        "name": "Phase-current-2",
+        "description": "Phase-current-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "10531": {
+        "name": "Phase-current-3",
+        "description": "Phase-current-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "10533": {
+        "name": "Neutral-current",
+        "description": "Neutral-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "10535": {
+        "name": "--active-power-+/-",
+        "description": "--active-power-+/-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "10537": {
+        "name": "--reactive-power-+/-",
+        "description": "--reactive-power-+/-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "10539": {
+        "name": "--apparent-power",
+        "description": "--apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "10541": {
+        "name": "--power-factor--:-leading-and-+-:-lagging",
+        "description": "--power-factor--:-leading-and-+-:-lagging",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "10543": {
+        "name": "Active-power-phase-1-+/-",
+        "description": "Active-power-phase-1-+/-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "10545": {
+        "name": "Active-power-phase-2-+/-",
+        "description": "Active-power-phase-2-+/-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "10547": {
+        "name": "Active-power-phase-3-+/-",
+        "description": "Active-power-phase-3-+/-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "10549": {
+        "name": "Reactive-power-phase-1-+/-",
+        "description": "Reactive-power-phase-1-+/-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "10551": {
+        "name": "Reactive-power-phase-2-+/-",
+        "description": "Reactive-power-phase-2-+/-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "10553": {
+        "name": "Reactive-power-phase-3-+/-",
+        "description": "Reactive-power-phase-3-+/-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "10555": {
+        "name": "Apparent-power-phase-1",
+        "description": "Apparent-power-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "10557": {
+        "name": "Apparent-power-phase-2",
+        "description": "Apparent-power-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "10559": {
+        "name": "Apparent-power-phase-3",
+        "description": "Apparent-power-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "10561": {
+        "name": "Power-factor-phase-1--:-leading-and-+-:-lagging",
+        "description": "Power-factor-phase-1--:-leading-and-+-:-lagging",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "10563": {
+        "name": "Power-factor-phase-2--:-leading-and-+-:-lagging",
+        "description": "Power-factor-phase-2--:-leading-and-+-:-lagging",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "10565": {
+        "name": "Power-factor-phase-3--:-leading-and-+-:-lagging",
+        "description": "Power-factor-phase-3--:-leading-and-+-:-lagging",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "10767": {
+        "name": "Hour-meter",
+        "description": "Hour-meter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "1",
+        "access": "read"
+    },
+    "10769": {
+        "name": "Active-energy-+",
+        "description": "Active-energy-+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "10773": {
+        "name": "Apparent-apparente",
+        "description": "Apparent-apparente",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "10775": {
+        "name": "Active-energy--",
+        "description": "Active-energy--",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "10777": {
+        "name": "Active-energy-+",
+        "description": "Active-energy-+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "10779": {
+        "name": "No.-compteurs-d'impulsions",
+        "description": "No.-compteurs-d'impulsions",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "10783": {
+        "name": "Pulse-meter-2",
+        "description": "Pulse-meter-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "10785": {
+        "name": "Pulse-meter-3",
+        "description": "Pulse-meter-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "10787": {
+        "name": "Pulse-meter-4",
+        "description": "Pulse-meter-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "10789": {
+        "name": "Pulse-meter-5",
+        "description": "Pulse-meter-5",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "10803": {
+        "name": "S-predicted-reactive-power",
+        "description": "S-predicted-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "10805": {
+        "name": "S-predicted-apparent-power",
+        "description": "S-predicted-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "10807": {
+        "name": "Ea+-between-2-tops",
+        "description": "Ea+-between-2-tops",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "10809": {
+        "name": "Ea--between-2-tops",
+        "description": "Ea--between-2-tops",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "10813": {
+        "name": "Er--between-2-tops",
+        "description": "Er--between-2-tops",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "11029": {
+        "name": "Avg-v1",
+        "description": "Avg-v1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "11033": {
+        "name": "Avg-v3",
+        "description": "Avg-v3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "11035": {
+        "name": "Avg-f",
+        "description": "Avg-f",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "11037": {
+        "name": "Avg-i1",
+        "description": "Avg-i1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "11039": {
+        "name": "Avg-i2",
+        "description": "Avg-i2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "11043": {
+        "name": "Avg-in",
+        "description": "Avg-in",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "11045": {
+        "name": "Avg---active-power-+",
+        "description": "Avg---active-power-+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    }
+}

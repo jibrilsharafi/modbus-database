@@ -1,0 +1,502 @@
+{
+    "1537": {
+        "name": "Real-energy-(ph)-consumption",
+        "description": "Real-energy-(ph)-consumption",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1539": {
+        "name": "Reactive-energy-(qh)-consumption",
+        "description": "Reactive-energy-(qh)-consumption",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "1541": {
+        "name": "Apparent-energy-(sh)-consumption",
+        "description": "Apparent-energy-(sh)-consumption",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "1543": {
+        "name": "Total-instantaneous-real-power-(p)",
+        "description": "Total-instantaneous-real-power-(p)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1545": {
+        "name": "Total-instantaneous-reactive-power-(q)",
+        "description": "Total-instantaneous-reactive-power-(q)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "1547": {
+        "name": "Total-instantaneous-apparent-power-(s)",
+        "description": "Total-instantaneous-apparent-power-(s)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1549": {
+        "name": "Average-power-factor-(pf:-total-kw-/-total-kva)",
+        "description": "Average-power-factor-(pf:-total-kw-/-total-kva)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ratio",
+        "access": "read"
+    },
+    "1551": {
+        "name": "Voltage-line-to-line-(u),-average-of-active-phases",
+        "description": "Voltage-line-to-line-(u),-average-of-active-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "1553": {
+        "name": "Voltageline-to-neutral-(v),-average-of-active-phases",
+        "description": "Voltageline-to-neutral-(v),-average-of-active-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "1555": {
+        "name": "Current,-average-of-active-phases",
+        "description": "Current,-average-of-active-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "1557": {
+        "name": "Frequency-(derived-from-phase-a,-b,-or-C-in-that-order)",
+        "description": "Frequency-(derived-from-phase-a,-b,-or-C-in-that-order)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "1559": {
+        "name": "Total-real-power-present-demand",
+        "description": "Total-real-power-present-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1561": {
+        "name": "Total-reactive-power-present-demand",
+        "description": "Total-reactive-power-present-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "1563": {
+        "name": "Total-apparent-power-present-demand",
+        "description": "Total-apparent-power-present-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1565": {
+        "name": "Total-real-power-max-demand",
+        "description": "Total-real-power-max-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1567": {
+        "name": "Total-reactive-power-max-demand",
+        "description": "Total-reactive-power-max-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "1569": {
+        "name": "Total-apparent-power-max-demand",
+        "description": "Total-apparent-power-max-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1577": {
+        "name": "Pulse-counter-1-(real-energy)",
+        "description": "Pulse-counter-1-(real-energy)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1579": {
+        "name": "Pulse-counter-2-(reactive-energy)",
+        "description": "Pulse-counter-2-(reactive-energy)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1589": {
+        "name": "Real-energy-consumption,-L1",
+        "description": "Real-energy-consumption,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1591": {
+        "name": "Real-energy-consumption,-L2",
+        "description": "Real-energy-consumption,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1593": {
+        "name": "Real-energy-consumption,-L3",
+        "description": "Real-energy-consumption,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1595": {
+        "name": "Reactive-energy-consumption,-L1",
+        "description": "Reactive-energy-consumption,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1597": {
+        "name": "Reactive-energy-consumption,-L2",
+        "description": "Reactive-energy-consumption,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1599": {
+        "name": "Reactive-energy-consumption,-L3",
+        "description": "Reactive-energy-consumption,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1601": {
+        "name": "Apparent-energy-consumption,-L1",
+        "description": "Apparent-energy-consumption,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1603": {
+        "name": "Apparent-energy-consumption,-L2",
+        "description": "Apparent-energy-consumption,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1605": {
+        "name": "Apparent-energy-consumption,-L3",
+        "description": "Apparent-energy-consumption,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1607": {
+        "name": "Real-power,-L1",
+        "description": "Real-power,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1609": {
+        "name": "Real-power,-L2",
+        "description": "Real-power,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1611": {
+        "name": "Real-power,-L3",
+        "description": "Real-power,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1613": {
+        "name": "Reactive-power,-L1",
+        "description": "Reactive-power,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "1615": {
+        "name": "Reactive-power,-L2",
+        "description": "Reactive-power,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "1617": {
+        "name": "Reactive-power,-L3",
+        "description": "Reactive-power,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "1619": {
+        "name": "Apparent-power,-L1",
+        "description": "Apparent-power,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1621": {
+        "name": "Apparent-power,-L2",
+        "description": "Apparent-power,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1623": {
+        "name": "Apparent-power,-L3",
+        "description": "Apparent-power,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1625": {
+        "name": "Power-factor,-L1",
+        "description": "Power-factor,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ratio",
+        "access": "read"
+    },
+    "1627": {
+        "name": "Power-factor,-L2",
+        "description": "Power-factor,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ratio",
+        "access": "read"
+    },
+    "1629": {
+        "name": "Power-factor,-L3",
+        "description": "Power-factor,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ratio",
+        "access": "read"
+    },
+    "1631": {
+        "name": "Voltage,-L1-L2",
+        "description": "Voltage,-L1-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "1633": {
+        "name": "Voltage,-L2-L3",
+        "description": "Voltage,-L2-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "1635": {
+        "name": "Voltage,-L3-L1",
+        "description": "Voltage,-L3-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "1637": {
+        "name": "Voltage,-L1-N",
+        "description": "Voltage,-L1-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "1639": {
+        "name": "Voltage,-L2-N",
+        "description": "Voltage,-L2-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "1641": {
+        "name": "Voltage,-L3-N",
+        "description": "Voltage,-L3-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "1643": {
+        "name": "Current,-phase-A",
+        "description": "Current,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "1645": {
+        "name": "Current,-phase-B",
+        "description": "Current,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "1647": {
+        "name": "Current,-phase-C",
+        "description": "Current,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "1649": {
+        "name": "Current,-neutral",
+        "description": "Current,-neutral",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amp",
+        "access": "read"
+    }
+}

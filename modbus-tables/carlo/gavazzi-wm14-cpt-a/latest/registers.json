@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "V-L2-N",
+        "description": "V-L2-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4": {
+        "name": "V-L3-N",
+        "description": "V-L3-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "6": {
+        "name": "V-L1-L2",
+        "description": "V-L1-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "8": {
+        "name": "V-L2-L3",
+        "description": "V-L2-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "10": {
+        "name": "V-L3-L1",
+        "description": "V-L3-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12": {
+        "name": "A-L1",
+        "description": "A-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "14": {
+        "name": "A-L2",
+        "description": "A-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16": {
+        "name": "A-L3",
+        "description": "A-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "18": {
+        "name": "A-N",
+        "description": "A-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "20": {
+        "name": "W-L1",
+        "description": "W-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "22": {
+        "name": "W-L2",
+        "description": "W-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "24": {
+        "name": "W-L3",
+        "description": "W-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "26": {
+        "name": "Va-L1",
+        "description": "Va-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "28": {
+        "name": "Va-L2",
+        "description": "Va-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "30": {
+        "name": "Va-L3",
+        "description": "Va-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "32": {
+        "name": "Var-L1",
+        "description": "Var-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "34": {
+        "name": "Var-L2",
+        "description": "Var-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "36": {
+        "name": "Var-L3",
+        "description": "Var-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "38": {
+        "name": "Phase-sequence",
+        "description": "Phase-sequence",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40": {
+        "name": "Pf-L1",
+        "description": "Pf-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "42": {
+        "name": "Pf-L2",
+        "description": "Pf-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "44": {
+        "name": "Pf-L3",
+        "description": "Pf-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "46": {
+        "name": "V-L-N",
+        "description": "V-L-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "48": {
+        "name": "V-L-L",
+        "description": "V-L-L",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "50": {
+        "name": "W",
+        "description": "W",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "52": {
+        "name": "Va",
+        "description": "Va",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "54": {
+        "name": "Var",
+        "description": "Var",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "56": {
+        "name": "Pf",
+        "description": "Pf",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "58": {
+        "name": "Hz",
+        "description": "Hz",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "60": {
+        "name": "Asymmetry-L-N",
+        "description": "Asymmetry-L-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "62": {
+        "name": "Asymmetry-L-L",
+        "description": "Asymmetry-L-L",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "96": {
+        "name": "A-max",
+        "description": "A-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "98": {
+        "name": "A-max-dmd",
+        "description": "A-max-dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "100": {
+        "name": "A-L1-max",
+        "description": "A-L1-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "102": {
+        "name": "A-L2-max",
+        "description": "A-L2-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "104": {
+        "name": "A-L3-max",
+        "description": "A-L3-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "106": {
+        "name": "W-L1-max",
+        "description": "W-L1-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "108": {
+        "name": "W-L2-max",
+        "description": "W-L2-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "110": {
+        "name": "W-L3-max",
+        "description": "W-L3-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "112": {
+        "name": "W-max-dmd",
+        "description": "W-max-dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "114": {
+        "name": "Va-max-dmd",
+        "description": "Va-max-dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "134": {
+        "name": "V-L1-max",
+        "description": "V-L1-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "136": {
+        "name": "V-L2-max",
+        "description": "V-L2-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "138": {
+        "name": "V-L3-max",
+        "description": "V-L3-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "116": {
+        "name": "Pf-L1-min",
+        "description": "Pf-L1-min",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "118": {
+        "name": "Pf-L2-min",
+        "description": "Pf-L2-min",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "120": {
+        "name": "Pf-L3-min",
+        "description": "Pf-L3-min",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "122": {
+        "name": "A-L1-min",
+        "description": "A-L1-min",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "124": {
+        "name": "A-L2-min",
+        "description": "A-L2-min",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "126": {
+        "name": "A-L3-min",
+        "description": "A-L3-min",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    }
+}

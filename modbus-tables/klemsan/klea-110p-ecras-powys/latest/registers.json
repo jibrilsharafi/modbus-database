@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "Phase-1-2-voltage-(l-l)",
+        "description": "Phase-1-2-voltage-(l-l)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4": {
+        "name": "Phase-1-current",
+        "description": "Phase-1-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "6": {
+        "name": "Phase-1-cos",
+        "description": "Phase-1-cos",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "8": {
+        "name": "Phase-1-power-factor",
+        "description": "Phase-1-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "10": {
+        "name": "Phase-1-active-power",
+        "description": "Phase-1-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12": {
+        "name": "Phase-1-reactive-power",
+        "description": "Phase-1-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "14": {
+        "name": "Phase-1-apparent-power",
+        "description": "Phase-1-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16": {
+        "name": "Phase-1-thdv",
+        "description": "Phase-1-thdv",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "18": {
+        "name": "Phase-1-thdi",
+        "description": "Phase-1-thdi",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "20": {
+        "name": "Phase-2-voltage-(l-n)",
+        "description": "Phase-2-voltage-(l-n)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "22": {
+        "name": "Phase-2-3-voltage-(l-l)",
+        "description": "Phase-2-3-voltage-(l-l)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "24": {
+        "name": "Phase-2-current",
+        "description": "Phase-2-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "26": {
+        "name": "Phase-2-cos",
+        "description": "Phase-2-cos",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "28": {
+        "name": "Phase-2-power-factor",
+        "description": "Phase-2-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "30": {
+        "name": "Phase-2-active-power",
+        "description": "Phase-2-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "32": {
+        "name": "Phase-2-reactive-power",
+        "description": "Phase-2-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "34": {
+        "name": "Phase-2-apparent-power",
+        "description": "Phase-2-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "36": {
+        "name": "Phase-2-thdv",
+        "description": "Phase-2-thdv",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "38": {
+        "name": "Phase-2-thdi",
+        "description": "Phase-2-thdi",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40": {
+        "name": "Phase-3-voltage-(l-n)",
+        "description": "Phase-3-voltage-(l-n)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "42": {
+        "name": "Phase-3-1-voltage-(l-l)",
+        "description": "Phase-3-1-voltage-(l-l)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "44": {
+        "name": "Phase-3-current",
+        "description": "Phase-3-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "46": {
+        "name": "Phase-3-cos",
+        "description": "Phase-3-cos",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "48": {
+        "name": "Phase-3-power-factor",
+        "description": "Phase-3-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "50": {
+        "name": "Phase-3-active-power",
+        "description": "Phase-3-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "52": {
+        "name": "Phase-3-reactive-power",
+        "description": "Phase-3-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "54": {
+        "name": "Phase-3-apparent-power",
+        "description": "Phase-3-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "56": {
+        "name": "Phase-3-thdv",
+        "description": "Phase-3-thdv",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "58": {
+        "name": "Phase-3-thdi",
+        "description": "Phase-3-thdi",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "60": {
+        "name": "Average-voltage-(l-n)",
+        "description": "Average-voltage-(l-n)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "62": {
+        "name": "Average-voltage-(l-l)",
+        "description": "Average-voltage-(l-l)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "64": {
+        "name": "Total-current",
+        "description": "Total-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "66": {
+        "name": "System-power-factor",
+        "description": "System-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "68": {
+        "name": "Total-active-power",
+        "description": "Total-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "70": {
+        "name": "Total-reactive-power",
+        "description": "Total-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "72": {
+        "name": "Total-apparent-power",
+        "description": "Total-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "74": {
+        "name": "System-frequency",
+        "description": "System-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "76": {
+        "name": "Neutral-current",
+        "description": "Neutral-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "78": {
+        "name": "Phase-1-voltage-harmonics-1",
+        "description": "Phase-1-voltage-harmonics-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "80": {
+        "name": "Phase-1-voltage-harmonics-3",
+        "description": "Phase-1-voltage-harmonics-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "82": {
+        "name": "Phase-1-voltage-harmonics-5",
+        "description": "Phase-1-voltage-harmonics-5",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "84": {
+        "name": "Phase-1-voltage-harmonics-7",
+        "description": "Phase-1-voltage-harmonics-7",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "86": {
+        "name": "Phase-1-voltage-harmonics-9",
+        "description": "Phase-1-voltage-harmonics-9",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "88": {
+        "name": "Phase-1-voltage-harmonics-11",
+        "description": "Phase-1-voltage-harmonics-11",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "90": {
+        "name": "Phase-1-voltage-harmonics-13",
+        "description": "Phase-1-voltage-harmonics-13",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "92": {
+        "name": "Phase-1-voltage-harmonics-15",
+        "description": "Phase-1-voltage-harmonics-15",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "94": {
+        "name": "Phase-1-voltage-harmonics-17",
+        "description": "Phase-1-voltage-harmonics-17",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "96": {
+        "name": "Phase-1-voltage-harmonics-19",
+        "description": "Phase-1-voltage-harmonics-19",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "98": {
+        "name": "Phase-1-voltage-harmonics-21",
+        "description": "Phase-1-voltage-harmonics-21",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "100": {
+        "name": "Phase-1-voltage-harmonics-23",
+        "description": "Phase-1-voltage-harmonics-23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    }
+}

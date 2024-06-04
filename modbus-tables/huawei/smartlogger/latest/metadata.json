@@ -1,0 +1,11 @@
+{
+    "manufacturer": "huawei",
+    "model": "smartlogger",
+    "description": "",
+    "version": "",
+    "url": "https://www.aggsoft.com/serial-data-logger/tutorials/modbus-data-logging/huawei-smartlogger.htm",
+    "tags": {
+        "industry": "Energy",
+        "application": "Energy Generation"
+    }
+}

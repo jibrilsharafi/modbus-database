@@ -1,0 +1,502 @@
+{
+    "0003": {
+        "name": "Device-type-sub",
+        "description": "Device-type-sub",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "x0000",
+        "access": "read"
+    },
+    "0004": {
+        "name": "Version-number-main",
+        "description": "Version-number-main",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "x0000 ; 0x0002",
+        "access": "read"
+    },
+    "0006": {
+        "name": "Version-number-sub",
+        "description": "Version-number-sub",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "x0000 ; 0x0000",
+        "access": "read"
+    },
+    "1001": {
+        "name": "Parity-selection",
+        "description": "Parity-selection",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "=none, 1 stop bit 1=none, 2 stop bit 2=odd, 1 stop bit 3=even, 1 stop bit",
+        "access": "read"
+    },
+    "1002": {
+        "name": "Baudrate-selection",
+        "description": "Baudrate-selection",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "=300 2=600 3=1200 4=2400 5=4800 6=9600 7=19200 8=38400",
+        "access": "read"
+    },
+    "1003": {
+        "name": "Ip-address",
+        "description": "Ip-address",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "x00 | 0x00 ; 0x00 | 0x00",
+        "access": "read"
+    },
+    "1005": {
+        "name": "Subnet-mask",
+        "description": "Subnet-mask",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "x00 | 0x00 ; 0x00 | 0x00",
+        "access": "read"
+    },
+    "4000": {
+        "name": "Real-energy",
+        "description": "Real-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4004": {
+        "name": "Apparent-energy",
+        "description": "Apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4008": {
+        "name": "Reactive-energy",
+        "description": "Reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "VArh",
+        "access": "read"
+    },
+    "4012": {
+        "name": "Total-real-power",
+        "description": "Total-real-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "4014": {
+        "name": "Total-apparent-power",
+        "description": "Total-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4016": {
+        "name": "Total-reactive-power",
+        "description": "Total-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "4018": {
+        "name": "Total-power-factor",
+        "description": "Total-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "1",
+        "access": "read"
+    },
+    "4019": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "4020": {
+        "name": "Instantaneous-current-A",
+        "description": "Instantaneous-current-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "4022": {
+        "name": "Instantaneous-current-B",
+        "description": "Instantaneous-current-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "4024": {
+        "name": "Instantaneous-current-C",
+        "description": "Instantaneous-current-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "4026": {
+        "name": "Instantaneous-current-N",
+        "description": "Instantaneous-current-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "4028": {
+        "name": "Voltage-line-ab",
+        "description": "Voltage-line-ab",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "4030": {
+        "name": "Voltage-line-bc",
+        "description": "Voltage-line-bc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "4032": {
+        "name": "Voltage-line-ac",
+        "description": "Voltage-line-ac",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "4034": {
+        "name": "Voltage-phase-an",
+        "description": "Voltage-phase-an",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "4036": {
+        "name": "Voltage-phase-bn",
+        "description": "Voltage-phase-bn",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "4038": {
+        "name": "Voltage-phase-cn",
+        "description": "Voltage-phase-cn",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "4040": {
+        "name": "Real-power-A",
+        "description": "Real-power-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "4042": {
+        "name": "Real-power-B",
+        "description": "Real-power-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "4044": {
+        "name": "Real-power-C",
+        "description": "Real-power-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "4046": {
+        "name": "Apparent-power-A",
+        "description": "Apparent-power-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4048": {
+        "name": "Apparent-power-B",
+        "description": "Apparent-power-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4050": {
+        "name": "Apparent-power-C",
+        "description": "Apparent-power-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4052": {
+        "name": "Reactive-power-A",
+        "description": "Reactive-power-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "4054": {
+        "name": "Reactive-power-B",
+        "description": "Reactive-power-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "4056": {
+        "name": "Reactive-power-C",
+        "description": "Reactive-power-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "4058": {
+        "name": "Current-demand-A",
+        "description": "Current-demand-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Arms",
+        "access": "read"
+    },
+    "4060": {
+        "name": "Current-demand-B",
+        "description": "Current-demand-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Arms",
+        "access": "read"
+    },
+    "4062": {
+        "name": "Current-demand-C",
+        "description": "Current-demand-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Arms",
+        "access": "read"
+    },
+    "4064": {
+        "name": "Real-power-demand",
+        "description": "Real-power-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "4066": {
+        "name": "Reactive-power-demand",
+        "description": "Reactive-power-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "4068": {
+        "name": "Apparent-power-demand",
+        "description": "Apparent-power-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4070": {
+        "name": "Positive-sequence-current",
+        "description": "Positive-sequence-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "4072": {
+        "name": "Negative-sequence-current",
+        "description": "Negative-sequence-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "4074": {
+        "name": "Zero-sequence-current",
+        "description": "Zero-sequence-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "4076": {
+        "name": "Positive-sequence-phase-voltage",
+        "description": "Positive-sequence-phase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "4078": {
+        "name": "Negative-sequence-phase-voltage",
+        "description": "Negative-sequence-phase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "4080": {
+        "name": "Zero-sequence-phase-voltage",
+        "description": "Zero-sequence-phase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "4082": {
+        "name": "Current-thd-A",
+        "description": "Current-thd-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "4083": {
+        "name": "Current-thd-B",
+        "description": "Current-thd-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "4084": {
+        "name": "Current-thd-C",
+        "description": "Current-thd-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "4085": {
+        "name": "Voltage-thd-A",
+        "description": "Voltage-thd-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    }
+}

@@ -1,0 +1,502 @@
+{
+    "1000": {
+        "name": "Voltage-value-of-phase-A",
+        "description": "Voltage-value-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1002": {
+        "name": "Voltage-value-of-phase-B",
+        "description": "Voltage-value-of-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1004": {
+        "name": "Voltage-value-of-phase-C",
+        "description": "Voltage-value-of-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1006": {
+        "name": "Average-phase-voltage-value",
+        "description": "Average-phase-voltage-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1008": {
+        "name": "Voltage-value-of-line-A-B",
+        "description": "Voltage-value-of-line-A-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1010": {
+        "name": "Voltage-value-of-line-B-C",
+        "description": "Voltage-value-of-line-B-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1012": {
+        "name": "Voltage-value-of-line-C-A",
+        "description": "Voltage-value-of-line-C-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1014": {
+        "name": "Average-line-voltage-value",
+        "description": "Average-line-voltage-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1016": {
+        "name": "Current-value-of-phase-A",
+        "description": "Current-value-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "1018": {
+        "name": "Current-value-of-phase-B",
+        "description": "Current-value-of-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "1020": {
+        "name": "Current-value-of-phase-C",
+        "description": "Current-value-of-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "1022": {
+        "name": "Average-value-of-three-phase-current",
+        "description": "Average-value-of-three-phase-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "1026": {
+        "name": "Active-power-of-phase-A",
+        "description": "Active-power-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "1028": {
+        "name": "Active-power-of-phase-B",
+        "description": "Active-power-of-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "1030": {
+        "name": "Active-power-of-phase-C",
+        "description": "Active-power-of-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "1032": {
+        "name": "Sum-of-three-phase-active-power",
+        "description": "Sum-of-three-phase-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "1034": {
+        "name": "Reactive-power-of-phase-A",
+        "description": "Reactive-power-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Var",
+        "access": "read"
+    },
+    "1036": {
+        "name": "Reactive-power-of-phase-B",
+        "description": "Reactive-power-of-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Var",
+        "access": "read"
+    },
+    "1038": {
+        "name": "Reactive-power-of-phase-C",
+        "description": "Reactive-power-of-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Var",
+        "access": "read"
+    },
+    "1040": {
+        "name": "Sum-of-three-phase-reactive-power",
+        "description": "Sum-of-three-phase-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Var",
+        "access": "read"
+    },
+    "1042": {
+        "name": "Apparent-power-of-phase-A",
+        "description": "Apparent-power-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Va",
+        "access": "read"
+    },
+    "1044": {
+        "name": "Apparent-power-of-phase-B",
+        "description": "Apparent-power-of-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Va",
+        "access": "read"
+    },
+    "1046": {
+        "name": "Apparent-power-of-phase-A",
+        "description": "Apparent-power-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Va",
+        "access": "read"
+    },
+    "1048": {
+        "name": "Sum-of-three-phase-apparent-power",
+        "description": "Sum-of-three-phase-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Va",
+        "access": "read"
+    },
+    "1050": {
+        "name": "Power-factor-of-phase-A",
+        "description": "Power-factor-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1052": {
+        "name": "Power-factor-of-phase-B",
+        "description": "Power-factor-of-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1054": {
+        "name": "Power-factor-of-phase-C",
+        "description": "Power-factor-of-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1056": {
+        "name": "Average-power-factor",
+        "description": "Average-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1058": {
+        "name": "Fundamental-power-factor-of-phase-A",
+        "description": "Fundamental-power-factor-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1060": {
+        "name": "Fundamental-power-factor-of-phase-B",
+        "description": "Fundamental-power-factor-of-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1062": {
+        "name": "Fundamental-power-factor-of-phase-C",
+        "description": "Fundamental-power-factor-of-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1064": {
+        "name": "Average-fundamental-power-factor",
+        "description": "Average-fundamental-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1066": {
+        "name": "Grid-frequency",
+        "description": "Grid-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "2000": {
+        "name": "Percentage-of-total-harmonic-of-voltage-of-phase-A",
+        "description": "Percentage-of-total-harmonic-of-voltage-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2002": {
+        "name": "Percentage-of-total-harmonic-of-voltage-of-phase-B",
+        "description": "Percentage-of-total-harmonic-of-voltage-of-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2004": {
+        "name": "Percentage-of-total-harmonic-of-voltage-of-phase-A",
+        "description": "Percentage-of-total-harmonic-of-voltage-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2006": {
+        "name": "Three-phase-voltage-total-harmonic-percentage-average",
+        "description": "Three-phase-voltage-total-harmonic-percentage-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2008": {
+        "name": "Percentage-of-total-harmonic-current-of-phase-A",
+        "description": "Percentage-of-total-harmonic-current-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2010": {
+        "name": "Percentage-of-total-harmonic-current-of-phase-B",
+        "description": "Percentage-of-total-harmonic-current-of-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2012": {
+        "name": "Percentage-of-total-harmonic-current-of-phase-C",
+        "description": "Percentage-of-total-harmonic-current-of-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "2014": {
+        "name": "Percentage-average-value-of-total-harmonic-of-three-phase-current",
+        "description": "Percentage-average-value-of-total-harmonic-of-three-phase-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "4000": {
+        "name": "Positive-active-energy-of-phase-A",
+        "description": "Positive-active-energy-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "0.1kWh",
+        "access": "read"
+    },
+    "4002": {
+        "name": "Positive-active-energy-of-phase-B",
+        "description": "Positive-active-energy-of-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "0.1kWh",
+        "access": "read"
+    },
+    "4004": {
+        "name": "Positive-active-energy-of-phase-C",
+        "description": "Positive-active-energy-of-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "0.1kWh",
+        "access": "read"
+    },
+    "4006": {
+        "name": "Sum-of-three-phase-positive-active-energy",
+        "description": "Sum-of-three-phase-positive-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "0.1kWh",
+        "access": "read"
+    },
+    "4008": {
+        "name": "Reverse-active-electric-energy-of-phase-A",
+        "description": "Reverse-active-electric-energy-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "0.1kWh",
+        "access": "read"
+    },
+    "4010": {
+        "name": "Reverse-active-electric-energy-of-phase-B",
+        "description": "Reverse-active-electric-energy-of-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "0.1kWh",
+        "access": "read"
+    },
+    "4012": {
+        "name": "Reverse-active-electric-energy-of-phase-C",
+        "description": "Reverse-active-electric-energy-of-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "0.1kWh",
+        "access": "read"
+    },
+    "4014": {
+        "name": "Sum-of-three-phase-reverse-active-energy",
+        "description": "Sum-of-three-phase-reverse-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "0.1kWh",
+        "access": "read"
+    },
+    "4024": {
+        "name": "Positive-reactive-energy-of-phase-A",
+        "description": "Positive-reactive-energy-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "0.1kVarh",
+        "access": "read"
+    }
+}

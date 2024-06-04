@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "L1-phase-voltage---mains",
+        "description": "L1-phase-voltage---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "4": {
+        "name": "L2-phase-voltage---mains",
+        "description": "L2-phase-voltage---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "6": {
+        "name": "L3-phase-voltage---mains",
+        "description": "L3-phase-voltage---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "8": {
+        "name": "L1-phase-voltage---generator",
+        "description": "L1-phase-voltage---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "10": {
+        "name": "L2-phase-voltage---generator",
+        "description": "L2-phase-voltage---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "12": {
+        "name": "L3-phase-voltage---generator",
+        "description": "L3-phase-voltage---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "14": {
+        "name": "L1-current",
+        "description": "L1-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "16": {
+        "name": "L2-current",
+        "description": "L2-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "18": {
+        "name": "L3-current",
+        "description": "L3-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "20": {
+        "name": "Neutral-current",
+        "description": "Neutral-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "22": {
+        "name": "L1-L2-voltage---mains",
+        "description": "L1-L2-voltage---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "24": {
+        "name": "L2-L3-voltage---mains",
+        "description": "L2-L3-voltage---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "26": {
+        "name": "L3-L1-voltage---mains",
+        "description": "L3-L1-voltage---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "28": {
+        "name": "L1-L2-voltage---generator",
+        "description": "L1-L2-voltage---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "30": {
+        "name": "L2-L3-voltage---generator",
+        "description": "L2-L3-voltage---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "32": {
+        "name": "L3-L1-voltage---generator",
+        "description": "L3-L1-voltage---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "34": {
+        "name": "L1-active-power---mains",
+        "description": "L1-active-power---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "36": {
+        "name": "L2-active-power---mains",
+        "description": "L2-active-power---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "38": {
+        "name": "L3-active-power---mains",
+        "description": "L3-active-power---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "40": {
+        "name": "L1-active-power---generator",
+        "description": "L1-active-power---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "42": {
+        "name": "L2-active-power---generator",
+        "description": "L2-active-power---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "44": {
+        "name": "L3-active-power---generator",
+        "description": "L3-active-power---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "46": {
+        "name": "L1-reactive-power---mains",
+        "description": "L1-reactive-power---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "48": {
+        "name": "L2-reactive-power---mains",
+        "description": "L2-reactive-power---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "50": {
+        "name": "L3-reactive-power---mains",
+        "description": "L3-reactive-power---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "52": {
+        "name": "L1-reactive-power---generator",
+        "description": "L1-reactive-power---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "54": {
+        "name": "L2-reactive-power---generator",
+        "description": "L2-reactive-power---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "56": {
+        "name": "L3-reactive-power---generator",
+        "description": "L3-reactive-power---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "58": {
+        "name": "L1-apparent-power---mains",
+        "description": "L1-apparent-power---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "60": {
+        "name": "L2-apparent-power---mains",
+        "description": "L2-apparent-power---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "62": {
+        "name": "L3-apparent-power---mains",
+        "description": "L3-apparent-power---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "64": {
+        "name": "L1-apparent-power---generator",
+        "description": "L1-apparent-power---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "66": {
+        "name": "L2-apparent-power---generator",
+        "description": "L2-apparent-power---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "68": {
+        "name": "L3-apparent-power---generator",
+        "description": "L3-apparent-power---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "70": {
+        "name": "L1-power-factor---mains",
+        "description": "L1-power-factor---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "72": {
+        "name": "L2-power-factor---mains",
+        "description": "L2-power-factor---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "74": {
+        "name": "L3-power-factor---mains",
+        "description": "L3-power-factor---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "76": {
+        "name": "L1-power-factor---generator",
+        "description": "L1-power-factor---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "78": {
+        "name": "L2-power-factor---generator",
+        "description": "L2-power-factor---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "80": {
+        "name": "L3-power-factor---generator",
+        "description": "L3-power-factor---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "82": {
+        "name": "Eqv.-phase-voltage---mains",
+        "description": "Eqv.-phase-voltage---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "84": {
+        "name": "Eqv.-phase-to-phase-voltage---mains",
+        "description": "Eqv.-phase-to-phase-voltage---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "86": {
+        "name": "Frequency---mains",
+        "description": "Frequency---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "88": {
+        "name": "Eqv.-phase-voltage---generator",
+        "description": "Eqv.-phase-voltage---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "90": {
+        "name": "Eqv.-phase-to-phase-voltage---generator",
+        "description": "Eqv.-phase-to-phase-voltage---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "92": {
+        "name": "Frequency---generator",
+        "description": "Frequency---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "94": {
+        "name": "Eqv-power-factor---mains",
+        "description": "Eqv-power-factor---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "100": {
+        "name": "Eqv-power-factor---generator",
+        "description": "Eqv-power-factor---generator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "106": {
+        "name": "Eqv.-active-power---mains",
+        "description": "Eqv.-active-power---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "108": {
+        "name": "Eqv.-reactive-power---mains",
+        "description": "Eqv.-reactive-power---mains",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    }
+}

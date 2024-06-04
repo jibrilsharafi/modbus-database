@@ -1,0 +1,802 @@
+{
+    "1": {
+        "name": "Initialize-meter",
+        "description": "Initialize-meter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2": {
+        "name": "Clear-energy-(var-hour)",
+        "description": "Clear-energy-(var-hour)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3": {
+        "name": "Clear-meter-errors",
+        "description": "Clear-meter-errors",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4": {
+        "name": "Serial-number",
+        "description": "Serial-number",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "6": {
+        "name": "Firmware-revision",
+        "description": "Firmware-revision",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "8": {
+        "name": "COC-software-revision",
+        "description": "COC-software-revision",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3000": {
+        "name": "Hour",
+        "description": "Hour",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "3001": {
+        "name": "Minute",
+        "description": "Minute",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "3002": {
+        "name": "Seconds",
+        "description": "Seconds",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "3003": {
+        "name": "Password",
+        "description": "Password",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "3005": {
+        "name": "Pulse-value-interval-time-for-pulse-KYZ-output-1",
+        "description": "Pulse-value-interval-time-for-pulse-KYZ-output-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3007": {
+        "name": "Pulse-value-interval-time-for-pulse-KYZ-output-2",
+        "description": "Pulse-value-interval-time-for-pulse-KYZ-output-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3009": {
+        "name": "Pulse-units-for-KYZ-output-1",
+        "description": "Pulse-units-for-KYZ-output-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3010": {
+        "name": "Pulse-units-for-KYZ-output-2",
+        "description": "Pulse-units-for-KYZ-output-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3011": {
+        "name": "Programming-flags",
+        "description": "Programming-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3013": {
+        "name": "Demand-interval-length-(in-minutes)",
+        "description": "Demand-interval-length-(in-minutes)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "3014": {
+        "name": "Number-of-sub-intervals",
+        "description": "Number-of-sub-intervals",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "3015": {
+        "name": "Display-scroll-time",
+        "description": "Display-scroll-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "3016": {
+        "name": "Meter-configuration",
+        "description": "Meter-configuration",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3017": {
+        "name": "Potential-transformer-ratio",
+        "description": "Potential-transformer-ratio",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3019": {
+        "name": "Current-transformer-ratio",
+        "description": "Current-transformer-ratio",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3021": {
+        "name": "Energy-display-format",
+        "description": "Energy-display-format",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3022": {
+        "name": "Demand-display-format",
+        "description": "Demand-display-format",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3023": {
+        "name": "Voltage-display-format",
+        "description": "Voltage-display-format",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3024": {
+        "name": "Amps-display-format",
+        "description": "Amps-display-format",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3025": {
+        "name": "Energy-display-scale-(kWh,-MWh)",
+        "description": "Energy-display-scale-(kWh,-MWh)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3026": {
+        "name": "Demand-display-scale-(W,-kW,-MW)",
+        "description": "Demand-display-scale-(W,-kW,-MW)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3027": {
+        "name": "Voltage-display-scale-(V,-kV)",
+        "description": "Voltage-display-scale-(V,-kV)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3028": {
+        "name": "Amps-display-scale-(A,-kA)",
+        "description": "Amps-display-scale-(A,-kA)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3029": {
+        "name": "Local-faceplate-password",
+        "description": "Local-faceplate-password",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1000": {
+        "name": "Number-of-pending-event-messages",
+        "description": "Number-of-pending-event-messages",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1002": {
+        "name": "kVA-max,-total-of-all-phases",
+        "description": "kVA-max,-total-of-all-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1004": {
+        "name": "kW-max,-total-of-all-phases",
+        "description": "kW-max,-total-of-all-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1006": {
+        "name": "Kvar-lag-max,-total-of-all-phases",
+        "description": "Kvar-lag-max,-total-of-all-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "1008": {
+        "name": "Kvar-lead-max,-total-of-all-phases",
+        "description": "Kvar-lead-max,-total-of-all-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "1010": {
+        "name": "Current-max-phase-A",
+        "description": "Current-max-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amps",
+        "access": "read"
+    },
+    "1012": {
+        "name": "Current-max-phase-B",
+        "description": "Current-max-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amps",
+        "access": "read"
+    },
+    "1014": {
+        "name": "Current-max-phase-C",
+        "description": "Current-max-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amps",
+        "access": "read"
+    },
+    "1016": {
+        "name": "Kvarh-lag,-total-of-all-phases",
+        "description": "Kvarh-lag,-total-of-all-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "1018": {
+        "name": "Kvarh-lead,-total-of-all-phases",
+        "description": "Kvarh-lead,-total-of-all-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "1020": {
+        "name": "kWh,-total-of-all-phases",
+        "description": "kWh,-total-of-all-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1022": {
+        "name": "kQh,-total-of-all-phases",
+        "description": "kQh,-total-of-all-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1024": {
+        "name": "kVAh,-total-of-all-phases",
+        "description": "kVAh,-total-of-all-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1026": {
+        "name": "Average-power-factor-since-last-reset,-all-phases",
+        "description": "Average-power-factor-since-last-reset,-all-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1028": {
+        "name": "Power-factor,-total-of-all-phases,-at-maximum-kVA",
+        "description": "Power-factor,-total-of-all-phases,-at-maximum-kVA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1030": {
+        "name": "Apparent-power-demand-(kVA),-total-of-all-phases",
+        "description": "Apparent-power-demand-(kVA),-total-of-all-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1032": {
+        "name": "Real-power-demand-(kW)-total-of-all-phases",
+        "description": "Real-power-demand-(kW)-total-of-all-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1034": {
+        "name": "Reactive-power-demand-(kvar-lag),-total-of-all-phases",
+        "description": "Reactive-power-demand-(kvar-lag),-total-of-all-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "1036": {
+        "name": "Reactive-power-demand-(kvar-lead),-total-of-all-phases",
+        "description": "Reactive-power-demand-(kvar-lead),-total-of-all-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "1038": {
+        "name": "Current-demand,-phase-A",
+        "description": "Current-demand,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amps",
+        "access": "read"
+    },
+    "1040": {
+        "name": "Current-demand,-phase-B",
+        "description": "Current-demand,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amps",
+        "access": "read"
+    },
+    "1042": {
+        "name": "Current-demand,-phase-C",
+        "description": "Current-demand,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amps",
+        "access": "read"
+    },
+    "1044": {
+        "name": "Power-factor,-all-phases-(over-last-demand-interval)",
+        "description": "Power-factor,-all-phases-(over-last-demand-interval)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1046": {
+        "name": "Real-power-(kW),-phase-A",
+        "description": "Real-power-(kW),-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1048": {
+        "name": "Real-power-(kW),-phase-B",
+        "description": "Real-power-(kW),-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1050": {
+        "name": "Real-power-(kW),-phase-C",
+        "description": "Real-power-(kW),-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1052": {
+        "name": "Reactive-power-(kvar),-phase-A",
+        "description": "Reactive-power-(kvar),-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "1054": {
+        "name": "Reactive-power-(kvar),-phase-B",
+        "description": "Reactive-power-(kvar),-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "1056": {
+        "name": "Reactive-power-(kvar),-phase-C",
+        "description": "Reactive-power-(kvar),-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "1058": {
+        "name": "Apparent-power-(kVA),-phase-A",
+        "description": "Apparent-power-(kVA),-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1060": {
+        "name": "Apparent-power-(kVA),-phase-B",
+        "description": "Apparent-power-(kVA),-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1062": {
+        "name": "Apparent-power-(kVA),-phase-C",
+        "description": "Apparent-power-(kVA),-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1064": {
+        "name": "Power-factor,-phase-A",
+        "description": "Power-factor,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1066": {
+        "name": "Power-factor,-phase-B",
+        "description": "Power-factor,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1068": {
+        "name": "Power-factor,-phase-C",
+        "description": "Power-factor,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1070": {
+        "name": "Apparent-power-(kVA),-total-of-all-phases",
+        "description": "Apparent-power-(kVA),-total-of-all-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1072": {
+        "name": "Real-power-(kW),-total-of-all-phases",
+        "description": "Real-power-(kW),-total-of-all-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1074": {
+        "name": "Reactive-power-(kvar),-total-of-all-phases",
+        "description": "Reactive-power-(kvar),-total-of-all-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "1076": {
+        "name": "L-N-voltage,-phase-A-N",
+        "description": "L-N-voltage,-phase-A-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "volts",
+        "access": "read"
+    },
+    "1078": {
+        "name": "L-N-voltage,-phase-B-N",
+        "description": "L-N-voltage,-phase-B-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "volts",
+        "access": "read"
+    },
+    "1080": {
+        "name": "L-N-voltage,-phase-C-N",
+        "description": "L-N-voltage,-phase-C-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "volts",
+        "access": "read"
+    },
+    "1082": {
+        "name": "L-L-voltage,-phase-A-B",
+        "description": "L-L-voltage,-phase-A-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "volts",
+        "access": "read"
+    },
+    "1084": {
+        "name": "L-L-voltage,-phase-B-C",
+        "description": "L-L-voltage,-phase-B-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "volts",
+        "access": "read"
+    },
+    "1086": {
+        "name": "L-L-voltage,-phase-C-A",
+        "description": "L-L-voltage,-phase-C-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "volts",
+        "access": "read"
+    },
+    "1088": {
+        "name": "Total-power-factor-of-all-phases",
+        "description": "Total-power-factor-of-all-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1090": {
+        "name": "Real-power-(KW),-total-of-all-phases-at-maximum-kVA",
+        "description": "Real-power-(KW),-total-of-all-phases-at-maximum-kVA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1092": {
+        "name": "Current,-phase-A",
+        "description": "Current,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amps",
+        "access": "read"
+    },
+    "1094": {
+        "name": "Current,-phase-B",
+        "description": "Current,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amps",
+        "access": "read"
+    },
+    "1096": {
+        "name": "Current,-phase-C",
+        "description": "Current,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amps",
+        "access": "read"
+    },
+    "1098": {
+        "name": "Neutral-current",
+        "description": "Neutral-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amps",
+        "access": "read"
+    }
+}

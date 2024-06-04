@@ -1,0 +1,502 @@
+{
+    "15": {
+        "name": "Serial-number",
+        "description": "Serial-number",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read"
+    },
+    "71": {
+        "name": "Number-of-strings",
+        "description": "Number-of-strings",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "73": {
+        "name": "Rated-power",
+        "description": "Rated-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "75": {
+        "name": "Maximum-active-power",
+        "description": "Maximum-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "77": {
+        "name": "Maximum-apparent-power",
+        "description": "Maximum-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "79": {
+        "name": "Maximum-reactive-power-to-grid",
+        "description": "Maximum-reactive-power-to-grid",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVar",
+        "access": "read"
+    },
+    "81": {
+        "name": "Maximum-reactive-power-from-grid",
+        "description": "Maximum-reactive-power-from-grid",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVar",
+        "access": "read"
+    },
+    "2088": {
+        "name": "Insulation-resistance",
+        "description": "Insulation-resistance",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "MOhm",
+        "access": "read"
+    },
+    "2091": {
+        "name": "Startup-time",
+        "description": "Startup-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "s",
+        "access": "read"
+    },
+    "2093": {
+        "name": "Shutdown-time",
+        "description": "Shutdown-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "s",
+        "access": "read"
+    },
+    "10000": {
+        "name": "Current-time",
+        "description": "Current-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "s",
+        "access": "read"
+    },
+    "2110": {
+        "name": "Some-time-1",
+        "description": "Some-time-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "s",
+        "access": "read"
+    },
+    "2156": {
+        "name": "Some-time-2",
+        "description": "Some-time-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "s",
+        "access": "read"
+    },
+    "2160": {
+        "name": "Some-time-3",
+        "description": "Some-time-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "s",
+        "access": "read"
+    },
+    "5113": {
+        "name": "Some-time-4",
+        "description": "Some-time-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "s",
+        "access": "read"
+    },
+    "10500": {
+        "name": "Some-time-5",
+        "description": "Some-time-5",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "s",
+        "access": "read"
+    },
+    "2000": {
+        "name": "Status-1",
+        "description": "Status-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2002": {
+        "name": "Status-2",
+        "description": "Status-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2003": {
+        "name": "Status-3",
+        "description": "Status-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "2008": {
+        "name": "Alarm-1",
+        "description": "Alarm-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2009": {
+        "name": "Alarm-2",
+        "description": "Alarm-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2010": {
+        "name": "Alarm-3",
+        "description": "Alarm-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2089": {
+        "name": "Device-status",
+        "description": "Device-status",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2090": {
+        "name": "Fault-code",
+        "description": "Fault-code",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2016": {
+        "name": "PVn-voltage",
+        "description": "PVn-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2017": {
+        "name": "PVn-current",
+        "description": "PVn-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "A",
+        "access": "read"
+    },
+    "2064": {
+        "name": "Input-power",
+        "description": "Input-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "2066": {
+        "name": "Line-voltage-A-B",
+        "description": "Line-voltage-A-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2067": {
+        "name": "Line-voltage-B-C",
+        "description": "Line-voltage-B-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2068": {
+        "name": "Line-voltage-C-A",
+        "description": "Line-voltage-C-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2069": {
+        "name": "Phase-voltage-A",
+        "description": "Phase-voltage-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2070": {
+        "name": "Phase-voltage-B",
+        "description": "Phase-voltage-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2071": {
+        "name": "Phase-voltage-C",
+        "description": "Phase-voltage-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2072": {
+        "name": "Phase-current-A",
+        "description": "Phase-current-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "A",
+        "access": "read"
+    },
+    "2074": {
+        "name": "Phase-current-B",
+        "description": "Phase-current-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "A",
+        "access": "read"
+    },
+    "2076": {
+        "name": "Phase-current-C",
+        "description": "Phase-current-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "A",
+        "access": "read"
+    },
+    "2078": {
+        "name": "Peak-power",
+        "description": "Peak-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "2080": {
+        "name": "Active-power",
+        "description": "Active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "2082": {
+        "name": "Reactive-power",
+        "description": "Reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVar",
+        "access": "read"
+    },
+    "2084": {
+        "name": "Power-factor",
+        "description": "Power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "2085": {
+        "name": "Grid-frequency",
+        "description": "Grid-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "2086": {
+        "name": "Efficiency",
+        "description": "Efficiency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "2087": {
+        "name": "Internal-temperature",
+        "description": "Internal-temperature",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "DC",
+        "access": "read"
+    },
+    "2106": {
+        "name": "Accumulated-energy-yield",
+        "description": "Accumulated-energy-yield",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2114": {
+        "name": "Daily-energy-yield",
+        "description": "Daily-energy-yield",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "7100": {
+        "name": "Meter-status",
+        "description": "Meter-status",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "7138": {
+        "name": "Meter-detection-result",
+        "description": "Meter-detection-result",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "7125": {
+        "name": "Meter-type",
+        "description": "Meter-type",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "7113": {
+        "name": "Active-grid-power",
+        "description": "Active-grid-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "7115": {
+        "name": "Active-grid-reactive-power",
+        "description": "Active-grid-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VAR",
+        "access": "read"
+    }
+}

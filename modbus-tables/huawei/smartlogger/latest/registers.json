@@ -1,0 +1,502 @@
+{
+    "40000": {
+        "name": "DateandTime",
+        "description": "DateandTime",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40002": {
+        "name": "City",
+        "description": "City",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40004": {
+        "name": "Daylight-saving-time-(DST)",
+        "description": "Daylight-saving-time-(DST)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40005": {
+        "name": "Time-zone",
+        "description": "Time-zone",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "s",
+        "access": "read"
+    },
+    "40007": {
+        "name": "DST-state",
+        "description": "DST-state",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40008": {
+        "name": "DST-offset",
+        "description": "DST-offset",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40009": {
+        "name": "The-local-time",
+        "description": "The-local-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40200": {
+        "name": "Power-on",
+        "description": "Power-on",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40201": {
+        "name": "Power-off",
+        "description": "Power-off",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40202": {
+        "name": "Power-on/off",
+        "description": "Power-on/off",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40203": {
+        "name": "Power-on/off",
+        "description": "Power-on/off",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40204": {
+        "name": "Transfer-trip",
+        "description": "Transfer-trip",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40205": {
+        "name": "Array-reset",
+        "description": "Array-reset",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40500": {
+        "name": "DC-current",
+        "description": "DC-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40521": {
+        "name": "Input-power",
+        "description": "Input-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "40523": {
+        "name": "CO2-reduction",
+        "description": "CO2-reduction",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kg",
+        "access": "read"
+    },
+    "40525": {
+        "name": "Active-power",
+        "description": "Active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "40532": {
+        "name": "Power-factor",
+        "description": "Power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40543": {
+        "name": "Plant-status",
+        "description": "Plant-status",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40544": {
+        "name": "Reactive-power",
+        "description": "Reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "40550": {
+        "name": "CO2-reduction",
+        "description": "CO2-reduction",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kg",
+        "access": "read"
+    },
+    "40554": {
+        "name": "DC-current-2",
+        "description": "DC-current-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "40560": {
+        "name": "E-total",
+        "description": "E-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "40562": {
+        "name": "E-daily",
+        "description": "E-daily",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "40564": {
+        "name": "Duration-of-daily-power-generation",
+        "description": "Duration-of-daily-power-generation",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "h",
+        "access": "read"
+    },
+    "40566": {
+        "name": "Plant-status",
+        "description": "Plant-status",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40567": {
+        "name": "Plant-status",
+        "description": "Plant-status",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40568": {
+        "name": "Active-alarm-sequence-number",
+        "description": "Active-alarm-sequence-number",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40570": {
+        "name": "Historical-alarm-sequence-number",
+        "description": "Historical-alarm-sequence-number",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40572": {
+        "name": "Phase-A-current",
+        "description": "Phase-A-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40573": {
+        "name": "Phase-B-current",
+        "description": "Phase-B-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40574": {
+        "name": "Phase-C-current",
+        "description": "Phase-C-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40575": {
+        "name": "Uab",
+        "description": "Uab",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "40576": {
+        "name": "Ubc",
+        "description": "Ubc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "40577": {
+        "name": "Uca",
+        "description": "Uca",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "40685": {
+        "name": "Inverter-efficiency",
+        "description": "Inverter-efficiency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "40697": {
+        "name": "Max.-activeadjustm-ent",
+        "description": "Max.-activeadjustm-ent",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "40699": {
+        "name": "Locked",
+        "description": "Locked",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40700": {
+        "name": "DI-status",
+        "description": "DI-status",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40723": {
+        "name": "System-reset",
+        "description": "System-reset",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40724": {
+        "name": "Fast-device-access",
+        "description": "Fast-device-access",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40736": {
+        "name": "Device-access-status",
+        "description": "Device-access-status",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40737": {
+        "name": "Active-power-control-mode",
+        "description": "Active-power-control-mode",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40738": {
+        "name": "Active-power-scheduling-target-value",
+        "description": "Active-power-scheduling-target-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "40740": {
+        "name": "Reactive-power-control-mode",
+        "description": "Reactive-power-control-mode",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40741": {
+        "name": "Reactive-power-scheduling-curve-mode",
+        "description": "Reactive-power-scheduling-curve-mode",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40802": {
+        "name": "Active-scheduling-percentage",
+        "description": "Active-scheduling-percentage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "%",
+        "access": "read"
+    },
+    "41124": {
+        "name": "CO2-emission-reduction-coefficient",
+        "description": "CO2-emission-reduction-coefficient",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "41934": {
+        "name": "PV-module-capacity",
+        "description": "PV-module-capacity",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "41936": {
+        "name": "Rated-plant-capacity",
+        "description": "Rated-plant-capacity",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    }
+}

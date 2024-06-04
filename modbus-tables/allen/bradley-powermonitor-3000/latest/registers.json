@@ -1,0 +1,502 @@
+{
+    "100": {
+        "name": "L1-current",
+        "description": "L1-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "102": {
+        "name": "L2-current",
+        "description": "L2-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "104": {
+        "name": "L3-current",
+        "description": "L3-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "106": {
+        "name": "Avg.-Current",
+        "description": "Avg.-Current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "108": {
+        "name": "L1-N-voltage",
+        "description": "L1-N-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "110": {
+        "name": "L2-N-voltage",
+        "description": "L2-N-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "112": {
+        "name": "L3-N-voltage",
+        "description": "L3-N-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "114": {
+        "name": "Avg.-L-N-voltage",
+        "description": "Avg.-L-N-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "116": {
+        "name": "L1-L2-voltage",
+        "description": "L1-L2-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "118": {
+        "name": "L2-L3-voltage",
+        "description": "L2-L3-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "120": {
+        "name": "L3-L1-voltage",
+        "description": "L3-L1-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "122": {
+        "name": "Avg-L-L-voltage",
+        "description": "Avg-L-L-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "124": {
+        "name": "Frequency,-last-cycle",
+        "description": "Frequency,-last-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "126": {
+        "name": "Metering-iteration",
+        "description": "Metering-iteration",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "200": {
+        "name": "L4-(zero-sequence)-current",
+        "description": "L4-(zero-sequence)-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "202": {
+        "name": "Positive-sequence-current",
+        "description": "Positive-sequence-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "204": {
+        "name": "Negative-sequence-current",
+        "description": "Negative-sequence-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "206": {
+        "name": "%-current-unbalance",
+        "description": "%-current-unbalance",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "%",
+        "access": "read"
+    },
+    "208": {
+        "name": "Positive-sequence-voltage",
+        "description": "Positive-sequence-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "210": {
+        "name": "Negaflvesequencevoltage",
+        "description": "Negaflvesequencevoltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "212": {
+        "name": "%-voltage-unbalance",
+        "description": "%-voltage-unbalance",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "%",
+        "access": "read"
+    },
+    "214": {
+        "name": "Phase-rotation",
+        "description": "Phase-rotation",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "216": {
+        "name": "Average-frequency",
+        "description": "Average-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "218": {
+        "name": "Frequency-source",
+        "description": "Frequency-source",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "220": {
+        "name": "Metering-iteration",
+        "description": "Metering-iteration",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "300": {
+        "name": "L1-real-power",
+        "description": "L1-real-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "302": {
+        "name": "L2-real-power",
+        "description": "L2-real-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "304": {
+        "name": "L3-real-power",
+        "description": "L3-real-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "306": {
+        "name": "Total-real-power",
+        "description": "Total-real-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "308": {
+        "name": "L1-reactive-power",
+        "description": "L1-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "310": {
+        "name": "L2-reactive-power",
+        "description": "L2-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "312": {
+        "name": "L3-reactive-power",
+        "description": "L3-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "314": {
+        "name": "Total-reactive-power",
+        "description": "Total-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "316": {
+        "name": "L1-apparent-power",
+        "description": "L1-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "318": {
+        "name": "L2-apparent-power",
+        "description": "L2-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "320": {
+        "name": "L3-apparent-power",
+        "description": "L3-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "322": {
+        "name": "Total-apparent-power",
+        "description": "Total-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "324": {
+        "name": "Metering-iteration",
+        "description": "Metering-iteration",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "400": {
+        "name": "Demand-current",
+        "description": "Demand-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "402": {
+        "name": "Demand-power",
+        "description": "Demand-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "W",
+        "access": "read"
+    },
+    "404": {
+        "name": "Demand-reactive-power",
+        "description": "Demand-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "406": {
+        "name": "Demand-apparent-power",
+        "description": "Demand-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "408": {
+        "name": "Projected-demand-I",
+        "description": "Projected-demand-I",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "410": {
+        "name": "Projected-demand-W",
+        "description": "Projected-demand-W",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "412": {
+        "name": "Projected-demand-var",
+        "description": "Projected-demand-var",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "414": {
+        "name": "Projected-demand-va",
+        "description": "Projected-demand-va",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "416": {
+        "name": "Elapsed-demand-period-time",
+        "description": "Elapsed-demand-period-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "418": {
+        "name": "Metering-iteration",
+        "description": "Metering-iteration",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "500": {
+        "name": "L1-true-power-factor",
+        "description": "L1-true-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "502": {
+        "name": "L2-true-power-factor",
+        "description": "L2-true-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    }
+}

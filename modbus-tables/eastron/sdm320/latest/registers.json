@@ -1,0 +1,502 @@
+{
+    "6": {
+        "name": "Current",
+        "description": "Current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amps",
+        "access": "read"
+    },
+    "12": {
+        "name": "Power",
+        "description": "Power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Watts",
+        "access": "read"
+    },
+    "18": {
+        "name": "Volt-amps",
+        "description": "Volt-amps",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VoltAmps",
+        "access": "read"
+    },
+    "24": {
+        "name": "Volt-amps-reactive",
+        "description": "Volt-amps-reactive",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "30": {
+        "name": "Power-factor",
+        "description": "Power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "None",
+        "access": "read"
+    },
+    "36": {
+        "name": "Phase-angle",
+        "description": "Phase-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Degrees",
+        "access": "read"
+    },
+    "70": {
+        "name": "Frequency-of-supply-voltages",
+        "description": "Frequency-of-supply-voltages",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "72": {
+        "name": "Import-wh-since-last-reset",
+        "description": "Import-wh-since-last-reset",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh/MWh",
+        "access": "read"
+    },
+    "74": {
+        "name": "Export-wh-since-last-reset",
+        "description": "Export-wh-since-last-reset",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWH/MWh",
+        "access": "read"
+    },
+    "342": {
+        "name": "Total-kwh",
+        "description": "Total-kwh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kwh",
+        "access": "read"
+    },
+    "529": {
+        "name": "Total-last-1-month-energy,-Total",
+        "description": "Total-last-1-month-energy,-Total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "533": {
+        "name": "Total-last-1-month-energy,-Rate-1",
+        "description": "Total-last-1-month-energy,-Rate-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "537": {
+        "name": "Total-last-1-month-energy,-Rate-2",
+        "description": "Total-last-1-month-energy,-Rate-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "545": {
+        "name": "Total-last-2-month-energy,-Total",
+        "description": "Total-last-2-month-energy,-Total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "549": {
+        "name": "Total-last-2-month-energy,-Rate-1",
+        "description": "Total-last-2-month-energy,-Rate-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "553": {
+        "name": "Total-last-2-month-energy,-Rate-2",
+        "description": "Total-last-2-month-energy,-Rate-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "561": {
+        "name": "Total-last-3-month-energy,-Total",
+        "description": "Total-last-3-month-energy,-Total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "565": {
+        "name": "Total-last-3-month-energy,-Rate-1",
+        "description": "Total-last-3-month-energy,-Rate-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "569": {
+        "name": "Total-last-3-month-energy,-Rate-2",
+        "description": "Total-last-3-month-energy,-Rate-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "577": {
+        "name": "Total-last-4-month-energy,-Total",
+        "description": "Total-last-4-month-energy,-Total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "581": {
+        "name": "Total-last-4-month-energy,-Rate-1",
+        "description": "Total-last-4-month-energy,-Rate-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "585": {
+        "name": "Total-last-4-month-energy,-Rate-2",
+        "description": "Total-last-4-month-energy,-Rate-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "593": {
+        "name": "Total-last-5-month-energy,-Total",
+        "description": "Total-last-5-month-energy,-Total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "597": {
+        "name": "Total-last-5-month-energy,-Rate-1",
+        "description": "Total-last-5-month-energy,-Rate-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "601": {
+        "name": "Total-last-5-month-energy,-Rate-2",
+        "description": "Total-last-5-month-energy,-Rate-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "609": {
+        "name": "Total-last-6-month-energy,-Total",
+        "description": "Total-last-6-month-energy,-Total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "613": {
+        "name": "Total-last-6-month-energy,-Rate-1",
+        "description": "Total-last-6-month-energy,-Rate-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "617": {
+        "name": "Total-last-6-month-energy,-Rate-2",
+        "description": "Total-last-6-month-energy,-Rate-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "625": {
+        "name": "Total-last-7-month-energy,-Total",
+        "description": "Total-last-7-month-energy,-Total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "629": {
+        "name": "Total-last-7-month-energy,-Rate-1",
+        "description": "Total-last-7-month-energy,-Rate-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "633": {
+        "name": "Total-last-7-month-energy,-Rate-2",
+        "description": "Total-last-7-month-energy,-Rate-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "641": {
+        "name": "Total-last-8-month-energy,-Total",
+        "description": "Total-last-8-month-energy,-Total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "645": {
+        "name": "Total-last-8-month-energy,-Rate-1",
+        "description": "Total-last-8-month-energy,-Rate-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "649": {
+        "name": "Total-last-8-month-energy,-Rate-2",
+        "description": "Total-last-8-month-energy,-Rate-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "657": {
+        "name": "Total-last-9-month-energy,-Total",
+        "description": "Total-last-9-month-energy,-Total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "661": {
+        "name": "Total-last-9-month-energy,-Rate-1",
+        "description": "Total-last-9-month-energy,-Rate-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "665": {
+        "name": "Total-last-9-month-energy,-Rate-2",
+        "description": "Total-last-9-month-energy,-Rate-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "673": {
+        "name": "Total-last-10-month-energy",
+        "description": "Total-last-10-month-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "689": {
+        "name": "Total-last-11-month-energy,-Total",
+        "description": "Total-last-11-month-energy,-Total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "693": {
+        "name": "Total-last-11-month-energy,-Rate-1",
+        "description": "Total-last-11-month-energy,-Rate-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "697": {
+        "name": "Total-last-11-month-energy,-Rate-2",
+        "description": "Total-last-11-month-energy,-Rate-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "705": {
+        "name": "Total-last-12-month-energy,-Total",
+        "description": "Total-last-12-month-energy,-Total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "709": {
+        "name": "Total-last-12-month-energy,-Rate-1",
+        "description": "Total-last-12-month-energy,-Rate-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "713": {
+        "name": "Total-last-12-month-energy,-Rate-2",
+        "description": "Total-last-12-month-energy,-Rate-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "2000": {
+        "name": "Import-energy-rate-1",
+        "description": "Import-energy-rate-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2002": {
+        "name": "Import-energy-rate-2",
+        "description": "Import-energy-rate-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2004": {
+        "name": "Import-energy-rate-3",
+        "description": "Import-energy-rate-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2006": {
+        "name": "Import-energy-rate-4",
+        "description": "Import-energy-rate-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2256": {
+        "name": "Export-energy-rate-1",
+        "description": "Export-energy-rate-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2258": {
+        "name": "Export-energy-rate-2",
+        "description": "Export-energy-rate-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    }
+}

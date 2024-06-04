@@ -1,0 +1,502 @@
+{
+    "4096": {
+        "name": "Ph-1-N-voltage",
+        "description": "Ph-1-N-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4098": {
+        "name": "Ph-2-N-voltage",
+        "description": "Ph-2-N-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4100": {
+        "name": "Ph-3-N-voltage",
+        "description": "Ph-3-N-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4102": {
+        "name": "L-1-2-voltage",
+        "description": "L-1-2-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4104": {
+        "name": "L-2-3-voltage",
+        "description": "L-2-3-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4106": {
+        "name": "L-3-1-voltage",
+        "description": "L-3-1-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4108": {
+        "name": "System-voltage",
+        "description": "System-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4110": {
+        "name": "Ph1-current",
+        "description": "Ph1-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4112": {
+        "name": "Ph2-current",
+        "description": "Ph2-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4114": {
+        "name": "Ph3-current",
+        "description": "Ph3-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4116": {
+        "name": "Neutral-current",
+        "description": "Neutral-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4118": {
+        "name": "System-current",
+        "description": "System-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4120": {
+        "name": "Ph1-power-factor",
+        "description": "Ph1-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4122": {
+        "name": "Ph2-power-factor",
+        "description": "Ph2-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4124": {
+        "name": "Ph3-power-factor",
+        "description": "Ph3-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4126": {
+        "name": "Sys-power-factor",
+        "description": "Sys-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4128": {
+        "name": "Ph1-active-power",
+        "description": "Ph1-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4130": {
+        "name": "Ph2-active-power",
+        "description": "Ph2-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4132": {
+        "name": "Ph3-active-power",
+        "description": "Ph3-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4134": {
+        "name": "Sys-active-power",
+        "description": "Sys-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4136": {
+        "name": "Ph1-appare-nt-power",
+        "description": "Ph1-appare-nt-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4138": {
+        "name": "Ph2-apparent-power",
+        "description": "Ph2-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4140": {
+        "name": "Ph3-apparent-power",
+        "description": "Ph3-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4142": {
+        "name": "Sys-apparent-power",
+        "description": "Sys-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4144": {
+        "name": "Ph1-reactive-power",
+        "description": "Ph1-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4146": {
+        "name": "Ph2-reactive-power",
+        "description": "Ph2-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4148": {
+        "name": "Ph3-reactive-power",
+        "description": "Ph3-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4150": {
+        "name": "Sys-reactive-power",
+        "description": "Sys-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4152": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "4154": {
+        "name": "Phase-seque-nce",
+        "description": "Phase-seque-nce",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4352": {
+        "name": "Ph1-imp.-Active-en",
+        "description": "Ph1-imp.-Active-en",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4354": {
+        "name": "Ph2-imp.-Active-en",
+        "description": "Ph2-imp.-Active-en",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4356": {
+        "name": "Ph3-imp.-Active-en",
+        "description": "Ph3-imp.-Active-en",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4358": {
+        "name": "Sys-imp.-Active-en",
+        "description": "Sys-imp.-Active-en",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4360": {
+        "name": "Ph1-exp.-Active-en",
+        "description": "Ph1-exp.-Active-en",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4362": {
+        "name": "Ph2-exp.-Active-en",
+        "description": "Ph2-exp.-Active-en",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4364": {
+        "name": "Ph3-exp.-Active-en",
+        "description": "Ph3-exp.-Active-en",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4366": {
+        "name": "Sys-exp.-Active-en",
+        "description": "Sys-exp.-Active-en",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4368": {
+        "name": "Ph1-imp.-Lag.-Apparent-en",
+        "description": "Ph1-imp.-Lag.-Apparent-en",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4370": {
+        "name": "Ph2-imp.-Lag.-Apparent-en",
+        "description": "Ph2-imp.-Lag.-Apparent-en",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4372": {
+        "name": "Ph3-imp.-Lag.-Apparent-en",
+        "description": "Ph3-imp.-Lag.-Apparent-en",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4374": {
+        "name": "Sys-imp.-Lag.-Apparent-en",
+        "description": "Sys-imp.-Lag.-Apparent-en",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4376": {
+        "name": "Ph1-exp.-Lag.-Apparent-en",
+        "description": "Ph1-exp.-Lag.-Apparent-en",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4378": {
+        "name": "Ph2-exp.-Lag.-Apparent-en",
+        "description": "Ph2-exp.-Lag.-Apparent-en",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4380": {
+        "name": "Ph3-exp.-Lag.-Apparent-en",
+        "description": "Ph3-exp.-Lag.-Apparent-en",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4382": {
+        "name": "Sys-exp.-Lag.-Apparent-en",
+        "description": "Sys-exp.-Lag.-Apparent-en",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4384": {
+        "name": "Ph1-imp.-Lead.-Apparent-en",
+        "description": "Ph1-imp.-Lead.-Apparent-en",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4386": {
+        "name": "Ph2-imp.-Lead.-Apparent-en",
+        "description": "Ph2-imp.-Lead.-Apparent-en",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4388": {
+        "name": "Ph3-imp.-Lead.-Apparent-en",
+        "description": "Ph3-imp.-Lead.-Apparent-en",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4390": {
+        "name": "Sys-imp.-Lead.-Apparent-en",
+        "description": "Sys-imp.-Lead.-Apparent-en",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    }
+}

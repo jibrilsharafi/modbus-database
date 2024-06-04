@@ -1,0 +1,502 @@
+{
+    "3900": {
+        "name": "Va-apparent-power,-total",
+        "description": "Va-apparent-power,-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "3902": {
+        "name": "W-active-power,-total",
+        "description": "W-active-power,-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "3904": {
+        "name": "Var-reactive-power,-total",
+        "description": "Var-reactive-power,-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "3906": {
+        "name": "Pf-avg-pf",
+        "description": "Pf-avg-pf",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "PF",
+        "access": "read"
+    },
+    "3908": {
+        "name": "Vll-line-to-line-avg-voltage",
+        "description": "Vll-line-to-line-avg-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VLL",
+        "access": "read"
+    },
+    "3910": {
+        "name": "Vln-line-to-neutral-voltage",
+        "description": "Vln-line-to-neutral-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VLN",
+        "access": "read"
+    },
+    "3912": {
+        "name": "A-avg-current",
+        "description": "A-avg-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3914": {
+        "name": "F-frequency,-hz",
+        "description": "F-frequency,-hz",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "F",
+        "access": "read"
+    },
+    "3916": {
+        "name": "VA1-apparent-power,-phase1",
+        "description": "VA1-apparent-power,-phase1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA1",
+        "access": "read"
+    },
+    "3918": {
+        "name": "W1-active-power,-phase1",
+        "description": "W1-active-power,-phase1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W1",
+        "access": "read"
+    },
+    "3920": {
+        "name": "Var1-reactive-power,-phase1",
+        "description": "Var1-reactive-power,-phase1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAR1",
+        "access": "read"
+    },
+    "3922": {
+        "name": "PF1-pf,-phase1",
+        "description": "PF1-pf,-phase1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "PF1",
+        "access": "read"
+    },
+    "3924": {
+        "name": "V12-voltage-phase1-to-phase2",
+        "description": "V12-voltage-phase1-to-phase2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V12",
+        "access": "read"
+    },
+    "3926": {
+        "name": "V1-voltage-phase1-to-neutral",
+        "description": "V1-voltage-phase1-to-neutral",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V1",
+        "access": "read"
+    },
+    "3928": {
+        "name": "A1-current,-phase1",
+        "description": "A1-current,-phase1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A1",
+        "access": "read"
+    },
+    "3930": {
+        "name": "VA2-apparent-power,-phase2",
+        "description": "VA2-apparent-power,-phase2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA2",
+        "access": "read"
+    },
+    "3932": {
+        "name": "W2-active-power,-phase2",
+        "description": "W2-active-power,-phase2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W2",
+        "access": "read"
+    },
+    "3934": {
+        "name": "Var2-reactive-power,-phase2",
+        "description": "Var2-reactive-power,-phase2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAR2",
+        "access": "read"
+    },
+    "3936": {
+        "name": "PF2-pf,-phase2",
+        "description": "PF2-pf,-phase2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "PF2",
+        "access": "read"
+    },
+    "3938": {
+        "name": "V23-voltage-phase2-to-phase3",
+        "description": "V23-voltage-phase2-to-phase3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V23",
+        "access": "read"
+    },
+    "3940": {
+        "name": "V2-voltage-phase2-to-neutral",
+        "description": "V2-voltage-phase2-to-neutral",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V2",
+        "access": "read"
+    },
+    "3942": {
+        "name": "A2-current,-phase2",
+        "description": "A2-current,-phase2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A2",
+        "access": "read"
+    },
+    "3944": {
+        "name": "VA3-apparent-power,-phase3",
+        "description": "VA3-apparent-power,-phase3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA3",
+        "access": "read"
+    },
+    "3946": {
+        "name": "W3-active-power,-phase3",
+        "description": "W3-active-power,-phase3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W3",
+        "access": "read"
+    },
+    "3948": {
+        "name": "Var3-reactive-power,-phase3",
+        "description": "Var3-reactive-power,-phase3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAR3",
+        "access": "read"
+    },
+    "3950": {
+        "name": "PF3-pf,-phase3",
+        "description": "PF3-pf,-phase3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "PF3",
+        "access": "read"
+    },
+    "3952": {
+        "name": "V31-voltage-phase3-to-phase1",
+        "description": "V31-voltage-phase3-to-phase1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V31",
+        "access": "read"
+    },
+    "3954": {
+        "name": "V3-voltage-phase3-to-neutral",
+        "description": "V3-voltage-phase3-to-neutral",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V3",
+        "access": "read"
+    },
+    "3956": {
+        "name": "A3-current,-phase3",
+        "description": "A3-current,-phase3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A3",
+        "access": "read"
+    },
+    "3958": {
+        "name": "Fwdvah-forward-apparent-energy",
+        "description": "Fwdvah-forward-apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "FwdVAh",
+        "access": "read"
+    },
+    "3960": {
+        "name": "Fwdwh-forward-active-energy",
+        "description": "Fwdwh-forward-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "FwdWh",
+        "access": "read"
+    },
+    "3962": {
+        "name": "Fwdvarh-forward-reactive-inductive-energy",
+        "description": "Fwdvarh-forward-reactive-inductive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "FwdVARh",
+        "access": "read"
+    },
+    "3964": {
+        "name": "Fwdvarh-forward-reactive-capacitive-energy",
+        "description": "Fwdvarh-forward-reactive-capacitive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "FwdVARh",
+        "access": "read"
+    },
+    "3966": {
+        "name": "Revvah-reverse-apparent-energy",
+        "description": "Revvah-reverse-apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "RevVAh",
+        "access": "read"
+    },
+    "3968": {
+        "name": "Revwh-reverse-active-energy",
+        "description": "Revwh-reverse-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "RevWh",
+        "access": "read"
+    },
+    "3970": {
+        "name": "Revvarh-reverse-reactive-inductive-energy",
+        "description": "Revvarh-reverse-reactive-inductive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "RevVARh",
+        "access": "read"
+    },
+    "3972": {
+        "name": "Revvarh-reverse-reactive-capacitive-energy",
+        "description": "Revvarh-reverse-reactive-capacitive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "RevVARh",
+        "access": "read"
+    },
+    "3974": {
+        "name": "Present-demand",
+        "description": "Present-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Present",
+        "access": "read"
+    },
+    "3976": {
+        "name": "Rising-demand",
+        "description": "Rising-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Rising",
+        "access": "read"
+    },
+    "3978": {
+        "name": "Max-md",
+        "description": "Max-md",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Max",
+        "access": "read"
+    },
+    "3980": {
+        "name": "Max-dm-occurrence-time",
+        "description": "Max-dm-occurrence-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Max",
+        "access": "read"
+    },
+    "3992": {
+        "name": "On-hrs",
+        "description": "On-hrs",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "On",
+        "access": "read"
+    },
+    "3994": {
+        "name": "Fwdrun-secs",
+        "description": "Fwdrun-secs",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "FwdRun",
+        "access": "read"
+    },
+    "3996": {
+        "name": "Revrun-secs",
+        "description": "Revrun-secs",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "RevRun",
+        "access": "read"
+    },
+    "3998": {
+        "name": "Intr-number-of-power-interruption",
+        "description": "Intr-number-of-power-interruption",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Intr",
+        "access": "read"
+    },
+    "3860": {
+        "name": "%V1-voltage-thd,-phase-1",
+        "description": "%V1-voltage-thd,-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%V1",
+        "access": "read"
+    },
+    "3862": {
+        "name": "%V2-voltage-thd,-phase-2",
+        "description": "%V2-voltage-thd,-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%V2",
+        "access": "read"
+    },
+    "3864": {
+        "name": "%V3-voltage-thd,-phase-3",
+        "description": "%V3-voltage-thd,-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%V3",
+        "access": "read"
+    },
+    "3866": {
+        "name": "%A1-current-thd,-phase-1",
+        "description": "%A1-current-thd,-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%A1",
+        "access": "read"
+    },
+    "3868": {
+        "name": "%A2-current-thd,-phase-2",
+        "description": "%A2-current-thd,-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%A2",
+        "access": "read"
+    }
+}

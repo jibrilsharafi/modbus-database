@@ -1,0 +1,507 @@
+{
+    "40005": {
+        "name": "Manufacturer",
+        "description": "Manufacturer",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 32
+    },
+    "40021": {
+        "name": "Device-model",
+        "description": "Device-model",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 32
+    },
+    "40037": {
+        "name": "Options",
+        "description": "Options",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 16
+    },
+    "40045": {
+        "name": "Sw-version-of-inverter",
+        "description": "Sw-version-of-inverter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 16
+    },
+    "40053": {
+        "name": "Serialnumber-of-the-inverter",
+        "description": "Serialnumber-of-the-inverter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 32
+    },
+    "40069": {
+        "name": "Modbus-device-address",
+        "description": "Modbus-device-address",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40072": {
+        "name": "Ac-total-current-value",
+        "description": "Ac-total-current-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40074": {
+        "name": "Ac-phase-A-current-value",
+        "description": "Ac-phase-A-current-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40076": {
+        "name": "Ac-phase-B-current-value",
+        "description": "Ac-phase-B-current-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40078": {
+        "name": "Ac-phase-C-current-value",
+        "description": "Ac-phase-C-current-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40080": {
+        "name": "Ac-voltage-phase-ab-value",
+        "description": "Ac-voltage-phase-ab-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40082": {
+        "name": "Ac-voltage-phase-bc-value",
+        "description": "Ac-voltage-phase-bc-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40084": {
+        "name": "Ac-voltage-phase-ca-value",
+        "description": "Ac-voltage-phase-ca-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40086": {
+        "name": "Ac-voltage-phase-A-to-neutral-value",
+        "description": "Ac-voltage-phase-A-to-neutral-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40088": {
+        "name": "Ac-voltage-phase-B-to-neutral-value",
+        "description": "Ac-voltage-phase-B-to-neutral-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40090": {
+        "name": "Ac-voltage-phase-C-to-neutral-value",
+        "description": "Ac-voltage-phase-C-to-neutral-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40092": {
+        "name": "Ac-power-value",
+        "description": "Ac-power-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40094": {
+        "name": "Ac-frequency-value",
+        "description": "Ac-frequency-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "40096": {
+        "name": "Apparent-power",
+        "description": "Apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40098": {
+        "name": "Reactive-power",
+        "description": "Reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "40100": {
+        "name": "Power-factor",
+        "description": "Power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40102": {
+        "name": "Ac-lifetime-energy-production",
+        "description": "Ac-lifetime-energy-production",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "40108": {
+        "name": "Dc-power-value",
+        "description": "Dc-power-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40120": {
+        "name": "Event-flags-(bits-0-31)",
+        "description": "Event-flags-(bits-0-31)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40122": {
+        "name": "Event-flags-(bits-32-63)",
+        "description": "Event-flags-(bits-32-63)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40124": {
+        "name": "Vendor-defined-event-flags-(bits-0-31)",
+        "description": "Vendor-defined-event-flags-(bits-0-31)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40126": {
+        "name": "Vendor-defined-event-flags-(bits-32-63)",
+        "description": "Vendor-defined-event-flags-(bits-32-63)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40128": {
+        "name": "Vendor-defined-event-flags-(bits-64-95)",
+        "description": "Vendor-defined-event-flags-(bits-64-95)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40130": {
+        "name": "Vendor-defined-event-flags-(bits-96-127)",
+        "description": "Vendor-defined-event-flags-(bits-96-127)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40133": {
+        "name": "Length-of-nameplate-model",
+        "description": "Length-of-nameplate-model",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40135": {
+        "name": "Continuous-power-output-capability-of-the-inverter",
+        "description": "Continuous-power-output-capability-of-the-inverter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40137": {
+        "name": "Continuous-volt-ampere-capability-of-the-inverter",
+        "description": "Continuous-volt-ampere-capability-of-the-inverter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40139": {
+        "name": "Continuous-var-capability-of-the-inverter-in-quadrant-1",
+        "description": "Continuous-var-capability-of-the-inverter-in-quadrant-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "var",
+        "access": "read"
+    },
+    "40142": {
+        "name": "Continuous-var-capability-of-the-inverter-in-quadrant-4",
+        "description": "Continuous-var-capability-of-the-inverter-in-quadrant-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "var",
+        "access": "read"
+    },
+    "40144": {
+        "name": "Maximum-rms-ac-current-level-capability-of-the-inverter",
+        "description": "Maximum-rms-ac-current-level-capability-of-the-inverter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40146": {
+        "name": "Minimum-power-factor-capability-of-the-inverter-in-quadrant-1",
+        "description": "Minimum-power-factor-capability-of-the-inverter-in-quadrant-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40149": {
+        "name": "Minimum-power-factor-capability-of-the-inverter-in-quadrant-4",
+        "description": "Minimum-power-factor-capability-of-the-inverter-in-quadrant-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40151": {
+        "name": "Nominal-energy-rating-of-storage-device",
+        "description": "Nominal-energy-rating-of-storage-device",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "40155": {
+        "name": "Maximum-rate-of-energy-transfer-into-the-storage-device",
+        "description": "Maximum-rate-of-energy-transfer-into-the-storage-device",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40157": {
+        "name": "Maximum-rate-of-energy-transfer-out-of-the-storage-device",
+        "description": "Maximum-rate-of-energy-transfer-out-of-the-storage-device",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40161": {
+        "name": "Length-of-basic-settings-model",
+        "description": "Length-of-basic-settings-model",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40162": {
+        "name": "Setting-for-maximum-power-output.-Default-to-i_wrtg",
+        "description": "Setting-for-maximum-power-output.-Default-to-i_wrtg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40163": {
+        "name": "Voltage-at-the-pcc",
+        "description": "Voltage-at-the-pcc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40164": {
+        "name": "Offset-from-pcc-to-inverter",
+        "description": "Offset-from-pcc-to-inverter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40167": {
+        "name": "Setpoint-for-maximum-apparent-power.-Default-to-i_vartg",
+        "description": "Setpoint-for-maximum-apparent-power.-Default-to-i_vartg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40168": {
+        "name": "Setting-for-maximum-reactive-power-in-quadrant-1.-Default-to-varrtgq1",
+        "description": "Setting-for-maximum-reactive-power-in-quadrant-1.-Default-to-varrtgq1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "var",
+        "access": "read"
+    },
+    "40171": {
+        "name": "Setting-for-maximum-reactive-power-in-quadrant-4-default-to-varrtgq4",
+        "description": "Setting-for-maximum-reactive-power-in-quadrant-4-default-to-varrtgq4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "var",
+        "access": "read"
+    },
+    "40173": {
+        "name": "Setpoint-for-minimum-power-factor-value-in-quadrant-1.-Default-to-pfrtgq1",
+        "description": "Setpoint-for-minimum-power-factor-value-in-quadrant-1.-Default-to-pfrtgq1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40176": {
+        "name": "Setpoint-for-minimum-power-factor-value-in-quadrant-4.-Default-to-pfrtgq4",
+        "description": "Setpoint-for-minimum-power-factor-value-in-quadrant-4.-Default-to-pfrtgq4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40193": {
+        "name": "Length-of-measurements_status-model",
+        "description": "Length-of-measurements_status-model",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    }
+}

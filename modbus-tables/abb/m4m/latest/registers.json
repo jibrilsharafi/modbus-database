@@ -1,0 +1,502 @@
+{
+    "20480": {
+        "name": "Active-energy---import",
+        "description": "Active-energy---import",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20484": {
+        "name": "Active-energy---export",
+        "description": "Active-energy---export",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20488": {
+        "name": "Active-energy---net",
+        "description": "Active-energy---net",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20492": {
+        "name": "Reactive-energy---import",
+        "description": "Reactive-energy---import",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20496": {
+        "name": "Reactive-energy---export",
+        "description": "Reactive-energy---export",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20500": {
+        "name": "Reactive-energy---net",
+        "description": "Reactive-energy---net",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20504": {
+        "name": "Apparent-energy---import",
+        "description": "Apparent-energy---import",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "20508": {
+        "name": "Apparent-energy---export",
+        "description": "Apparent-energy---export",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "20512": {
+        "name": "Apparent-energy---net",
+        "description": "Apparent-energy---net",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "20516": {
+        "name": "Active-energy---import,-CO2-conversion-factor",
+        "description": "Active-energy---import,-CO2-conversion-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kg / kWh",
+        "access": "read"
+    },
+    "20532": {
+        "name": "Active-energy---import,-currency-conversion-factor",
+        "description": "Active-energy---import,-currency-conversion-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "Currency / kWh",
+        "access": "read"
+    },
+    "20848": {
+        "name": "Active-energy---import-(Tariffs),-1",
+        "description": "Active-energy---import-(Tariffs),-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20852": {
+        "name": "Active-energy---import-(Tariffs),-2",
+        "description": "Active-energy---import-(Tariffs),-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20856": {
+        "name": "Active-energy---import-(Tariffs),-3",
+        "description": "Active-energy---import-(Tariffs),-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20860": {
+        "name": "Active-energy---import-(Tariffs),-4",
+        "description": "Active-energy---import-(Tariffs),-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20864": {
+        "name": "Active-energy---import-(Tariffs),-5",
+        "description": "Active-energy---import-(Tariffs),-5",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20868": {
+        "name": "Active-energy---import-(Tariffs),-6",
+        "description": "Active-energy---import-(Tariffs),-6",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20880": {
+        "name": "Active-energy---export-(Tariffs),-1",
+        "description": "Active-energy---export-(Tariffs),-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20884": {
+        "name": "Active-energy---export-(Tariffs),-2",
+        "description": "Active-energy---export-(Tariffs),-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20888": {
+        "name": "Active-energy---export-(Tariffs),-3",
+        "description": "Active-energy---export-(Tariffs),-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20892": {
+        "name": "Active-energy---export-(Tariffs),-4",
+        "description": "Active-energy---export-(Tariffs),-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20896": {
+        "name": "Active-energy---export-(Tariffs),-5",
+        "description": "Active-energy---export-(Tariffs),-5",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20900": {
+        "name": "Active-energy---export-(Tariffs),-6",
+        "description": "Active-energy---export-(Tariffs),-6",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20912": {
+        "name": "Reactive-energy---import-(Tariffs),-1",
+        "description": "Reactive-energy---import-(Tariffs),-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20916": {
+        "name": "Reactive-energy---import-(Tariffs),-2",
+        "description": "Reactive-energy---import-(Tariffs),-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20920": {
+        "name": "Reactive-energy---import-(Tariffs),-3",
+        "description": "Reactive-energy---import-(Tariffs),-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20924": {
+        "name": "Reactive-energy---import-(Tariffs),-4",
+        "description": "Reactive-energy---import-(Tariffs),-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20928": {
+        "name": "Reactive-energy---import-(Tariffs),-5",
+        "description": "Reactive-energy---import-(Tariffs),-5",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20932": {
+        "name": "Reactive-energy---import-(Tariffs),-6",
+        "description": "Reactive-energy---import-(Tariffs),-6",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20944": {
+        "name": "Reactive-energy---export-(Tariffs),-1",
+        "description": "Reactive-energy---export-(Tariffs),-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20948": {
+        "name": "Reactive-energy---export-(Tariffs),-2",
+        "description": "Reactive-energy---export-(Tariffs),-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20952": {
+        "name": "Reactive-energy---export-(Tariffs),-3",
+        "description": "Reactive-energy---export-(Tariffs),-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20956": {
+        "name": "Reactive-energy---export-(Tariffs),-4",
+        "description": "Reactive-energy---export-(Tariffs),-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20960": {
+        "name": "Reactive-energy---export-(Tariffs),-5",
+        "description": "Reactive-energy---export-(Tariffs),-5",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20964": {
+        "name": "Reactive-energy---export-(Tariffs),-6",
+        "description": "Reactive-energy---export-(Tariffs),-6",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "21600": {
+        "name": "Active-energy---import,-L1",
+        "description": "Active-energy---import,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "21604": {
+        "name": "Active-energy---import,-L2",
+        "description": "Active-energy---import,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "21608": {
+        "name": "Active-energy---import,-L3",
+        "description": "Active-energy---import,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "21612": {
+        "name": "Active-energy---export,-L1",
+        "description": "Active-energy---export,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "21616": {
+        "name": "Active-energy---export,-L2",
+        "description": "Active-energy---export,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "21620": {
+        "name": "Active-energy---export,-L3",
+        "description": "Active-energy---export,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "21624": {
+        "name": "Active-energy---net,-L1",
+        "description": "Active-energy---net,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "21628": {
+        "name": "Active-energy---net,-L2",
+        "description": "Active-energy---net,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "21632": {
+        "name": "Active-energy---net,-L3",
+        "description": "Active-energy---net,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "21636": {
+        "name": "Reactive-energy---import,-L1",
+        "description": "Reactive-energy---import,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "21640": {
+        "name": "Reactive-energy---import,-L2",
+        "description": "Reactive-energy---import,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "21644": {
+        "name": "Reactive-energy---import,-L3",
+        "description": "Reactive-energy---import,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "21648": {
+        "name": "Reactive-energy---export,-L1",
+        "description": "Reactive-energy---export,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "21652": {
+        "name": "Reactive-energy---export,-L2",
+        "description": "Reactive-energy---export,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "21656": {
+        "name": "Reactive-energy---export,-L3",
+        "description": "Reactive-energy---export,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    }
+}

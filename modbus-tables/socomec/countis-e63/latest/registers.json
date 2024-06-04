@@ -1,0 +1,510 @@
+{
+    "50000": {
+        "name": "Product-name",
+        "description": "Product-name",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 8
+    },
+    "50004": {
+        "name": "Product-order-ID-(Countis:100,-protection:200,-atys:300,-diris:400)",
+        "description": "Product-order-ID-(Countis:100,-protection:200,-atys:300,-diris:400)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "50005": {
+        "name": "Product-ID",
+        "description": "Product-ID",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "50007": {
+        "name": "Product-software-version",
+        "description": "Product-software-version",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "50018": {
+        "name": "Product-version-(Major)",
+        "description": "Product-version-(Major)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "50019": {
+        "name": "Product-version-(Minor)",
+        "description": "Product-version-(Minor)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "50020": {
+        "name": "Product-version-(Revision)",
+        "description": "Product-version-(Revision)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "50021": {
+        "name": "Product-version-(Build)",
+        "description": "Product-version-(Build)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "50025": {
+        "name": "Software-technical-base-version-(Major)",
+        "description": "Software-technical-base-version-(Major)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "50026": {
+        "name": "Software-technical-base-version-(Minor)",
+        "description": "Software-technical-base-version-(Minor)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "50027": {
+        "name": "Software-technical-base-version-(Revision)",
+        "description": "Software-technical-base-version-(Revision)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "50028": {
+        "name": "Customization-version-(Major)",
+        "description": "Customization-version-(Major)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "50029": {
+        "name": "Customization-version-(Minor)",
+        "description": "Customization-version-(Minor)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "50030": {
+        "name": "Product-VLO",
+        "description": "Product-VLO",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 8
+    },
+    "50034": {
+        "name": "Customization-VLO",
+        "description": "Customization-VLO",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 8
+    },
+    "50038": {
+        "name": "Software-technical-base-VLO",
+        "description": "Software-technical-base-VLO",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 8
+    },
+    "50042": {
+        "name": "Vendor-name",
+        "description": "Vendor-name",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 16
+    },
+    "50050": {
+        "name": "Product-name",
+        "description": "Product-name",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 16
+    },
+    "50058": {
+        "name": "Extended-name",
+        "description": "Extended-name",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 16
+    },
+    "38912": {
+        "name": "Communication-board-version-(Major)",
+        "description": "Communication-board-version-(Major)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "38913": {
+        "name": "Communication-board-version-(Minor)",
+        "description": "Communication-board-version-(Minor)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "38914": {
+        "name": "Communication-board-version-(Revision)",
+        "description": "Communication-board-version-(Revision)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "38915": {
+        "name": "Communication-board-version-(Build)",
+        "description": "Communication-board-version-(Build)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "38919": {
+        "name": "Communication-board-VLO",
+        "description": "Communication-board-VLO",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 8
+    },
+    "57346": {
+        "name": "Current-transformer-primary",
+        "description": "Current-transformer-primary",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "57355": {
+        "name": "Synchronisation-top-for-P+/--Q+/-:-time-in-seconds-(-2mn,-5mn,-8mn,-10mn,-15mn,-20mn,-30mn,-60mn)",
+        "description": "Synchronisation-top-for-P+/--Q+/-:-time-in-seconds-(-2mn,-5mn,-8mn,-10mn,-15mn,-20mn,-30mn,-60mn)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "57602": {
+        "name": "Year",
+        "description": "Year",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "50770": {
+        "name": "Total-positive-active-energy-(no-resetable):-ea+",
+        "description": "Total-positive-active-energy-(no-resetable):-ea+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "50780": {
+        "name": "Partial-positive-active-energy:-ea+",
+        "description": "Partial-positive-active-energy:-ea+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "50514": {
+        "name": "Phase-to-phase-voltage:-U12",
+        "description": "Phase-to-phase-voltage:-U12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "50516": {
+        "name": "Phase-to-phase-voltage:-U23",
+        "description": "Phase-to-phase-voltage:-U23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "50518": {
+        "name": "Phase-to-phase-voltage:-U31",
+        "description": "Phase-to-phase-voltage:-U31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "50520": {
+        "name": "Simple-voltage:-V1",
+        "description": "Simple-voltage:-V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "50522": {
+        "name": "Simple-voltage:-V2",
+        "description": "Simple-voltage:-V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "50524": {
+        "name": "Simple-voltage:-V3",
+        "description": "Simple-voltage:-V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "50526": {
+        "name": "Frequency:-F",
+        "description": "Frequency:-F",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "50528": {
+        "name": "Current:-I1",
+        "description": "Current:-I1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "50530": {
+        "name": "Current:-I2",
+        "description": "Current:-I2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "50532": {
+        "name": "Current:-I3",
+        "description": "Current:-I3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "50536": {
+        "name": "Active-power-+/-:-P",
+        "description": "Active-power-+/-:-P",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "50540": {
+        "name": "Apparent-power:-S",
+        "description": "Apparent-power:-S",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "50542": {
+        "name": "Power-factor:--:-leading-et-+:-lagging:-PF",
+        "description": "Power-factor:--:-leading-et-+:-lagging:-PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "50544": {
+        "name": "Active-power-phase-1-+/-:-P1",
+        "description": "Active-power-phase-1-+/-:-P1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "50546": {
+        "name": "Active-power-phase-2-+/-:-P2",
+        "description": "Active-power-phase-2-+/-:-P2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "50548": {
+        "name": "Active-power-phase-3-+/-:-P3",
+        "description": "Active-power-phase-3-+/-:-P3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "50556": {
+        "name": "Apparent-power-phase-1:-S1",
+        "description": "Apparent-power-phase-1:-S1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "50558": {
+        "name": "Apparent-power-phase-2:-S2",
+        "description": "Apparent-power-phase-2:-S2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "50560": {
+        "name": "Apparent-power-phase-3:-S3",
+        "description": "Apparent-power-phase-3:-S3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "50562": {
+        "name": "Power-factor-phase-1--:-leading-and-+:-lagging:-PF1",
+        "description": "Power-factor-phase-1--:-leading-and-+:-lagging:-PF1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "50564": {
+        "name": "Power-factor-phase-2--:-leading-and-+:-lagging:-PF2",
+        "description": "Power-factor-phase-2--:-leading-and-+:-lagging:-PF2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    }
+}

@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "A",
+        "description": "A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Ampere",
+        "access": "read"
+    },
+    "4": {
+        "name": "W",
+        "description": "W",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "6": {
+        "name": "VA",
+        "description": "VA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "8": {
+        "name": "Var",
+        "description": "Var",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "10": {
+        "name": "W-dmd",
+        "description": "W-dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "12": {
+        "name": "W-dmd-peak",
+        "description": "W-dmd-peak",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "14": {
+        "name": "PF",
+        "description": "PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "PF",
+        "access": "read"
+    },
+    "15": {
+        "name": "Hz",
+        "description": "Hz",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "16": {
+        "name": "kWh-(+)-TOT",
+        "description": "kWh-(+)-TOT",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "18": {
+        "name": "Kvarh-(+)-TOT",
+        "description": "Kvarh-(+)-TOT",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20": {
+        "name": "kWh-(+)-PARTIAL",
+        "description": "kWh-(+)-PARTIAL",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "22": {
+        "name": "Kvarh-(+)-PARTIAL",
+        "description": "Kvarh-(+)-PARTIAL",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "24": {
+        "name": "kWh-(+)-T1",
+        "description": "kWh-(+)-T1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "26": {
+        "name": "kWh-(+)-T2",
+        "description": "kWh-(+)-T2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "32": {
+        "name": "kWh-(-)-TOT",
+        "description": "kWh-(-)-TOT",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "34": {
+        "name": "Kvarh-(-)-TOT",
+        "description": "Kvarh-(-)-TOT",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "44": {
+        "name": "Hour-counter",
+        "description": "Hour-counter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "hours",
+        "access": "read"
+    },
+    "256": {
+        "name": "A",
+        "description": "A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Ampere",
+        "access": "read"
+    },
+    "258": {
+        "name": "V-L-N",
+        "description": "V-L-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "262": {
+        "name": "W",
+        "description": "W",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "264": {
+        "name": "VA",
+        "description": "VA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "266": {
+        "name": "Var",
+        "description": "Var",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "268": {
+        "name": "PF",
+        "description": "PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "PF",
+        "access": "read"
+    },
+    "272": {
+        "name": "Hz",
+        "description": "Hz",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "274": {
+        "name": "kWh-(+)-TOT",
+        "description": "kWh-(+)-TOT",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "276": {
+        "name": "Kvarh-(+)-TOT",
+        "description": "Kvarh-(+)-TOT",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "278": {
+        "name": "kWh-(-)-TOT",
+        "description": "kWh-(-)-TOT",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "280": {
+        "name": "Kvarh-(-)-TOT",
+        "description": "Kvarh-(-)-TOT",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "282": {
+        "name": "kW-dmd",
+        "description": "kW-dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "284": {
+        "name": "kW-dmd-peak",
+        "description": "kW-dmd-peak",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "328": {
+        "name": "kWh-(+)-PARTIAL",
+        "description": "kWh-(+)-PARTIAL",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "330": {
+        "name": "Kvarh-(+)-PARTIAL",
+        "description": "Kvarh-(+)-PARTIAL",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "338": {
+        "name": "kWh-(+)-T1",
+        "description": "kWh-(+)-T1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "340": {
+        "name": "kWh-(+)-T2",
+        "description": "kWh-(+)-T2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1024": {
+        "name": "kWh-(+)-TOT-INTeger-part",
+        "description": "kWh-(+)-TOT-INTeger-part",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1026": {
+        "name": "kWh-(+)-TOT-DECimal-part",
+        "description": "kWh-(+)-TOT-DECimal-part",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1028": {
+        "name": "Kvarh-(+)-TOT-INTeger-part",
+        "description": "Kvarh-(+)-TOT-INTeger-part",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "1030": {
+        "name": "Kvarh-(+)-TOT-DECimal-part",
+        "description": "Kvarh-(+)-TOT-DECimal-part",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "1032": {
+        "name": "kWh-(-)-TOT-INTeger-part",
+        "description": "kWh-(-)-TOT-INTeger-part",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "1034": {
+        "name": "kWh-(-)-TOT-DECimal-part",
+        "description": "kWh-(-)-TOT-DECimal-part",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1036": {
+        "name": "Kvarh-(-)-TOT-INTeger-part",
+        "description": "Kvarh-(-)-TOT-INTeger-part",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "1038": {
+        "name": "Kvarh-(-)-TOT-DECimal-part",
+        "description": "Kvarh-(-)-TOT-DECimal-part",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "1280": {
+        "name": "kWh-(+)-TOT",
+        "description": "kWh-(+)-TOT",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "",
+        "access": "read"
+    },
+    "1284": {
+        "name": "Kvarh-(+)-TOT",
+        "description": "Kvarh-(+)-TOT",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "",
+        "access": "read"
+    },
+    "1288": {
+        "name": "kWh-(+)-partial",
+        "description": "kWh-(+)-partial",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "",
+        "access": "read"
+    },
+    "1292": {
+        "name": "Kvarh-(+)-partial",
+        "description": "Kvarh-(+)-partial",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "",
+        "access": "read"
+    },
+    "1308": {
+        "name": "kWh-(-)-TOT",
+        "description": "kWh-(-)-TOT",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "",
+        "access": "read"
+    },
+    "1312": {
+        "name": "kWh-(-)-partial",
+        "description": "kWh-(-)-partial",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "",
+        "access": "read"
+    },
+    "1316": {
+        "name": "Kvarh-(-)-TOT",
+        "description": "Kvarh-(-)-TOT",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "",
+        "access": "read"
+    },
+    "1320": {
+        "name": "Kvarh-(-)-partial",
+        "description": "Kvarh-(-)-partial",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "",
+        "access": "read"
+    }
+}

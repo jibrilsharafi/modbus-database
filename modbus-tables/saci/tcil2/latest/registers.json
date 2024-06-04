@@ -1,0 +1,502 @@
+{
+    "86": {
+        "name": "Total-power-factor",
+        "description": "Total-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "88": {
+        "name": "Grid-frequency",
+        "description": "Grid-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "96": {
+        "name": "Average-value-of-three-phase-voltages",
+        "description": "Average-value-of-three-phase-voltages",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "98": {
+        "name": "Average-value-of-three-line-voltages",
+        "description": "Average-value-of-three-line-voltages",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "100": {
+        "name": "Average-value-of-three-phase-currents",
+        "description": "Average-value-of-three-phase-currents",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "102": {
+        "name": "EP+",
+        "description": "EP+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "104": {
+        "name": "EP-",
+        "description": "EP-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "112": {
+        "name": "EQ+",
+        "description": "EQ+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "114": {
+        "name": "EQ-",
+        "description": "EQ-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "116": {
+        "name": "Apparent-energy",
+        "description": "Apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "118": {
+        "name": "Trip-energy",
+        "description": "Trip-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWh",
+        "access": "read"
+    },
+    "120": {
+        "name": "First-quadrant-reactive-energy-EQL+",
+        "description": "First-quadrant-reactive-energy-EQL+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "128": {
+        "name": "Second-quadrant-reactive-energy-EQC+",
+        "description": "Second-quadrant-reactive-energy-EQC+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "130": {
+        "name": "Third-quadrant-reactive-energy-EQL-",
+        "description": "Third-quadrant-reactive-energy-EQL-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "132": {
+        "name": "Four-quadrant-reactive-energy-EQC-",
+        "description": "Four-quadrant-reactive-energy-EQC-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "134": {
+        "name": "Import-active-energy[total",
+        "description": "Import-active-energy[total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "136": {
+        "name": "Import-active-energy[tip",
+        "description": "Import-active-energy[tip",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "144": {
+        "name": "Import-active-energy[peak",
+        "description": "Import-active-energy[peak",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "146": {
+        "name": "Import-active-energy[flat",
+        "description": "Import-active-energy[flat",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "148": {
+        "name": "Import-active-energy[valley",
+        "description": "Import-active-energy[valley",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "150": {
+        "name": "Export-active-energy[total",
+        "description": "Export-active-energy[total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "152": {
+        "name": "Export-active-energy[tip",
+        "description": "Export-active-energy[tip",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "256": {
+        "name": "Export-active-energy[peak",
+        "description": "Export-active-energy[peak",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "258": {
+        "name": "Export-active-energy[flat",
+        "description": "Export-active-energy[flat",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "260": {
+        "name": "Export-active-energy[valley",
+        "description": "Export-active-energy[valley",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "262": {
+        "name": "Import-active-energy-of-this-month[total",
+        "description": "Import-active-energy-of-this-month[total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "264": {
+        "name": "Import-active-energy-of-this-month[tip",
+        "description": "Import-active-energy-of-this-month[tip",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "272": {
+        "name": "Import-active-energy-of-this-month[peak",
+        "description": "Import-active-energy-of-this-month[peak",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "274": {
+        "name": "Import-active-energy-of-this-month[flat",
+        "description": "Import-active-energy-of-this-month[flat",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "276": {
+        "name": "Import-active-energy-of-this-month[valley",
+        "description": "Import-active-energy-of-this-month[valley",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "278": {
+        "name": "Export-active-energy-of-this-month[total",
+        "description": "Export-active-energy-of-this-month[total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "280": {
+        "name": "Export-active-energy-of-this-month[tip",
+        "description": "Export-active-energy-of-this-month[tip",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "288": {
+        "name": "Export-active-energy-of-this-month[peak",
+        "description": "Export-active-energy-of-this-month[peak",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "290": {
+        "name": "Export-active-energy-of-this-month[flat",
+        "description": "Export-active-energy-of-this-month[flat",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "292": {
+        "name": "Export-active-energy-of-this-month[valley",
+        "description": "Export-active-energy-of-this-month[valley",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "294": {
+        "name": "Import-active-energy-of-last-month[total",
+        "description": "Import-active-energy-of-last-month[total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "296": {
+        "name": "Import-active-energy-of-last-month[tip",
+        "description": "Import-active-energy-of-last-month[tip",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "304": {
+        "name": "Import-active-energy-of-last-month[peak",
+        "description": "Import-active-energy-of-last-month[peak",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "306": {
+        "name": "Import-active-energy-of-last-month[flat",
+        "description": "Import-active-energy-of-last-month[flat",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "308": {
+        "name": "Import-active-energy-of-last-month[valley",
+        "description": "Import-active-energy-of-last-month[valley",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "310": {
+        "name": "Export-active-energy-of-last-month[total",
+        "description": "Export-active-energy-of-last-month[total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "312": {
+        "name": "Export-active-energy-of-last-month[tip",
+        "description": "Export-active-energy-of-last-month[tip",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "320": {
+        "name": "Export-active-energy-of-last-month[peak",
+        "description": "Export-active-energy-of-last-month[peak",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "322": {
+        "name": "Export-active-energy-of-last-month[flat",
+        "description": "Export-active-energy-of-last-month[flat",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "324": {
+        "name": "Export-active-energy-of-last-month[valley",
+        "description": "Export-active-energy-of-last-month[valley",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "326": {
+        "name": "Import-active-energy-two-month-before[total",
+        "description": "Import-active-energy-two-month-before[total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "328": {
+        "name": "Import-active-energy-two-month-before[tip",
+        "description": "Import-active-energy-two-month-before[tip",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "336": {
+        "name": "Import-active-energy-two-month-before[peak",
+        "description": "Import-active-energy-two-month-before[peak",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "338": {
+        "name": "Import-active-energy-two-month-before[flat",
+        "description": "Import-active-energy-two-month-before[flat",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "340": {
+        "name": "Import-active-energy-two-month-before[valley",
+        "description": "Import-active-energy-two-month-before[valley",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    }
+}

@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "Voltage-line-2",
+        "description": "Voltage-line-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4": {
+        "name": "Voltage-line-3",
+        "description": "Voltage-line-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "6": {
+        "name": "Voltage-between-line-1-and-line-2",
+        "description": "Voltage-between-line-1-and-line-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "8": {
+        "name": "Voltage-between-line-2-and-line-3",
+        "description": "Voltage-between-line-2-and-line-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "10": {
+        "name": "Voltage-between-line-3-and-line-1",
+        "description": "Voltage-between-line-3-and-line-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12": {
+        "name": "Current-in-line-1",
+        "description": "Current-in-line-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "14": {
+        "name": "Current-in-line-2",
+        "description": "Current-in-line-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16": {
+        "name": "Current-in-line-3",
+        "description": "Current-in-line-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "18": {
+        "name": "Active-power-line-1",
+        "description": "Active-power-line-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "20": {
+        "name": "Active-power-line-2",
+        "description": "Active-power-line-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "22": {
+        "name": "Active-power-line-3",
+        "description": "Active-power-line-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "watt",
+        "access": "read"
+    },
+    "24": {
+        "name": "Combined-active-power-line-1+2-+3",
+        "description": "Combined-active-power-line-1+2-+3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "watt",
+        "access": "read"
+    },
+    "26": {
+        "name": "Apparent-power-line-1",
+        "description": "Apparent-power-line-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "28": {
+        "name": "Apparent-power-line-2",
+        "description": "Apparent-power-line-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "30": {
+        "name": "Apparent-power-line-3",
+        "description": "Apparent-power-line-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "32": {
+        "name": "Combined-apparent-power-line-1+2+3",
+        "description": "Combined-apparent-power-line-1+2+3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "34": {
+        "name": "Reactive-power-line-1",
+        "description": "Reactive-power-line-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "36": {
+        "name": "Reactive-power-line-2",
+        "description": "Reactive-power-line-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "38": {
+        "name": "Reactive-power-line-3",
+        "description": "Reactive-power-line-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "40": {
+        "name": "Combined-reactive-power-line-1+2+3",
+        "description": "Combined-reactive-power-line-1+2+3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "42": {
+        "name": "Power-factor-line-1",
+        "description": "Power-factor-line-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "PF",
+        "access": "read"
+    },
+    "44": {
+        "name": "Power-factor-line-2",
+        "description": "Power-factor-line-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "PF",
+        "access": "read"
+    },
+    "46": {
+        "name": "Power-factor-line-3",
+        "description": "Power-factor-line-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "PF",
+        "access": "read"
+    },
+    "48": {
+        "name": "Combined-power-factor-for-line-1+2+3",
+        "description": "Combined-power-factor-for-line-1+2+3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "50": {
+        "name": "Frequency-line-1",
+        "description": "Frequency-line-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hrz",
+        "access": "read"
+    },
+    "52": {
+        "name": "Frequency-line-2",
+        "description": "Frequency-line-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hrz",
+        "access": "read"
+    },
+    "54": {
+        "name": "Frequency-line-3",
+        "description": "Frequency-line-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hrz",
+        "access": "read"
+    },
+    "56": {
+        "name": "Current-neutral-line",
+        "description": "Current-neutral-line",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "58": {
+        "name": "Power-factor-line-1",
+        "description": "Power-factor-line-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "L and C",
+        "access": "read"
+    },
+    "60": {
+        "name": "Power-factor-line-2",
+        "description": "Power-factor-line-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "L and C",
+        "access": "read"
+    },
+    "62": {
+        "name": "Power-factor-line-3",
+        "description": "Power-factor-line-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "L and C",
+        "access": "read"
+    },
+    "64": {
+        "name": "Combined-power-factor-for-line-1+2+3",
+        "description": "Combined-power-factor-for-line-1+2+3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "L and C",
+        "access": "read"
+    },
+    "66": {
+        "name": "Total-current-in-line-1+2+3",
+        "description": "Total-current-in-line-1+2+3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "76": {
+        "name": "Tou-(taoz)-rate",
+        "description": "Tou-(taoz)-rate",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "78": {
+        "name": "Active-total-energy",
+        "description": "Active-total-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "80": {
+        "name": "Reactive-total-energy",
+        "description": "Reactive-total-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VARh",
+        "access": "read"
+    },
+    "82": {
+        "name": "Apparent-total-energy",
+        "description": "Apparent-total-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Vah",
+        "access": "read"
+    },
+    "84": {
+        "name": "Date-time",
+        "description": "Date-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Win Format",
+        "access": "read"
+    },
+    "86": {
+        "name": "Time-from-01-01-2000-in-seconds",
+        "description": "Time-from-01-01-2000-in-seconds",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "88": {
+        "name": "Address",
+        "description": "Address",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "90": {
+        "name": "Baud-rate",
+        "description": "Baud-rate",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "92": {
+        "name": "Parity",
+        "description": "Parity",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "94": {
+        "name": "Current-transformer-ratio",
+        "description": "Current-transformer-ratio",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "96": {
+        "name": "Timed-average-voltage",
+        "description": "Timed-average-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "98": {
+        "name": "Timed-average-current",
+        "description": "Timed-average-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "100": {
+        "name": "Timed-average-power",
+        "description": "Timed-average-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "102": {
+        "name": "Timed-avaerge-frequqncy",
+        "description": "Timed-avaerge-frequqncy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "104": {
+        "name": "Thd-for-volts-line-1",
+        "description": "Thd-for-volts-line-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "106": {
+        "name": "Thd-for-volts-line-2",
+        "description": "Thd-for-volts-line-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "108": {
+        "name": "Thd-for-volts-line-3",
+        "description": "Thd-for-volts-line-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    }
+}

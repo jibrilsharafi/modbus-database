@@ -1,0 +1,11 @@
+{
+    "manufacturer": "abb",
+    "model": "uno-dm-plus",
+    "description": "",
+    "version": "",
+    "url": "https://www.aggsoft.com/serial-data-logger/tutorials/modbus-data-logging/abb-uno-dm-plus.htm",
+    "tags": {
+        "industry": "Unknown",
+        "application": "Unknown"
+    }
+}

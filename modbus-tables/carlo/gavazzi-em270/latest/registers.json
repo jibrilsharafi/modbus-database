@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "V-L2-N",
+        "description": "V-L2-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "4": {
+        "name": "V-L3-N",
+        "description": "V-L3-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "6": {
+        "name": "V-L1-L2",
+        "description": "V-L1-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "8": {
+        "name": "V-L2-L3",
+        "description": "V-L2-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "10": {
+        "name": "V-L3-L1",
+        "description": "V-L3-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "12": {
+        "name": "A-L1",
+        "description": "A-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "14": {
+        "name": "A-L2",
+        "description": "A-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "16": {
+        "name": "A-L3",
+        "description": "A-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "18": {
+        "name": "W",
+        "description": "W",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "20": {
+        "name": "Va",
+        "description": "Va",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "22": {
+        "name": "Var",
+        "description": "Var",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "24": {
+        "name": "Kwh(+)tot",
+        "description": "Kwh(+)tot",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "26": {
+        "name": "Kvarh(+)tot",
+        "description": "Kvarh(+)tot",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "28": {
+        "name": "W-dmd",
+        "description": "W-dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "30": {
+        "name": "Va-dmd",
+        "description": "Va-dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "32": {
+        "name": "W-maxdmd",
+        "description": "W-maxdmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "34": {
+        "name": "Va-maxdmd",
+        "description": "Va-maxdmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "268": {
+        "name": "A-L1-tcda",
+        "description": "A-L1-tcda",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "270": {
+        "name": "A-L2-tcda",
+        "description": "A-L2-tcda",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "272": {
+        "name": "A-L3-tcda",
+        "description": "A-L3-tcda",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "274": {
+        "name": "W-L1-tcda",
+        "description": "W-L1-tcda",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "276": {
+        "name": "W-L2-tcda",
+        "description": "W-L2-tcda",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "278": {
+        "name": "W-L3-tcda",
+        "description": "W-L3-tcda",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "280": {
+        "name": "W-tot-tcda",
+        "description": "W-tot-tcda",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "282": {
+        "name": "Va-tot-tcda",
+        "description": "Va-tot-tcda",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "284": {
+        "name": "Var-tot-tcda",
+        "description": "Var-tot-tcda",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "286": {
+        "name": "Kwh(+)tcda-tot",
+        "description": "Kwh(+)tcda-tot",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "288": {
+        "name": "Kvarh-(+)tcda-tot",
+        "description": "Kvarh-(+)tcda-tot",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "290": {
+        "name": "W-tot-tcda-dmd",
+        "description": "W-tot-tcda-dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "292": {
+        "name": "Va-tot-tcda-dmd",
+        "description": "Va-tot-tcda-dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "294": {
+        "name": "W-tot-tcda-maxdmd",
+        "description": "W-tot-tcda-maxdmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "296": {
+        "name": "Va-tot-tcda-maxdmd",
+        "description": "Va-tot-tcda-maxdmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "298": {
+        "name": "Kwh(+)-L1-tcda",
+        "description": "Kwh(+)-L1-tcda",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "300": {
+        "name": "Kwh(+)-L2-tcda",
+        "description": "Kwh(+)-L2-tcda",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "302": {
+        "name": "Kwh(+)-L3-tcda",
+        "description": "Kwh(+)-L3-tcda",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "304": {
+        "name": "W-L1-tcda-dmd",
+        "description": "W-L1-tcda-dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "306": {
+        "name": "W-L2-tcda-dmd",
+        "description": "W-L2-tcda-dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "308": {
+        "name": "W-L3-tcda-dmd",
+        "description": "W-L3-tcda-dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "310": {
+        "name": "W-L1-tcda-maxdmd",
+        "description": "W-L1-tcda-maxdmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "312": {
+        "name": "W-L2-tcda-maxdmd",
+        "description": "W-L2-tcda-maxdmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "314": {
+        "name": "W-L3-tcda-maxdmd",
+        "description": "W-L3-tcda-maxdmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "524": {
+        "name": "A-L1-tcdb",
+        "description": "A-L1-tcdb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "526": {
+        "name": "A-L2-tcdb",
+        "description": "A-L2-tcdb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "528": {
+        "name": "A-L3-tcdb",
+        "description": "A-L3-tcdb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "530": {
+        "name": "W-L1-tcdb",
+        "description": "W-L1-tcdb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "532": {
+        "name": "W-L2-tcdb",
+        "description": "W-L2-tcdb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "534": {
+        "name": "W-L3-tcdb",
+        "description": "W-L3-tcdb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "536": {
+        "name": "W-tot-tcdb",
+        "description": "W-tot-tcdb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "538": {
+        "name": "Va-tot-tcdb",
+        "description": "Va-tot-tcdb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "540": {
+        "name": "Var-tot-tcdb",
+        "description": "Var-tot-tcdb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    }
+}

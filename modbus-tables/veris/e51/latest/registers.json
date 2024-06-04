@@ -1,0 +1,502 @@
+{
+    "1": {
+        "name": "Real-energy-(diet-import-export)",
+        "description": "Real-energy-(diet-import-export)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "3": {
+        "name": "Real-energy-(Q1-4-import)",
+        "description": "Real-energy-(Q1-4-import)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "5": {
+        "name": "Real-energy-(Q2-3-import)",
+        "description": "Real-energy-(Q2-3-import)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "7": {
+        "name": "Reactive-energy-Q1",
+        "description": "Reactive-energy-Q1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "9": {
+        "name": "Reactive-energy-Q2",
+        "description": "Reactive-energy-Q2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "11": {
+        "name": "Reactive-energy-Q3",
+        "description": "Reactive-energy-Q3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "13": {
+        "name": "Reactive-energy-Q4",
+        "description": "Reactive-energy-Q4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "15": {
+        "name": "Apparent-energy:-net-(import-export)",
+        "description": "Apparent-energy:-net-(import-export)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "17": {
+        "name": "Apparent:-Q1-4-import",
+        "description": "Apparent:-Q1-4-import",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "19": {
+        "name": "Apparent:-Q2-3-import",
+        "description": "Apparent:-Q2-3-import",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "21": {
+        "name": "Total-instantaneous-real-power",
+        "description": "Total-instantaneous-real-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "22": {
+        "name": "Total-instantaneous-reactive-power",
+        "description": "Total-instantaneous-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "23": {
+        "name": "Total-instantaneous-apparent-power",
+        "description": "Total-instantaneous-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "KVA",
+        "access": "read"
+    },
+    "24": {
+        "name": "Total-power-factor-(total-kw-/total-kva)",
+        "description": "Total-power-factor-(total-kw-/total-kva)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Ratio",
+        "access": "read"
+    },
+    "25": {
+        "name": "Voltage-L-L,-average-of-active-phases",
+        "description": "Voltage-L-L,-average-of-active-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "yolt",
+        "access": "read"
+    },
+    "27": {
+        "name": "Current,-average-of-active-phases",
+        "description": "Current,-average-of-active-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "28": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "29": {
+        "name": "Total-real-power-present-demand",
+        "description": "Total-real-power-present-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "30": {
+        "name": "Total-reactive-power-present-demand",
+        "description": "Total-reactive-power-present-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "31": {
+        "name": "Total-apparent-power-present-demand",
+        "description": "Total-apparent-power-present-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "KVA",
+        "access": "read"
+    },
+    "32": {
+        "name": "Total-real-power-max.-demand",
+        "description": "Total-real-power-max.-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "33": {
+        "name": "Total-reactive-power-max.-demand",
+        "description": "Total-reactive-power-max.-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "34": {
+        "name": "Total-apparent-power-max.-demand",
+        "description": "Total-apparent-power-max.-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "KVA",
+        "access": "read"
+    },
+    "35": {
+        "name": "Total-real-power-max.-demand",
+        "description": "Total-real-power-max.-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "36": {
+        "name": "Total-reactive-power-max.-demand",
+        "description": "Total-reactive-power-max.-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "37": {
+        "name": "Total-apparent-power-max.-demand",
+        "description": "Total-apparent-power-max.-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "KVA",
+        "access": "read"
+    },
+    "39": {
+        "name": "Pulse-counter-1-(import-real-energy)",
+        "description": "Pulse-counter-1-(import-real-energy)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "41": {
+        "name": "Pulse-counter-2-(export-real-energy)",
+        "description": "Pulse-counter-2-(export-real-energy)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "43": {
+        "name": "Accumulated-real-energy,-phase-A",
+        "description": "Accumulated-real-energy,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "45": {
+        "name": "Accumulated-real-energy,-phase-B",
+        "description": "Accumulated-real-energy,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "47": {
+        "name": "Accumulated-real-energy,-phase-C",
+        "description": "Accumulated-real-energy,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "49": {
+        "name": "Accumulated-real-energy,-phase-A",
+        "description": "Accumulated-real-energy,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "51": {
+        "name": "Accumulated-real-energy,-phase-B",
+        "description": "Accumulated-real-energy,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "53": {
+        "name": "Accumulated-real-energy,-phase-C",
+        "description": "Accumulated-real-energy,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "55": {
+        "name": "Accumulated-Q1-reactive-energy-phase-A",
+        "description": "Accumulated-Q1-reactive-energy-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "57": {
+        "name": "Accumulated-Q1-reactive-energy-phase-B",
+        "description": "Accumulated-Q1-reactive-energy-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "59": {
+        "name": "Accumulated-Q1-reactive-energy-phase-C",
+        "description": "Accumulated-Q1-reactive-energy-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "61": {
+        "name": "Accumulated-Q2-reactive-energy-phase-A",
+        "description": "Accumulated-Q2-reactive-energy-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "63": {
+        "name": "Accumulated-Q2-reactive-energy-phase-B",
+        "description": "Accumulated-Q2-reactive-energy-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "65": {
+        "name": "Accumulated-Q2-reactive-energy-phase-C",
+        "description": "Accumulated-Q2-reactive-energy-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "67": {
+        "name": "Accumulated-Q3-reactive-energy-phase-A",
+        "description": "Accumulated-Q3-reactive-energy-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "69": {
+        "name": "Accumulated-Q3-reactive-energy-phase-B",
+        "description": "Accumulated-Q3-reactive-energy-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "71": {
+        "name": "Accumulated-Q3-reactive-energy-phase-C",
+        "description": "Accumulated-Q3-reactive-energy-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "73": {
+        "name": "Accumulated-Q4-reactive-energy-phase-A",
+        "description": "Accumulated-Q4-reactive-energy-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kYARh",
+        "access": "read"
+    },
+    "75": {
+        "name": "Accumulated-Q4-reactive-energy-phase-B",
+        "description": "Accumulated-Q4-reactive-energy-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "77": {
+        "name": "Accumulated-Q4-reactive-energy-phase-C",
+        "description": "Accumulated-Q4-reactive-energy-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "79": {
+        "name": "Accumulated-apparent-energy,-phase-A",
+        "description": "Accumulated-apparent-energy,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "81": {
+        "name": "Accumulated-apparent-energy,-phase-B",
+        "description": "Accumulated-apparent-energy,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kYAh",
+        "access": "read"
+    },
+    "83": {
+        "name": "Accumulated-apparent-energy,-phase-C",
+        "description": "Accumulated-apparent-energy,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kYAh",
+        "access": "read"
+    },
+    "85": {
+        "name": "Accumulated-apparent-energy,-phase-A",
+        "description": "Accumulated-apparent-energy,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kYAh",
+        "access": "read"
+    }
+}

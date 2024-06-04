@@ -1,0 +1,502 @@
+{
+    "1536": {
+        "name": "Frequency-F",
+        "description": "Frequency-F",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1538": {
+        "name": "Phase-voltage-v1",
+        "description": "Phase-voltage-v1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1540": {
+        "name": "Phase-voltage-v2",
+        "description": "Phase-voltage-v2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1542": {
+        "name": "Phase-voltage-v3",
+        "description": "Phase-voltage-v3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1544": {
+        "name": "Line-voltage-v12",
+        "description": "Line-voltage-v12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1546": {
+        "name": "Line-voltage-v23",
+        "description": "Line-voltage-v23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1548": {
+        "name": "Line-voltage-v31",
+        "description": "Line-voltage-v31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1550": {
+        "name": "Phase-(line)-current-i1",
+        "description": "Phase-(line)-current-i1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1552": {
+        "name": "Phase-(line)-current-i2",
+        "description": "Phase-(line)-current-i2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1554": {
+        "name": "Phase-(line)-current-i3",
+        "description": "Phase-(line)-current-i3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1556": {
+        "name": "Neutral-line-current-in",
+        "description": "Neutral-line-current-in",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1558": {
+        "name": "Phase-power-pa",
+        "description": "Phase-power-pa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1560": {
+        "name": "Phase-power-pb",
+        "description": "Phase-power-pb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1562": {
+        "name": "Phase-power-pc",
+        "description": "Phase-power-pc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1564": {
+        "name": "System-power-psum",
+        "description": "System-power-psum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1566": {
+        "name": "Phase-reactive-power-qa",
+        "description": "Phase-reactive-power-qa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1568": {
+        "name": "Phase-reactive-power-qb",
+        "description": "Phase-reactive-power-qb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1570": {
+        "name": "Phase-reactive-power-qc",
+        "description": "Phase-reactive-power-qc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1572": {
+        "name": "System-reactive-power",
+        "description": "System-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1574": {
+        "name": "System-apparent-ssum",
+        "description": "System-apparent-ssum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1576": {
+        "name": "Phase-power-factor-PFa",
+        "description": "Phase-power-factor-PFa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1578": {
+        "name": "Phase-power-factor-PFb",
+        "description": "Phase-power-factor-PFb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1580": {
+        "name": "Phase-power-factor-PFc",
+        "description": "Phase-power-factor-PFc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1582": {
+        "name": "System-power-PFsum",
+        "description": "System-power-PFsum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1584": {
+        "name": "Voltage-unbalance-factor",
+        "description": "Voltage-unbalance-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1586": {
+        "name": "Current-unbalance-factor",
+        "description": "Current-unbalance-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1590": {
+        "name": "Phase-apparent-power-sa",
+        "description": "Phase-apparent-power-sa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1592": {
+        "name": "Phase-apparent-power-sb",
+        "description": "Phase-apparent-power-sb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1594": {
+        "name": "Phase-apparent-power-sc",
+        "description": "Phase-apparent-power-sc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1598": {
+        "name": "Apparent-power-demand",
+        "description": "Apparent-power-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1600": {
+        "name": "Power-demand-P_Dmd",
+        "description": "Power-demand-P_Dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1602": {
+        "name": "Reactive-power-demand",
+        "description": "Reactive-power-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1604": {
+        "name": "Phase-A-current-demand",
+        "description": "Phase-A-current-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1606": {
+        "name": "Phase-A-current-demand",
+        "description": "Phase-A-current-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1608": {
+        "name": "Phase-C-current-demand",
+        "description": "Phase-C-current-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1024": {
+        "name": "Total-harmonic-distortion-of-v1-or-v12",
+        "description": "Total-harmonic-distortion-of-v1-or-v12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1025": {
+        "name": "Total-harmonic-distortion-of-v2-or-v23",
+        "description": "Total-harmonic-distortion-of-v2-or-v23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1026": {
+        "name": "Total-harmonic-distortion-of-v3-or-v31",
+        "description": "Total-harmonic-distortion-of-v3-or-v31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1027": {
+        "name": "Total-harmonic-distortion-of-i1-THD_-i1",
+        "description": "Total-harmonic-distortion-of-i1-THD_-i1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1028": {
+        "name": "Total-harmonic-distortion-of-i2-THD_-i2",
+        "description": "Total-harmonic-distortion-of-i2-THD_-i2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1029": {
+        "name": "Total-harmonic-distortion-of-i3-THD_-i3",
+        "description": "Total-harmonic-distortion-of-i3-THD_-i3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "342": {
+        "name": "Import-energy-ep-imp",
+        "description": "Import-energy-ep-imp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "344": {
+        "name": "Export-energy-ep-exp",
+        "description": "Export-energy-ep-exp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "346": {
+        "name": "Import-reactive-energy-eq-imp",
+        "description": "Import-reactive-energy-eq-imp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "348": {
+        "name": "Export-reactive-energy-eq-exp",
+        "description": "Export-reactive-energy-eq-exp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "350": {
+        "name": "Apparent-energy-es",
+        "description": "Apparent-energy-es",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "352": {
+        "name": "Phase-A-import-energy-ep-imp",
+        "description": "Phase-A-import-energy-ep-imp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "354": {
+        "name": "Phase-A-export-energy-ep_exp",
+        "description": "Phase-A-export-energy-ep_exp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "356": {
+        "name": "Phase-B-import-energy-ep_imp",
+        "description": "Phase-B-import-energy-ep_imp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "358": {
+        "name": "Phase-B-export-energy-ep_exp",
+        "description": "Phase-B-export-energy-ep_exp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    }
+}

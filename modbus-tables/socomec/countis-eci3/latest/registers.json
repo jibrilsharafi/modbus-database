@@ -1,0 +1,505 @@
+{
+    "38020": {
+        "name": "Input-1-absolute-value",
+        "description": "Input-1-absolute-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "38023": {
+        "name": "Input-2-absolute-value",
+        "description": "Input-2-absolute-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "38027": {
+        "name": "Input-1-value-for-0mA",
+        "description": "Input-1-value-for-0mA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "38029": {
+        "name": "Input-1-value-for-20mA",
+        "description": "Input-1-value-for-20mA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "38033": {
+        "name": "Input-2-value-for-0mA",
+        "description": "Input-2-value-for-0mA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "38035": {
+        "name": "Input-2-value-for-20mA",
+        "description": "Input-2-value-for-20mA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "39170": {
+        "name": "Integration-period",
+        "description": "Integration-period",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39172": {
+        "name": "Numerator-rate",
+        "description": "Numerator-rate",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39173": {
+        "name": "Denominator-rate",
+        "description": "Denominator-rate",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39177": {
+        "name": "Value-without-CT*VT-rate",
+        "description": "Value-without-CT*VT-rate",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39314": {
+        "name": "Integration-period",
+        "description": "Integration-period",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39316": {
+        "name": "Numerator-rate",
+        "description": "Numerator-rate",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39317": {
+        "name": "Denominator-rate",
+        "description": "Denominator-rate",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39321": {
+        "name": "Value-without-CT*VT-rate",
+        "description": "Value-without-CT*VT-rate",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39936": {
+        "name": "Name",
+        "description": "Name",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 10
+    },
+    "39941": {
+        "name": "Mode:-0:-disabled-1:-0-20mA-2:-4-20mA",
+        "description": "Mode:-0:-disabled-1:-0-20mA-2:-4-20mA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39942": {
+        "name": "Unit:-0:-A-1:-V-2:-W-3:-kW-4:-VAR-5:-kVAR-6:-VA-7:-kVA-8:-C-9:-F-10:-mbar-11:-bar-12:-custom-unit",
+        "description": "Unit:-0:-A-1:-V-2:-W-3:-kW-4:-VAR-5:-kVAR-6:-VA-7:-kVA-8:-C-9:-F-10:-mbar-11:-bar-12:-custom-unit",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39943": {
+        "name": "Integration-time",
+        "description": "Integration-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39944": {
+        "name": "Synchro-type:-0:-RTC-1:-external",
+        "description": "Synchro-type:-0:-RTC-1:-external",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39945": {
+        "name": "X_Pt1",
+        "description": "X_Pt1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39946": {
+        "name": "Y_Pt1",
+        "description": "Y_Pt1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "39948": {
+        "name": "X_Pt2",
+        "description": "X_Pt2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39949": {
+        "name": "Y_Pt2",
+        "description": "Y_Pt2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "39951": {
+        "name": "X_Pt3",
+        "description": "X_Pt3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39952": {
+        "name": "Y_Pt3",
+        "description": "Y_Pt3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "39954": {
+        "name": "X_Pt4",
+        "description": "X_Pt4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39955": {
+        "name": "Y_Pt4",
+        "description": "Y_Pt4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "39957": {
+        "name": "X_Pt5",
+        "description": "X_Pt5",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39958": {
+        "name": "Y_Pt5",
+        "description": "Y_Pt5",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "39960": {
+        "name": "Name",
+        "description": "Name",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 10
+    },
+    "39965": {
+        "name": "Mode:-0:-disabled-1:-0-20mA-2:-4-20mA",
+        "description": "Mode:-0:-disabled-1:-0-20mA-2:-4-20mA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39966": {
+        "name": "Unit:-0:-A-1:-V-2:-W-3:-kW-4:-VAR-5:-kVAR-6:-VA-7:-kVA-8:-C-9:-F-10:-mbar-11:-bar-12:-custom-unit",
+        "description": "Unit:-0:-A-1:-V-2:-W-3:-kW-4:-VAR-5:-kVAR-6:-VA-7:-kVA-8:-C-9:-F-10:-mbar-11:-bar-12:-custom-unit",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39967": {
+        "name": "Integration-time",
+        "description": "Integration-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39968": {
+        "name": "Synchro-type:-0:-RTC-1:-external",
+        "description": "Synchro-type:-0:-RTC-1:-external",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39969": {
+        "name": "X_Pt1",
+        "description": "X_Pt1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39970": {
+        "name": "Y_Pt1",
+        "description": "Y_Pt1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "39972": {
+        "name": "X_Pt2",
+        "description": "X_Pt2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39973": {
+        "name": "Y_Pt2",
+        "description": "Y_Pt2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "39975": {
+        "name": "X_Pt3",
+        "description": "X_Pt3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39976": {
+        "name": "Y_Pt3",
+        "description": "Y_Pt3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "39978": {
+        "name": "X_Pt4",
+        "description": "X_Pt4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39979": {
+        "name": "Y_Pt4",
+        "description": "Y_Pt4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "39981": {
+        "name": "X_Pt5",
+        "description": "X_Pt5",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39982": {
+        "name": "Y_Pt5",
+        "description": "Y_Pt5",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "39869": {
+        "name": "Load-curves-base-integration-time",
+        "description": "Load-curves-base-integration-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39872": {
+        "name": "External-synchro-type:-0:-disabled-1:-input-7-2:-COM",
+        "description": "External-synchro-type:-0:-disabled-1:-input-7-2:-COM",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39873": {
+        "name": "External-synchro-period",
+        "description": "External-synchro-period",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39874": {
+        "name": "Currency-unit:-0:-euro-1:-US-dollar-2:-GB-pound-3:-yuan-4:-other",
+        "description": "Currency-unit:-0:-euro-1:-US-dollar-2:-GB-pound-3:-yuan-4:-other",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "37072": {
+        "name": "Label-of-custom-unit",
+        "description": "Label-of-custom-unit",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 4
+    },
+    "45058": {
+        "name": "Save-context-count",
+        "description": "Save-context-count",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    }
+}

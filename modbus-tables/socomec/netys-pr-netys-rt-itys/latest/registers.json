@@ -1,0 +1,502 @@
+{
+    "96": {
+        "name": "Broadcast,-load-phase-1-(M00)",
+        "description": "Broadcast,-load-phase-1-(M00)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "99": {
+        "name": "Broadcast,-total-load-(M03)",
+        "description": "Broadcast,-total-load-(M03)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "100": {
+        "name": "Broadcast,-battery-capacity-(M04)",
+        "description": "Broadcast,-battery-capacity-(M04)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "102": {
+        "name": "Broadcast,-auxiliary-mains-star-voltage-v1-(M06)",
+        "description": "Broadcast,-auxiliary-mains-star-voltage-v1-(M06)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "105": {
+        "name": "Broadcast,-output-star-voltage-v1-(M09)",
+        "description": "Broadcast,-output-star-voltage-v1-(M09)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "111": {
+        "name": "Broadcast,-output-current-phase-l1-(M15)",
+        "description": "Broadcast,-output-current-phase-l1-(M15)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "114": {
+        "name": "Broadcast,-auxiliary-frequency-(M18)",
+        "description": "Broadcast,-auxiliary-frequency-(M18)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "115": {
+        "name": "Broadcast,-output-frequency-(M19)",
+        "description": "Broadcast,-output-frequency-(M19)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "116": {
+        "name": "Broadcast,-positive-battery-voltage-(M20)",
+        "description": "Broadcast,-positive-battery-voltage-(M20)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "118": {
+        "name": "Broadcast,-internal-UPS-temperature-(M22)",
+        "description": "Broadcast,-internal-UPS-temperature-(M22)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "DC",
+        "access": "read"
+    },
+    "119": {
+        "name": "Broadcast,-remaining-back-up-time-(M23)",
+        "description": "Broadcast,-remaining-back-up-time-(M23)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Minutes",
+        "access": "read"
+    },
+    "129": {
+        "name": "Broadcast,-input-mains-star-voltage-v1-(M33)",
+        "description": "Broadcast,-input-mains-star-voltage-v1-(M33)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "4192": {
+        "name": "Concentrator,-load-phase-1-(M00)",
+        "description": "Concentrator,-load-phase-1-(M00)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "4195": {
+        "name": "Concentrator,-total-load-(M03)",
+        "description": "Concentrator,-total-load-(M03)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "4196": {
+        "name": "Concentrator,-battery-capacity-(M04)",
+        "description": "Concentrator,-battery-capacity-(M04)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "4198": {
+        "name": "Concentrator,-auxiliary-mains-star-voltage-v1-(M06)",
+        "description": "Concentrator,-auxiliary-mains-star-voltage-v1-(M06)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "4201": {
+        "name": "Concentrator,-output-star-voltage-v1-(M09)",
+        "description": "Concentrator,-output-star-voltage-v1-(M09)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "4207": {
+        "name": "Concentrator,-output-current-phase-l1-(M15)",
+        "description": "Concentrator,-output-current-phase-l1-(M15)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "4210": {
+        "name": "Concentrator,-auxiliary-frequency-(M18)",
+        "description": "Concentrator,-auxiliary-frequency-(M18)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "4211": {
+        "name": "Concentrator,-output-frequency-(M19)",
+        "description": "Concentrator,-output-frequency-(M19)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "4212": {
+        "name": "Concentrator,-positive-battery-voltage-(M20)",
+        "description": "Concentrator,-positive-battery-voltage-(M20)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "4214": {
+        "name": "Concentrator,-internal-UPS-temperature-(M22)",
+        "description": "Concentrator,-internal-UPS-temperature-(M22)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "DC",
+        "access": "read"
+    },
+    "4215": {
+        "name": "Concentrator,-remaining-back-up-time-(M23)",
+        "description": "Concentrator,-remaining-back-up-time-(M23)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Minutes",
+        "access": "read"
+    },
+    "4225": {
+        "name": "Concentrator,-input-mains-star-voltage-v1-(M33)",
+        "description": "Concentrator,-input-mains-star-voltage-v1-(M33)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "8288": {
+        "name": "Module-1,-load-phase-1-(M00)",
+        "description": "Module-1,-load-phase-1-(M00)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "8291": {
+        "name": "Module-1,-total-load-(M03)",
+        "description": "Module-1,-total-load-(M03)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "8292": {
+        "name": "Module-1,-battery-capacity-(M04)",
+        "description": "Module-1,-battery-capacity-(M04)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "8294": {
+        "name": "Module-1,-auxiliary-mains-star-voltage-v1-(M06)",
+        "description": "Module-1,-auxiliary-mains-star-voltage-v1-(M06)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "8297": {
+        "name": "Module-1,-output-star-voltage-v1-(M09)",
+        "description": "Module-1,-output-star-voltage-v1-(M09)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "8303": {
+        "name": "Module-1,-output-current-phase-l1-(M15)",
+        "description": "Module-1,-output-current-phase-l1-(M15)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "8306": {
+        "name": "Module-1,-auxiliary-frequency-(M18)",
+        "description": "Module-1,-auxiliary-frequency-(M18)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "8307": {
+        "name": "Module-1,-output-frequency-(M19)",
+        "description": "Module-1,-output-frequency-(M19)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "8308": {
+        "name": "Module-1,-positive-battery-voltage-(M20)",
+        "description": "Module-1,-positive-battery-voltage-(M20)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "8310": {
+        "name": "Module-1,-internal-UPS-temperature-(M22)",
+        "description": "Module-1,-internal-UPS-temperature-(M22)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "DC",
+        "access": "read"
+    },
+    "8311": {
+        "name": "Module-1,-remaining-back-up-time-(M23)",
+        "description": "Module-1,-remaining-back-up-time-(M23)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Minutes",
+        "access": "read"
+    },
+    "8321": {
+        "name": "Module-1,-input-mains-star-voltage-v1-(M33)",
+        "description": "Module-1,-input-mains-star-voltage-v1-(M33)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "12384": {
+        "name": "Module-2,-load-phase-1-(M00)",
+        "description": "Module-2,-load-phase-1-(M00)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "12387": {
+        "name": "Module-2,-total-load-(M03)",
+        "description": "Module-2,-total-load-(M03)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "12388": {
+        "name": "Module-2,-battery-capacity-(M04)",
+        "description": "Module-2,-battery-capacity-(M04)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "12390": {
+        "name": "Module-2,-auxiliary-mains-star-voltage-v1-(M06)",
+        "description": "Module-2,-auxiliary-mains-star-voltage-v1-(M06)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "12393": {
+        "name": "Module-2,-output-star-voltage-v1-(M09)",
+        "description": "Module-2,-output-star-voltage-v1-(M09)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "12399": {
+        "name": "Module-2,-output-current-phase-l1-(M15)",
+        "description": "Module-2,-output-current-phase-l1-(M15)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "12402": {
+        "name": "Module-2,-auxiliary-frequency-(M18)",
+        "description": "Module-2,-auxiliary-frequency-(M18)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "12403": {
+        "name": "Module-2,-output-frequency-(M19)",
+        "description": "Module-2,-output-frequency-(M19)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "12404": {
+        "name": "Module-2,-positive-battery-voltage-(M20)",
+        "description": "Module-2,-positive-battery-voltage-(M20)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "12406": {
+        "name": "Module-2,-internal-UPS-temperature-(M22)",
+        "description": "Module-2,-internal-UPS-temperature-(M22)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "DC",
+        "access": "read"
+    },
+    "12407": {
+        "name": "Module-2,-remaining-back-up-time-(M23)",
+        "description": "Module-2,-remaining-back-up-time-(M23)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Minutes",
+        "access": "read"
+    },
+    "12417": {
+        "name": "Module-2,-input-mains-star-voltage-v1-(M33)",
+        "description": "Module-2,-input-mains-star-voltage-v1-(M33)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "16480": {
+        "name": "Module-3,-load-phase-1-(M00)",
+        "description": "Module-3,-load-phase-1-(M00)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "16483": {
+        "name": "Module-3,-total-load-(M03)",
+        "description": "Module-3,-total-load-(M03)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    }
+}

@@ -1,0 +1,502 @@
+{
+    "4000": {
+        "name": "System-total-true-energy",
+        "description": "System-total-true-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4002": {
+        "name": "System-total-true-power",
+        "description": "System-total-true-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4003": {
+        "name": "System-maximum-demand",
+        "description": "System-maximum-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4004": {
+        "name": "Average-power",
+        "description": "Average-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4005": {
+        "name": "System-maximum-instantaneous-kW",
+        "description": "System-maximum-instantaneous-kW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4006": {
+        "name": "System-minimum-instantaneous-kW",
+        "description": "System-minimum-instantaneous-kW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4007": {
+        "name": "System-total-reactive-energy",
+        "description": "System-total-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "4009": {
+        "name": "System-total-reactive-power",
+        "description": "System-total-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "4010": {
+        "name": "System-total-apparent-energy",
+        "description": "System-total-apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "4012": {
+        "name": "System-total-apparent-power",
+        "description": "System-total-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4013": {
+        "name": "System-displacement-power-factor",
+        "description": "System-displacement-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "PF",
+        "access": "read"
+    },
+    "4014": {
+        "name": "System-apparent-power-factor",
+        "description": "System-apparent-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "PF",
+        "access": "read"
+    },
+    "4015": {
+        "name": "Average-of-all-phases",
+        "description": "Average-of-all-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4016": {
+        "name": "Voltage-line-to-line",
+        "description": "Voltage-line-to-line",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "4017": {
+        "name": "Voltage-line-to-neutral",
+        "description": "Voltage-line-to-neutral",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "volts",
+        "access": "read"
+    },
+    "4018": {
+        "name": "Phase-to-phase-voltages,-L1",
+        "description": "Phase-to-phase-voltages,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4019": {
+        "name": "Phase-to-phase-voltages,-L2",
+        "description": "Phase-to-phase-voltages,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4020": {
+        "name": "Phase-to-phase-voltages,-L1",
+        "description": "Phase-to-phase-voltages,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4021": {
+        "name": "Line-frequency",
+        "description": "Line-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "4022": {
+        "name": "Phase-true-energy,-L1",
+        "description": "Phase-true-energy,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4024": {
+        "name": "Phase-true-energy,-L2",
+        "description": "Phase-true-energy,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4026": {
+        "name": "Phase-true-energy,-L3",
+        "description": "Phase-true-energy,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4028": {
+        "name": "Phase-true-powers,-L1",
+        "description": "Phase-true-powers,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4029": {
+        "name": "Phase-true-powers,-L2",
+        "description": "Phase-true-powers,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4030": {
+        "name": "Phase-true-powers,-L3",
+        "description": "Phase-true-powers,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4031": {
+        "name": "Phase-reactive-energy,-L1",
+        "description": "Phase-reactive-energy,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "4033": {
+        "name": "Phase-reactive-energy,-L2",
+        "description": "Phase-reactive-energy,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "4035": {
+        "name": "Phase-reactive-energy,-L3",
+        "description": "Phase-reactive-energy,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "4037": {
+        "name": "Phase-reactive-powers,-L1",
+        "description": "Phase-reactive-powers,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "4038": {
+        "name": "Phase-reactive-powers,-L2",
+        "description": "Phase-reactive-powers,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "4039": {
+        "name": "Phase-reactive-powers,-L3",
+        "description": "Phase-reactive-powers,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "4040": {
+        "name": "Phase-apparent-energy,-L1",
+        "description": "Phase-apparent-energy,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "4042": {
+        "name": "Phase-apparent-energy,-L2",
+        "description": "Phase-apparent-energy,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "4044": {
+        "name": "Phase-apparent-energy,-L3",
+        "description": "Phase-apparent-energy,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "4046": {
+        "name": "Phase-apparent-powers,-L1",
+        "description": "Phase-apparent-powers,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4047": {
+        "name": "Phase-apparent-powers,-L2",
+        "description": "Phase-apparent-powers,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4048": {
+        "name": "Phase-apparent-powers,-L3",
+        "description": "Phase-apparent-powers,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4049": {
+        "name": "Phase-displacement-power-factor,-L1",
+        "description": "Phase-displacement-power-factor,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "PF",
+        "access": "read"
+    },
+    "4050": {
+        "name": "Phase-displacement-power-factor,-L2",
+        "description": "Phase-displacement-power-factor,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "PF",
+        "access": "read"
+    },
+    "4051": {
+        "name": "Phase-displacement-power-factor,-L3",
+        "description": "Phase-displacement-power-factor,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "PF",
+        "access": "read"
+    },
+    "4052": {
+        "name": "Phase-apparent-power-factors,-L1",
+        "description": "Phase-apparent-power-factors,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "PF",
+        "access": "read"
+    },
+    "4053": {
+        "name": "Phase-apparent-power-factors,-L2",
+        "description": "Phase-apparent-power-factors,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "PF",
+        "access": "read"
+    },
+    "4054": {
+        "name": "Phase-apparent-power-factors,-L3",
+        "description": "Phase-apparent-power-factors,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "PF",
+        "access": "read"
+    },
+    "4055": {
+        "name": "Phase-currents,-L1",
+        "description": "Phase-currents,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "4056": {
+        "name": "Phase-currents,-L2",
+        "description": "Phase-currents,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "4057": {
+        "name": "Phase-currents,-L3",
+        "description": "Phase-currents,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "4058": {
+        "name": "Phase-to-neutral-voltages,-L1",
+        "description": "Phase-to-neutral-voltages,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "4059": {
+        "name": "Phase-to-neutral-voltages,-L2",
+        "description": "Phase-to-neutral-voltages,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "4060": {
+        "name": "Phase-to-neutral-voltages,-L3",
+        "description": "Phase-to-neutral-voltages,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "4061": {
+        "name": "Seconds-since-KWH-register-was-reset",
+        "description": "Seconds-since-KWH-register-was-reset",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    }
+}

@@ -1,0 +1,502 @@
+{
+    "4100": {
+        "name": "Firmware-version",
+        "description": "Firmware-version",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4101": {
+        "name": "Range-overflow-alarm",
+        "description": "Range-overflow-alarm",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4102": {
+        "name": "Running-tariff",
+        "description": "Running-tariff",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4103": {
+        "name": "Read-only-not-used-register",
+        "description": "Read-only-not-used-register",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4104": {
+        "name": "PID,-product-identification-bytes-1-and-2",
+        "description": "PID,-product-identification-bytes-1-and-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4105": {
+        "name": "PID-bytes-3-and-4",
+        "description": "PID-bytes-3-and-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4106": {
+        "name": "PID-bytes-5-and-6",
+        "description": "PID-bytes-5-and-6",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4107": {
+        "name": "PID-bytes-7-and-8",
+        "description": "PID-bytes-7-and-8",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4108": {
+        "name": "PID-bytes-9-and-10",
+        "description": "PID-bytes-9-and-10",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4109": {
+        "name": "PID-bytes-11-and-12",
+        "description": "PID-bytes-11-and-12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4110": {
+        "name": "PID-bytes-13-and-14",
+        "description": "PID-bytes-13-and-14",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4118": {
+        "name": "Reset-energy-counters-command",
+        "description": "Reset-energy-counters-command",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4119": {
+        "name": "Active-energy,-L1,-T1,-imported",
+        "description": "Active-energy,-L1,-T1,-imported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4123": {
+        "name": "Active-energy,-L2,-T1,-imported",
+        "description": "Active-energy,-L2,-T1,-imported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4127": {
+        "name": "Active-energy,-L3,-T1,-imported",
+        "description": "Active-energy,-L3,-T1,-imported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4131": {
+        "name": "Active-energy,-sum,-T1,-imported",
+        "description": "Active-energy,-sum,-T1,-imported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4135": {
+        "name": "Active-energy,-L1,-T2,-imported",
+        "description": "Active-energy,-L1,-T2,-imported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4139": {
+        "name": "Active-energy,-L2,-T2,-imported",
+        "description": "Active-energy,-L2,-T2,-imported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4143": {
+        "name": "Active-energy,-L3,-T2,-imported",
+        "description": "Active-energy,-L3,-T2,-imported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4147": {
+        "name": "Active-energy,-sum,-T2,-imported",
+        "description": "Active-energy,-sum,-T2,-imported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4151": {
+        "name": "Active-power,-L1",
+        "description": "Active-power,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4153": {
+        "name": "Active-power,-L2",
+        "description": "Active-power,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4155": {
+        "name": "Active-power,-L3",
+        "description": "Active-power,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4157": {
+        "name": "Active-power,-sum",
+        "description": "Active-power,-sum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4161": {
+        "name": "Active-energy,-L1,-T1,-exported",
+        "description": "Active-energy,-L1,-T1,-exported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4165": {
+        "name": "Active-energy,-L2,-T1,-exported",
+        "description": "Active-energy,-L2,-T1,-exported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4169": {
+        "name": "Active-energy,-L3,-T1,-exported",
+        "description": "Active-energy,-L3,-T1,-exported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4173": {
+        "name": "Active-energy,-sum,-T1,-exported",
+        "description": "Active-energy,-sum,-T1,-exported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4177": {
+        "name": "Active-energy,-L1,-T2,-exported",
+        "description": "Active-energy,-L1,-T2,-exported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4181": {
+        "name": "Active-energy,-L2,-T2,-exported",
+        "description": "Active-energy,-L2,-T2,-exported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4185": {
+        "name": "Active-energy,-L3,-T2,-exported",
+        "description": "Active-energy,-L3,-T2,-exported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4189": {
+        "name": "Active-energy,-sum,-T2,-exported",
+        "description": "Active-energy,-sum,-T2,-exported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4193": {
+        "name": "Reactive-energy,-L1,-T1,-imported",
+        "description": "Reactive-energy,-L1,-T1,-imported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4197": {
+        "name": "Reactive-energy,-L2,-T1,-imported",
+        "description": "Reactive-energy,-L2,-T1,-imported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4201": {
+        "name": "Reactive-energy,-L3,-T1,-imported",
+        "description": "Reactive-energy,-L3,-T1,-imported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4205": {
+        "name": "Reactive-energy,-sum,-T1,-imported",
+        "description": "Reactive-energy,-sum,-T1,-imported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4209": {
+        "name": "Reactive-energy,-L1,-T2,-imported",
+        "description": "Reactive-energy,-L1,-T2,-imported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4213": {
+        "name": "Reactive-energy,-L2,-T2,-imported",
+        "description": "Reactive-energy,-L2,-T2,-imported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4217": {
+        "name": "Reactive-energy,-L3,-T2,-imported",
+        "description": "Reactive-energy,-L3,-T2,-imported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4221": {
+        "name": "Reactive-energy,-sum,-T2,-imported",
+        "description": "Reactive-energy,-sum,-T2,-imported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4225": {
+        "name": "Reactive-energy,-L1,-T1,-exported",
+        "description": "Reactive-energy,-L1,-T1,-exported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4229": {
+        "name": "Reactive-energy,-L2,-T1,-exported",
+        "description": "Reactive-energy,-L2,-T1,-exported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4233": {
+        "name": "Reactive-energy,-L3,-T1,-exported",
+        "description": "Reactive-energy,-L3,-T1,-exported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4237": {
+        "name": "Reactive-energy,-sum,-T1,-exported",
+        "description": "Reactive-energy,-sum,-T1,-exported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4241": {
+        "name": "Reactive-energy,-L1,-T2,-exported",
+        "description": "Reactive-energy,-L1,-T2,-exported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4245": {
+        "name": "Reactive-energy,-L2,-T2,-exported",
+        "description": "Reactive-energy,-L2,-T2,-exported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4249": {
+        "name": "Reactive-energy,-L3,-T2,-exported",
+        "description": "Reactive-energy,-L3,-T2,-exported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4253": {
+        "name": "Reactive-energy,-sum,-T2,-exported",
+        "description": "Reactive-energy,-sum,-T2,-exported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4257": {
+        "name": "Reactive-power,-L1",
+        "description": "Reactive-power,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "4259": {
+        "name": "Reactive-power,-L2",
+        "description": "Reactive-power,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvar",
+        "access": "read"
+    }
+}

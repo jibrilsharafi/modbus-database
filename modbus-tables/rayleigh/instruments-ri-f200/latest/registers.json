@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "Voltage-v2n",
+        "description": "Voltage-v2n",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4": {
+        "name": "Voltage-v3n",
+        "description": "Voltage-v3n",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "6": {
+        "name": "Average-voltage-ln",
+        "description": "Average-voltage-ln",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "8": {
+        "name": "Voltage-V12",
+        "description": "Voltage-V12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "10": {
+        "name": "Voltage-V23",
+        "description": "Voltage-V23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12": {
+        "name": "Voltage-V31",
+        "description": "Voltage-V31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "14": {
+        "name": "Average-voltage-ll",
+        "description": "Average-voltage-ll",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16": {
+        "name": "Current-l1",
+        "description": "Current-l1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "18": {
+        "name": "Current-I2",
+        "description": "Current-I2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "20": {
+        "name": "Current-I3",
+        "description": "Current-I3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "22": {
+        "name": "Average-current",
+        "description": "Average-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "24": {
+        "name": "kW1",
+        "description": "kW1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "26": {
+        "name": "kW2",
+        "description": "kW2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "28": {
+        "name": "kW3",
+        "description": "kW3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "30": {
+        "name": "Kva1",
+        "description": "Kva1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "32": {
+        "name": "Kva2",
+        "description": "Kva2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "34": {
+        "name": "Kva3",
+        "description": "Kva3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "36": {
+        "name": "Kvar1",
+        "description": "Kvar1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "38": {
+        "name": "Kvar2",
+        "description": "Kvar2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40": {
+        "name": "Kvar3",
+        "description": "Kvar3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "42": {
+        "name": "Total-kw",
+        "description": "Total-kw",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "44": {
+        "name": "Total-kva",
+        "description": "Total-kva",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "46": {
+        "name": "Total-kvar",
+        "description": "Total-kvar",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAr",
+        "access": "read"
+    },
+    "48": {
+        "name": "PF1",
+        "description": "PF1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "50": {
+        "name": "PF2",
+        "description": "PF2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "52": {
+        "name": "PF3",
+        "description": "PF3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "54": {
+        "name": "Average-pf",
+        "description": "Average-pf",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "56": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "58": {
+        "name": "Kwh",
+        "description": "Kwh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "60": {
+        "name": "Kvah",
+        "description": "Kvah",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "62": {
+        "name": "Kvarh",
+        "description": "Kvarh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "64": {
+        "name": "Kw-max-active-power",
+        "description": "Kw-max-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "66": {
+        "name": "Kw-min-active-power",
+        "description": "Kw-min-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "68": {
+        "name": "Kvar-max-reactive-power",
+        "description": "Kvar-max-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "70": {
+        "name": "Kvar-min-reactive-power",
+        "description": "Kvar-min-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "72": {
+        "name": "Kva-max-apparent-power",
+        "description": "Kva-max-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "122": {
+        "name": "Neutral-current",
+        "description": "Neutral-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "124": {
+        "name": "Thd-of-voltage-v1n",
+        "description": "Thd-of-voltage-v1n",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "126": {
+        "name": "Thd-of-voltage-v2n",
+        "description": "Thd-of-voltage-v2n",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "128": {
+        "name": "Thd-of-voltage-v3n",
+        "description": "Thd-of-voltage-v3n",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "130": {
+        "name": "Thd-of-voltage-V12",
+        "description": "Thd-of-voltage-V12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "132": {
+        "name": "Thd-of-voltage-V23",
+        "description": "Thd-of-voltage-V23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "134": {
+        "name": "Thd-of-voltage-V31",
+        "description": "Thd-of-voltage-V31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "136": {
+        "name": "Thd-of-current-I1",
+        "description": "Thd-of-current-I1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "138": {
+        "name": "Thd-of-current-l2",
+        "description": "Thd-of-current-l2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "140": {
+        "name": "Thd-of-current-l3",
+        "description": "Thd-of-current-l3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "684": {
+        "name": "Serial-number-of-unit",
+        "description": "Serial-number-of-unit",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "692": {
+        "name": "Max-l1-demand",
+        "description": "Max-l1-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "694": {
+        "name": "Max-l2-demand",
+        "description": "Max-l2-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "696": {
+        "name": "Max-I3-demand",
+        "description": "Max-I3-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    }
+}

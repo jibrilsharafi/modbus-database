@@ -1,0 +1,502 @@
+{
+    "4096": {
+        "name": "Phase-A-voltage",
+        "description": "Phase-A-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4097": {
+        "name": "Phase-B-voltage",
+        "description": "Phase-B-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4098": {
+        "name": "Phase-C-voltage",
+        "description": "Phase-C-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4099": {
+        "name": "Phase-voltage-mean-value",
+        "description": "Phase-voltage-mean-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4100": {
+        "name": "Zero-sequence-voltage",
+        "description": "Zero-sequence-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4101": {
+        "name": "Phase/line-A-current",
+        "description": "Phase/line-A-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4102": {
+        "name": "Phase/line-B-current",
+        "description": "Phase/line-B-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4103": {
+        "name": "Phase/line-C-current",
+        "description": "Phase/line-C-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4104": {
+        "name": "Zero-sequence-phase/line-current",
+        "description": "Zero-sequence-phase/line-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4105": {
+        "name": "Phase-A-active-power",
+        "description": "Phase-A-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4106": {
+        "name": "Phase-B-active-power",
+        "description": "Phase-B-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4107": {
+        "name": "Phase-C-active-power",
+        "description": "Phase-C-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4108": {
+        "name": "Total-three-phase-active-power",
+        "description": "Total-three-phase-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4109": {
+        "name": "Phase-A-reactive-power",
+        "description": "Phase-A-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4110": {
+        "name": "Phase-B-reactive-power",
+        "description": "Phase-B-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4111": {
+        "name": "Phase-C-reactive-power",
+        "description": "Phase-C-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4112": {
+        "name": "Total-three-phase-reactive-power",
+        "description": "Total-three-phase-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4113": {
+        "name": "Phase-A-apparent-power",
+        "description": "Phase-A-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4114": {
+        "name": "Phase-B-apparent-power",
+        "description": "Phase-B-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4115": {
+        "name": "Phase-C-apparent-power",
+        "description": "Phase-C-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4116": {
+        "name": "Total-three-phase-apparent-power",
+        "description": "Total-three-phase-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4117": {
+        "name": "Phase-A-power-factor",
+        "description": "Phase-A-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4118": {
+        "name": "Phase-B-power-factor",
+        "description": "Phase-B-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4119": {
+        "name": "Phase-C-power-factor",
+        "description": "Phase-C-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4120": {
+        "name": "Total-three-phase-power-factor",
+        "description": "Total-three-phase-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4121": {
+        "name": "Phase/line-A-current",
+        "description": "Phase/line-A-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4122": {
+        "name": "Phase/line-B-current",
+        "description": "Phase/line-B-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4123": {
+        "name": "Phase/line-C-current",
+        "description": "Phase/line-C-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4124": {
+        "name": "Zero-sequence-phase/line-current",
+        "description": "Zero-sequence-phase/line-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4125": {
+        "name": "Phase-A-active-power",
+        "description": "Phase-A-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4126": {
+        "name": "Phase-B-active-power",
+        "description": "Phase-B-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4127": {
+        "name": "Phase-C-active-power",
+        "description": "Phase-C-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4128": {
+        "name": "Total-three-phase-active-power",
+        "description": "Total-three-phase-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4129": {
+        "name": "Phase-A-reactive-power",
+        "description": "Phase-A-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4130": {
+        "name": "Phase-B-reactive-power",
+        "description": "Phase-B-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4131": {
+        "name": "Phase-C-reactive-power",
+        "description": "Phase-C-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4132": {
+        "name": "Total-three-phase-reactive-power",
+        "description": "Total-three-phase-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4133": {
+        "name": "Phase-A-apparent-power",
+        "description": "Phase-A-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4134": {
+        "name": "Phase-B-apparent-power",
+        "description": "Phase-B-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4135": {
+        "name": "Phase-C-apparent-power",
+        "description": "Phase-C-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4136": {
+        "name": "Total-three-phase-apparent-power",
+        "description": "Total-three-phase-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4137": {
+        "name": "Phase-A-power-factor",
+        "description": "Phase-A-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4138": {
+        "name": "Phase-B-power-factor",
+        "description": "Phase-B-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4139": {
+        "name": "Phase-C-power-factor",
+        "description": "Phase-C-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4140": {
+        "name": "Total-three-phase-power-factor",
+        "description": "Total-three-phase-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4141": {
+        "name": "Phase/line-A-current",
+        "description": "Phase/line-A-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4142": {
+        "name": "Phase/line-B-current",
+        "description": "Phase/line-B-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4143": {
+        "name": "Phase/line-C-current",
+        "description": "Phase/line-C-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4144": {
+        "name": "Zero-sequence-phase/line-current",
+        "description": "Zero-sequence-phase/line-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4145": {
+        "name": "Phase-A-active-power",
+        "description": "Phase-A-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    }
+}

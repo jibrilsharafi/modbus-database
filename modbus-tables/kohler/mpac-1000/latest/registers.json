@@ -1,0 +1,502 @@
+{
+    "1": {
+        "name": "Sourcea-line-neutral-L1-l0",
+        "description": "Sourcea-line-neutral-L1-l0",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "2": {
+        "name": "Sourcea-line-neutral-L2-l0",
+        "description": "Sourcea-line-neutral-L2-l0",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "3": {
+        "name": "Sourcea-line-neutral-L3-l0",
+        "description": "Sourcea-line-neutral-L3-l0",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "4": {
+        "name": "Sourceb-line-neutral-L1-l0",
+        "description": "Sourceb-line-neutral-L1-l0",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "5": {
+        "name": "Sourceb-line-neutral-L2-l0",
+        "description": "Sourceb-line-neutral-L2-l0",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "6": {
+        "name": "Sourceb-line-neutral-L3-l0",
+        "description": "Sourceb-line-neutral-L3-l0",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "7": {
+        "name": "Sourcea-line-voltage-L1-L2",
+        "description": "Sourcea-line-voltage-L1-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "8": {
+        "name": "Sourcea-line-voltage-L2-L3",
+        "description": "Sourcea-line-voltage-L2-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "9": {
+        "name": "Sourcea-line-voltage-L3-L1",
+        "description": "Sourcea-line-voltage-L3-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "10": {
+        "name": "Sourceb-line-voltage-L1-L2",
+        "description": "Sourceb-line-voltage-L1-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "11": {
+        "name": "Sourceb-line-voltage-L2-L3",
+        "description": "Sourceb-line-voltage-L2-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "12": {
+        "name": "Sourceb-line-voltage-L3-L1",
+        "description": "Sourceb-line-voltage-L3-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "13": {
+        "name": "Sourcea-frequency",
+        "description": "Sourcea-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "14": {
+        "name": "Sourceb-frequency",
+        "description": "Sourceb-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "23": {
+        "name": "Sourcea-nominal-voltage",
+        "description": "Sourcea-nominal-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "24": {
+        "name": "Sourceb-nominal-voltage",
+        "description": "Sourceb-nominal-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "25": {
+        "name": "Sourcea-nominal-frequency",
+        "description": "Sourcea-nominal-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "26": {
+        "name": "Sourceb-nominal-frequency",
+        "description": "Sourceb-nominal-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "27": {
+        "name": "Sourcea-number-of-phases",
+        "description": "Sourcea-number-of-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "1 or 3",
+        "access": "read"
+    },
+    "28": {
+        "name": "Sourceb-number-of-phases",
+        "description": "Sourceb-number-of-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "1 or 3",
+        "access": "read"
+    },
+    "29": {
+        "name": "Rated-amperage",
+        "description": "Rated-amperage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0-4000",
+        "access": "read"
+    },
+    "31": {
+        "name": "Sourcea-engine-start-time-delay-(id-0x0001)",
+        "description": "Sourcea-engine-start-time-delay-(id-0x0001)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0-6 sec",
+        "access": "read"
+    },
+    "32": {
+        "name": "Sourceb-engine-start-time-delay-(id-0x0002)",
+        "description": "Sourceb-engine-start-time-delay-(id-0x0002)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0-6 sec",
+        "access": "read"
+    },
+    "33": {
+        "name": "Sourcea-ext-engine-start-time-delay-(id-0x0003)",
+        "description": "Sourcea-ext-engine-start-time-delay-(id-0x0003)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0-5999 sec",
+        "access": "read"
+    },
+    "34": {
+        "name": "Sourceb-ext-engine-start-time-delay-(id-0x0004)",
+        "description": "Sourceb-ext-engine-start-time-delay-(id-0x0004)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0-5999 sec",
+        "access": "read"
+    },
+    "35": {
+        "name": "Sourcea-engine-cooldown-time-delay-(id-0x0005)",
+        "description": "Sourcea-engine-cooldown-time-delay-(id-0x0005)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0-5999 sec",
+        "access": "read"
+    },
+    "36": {
+        "name": "Sourceb-engine-cooldown-time-delay-(id-0x0006)",
+        "description": "Sourceb-engine-cooldown-time-delay-(id-0x0006)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0-5999 sec",
+        "access": "read"
+    },
+    "37": {
+        "name": "Preferred-to-standby-time-delay-(id-0x0007)",
+        "description": "Preferred-to-standby-time-delay-(id-0x0007)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0-5999 sec",
+        "access": "read"
+    },
+    "38": {
+        "name": "Standby-to-preferred-time-delay-(id-0x0008)",
+        "description": "Standby-to-preferred-time-delay-(id-0x0008)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0-5999 sec",
+        "access": "read"
+    },
+    "39": {
+        "name": "Off-to-preferred-time-delay-(id-0x0009)",
+        "description": "Off-to-preferred-time-delay-(id-0x0009)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0-5999.9 sec",
+        "access": "read"
+    },
+    "40": {
+        "name": "Off-to-standby-time-delay-(id-0x000a)",
+        "description": "Off-to-standby-time-delay-(id-0x000a)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0-5999.9 sec",
+        "access": "read"
+    },
+    "41": {
+        "name": "Acquire-standby-source-(id-0x000b)",
+        "description": "Acquire-standby-source-(id-0x000b)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "1-5999 sec",
+        "access": "read"
+    },
+    "42": {
+        "name": "Inphase-monitor-synch-(id-0x000c)",
+        "description": "Inphase-monitor-synch-(id-0x000c)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "1-5999 sec",
+        "access": "read"
+    },
+    "44": {
+        "name": "Sourcea-over-volt-dropout-trip-point",
+        "description": "Sourcea-over-volt-dropout-trip-point",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "105 - 135) % of rated source voltage",
+        "access": "read"
+    },
+    "45": {
+        "name": "Sourcea-over-volt-pickup-trip-point",
+        "description": "Sourcea-over-volt-pickup-trip-point",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "95 - 100)% of over voltage dropout point",
+        "access": "read"
+    },
+    "46": {
+        "name": "Sourcea-under-volt-pickup-trip-point",
+        "description": "Sourcea-under-volt-pickup-trip-point",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "85 - 100) % of rated source voltage",
+        "access": "read"
+    },
+    "47": {
+        "name": "Sourcea-under-volt-dropout-trip-point",
+        "description": "Sourcea-under-volt-dropout-trip-point",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "75 - 98) % of overvoltage pickup point",
+        "access": "read"
+    },
+    "48": {
+        "name": "Sourcea-voltage-debounce-time",
+        "description": "Sourcea-voltage-debounce-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Sec",
+        "access": "read"
+    },
+    "49": {
+        "name": "Sourceb-over-volt-dropout-trip-point",
+        "description": "Sourceb-over-volt-dropout-trip-point",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "105 - 135) % of rated source voltage",
+        "access": "read"
+    },
+    "50": {
+        "name": "Sourceb-over-volt-pickup-trip-point",
+        "description": "Sourceb-over-volt-pickup-trip-point",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "95 - 100)% of over voltage dropout point",
+        "access": "read"
+    },
+    "51": {
+        "name": "Sourceb-under-volt-pickup-trip-point",
+        "description": "Sourceb-under-volt-pickup-trip-point",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "85 - 100) % of rated source voltage",
+        "access": "read"
+    },
+    "52": {
+        "name": "Sourceb-under-volt-dropout-trip-point",
+        "description": "Sourceb-under-volt-dropout-trip-point",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "75 - 98) % of overvoltage pickup point",
+        "access": "read"
+    },
+    "53": {
+        "name": "Sourceb-voltage-debounce-time",
+        "description": "Sourceb-voltage-debounce-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Sec",
+        "access": "read"
+    },
+    "54": {
+        "name": "Sourcea-over-freq-dropout-trip-point",
+        "description": "Sourcea-over-freq-dropout-trip-point",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "101 -105) % of overfreq pickup point",
+        "access": "read"
+    },
+    "55": {
+        "name": "Sourcea-over-freq-pickup-trip-point",
+        "description": "Sourcea-over-freq-pickup-trip-point",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "105 - 120) % of rated source freq",
+        "access": "read"
+    },
+    "56": {
+        "name": "Sourcea-under-freq-dropout-trip-point",
+        "description": "Sourcea-under-freq-dropout-trip-point",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "95 - 99) % of underfreq pickup point",
+        "access": "read"
+    },
+    "57": {
+        "name": "Sourcea-under-freq-pickup-trip-point",
+        "description": "Sourcea-under-freq-pickup-trip-point",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "80 - 95)% of rated system frequency",
+        "access": "read"
+    },
+    "58": {
+        "name": "Sourcea-freq-dropout-time",
+        "description": "Sourcea-freq-dropout-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Sec",
+        "access": "read"
+    },
+    "59": {
+        "name": "Sourceb-over-freq-dropout-trip-point",
+        "description": "Sourceb-over-freq-dropout-trip-point",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "101 -105) % of overfreq pickup point",
+        "access": "read"
+    },
+    "60": {
+        "name": "Sourceb-over-freq-pickup-trip-point",
+        "description": "Sourceb-over-freq-pickup-trip-point",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "105 - 120) % of rated source freq",
+        "access": "read"
+    }
+}

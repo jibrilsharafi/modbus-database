@@ -1,0 +1,502 @@
+{
+    "134": {
+        "name": "Voltage-A",
+        "description": "Voltage-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "136": {
+        "name": "Voltage-B",
+        "description": "Voltage-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "138": {
+        "name": "Voltage-C",
+        "description": "Voltage-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "140": {
+        "name": "Voltage-3ph",
+        "description": "Voltage-3ph",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "192": {
+        "name": "Voltage-A",
+        "description": "Voltage-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "193": {
+        "name": "Voltage-B",
+        "description": "Voltage-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "194": {
+        "name": "Voltage-C",
+        "description": "Voltage-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "195": {
+        "name": "Voltage-3ph",
+        "description": "Voltage-3ph",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "142": {
+        "name": "Current-A",
+        "description": "Current-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "144": {
+        "name": "Current-B",
+        "description": "Current-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "146": {
+        "name": "Current-C",
+        "description": "Current-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "148": {
+        "name": "Current-3ph",
+        "description": "Current-3ph",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "196": {
+        "name": "Current-A",
+        "description": "Current-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "197": {
+        "name": "Current-B",
+        "description": "Current-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "198": {
+        "name": "Current-C",
+        "description": "Current-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "199": {
+        "name": "Current-3ph",
+        "description": "Current-3ph",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "150": {
+        "name": "Active-pow-A",
+        "description": "Active-pow-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "152": {
+        "name": "Active-pow-B",
+        "description": "Active-pow-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "154": {
+        "name": "Active-pow-C",
+        "description": "Active-pow-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "156": {
+        "name": "Active-pow-3ph",
+        "description": "Active-pow-3ph",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "200": {
+        "name": "Active-pow-A",
+        "description": "Active-pow-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "201": {
+        "name": "Active-pow-B",
+        "description": "Active-pow-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "202": {
+        "name": "Active-pow-C",
+        "description": "Active-pow-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "203": {
+        "name": "Active-pow-3ph",
+        "description": "Active-pow-3ph",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "158": {
+        "name": "Reactive-pow-A",
+        "description": "Reactive-pow-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "160": {
+        "name": "Reactive-pow-B",
+        "description": "Reactive-pow-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "162": {
+        "name": "Reactive-pow-C",
+        "description": "Reactive-pow-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "164": {
+        "name": "Reactive-pow-3-ph",
+        "description": "Reactive-pow-3-ph",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "204": {
+        "name": "Reactive-pow-A",
+        "description": "Reactive-pow-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "205": {
+        "name": "Reactive-pow-B",
+        "description": "Reactive-pow-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "206": {
+        "name": "Reactive-pow-C",
+        "description": "Reactive-pow-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "207": {
+        "name": "Reactive-pow-3-ph",
+        "description": "Reactive-pow-3-ph",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "166": {
+        "name": "Apparent-pow-A",
+        "description": "Apparent-pow-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "168": {
+        "name": "Apparent-pow-B",
+        "description": "Apparent-pow-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "170": {
+        "name": "Apparent-pow-C",
+        "description": "Apparent-pow-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "172": {
+        "name": "Apparent-pow-3-ph",
+        "description": "Apparent-pow-3-ph",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "208": {
+        "name": "Apparent-pow-A",
+        "description": "Apparent-pow-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "209": {
+        "name": "Apparent-pow-B",
+        "description": "Apparent-pow-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "210": {
+        "name": "Apparent-pow-C",
+        "description": "Apparent-pow-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "211": {
+        "name": "Apparent-pow-3-ph",
+        "description": "Apparent-pow-3-ph",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "184": {
+        "name": "Energy-A",
+        "description": "Energy-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "186": {
+        "name": "Energy-B",
+        "description": "Energy-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "188": {
+        "name": "Energy-C",
+        "description": "Energy-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "190": {
+        "name": "Energy-3ph",
+        "description": "Energy-3ph",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "174": {
+        "name": "Cos-A",
+        "description": "Cos-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "176": {
+        "name": "Cos-B",
+        "description": "Cos-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "178": {
+        "name": "Cos-C",
+        "description": "Cos-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "180": {
+        "name": "Cos-3ph",
+        "description": "Cos-3ph",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "212": {
+        "name": "Cos-A",
+        "description": "Cos-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "213": {
+        "name": "Cos-B",
+        "description": "Cos-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    }
+}

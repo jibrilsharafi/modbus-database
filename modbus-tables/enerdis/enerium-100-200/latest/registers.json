@@ -1,0 +1,502 @@
+{
+    "1280": {
+        "name": "V1",
+        "description": "V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "1282": {
+        "name": "V2",
+        "description": "V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "1284": {
+        "name": "V3",
+        "description": "V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "1286": {
+        "name": "Vearth",
+        "description": "Vearth",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "1288": {
+        "name": "U12",
+        "description": "U12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "1290": {
+        "name": "U23",
+        "description": "U23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "1292": {
+        "name": "U31",
+        "description": "U31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "1294": {
+        "name": "I1",
+        "description": "I1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "1296": {
+        "name": "I2",
+        "description": "I2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "1298": {
+        "name": "I3",
+        "description": "I3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "1300": {
+        "name": "In",
+        "description": "In",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "1302": {
+        "name": "P1",
+        "description": "P1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "1304": {
+        "name": "P2",
+        "description": "P2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "1306": {
+        "name": "P3",
+        "description": "P3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "1308": {
+        "name": "P",
+        "description": "P",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "1310": {
+        "name": "Q1",
+        "description": "Q1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "1312": {
+        "name": "Q2",
+        "description": "Q2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "1314": {
+        "name": "Q3",
+        "description": "Q3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "1316": {
+        "name": "Q",
+        "description": "Q",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "1318": {
+        "name": "S1",
+        "description": "S1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "1320": {
+        "name": "S2",
+        "description": "S2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "1322": {
+        "name": "S3",
+        "description": "S3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "1324": {
+        "name": "S",
+        "description": "S",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "1326": {
+        "name": "PF1",
+        "description": "PF1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1327": {
+        "name": "Quadrant,-PF1",
+        "description": "Quadrant,-PF1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1328": {
+        "name": "PF2",
+        "description": "PF2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1329": {
+        "name": "Quadrant,-PF2",
+        "description": "Quadrant,-PF2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1330": {
+        "name": "PF3",
+        "description": "PF3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1331": {
+        "name": "Quadrant,-PF3",
+        "description": "Quadrant,-PF3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1332": {
+        "name": "Pf",
+        "description": "Pf",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1333": {
+        "name": "Quadrant,-pf",
+        "description": "Quadrant,-pf",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1334": {
+        "name": "Cos-phi,-phase-1",
+        "description": "Cos-phi,-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1335": {
+        "name": "Quadrant,-cos-phi,-phase-1",
+        "description": "Quadrant,-cos-phi,-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1336": {
+        "name": "Cos-phi,-phase-2",
+        "description": "Cos-phi,-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1337": {
+        "name": "Quadrant,-cos-phi,-phase-2",
+        "description": "Quadrant,-cos-phi,-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1338": {
+        "name": "Cos-phi,-phase-3",
+        "description": "Cos-phi,-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1339": {
+        "name": "Quadrant,-cos-phi,-phase-3",
+        "description": "Quadrant,-cos-phi,-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1340": {
+        "name": "Cos-phi,-three-phase",
+        "description": "Cos-phi,-three-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1341": {
+        "name": "Quadrant,-cos-phi,-three-phase",
+        "description": "Quadrant,-cos-phi,-three-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1342": {
+        "name": "Crest-factor,-V1",
+        "description": "Crest-factor,-V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1343": {
+        "name": "Crest-factor,-V2",
+        "description": "Crest-factor,-V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1344": {
+        "name": "Crest-factor,-V3",
+        "description": "Crest-factor,-V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1345": {
+        "name": "Crest-factor,-I1",
+        "description": "Crest-factor,-I1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1346": {
+        "name": "Crest-factor,-I2",
+        "description": "Crest-factor,-I2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1347": {
+        "name": "Crest-factor,-I3",
+        "description": "Crest-factor,-I3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1348": {
+        "name": "Unbalance-of-the-voltages",
+        "description": "Unbalance-of-the-voltages",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1349": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "1536": {
+        "name": "Harmonics,-order-by-order,-V1-[0-to-50",
+        "description": "Harmonics,-order-by-order,-V1-[0-to-50",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1587": {
+        "name": "Harmonics,-order-by-order,-V2-[0-to-50",
+        "description": "Harmonics,-order-by-order,-V2-[0-to-50",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1638": {
+        "name": "Harmonics,-order-by-order,-V3-[0-to-50",
+        "description": "Harmonics,-order-by-order,-V3-[0-to-50",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "manufacturer": "siemens",
+    "model": "sem3-dual-phase",
+    "description": "",
+    "version": "",
+    "url": "https://www.aggsoft.com/serial-data-logger/tutorials/modbus-data-logging/siemens-sem3-dual-phase.htm",
+    "tags": {
+        "industry": "Energy",
+        "application": "Energy Metering"
+    }
+}

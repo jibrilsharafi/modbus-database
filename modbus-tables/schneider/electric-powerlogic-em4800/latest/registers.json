@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "Meter-2-WH-delivered",
+        "description": "Meter-2-WH-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "4": {
+        "name": "Meter-3-WH-delivered",
+        "description": "Meter-3-WH-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "6": {
+        "name": "Meter-4-WH-delivered",
+        "description": "Meter-4-WH-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "8": {
+        "name": "Meter-5-WH-delivered",
+        "description": "Meter-5-WH-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "10": {
+        "name": "Meter-6-WH-delivered",
+        "description": "Meter-6-WH-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "12": {
+        "name": "Meter-7-WH-delivered",
+        "description": "Meter-7-WH-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "14": {
+        "name": "Meter-8-WH-delivered",
+        "description": "Meter-8-WH-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "100": {
+        "name": "Meter-1-wh-received",
+        "description": "Meter-1-wh-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "102": {
+        "name": "Meter-2-wh-received",
+        "description": "Meter-2-wh-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "104": {
+        "name": "Meter-3-wh-received",
+        "description": "Meter-3-wh-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "106": {
+        "name": "Meter-4-wh-received",
+        "description": "Meter-4-wh-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "108": {
+        "name": "Meter-5-wh-received",
+        "description": "Meter-5-wh-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "110": {
+        "name": "Meter-6-wh-received",
+        "description": "Meter-6-wh-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "112": {
+        "name": "Meter-7-wh-received",
+        "description": "Meter-7-wh-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "114": {
+        "name": "Meter-8-wh-received",
+        "description": "Meter-8-wh-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "200": {
+        "name": "Meter-1-VARh-delivered",
+        "description": "Meter-1-VARh-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "202": {
+        "name": "Meter-2-VARh-delivered",
+        "description": "Meter-2-VARh-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "204": {
+        "name": "Meter-3-VARh-delivered",
+        "description": "Meter-3-VARh-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "206": {
+        "name": "Meter-4-VARh-delivered",
+        "description": "Meter-4-VARh-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "208": {
+        "name": "Meter-5-VARh-delivered",
+        "description": "Meter-5-VARh-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "210": {
+        "name": "Meter-6-VARh-delivered",
+        "description": "Meter-6-VARh-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "212": {
+        "name": "Meter-7-VARh-delivered",
+        "description": "Meter-7-VARh-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "214": {
+        "name": "Meter-8-VARh-delivered",
+        "description": "Meter-8-VARh-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "300": {
+        "name": "Meter-1-VARh-received",
+        "description": "Meter-1-VARh-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "302": {
+        "name": "Meter-2-VARh-received",
+        "description": "Meter-2-VARh-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "304": {
+        "name": "Meter-3-VARh-received",
+        "description": "Meter-3-VARh-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "306": {
+        "name": "Meter-4-VARh-received",
+        "description": "Meter-4-VARh-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "308": {
+        "name": "Meter-5-VARh-received",
+        "description": "Meter-5-VARh-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "310": {
+        "name": "Meter-6-VARh-received",
+        "description": "Meter-6-VARh-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "312": {
+        "name": "Meter-7-VARh-received",
+        "description": "Meter-7-VARh-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "314": {
+        "name": "Meter-8-VARh-received",
+        "description": "Meter-8-VARh-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "400": {
+        "name": "Meter-1-VAh",
+        "description": "Meter-1-VAh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "402": {
+        "name": "Meter-2-VAh",
+        "description": "Meter-2-VAh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "404": {
+        "name": "Meter-3-VAh",
+        "description": "Meter-3-VAh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "406": {
+        "name": "Meter-4-VAh",
+        "description": "Meter-4-VAh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "408": {
+        "name": "Meter-5-VAh",
+        "description": "Meter-5-VAh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "410": {
+        "name": "Meter-6-VAh",
+        "description": "Meter-6-VAh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "412": {
+        "name": "Meter-7-VAh",
+        "description": "Meter-7-VAh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "414": {
+        "name": "Meter-8-VAh",
+        "description": "Meter-8-VAh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "600": {
+        "name": "Meter-1-watts",
+        "description": "Meter-1-watts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "602": {
+        "name": "Meter-2-watts",
+        "description": "Meter-2-watts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "604": {
+        "name": "Meter-3-watts",
+        "description": "Meter-3-watts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "606": {
+        "name": "Meter-4-watts",
+        "description": "Meter-4-watts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "608": {
+        "name": "Meter-5-watts",
+        "description": "Meter-5-watts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "610": {
+        "name": "Meter-6-watts",
+        "description": "Meter-6-watts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "612": {
+        "name": "Meter-7-watts",
+        "description": "Meter-7-watts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "614": {
+        "name": "Meter-8-watts",
+        "description": "Meter-8-watts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "700": {
+        "name": "Meter-1-VAR",
+        "description": "Meter-1-VAR",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "702": {
+        "name": "Meter-2-VAR",
+        "description": "Meter-2-VAR",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "704": {
+        "name": "Meter-3-VAR",
+        "description": "Meter-3-VAR",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    }
+}

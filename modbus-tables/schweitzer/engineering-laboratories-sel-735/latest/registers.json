@@ -1,0 +1,502 @@
+{
+    "350": {
+        "name": "Ia",
+        "description": "Ia",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "352": {
+        "name": "Ib",
+        "description": "Ib",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "354": {
+        "name": "Ic",
+        "description": "Ic",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "356": {
+        "name": "In",
+        "description": "In",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "358": {
+        "name": "Va",
+        "description": "Va",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "360": {
+        "name": "Vc",
+        "description": "Vc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "362": {
+        "name": "Vb",
+        "description": "Vb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "364": {
+        "name": "Vab",
+        "description": "Vab",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "366": {
+        "name": "Vbc",
+        "description": "Vbc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "368": {
+        "name": "Vca",
+        "description": "Vca",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "370": {
+        "name": "W3",
+        "description": "W3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "372": {
+        "name": "U3",
+        "description": "U3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "374": {
+        "name": "Q3",
+        "description": "Q3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "376": {
+        "name": "Wa",
+        "description": "Wa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "378": {
+        "name": "Wb",
+        "description": "Wb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "380": {
+        "name": "Wc",
+        "description": "Wc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "382": {
+        "name": "Ua",
+        "description": "Ua",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "384": {
+        "name": "Ub",
+        "description": "Ub",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "386": {
+        "name": "Uc",
+        "description": "Uc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "388": {
+        "name": "Qa",
+        "description": "Qa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "390": {
+        "name": "Qb",
+        "description": "Qb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "392": {
+        "name": "Qc",
+        "description": "Qc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "400": {
+        "name": "WD3-del",
+        "description": "WD3-del",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "402": {
+        "name": "WD3-rec",
+        "description": "WD3-rec",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "404": {
+        "name": "UD3-del",
+        "description": "UD3-del",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "406": {
+        "name": "UD3-rec",
+        "description": "UD3-rec",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "408": {
+        "name": "QD3-del",
+        "description": "QD3-del",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "410": {
+        "name": "QD3-rec",
+        "description": "QD3-rec",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "412": {
+        "name": "Ida",
+        "description": "Ida",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "414": {
+        "name": "Idb",
+        "description": "Idb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "416": {
+        "name": "Idc",
+        "description": "Idc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "418": {
+        "name": "Idn",
+        "description": "Idn",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "420": {
+        "name": "3i0d",
+        "description": "3i0d",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "422": {
+        "name": "3i2d",
+        "description": "3i2d",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "424": {
+        "name": "Wda-del",
+        "description": "Wda-del",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "426": {
+        "name": "Wdb-del",
+        "description": "Wdb-del",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "428": {
+        "name": "Wdc-del",
+        "description": "Wdc-del",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "430": {
+        "name": "Wda-rec",
+        "description": "Wda-rec",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "432": {
+        "name": "Wdb-rec",
+        "description": "Wdb-rec",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "434": {
+        "name": "Wdc-rec",
+        "description": "Wdc-rec",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "436": {
+        "name": "Uda-del",
+        "description": "Uda-del",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "438": {
+        "name": "Udb-del",
+        "description": "Udb-del",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "440": {
+        "name": "Udc-del",
+        "description": "Udc-del",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "442": {
+        "name": "Uda-rec",
+        "description": "Uda-rec",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "444": {
+        "name": "Udb-rec",
+        "description": "Udb-rec",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "446": {
+        "name": "Ucd-rec",
+        "description": "Ucd-rec",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "448": {
+        "name": "Qda-del",
+        "description": "Qda-del",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "450": {
+        "name": "Qdb-del",
+        "description": "Qdb-del",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "452": {
+        "name": "Qdc-rec",
+        "description": "Qdc-rec",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "454": {
+        "name": "Qda-rec",
+        "description": "Qda-rec",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    }
+}

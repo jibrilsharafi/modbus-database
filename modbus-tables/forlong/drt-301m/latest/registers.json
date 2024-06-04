@@ -1,0 +1,502 @@
+{
+    "16": {
+        "name": "Voltage-L1",
+        "description": "Voltage-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "18": {
+        "name": "Voltage-L2",
+        "description": "Voltage-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "20": {
+        "name": "Voltage-L3",
+        "description": "Voltage-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "78": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "80": {
+        "name": "Current-L1",
+        "description": "Current-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "82": {
+        "name": "Current-L2",
+        "description": "Current-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "84": {
+        "name": "Current-L3",
+        "description": "Current-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "86": {
+        "name": "Current-neutral",
+        "description": "Current-neutral",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "144": {
+        "name": "Power-L1",
+        "description": "Power-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "146": {
+        "name": "Power-L2",
+        "description": "Power-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "148": {
+        "name": "Power-L3",
+        "description": "Power-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "150": {
+        "name": "Power-total",
+        "description": "Power-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "208": {
+        "name": "Apparent-power-L1",
+        "description": "Apparent-power-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "210": {
+        "name": "Apparent-power-L2",
+        "description": "Apparent-power-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "212": {
+        "name": "Apparent-power-L3",
+        "description": "Apparent-power-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "214": {
+        "name": "Apparent-power-total",
+        "description": "Apparent-power-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "272": {
+        "name": "Reactive-power-L1",
+        "description": "Reactive-power-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "274": {
+        "name": "Reactive-power-L2",
+        "description": "Reactive-power-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "276": {
+        "name": "Reactive-power-L3",
+        "description": "Reactive-power-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "278": {
+        "name": "Reactive-power-total",
+        "description": "Reactive-power-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "336": {
+        "name": "Power-factor-L1",
+        "description": "Power-factor-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "338": {
+        "name": "Power-factor-L2",
+        "description": "Power-factor-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "340": {
+        "name": "Power-factor-L3",
+        "description": "Power-factor-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "342": {
+        "name": "Power-factor-total",
+        "description": "Power-factor-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "352": {
+        "name": "Import-energy",
+        "description": "Import-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "KW",
+        "access": "read"
+    },
+    "358": {
+        "name": "Export-energy",
+        "description": "Export-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "KW",
+        "access": "read"
+    },
+    "2000": {
+        "name": "Import-energy-rate-1",
+        "description": "Import-energy-rate-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "KW",
+        "access": "read"
+    },
+    "2002": {
+        "name": "Import-energy-rate-2",
+        "description": "Import-energy-rate-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "KW",
+        "access": "read"
+    },
+    "2004": {
+        "name": "Import-energy-rate-3",
+        "description": "Import-energy-rate-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "KW",
+        "access": "read"
+    },
+    "2006": {
+        "name": "Import-energy-rate-4",
+        "description": "Import-energy-rate-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "KW",
+        "access": "read"
+    },
+    "2256": {
+        "name": "Export-energy-rate-1",
+        "description": "Export-energy-rate-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "KW",
+        "access": "read"
+    },
+    "2258": {
+        "name": "Export-energy-rate-2",
+        "description": "Export-energy-rate-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "KW",
+        "access": "read"
+    },
+    "2260": {
+        "name": "Export-energy-rate-3",
+        "description": "Export-energy-rate-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "KW",
+        "access": "read"
+    },
+    "2262": {
+        "name": "Export-energy-rate-4",
+        "description": "Export-energy-rate-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "KW",
+        "access": "read"
+    },
+    "61440": {
+        "name": "Time",
+        "description": "Time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read"
+    },
+    "61713": {
+        "name": "Last-1-month-positive-energy,-total",
+        "description": "Last-1-month-positive-energy,-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "61715": {
+        "name": "Last-1-month-positive-energy,-rate-1",
+        "description": "Last-1-month-positive-energy,-rate-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "61717": {
+        "name": "Last-1-month-positive-energy,-rate-2",
+        "description": "Last-1-month-positive-energy,-rate-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "61719": {
+        "name": "Last-1-month-positive-energy,-rate-3",
+        "description": "Last-1-month-positive-energy,-rate-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "61721": {
+        "name": "Last-1-month-positive-energy,-rate-4",
+        "description": "Last-1-month-positive-energy,-rate-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "61729": {
+        "name": "Last-2-month-positive-energy,-total",
+        "description": "Last-2-month-positive-energy,-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "61731": {
+        "name": "Last-2-month-positive-energy,-rate-1",
+        "description": "Last-2-month-positive-energy,-rate-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "61733": {
+        "name": "Last-2-month-positive-energy,-rate-2",
+        "description": "Last-2-month-positive-energy,-rate-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "61735": {
+        "name": "Last-2-month-positive-energy,-rate-3",
+        "description": "Last-2-month-positive-energy,-rate-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "61737": {
+        "name": "Last-2-month-positive-energy,-rate-4",
+        "description": "Last-2-month-positive-energy,-rate-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "61745": {
+        "name": "Last-3-month-positive-energy,-total",
+        "description": "Last-3-month-positive-energy,-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "61747": {
+        "name": "Last-3-month-positive-energy,-rate-1",
+        "description": "Last-3-month-positive-energy,-rate-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "61749": {
+        "name": "Last-3-month-positive-energy,-rate-2",
+        "description": "Last-3-month-positive-energy,-rate-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "61751": {
+        "name": "Last-3-month-positive-energy,-rate-3",
+        "description": "Last-3-month-positive-energy,-rate-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "61753": {
+        "name": "Last-3-month-positive-energy,-rate-4",
+        "description": "Last-3-month-positive-energy,-rate-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    }
+}

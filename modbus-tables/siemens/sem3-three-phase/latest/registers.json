@@ -1,0 +1,502 @@
+{
+    "200": {
+        "name": "Monitor-1-alarm-flags",
+        "description": "Monitor-1-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "201": {
+        "name": "Monitor-2-alarm-flags",
+        "description": "Monitor-2-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "202": {
+        "name": "Monitor-3-alarm-flags",
+        "description": "Monitor-3-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "203": {
+        "name": "Monitor-4-alarm-flags",
+        "description": "Monitor-4-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "204": {
+        "name": "Monitor-5-alarm-flags",
+        "description": "Monitor-5-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "205": {
+        "name": "Monitor-6-alarm-flags",
+        "description": "Monitor-6-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "206": {
+        "name": "Monitor-7-alarm-flags",
+        "description": "Monitor-7-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "207": {
+        "name": "Monitor-8-alarm-flags",
+        "description": "Monitor-8-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "208": {
+        "name": "Monitor-9-alarm-flags",
+        "description": "Monitor-9-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "209": {
+        "name": "Monitor-10-alarm-flags",
+        "description": "Monitor-10-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "210": {
+        "name": "Monitor-11-alarm-flags",
+        "description": "Monitor-11-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "211": {
+        "name": "Monitor-12-alarm-flags",
+        "description": "Monitor-12-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "212": {
+        "name": "Monitor-13-alarm-flags",
+        "description": "Monitor-13-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "213": {
+        "name": "Monitor-14-alarm-flags",
+        "description": "Monitor-14-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "214": {
+        "name": "Monitor-15-alarm-flags",
+        "description": "Monitor-15-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "215": {
+        "name": "Monitor-16-alarm-flags",
+        "description": "Monitor-16-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "216": {
+        "name": "Monitor-17-alarm-flags",
+        "description": "Monitor-17-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "217": {
+        "name": "Monitor-18-alarm-flags",
+        "description": "Monitor-18-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "218": {
+        "name": "Monitor-19-alarm-flags",
+        "description": "Monitor-19-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "219": {
+        "name": "Monitor-20-alarm-flags",
+        "description": "Monitor-20-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "220": {
+        "name": "Monitor-21-alarm-flags",
+        "description": "Monitor-21-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "221": {
+        "name": "Monitor-22-alarm-flags",
+        "description": "Monitor-22-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "222": {
+        "name": "Monitor-23-alarm-flags",
+        "description": "Monitor-23-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "223": {
+        "name": "Monitor-24-alarm-flags",
+        "description": "Monitor-24-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "224": {
+        "name": "Monitor-25-alarm-flags",
+        "description": "Monitor-25-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "225": {
+        "name": "Monitor-26-alarm-flags",
+        "description": "Monitor-26-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "226": {
+        "name": "Monitor-27-alarm-flags",
+        "description": "Monitor-27-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "227": {
+        "name": "Monitor-28-alarm-flags",
+        "description": "Monitor-28-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "228": {
+        "name": "Monitor-29-alarm-flags",
+        "description": "Monitor-29-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "229": {
+        "name": "Monitor-30-alarm-flags",
+        "description": "Monitor-30-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "230": {
+        "name": "Monitor-31-alarm-flags",
+        "description": "Monitor-31-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "231": {
+        "name": "Monitor-32-alarm-flags",
+        "description": "Monitor-32-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "232": {
+        "name": "Monitor-33-alarm-flags",
+        "description": "Monitor-33-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "233": {
+        "name": "Monitor-34-alarm-flags",
+        "description": "Monitor-34-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "234": {
+        "name": "Monitor-35-alarm-flags",
+        "description": "Monitor-35-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "235": {
+        "name": "Monitor-36-alarm-flags",
+        "description": "Monitor-36-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "236": {
+        "name": "Monitor-37-alarm-flags",
+        "description": "Monitor-37-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "237": {
+        "name": "Monitor-38-alarm-flags",
+        "description": "Monitor-38-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "238": {
+        "name": "Monitor-39-alarm-flags",
+        "description": "Monitor-39-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "239": {
+        "name": "Monitor-40-alarm-flags",
+        "description": "Monitor-40-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "240": {
+        "name": "Monitor-41-alarm-flags",
+        "description": "Monitor-41-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "241": {
+        "name": "Monitor-42-alarm-flags",
+        "description": "Monitor-42-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "242": {
+        "name": "Monitor-43-alarm-flags",
+        "description": "Monitor-43-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "243": {
+        "name": "Monitor-44-alarm-flags",
+        "description": "Monitor-44-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "244": {
+        "name": "Monitor-45-alarm-flags",
+        "description": "Monitor-45-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "245": {
+        "name": "Monitor-46-alarm-flags",
+        "description": "Monitor-46-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "246": {
+        "name": "Monitor-47-alarm-flags",
+        "description": "Monitor-47-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "247": {
+        "name": "Monitor-48-alarm-flags",
+        "description": "Monitor-48-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "248": {
+        "name": "Monitor-49-alarm-flags",
+        "description": "Monitor-49-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "249": {
+        "name": "Monitor-50-alarm-flags",
+        "description": "Monitor-50-alarm-flags",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    }
+}

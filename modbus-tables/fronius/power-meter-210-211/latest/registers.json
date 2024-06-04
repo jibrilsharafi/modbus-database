@@ -1,0 +1,507 @@
+{
+    "40005": {
+        "name": "Manufacturer",
+        "description": "Manufacturer",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 32
+    },
+    "40021": {
+        "name": "Device-model",
+        "description": "Device-model",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 32
+    },
+    "40037": {
+        "name": "Options",
+        "description": "Options",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 16
+    },
+    "40045": {
+        "name": "Sw-version-of-meter",
+        "description": "Sw-version-of-meter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 16
+    },
+    "40053": {
+        "name": "Serialnumber-of-the-meter",
+        "description": "Serialnumber-of-the-meter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 32
+    },
+    "40069": {
+        "name": "Modbus-device-address",
+        "description": "Modbus-device-address",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40072": {
+        "name": "Ac-total-current-value",
+        "description": "Ac-total-current-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40074": {
+        "name": "Ac-phase-A-current-value",
+        "description": "Ac-phase-A-current-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40076": {
+        "name": "Ac-phase-B-current-value",
+        "description": "Ac-phase-B-current-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40078": {
+        "name": "Ac-phase-C-current-value",
+        "description": "Ac-phase-C-current-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40080": {
+        "name": "Ac-voltage-average-phase-to-neutral-value",
+        "description": "Ac-voltage-average-phase-to-neutral-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40082": {
+        "name": "Ac-voltage-phase-A-to-neutral-value",
+        "description": "Ac-voltage-phase-A-to-neutral-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40084": {
+        "name": "Ac-voltage-phase-B-to-neutral-value",
+        "description": "Ac-voltage-phase-B-to-neutral-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40086": {
+        "name": "Ac-voltage-phase-C-to-neutral-value",
+        "description": "Ac-voltage-phase-C-to-neutral-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40088": {
+        "name": "Ac-voltage-average-phase-to-phase-value",
+        "description": "Ac-voltage-average-phase-to-phase-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40090": {
+        "name": "Ac-voltage-phase-ab-value",
+        "description": "Ac-voltage-phase-ab-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40092": {
+        "name": "Ac-voltage-phase-bc-value",
+        "description": "Ac-voltage-phase-bc-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40094": {
+        "name": "Ac-voltage-phase-ca-value",
+        "description": "Ac-voltage-phase-ca-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40096": {
+        "name": "Ac-frequency-value",
+        "description": "Ac-frequency-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "40098": {
+        "name": "Ac-power-value",
+        "description": "Ac-power-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40100": {
+        "name": "Ac-power-phase-A-value",
+        "description": "Ac-power-phase-A-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40102": {
+        "name": "Ac-power-phase-B-value",
+        "description": "Ac-power-phase-B-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40104": {
+        "name": "Ac-power-phase-C-value",
+        "description": "Ac-power-phase-C-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40106": {
+        "name": "Ac-apparent-power-value",
+        "description": "Ac-apparent-power-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40108": {
+        "name": "Ac-apparent-power-phase-A-value",
+        "description": "Ac-apparent-power-phase-A-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40110": {
+        "name": "Ac-apparent-power-phase-B-value",
+        "description": "Ac-apparent-power-phase-B-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40112": {
+        "name": "Ac-apparent-power-phase-C-value",
+        "description": "Ac-apparent-power-phase-C-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40114": {
+        "name": "Ac-reactive-power-value",
+        "description": "Ac-reactive-power-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "40116": {
+        "name": "Ac-reactive-power-phase-A-value",
+        "description": "Ac-reactive-power-phase-A-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "40118": {
+        "name": "Ac-reactive-power-phase-B-value",
+        "description": "Ac-reactive-power-phase-B-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "40120": {
+        "name": "Ac-reactive-power-phase-C-value",
+        "description": "Ac-reactive-power-phase-C-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "40122": {
+        "name": "Power-factor-value",
+        "description": "Power-factor-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40124": {
+        "name": "Power-factor-phase-A-value",
+        "description": "Power-factor-phase-A-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40126": {
+        "name": "Power-factor-phase-B-value",
+        "description": "Power-factor-phase-B-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40128": {
+        "name": "Power-factor-phase-C-value",
+        "description": "Power-factor-phase-C-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40130": {
+        "name": "Total-watt-hours-exported",
+        "description": "Total-watt-hours-exported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "40132": {
+        "name": "Total-watt-hours-exported-phase-A",
+        "description": "Total-watt-hours-exported-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "40134": {
+        "name": "Total-watt-hours-exported-phase-B",
+        "description": "Total-watt-hours-exported-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "40136": {
+        "name": "Total-watt-hours-exported-phase-C",
+        "description": "Total-watt-hours-exported-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "40138": {
+        "name": "Total-watt-hours-imported",
+        "description": "Total-watt-hours-imported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "40140": {
+        "name": "Total-watt-hours-imported-phase-A",
+        "description": "Total-watt-hours-imported-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "40142": {
+        "name": "Total-watt-hours-imported-phase-B",
+        "description": "Total-watt-hours-imported-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "40144": {
+        "name": "Total-watt-hours-imported-phase-C",
+        "description": "Total-watt-hours-imported-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "40146": {
+        "name": "Total-va-hours-exported",
+        "description": "Total-va-hours-exported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40148": {
+        "name": "Total-va-hours-exported-phase-A",
+        "description": "Total-va-hours-exported-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40150": {
+        "name": "Total-va-hours-exported-phase-B",
+        "description": "Total-va-hours-exported-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40152": {
+        "name": "Total-va-hours-exported-phase-C",
+        "description": "Total-va-hours-exported-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40154": {
+        "name": "Total-va-hours-imported",
+        "description": "Total-va-hours-imported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40156": {
+        "name": "Total-va-hours-imported-phase-A",
+        "description": "Total-va-hours-imported-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40158": {
+        "name": "Total-va-hours-imported-phase-B",
+        "description": "Total-va-hours-imported-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    }
+}

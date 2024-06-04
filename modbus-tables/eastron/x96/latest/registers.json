@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "Phase-2-line-to-neutral-volts",
+        "description": "Phase-2-line-to-neutral-volts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4": {
+        "name": "Phase-3-line-to-neutral-volts",
+        "description": "Phase-3-line-to-neutral-volts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "6": {
+        "name": "Phase-1-current",
+        "description": "Phase-1-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "8": {
+        "name": "Phase-2-current",
+        "description": "Phase-2-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "10": {
+        "name": "Phase-3-current",
+        "description": "Phase-3-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "12": {
+        "name": "Phase-1-active-power",
+        "description": "Phase-1-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "14": {
+        "name": "Phase-2-active-power",
+        "description": "Phase-2-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "16": {
+        "name": "Phase-3-active-power",
+        "description": "Phase-3-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "18": {
+        "name": "Phase-1-apparent-power",
+        "description": "Phase-1-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "20": {
+        "name": "Phase-2-apparent-power",
+        "description": "Phase-2-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "22": {
+        "name": "Phase-3-apparent-power",
+        "description": "Phase-3-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "24": {
+        "name": "Phase-1-reactive-power",
+        "description": "Phase-1-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "26": {
+        "name": "Phase-2-reactive-power",
+        "description": "Phase-2-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "28": {
+        "name": "Phase-3-reactive-power",
+        "description": "Phase-3-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "30": {
+        "name": "Phase-1-power-factor-(1)",
+        "description": "Phase-1-power-factor-(1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "None",
+        "access": "read"
+    },
+    "32": {
+        "name": "Phase-2-power-factor-(1)",
+        "description": "Phase-2-power-factor-(1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "None",
+        "access": "read"
+    },
+    "34": {
+        "name": "Phase-3-power-factor-(1)",
+        "description": "Phase-3-power-factor-(1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "None",
+        "access": "read"
+    },
+    "36": {
+        "name": "Phase-1-phase-angle",
+        "description": "Phase-1-phase-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Degrees",
+        "access": "read"
+    },
+    "38": {
+        "name": "Phase-2-phase-angle",
+        "description": "Phase-2-phase-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Degrees",
+        "access": "read"
+    },
+    "40": {
+        "name": "Phase-3-phase-angle",
+        "description": "Phase-3-phase-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Degrees",
+        "access": "read"
+    },
+    "42": {
+        "name": "Average-line-to-neutral-volts",
+        "description": "Average-line-to-neutral-volts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "46": {
+        "name": "Average-line-current",
+        "description": "Average-line-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "48": {
+        "name": "Sum-of-line-currents",
+        "description": "Sum-of-line-currents",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "52": {
+        "name": "Total-systerrt-power",
+        "description": "Total-systerrt-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "56": {
+        "name": "Total-systerrt-volt-arrtps",
+        "description": "Total-systerrt-volt-arrtps",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "60": {
+        "name": "Total-system-var",
+        "description": "Total-system-var",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "62": {
+        "name": "Total-systerrt-power-factor-(1)",
+        "description": "Total-systerrt-power-factor-(1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "None",
+        "access": "read"
+    },
+    "66": {
+        "name": "Total-systerrt-phase-angle",
+        "description": "Total-systerrt-phase-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Degrees",
+        "access": "read"
+    },
+    "70": {
+        "name": "Frequency-of-supply-voltages",
+        "description": "Frequency-of-supply-voltages",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "72": {
+        "name": "Import-wh-since-last-reset",
+        "description": "Import-wh-since-last-reset",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "74": {
+        "name": "Export-wh-since-last-reset",
+        "description": "Export-wh-since-last-reset",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWH",
+        "access": "read"
+    },
+    "76": {
+        "name": "Import-varh-since-last-reset",
+        "description": "Import-varh-since-last-reset",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVArh",
+        "access": "read"
+    },
+    "78": {
+        "name": "Export-varh-since-last-reset",
+        "description": "Export-varh-since-last-reset",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVArh",
+        "access": "read"
+    },
+    "80": {
+        "name": "Vah-since-last-reset",
+        "description": "Vah-since-last-reset",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "82": {
+        "name": "Ah-since-last-reset",
+        "description": "Ah-since-last-reset",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ah",
+        "access": "read"
+    },
+    "84": {
+        "name": "Total-systerrt-power-derrtand-(2)",
+        "description": "Total-systerrt-power-derrtand-(2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "86": {
+        "name": "Maxirrturrt-total-systerrt-power-derrtand-(2)",
+        "description": "Maxirrturrt-total-systerrt-power-derrtand-(2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "88": {
+        "name": "Import-active-power-derrtand",
+        "description": "Import-active-power-derrtand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "90": {
+        "name": "Import-active-power-rrtax.-Derrtand",
+        "description": "Import-active-power-rrtax.-Derrtand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "92": {
+        "name": "Export-active-power-derrtand",
+        "description": "Export-active-power-derrtand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "94": {
+        "name": "Export-active-power-rrtax.-Derrtand",
+        "description": "Export-active-power-rrtax.-Derrtand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "100": {
+        "name": "Total-system-va-demand",
+        "description": "Total-system-va-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "102": {
+        "name": "Maximum-total-system-va-demand",
+        "description": "Maximum-total-system-va-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "104": {
+        "name": "Neutral-current-demand",
+        "description": "Neutral-current-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ops",
+        "access": "read"
+    },
+    "106": {
+        "name": "Maximum-neutral-current-demand",
+        "description": "Maximum-neutral-current-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "AlIipS",
+        "access": "read"
+    },
+    "108": {
+        "name": "Total-systerrt-reactive-power-derrtand.-(2)",
+        "description": "Total-systerrt-reactive-power-derrtand.-(2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "110": {
+        "name": "Maxirrturrt-total-systerrt-reactive-power-demand-(2)",
+        "description": "Maxirrturrt-total-systerrt-reactive-power-demand-(2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "160": {
+        "name": "Voltage-phase-sequence-(normal=1-reverse=2",
+        "description": "Voltage-phase-sequence-(normal=1-reverse=2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "None",
+        "access": "read"
+    },
+    "162": {
+        "name": "Current-phase-sequence-(normal=1-reverse=2",
+        "description": "Current-phase-sequence-(normal=1-reverse=2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "None",
+        "access": "read"
+    },
+    "192": {
+        "name": "Nature-of-the-load-(-resistive-=1-inductive-=2-capacitive-=3",
+        "description": "Nature-of-the-load-(-resistive-=1-inductive-=2-capacitive-=3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "None",
+        "access": "read"
+    }
+}

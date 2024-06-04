@@ -1,0 +1,502 @@
+{
+    "3913": {
+        "name": "Current-average-(A)",
+        "description": "Current-average-(A)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3929": {
+        "name": "Current,-phase-1-(A1)",
+        "description": "Current,-phase-1-(A1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3943": {
+        "name": "Current,-phase-2-(A2)",
+        "description": "Current,-phase-2-(A2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3957": {
+        "name": "Current,-phase-3-(A3)",
+        "description": "Current,-phase-3-(A3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3909": {
+        "name": "Line-to-line-average-voltage-(VLL)",
+        "description": "Line-to-line-average-voltage-(VLL)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3911": {
+        "name": "Line-to-neutral-voltage-(VLN)",
+        "description": "Line-to-neutral-voltage-(VLN)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3925": {
+        "name": "Voltage-phase-1-to-phase-2-(V12)",
+        "description": "Voltage-phase-1-to-phase-2-(V12)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3939": {
+        "name": "Voltage-phase-2-to-phase-3-(V23)",
+        "description": "Voltage-phase-2-to-phase-3-(V23)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3953": {
+        "name": "Voltage-phase-3-to-phase-1-(V31)",
+        "description": "Voltage-phase-3-to-phase-1-(V31)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3927": {
+        "name": "Voltage-phase-1-to-neutral-(V1)",
+        "description": "Voltage-phase-1-to-neutral-(V1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3941": {
+        "name": "Voltage-phase-2-to-neutral-(V2)",
+        "description": "Voltage-phase-2-to-neutral-(V2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3955": {
+        "name": "Voltage-phase-3-to-neutral-(V3)",
+        "description": "Voltage-phase-3-to-neutral-(V3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3903": {
+        "name": "Active-power,-total-(W)",
+        "description": "Active-power,-total-(W)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3919": {
+        "name": "Active-power,-phase-1-(W1)",
+        "description": "Active-power,-phase-1-(W1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3933": {
+        "name": "Active-power,-phase-2-(W2)",
+        "description": "Active-power,-phase-2-(W2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3947": {
+        "name": "Active-power,-phase-3-(W3)",
+        "description": "Active-power,-phase-3-(W3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3905": {
+        "name": "Reactive-power,-total-(VAR)",
+        "description": "Reactive-power,-total-(VAR)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3921": {
+        "name": "Reactive-power,-phase-1-(VAR1)",
+        "description": "Reactive-power,-phase-1-(VAR1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3935": {
+        "name": "Reactive-power,-phase-2-(VAR2)",
+        "description": "Reactive-power,-phase-2-(VAR2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3949": {
+        "name": "Reactive-power,-phase3-(VAR3)",
+        "description": "Reactive-power,-phase3-(VAR3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3901": {
+        "name": "Apparent-power,-total-(VA)",
+        "description": "Apparent-power,-total-(VA)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3917": {
+        "name": "Apparent-power,-phase-1-(VA1)",
+        "description": "Apparent-power,-phase-1-(VA1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3931": {
+        "name": "Apparent-power,-phase-2-(VA2)",
+        "description": "Apparent-power,-phase-2-(VA2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3945": {
+        "name": "Apparent-power,-phase-3-(VA3)",
+        "description": "Apparent-power,-phase-3-(VA3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3907": {
+        "name": "Power-factor-average-(PF)",
+        "description": "Power-factor-average-(PF)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3923": {
+        "name": "Power-factor,-phase-1-(PF1)",
+        "description": "Power-factor,-phase-1-(PF1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3937": {
+        "name": "Power-factor,-phase-2-(PF2)",
+        "description": "Power-factor,-phase-2-(PF2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3951": {
+        "name": "Power-factor,-phase-3-(PF3)",
+        "description": "Power-factor,-phase-3-(PF3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3915": {
+        "name": "Frequency,-hz-(F)",
+        "description": "Frequency,-hz-(F)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3861": {
+        "name": "Voltage-THD,-phase-1-(%V1)",
+        "description": "Voltage-THD,-phase-1-(%V1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3863": {
+        "name": "Voltage-THD,-phase-2-(%V2)",
+        "description": "Voltage-THD,-phase-2-(%V2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3865": {
+        "name": "Voltage-THD,-phase-3-(%V3)",
+        "description": "Voltage-THD,-phase-3-(%V3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3867": {
+        "name": "Current-THD,-phase-1-(%A1)",
+        "description": "Current-THD,-phase-1-(%A1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3869": {
+        "name": "Current-THD,-phase-2-(%A2)",
+        "description": "Current-THD,-phase-2-(%A2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3871": {
+        "name": "Current-THD,-phase-3-(%A3)",
+        "description": "Current-THD,-phase-3-(%A3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3959": {
+        "name": "Forward-apparent-energy-(FwdVAh)",
+        "description": "Forward-apparent-energy-(FwdVAh)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3961": {
+        "name": "Forward-active-energy-(FwdWh)",
+        "description": "Forward-active-energy-(FwdWh)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3963": {
+        "name": "Forward-reactive-inductive-energy-(FwdVARh)",
+        "description": "Forward-reactive-inductive-energy-(FwdVARh)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3965": {
+        "name": "Forward-reactive-capacitive-energy-(FwdVARh)",
+        "description": "Forward-reactive-capacitive-energy-(FwdVARh)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3967": {
+        "name": "Reverse-apparent-energy-(RevVAh)",
+        "description": "Reverse-apparent-energy-(RevVAh)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3969": {
+        "name": "Reverse-active-energy-(RevWh)",
+        "description": "Reverse-active-energy-(RevWh)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3971": {
+        "name": "Reverse-reactive-inductive-energy-(RevVARh)",
+        "description": "Reverse-reactive-inductive-energy-(RevVARh)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3973": {
+        "name": "Reverse-reactive-capacitive-energy-(RevVARh)",
+        "description": "Reverse-reactive-capacitive-energy-(RevVARh)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3993": {
+        "name": "On-hours-(On-hrs)",
+        "description": "On-hours-(On-hrs)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "3995": {
+        "name": "Forward-run-seconds-(FwdRun-secs)",
+        "description": "Forward-run-seconds-(FwdRun-secs)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "3997": {
+        "name": "Reverse-run-seconds-(RevRun-secs)",
+        "description": "Reverse-run-seconds-(RevRun-secs)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "3999": {
+        "name": "Number-of-power-interruptions-(Intr)",
+        "description": "Number-of-power-interruptions-(Intr)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "3975": {
+        "name": "Present-demand-(Present-demand)",
+        "description": "Present-demand-(Present-demand)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3977": {
+        "name": "Rising-demand-(Rising-demand)",
+        "description": "Rising-demand-(Rising-demand)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3979": {
+        "name": "Maximum-demand-(Max-MD)",
+        "description": "Maximum-demand-(Max-MD)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    }
+}

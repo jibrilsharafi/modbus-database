@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "Voltage-L2-N",
+        "description": "Voltage-L2-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V/10",
+        "access": "read"
+    },
+    "4": {
+        "name": "Voltage-L3-N",
+        "description": "Voltage-L3-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V/10",
+        "access": "read"
+    },
+    "6": {
+        "name": "Voltage-L4-N",
+        "description": "Voltage-L4-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V/10",
+        "access": "read"
+    },
+    "8": {
+        "name": "Voltage-L1-L2",
+        "description": "Voltage-L1-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V/10",
+        "access": "read"
+    },
+    "10": {
+        "name": "Voltage-L2-L3",
+        "description": "Voltage-L2-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V/10",
+        "access": "read"
+    },
+    "12": {
+        "name": "Voltage-L3-L1",
+        "description": "Voltage-L3-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V/10",
+        "access": "read"
+    },
+    "14": {
+        "name": "Current-L1",
+        "description": "Current-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "mA",
+        "access": "read"
+    },
+    "16": {
+        "name": "Current-L2",
+        "description": "Current-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "mA",
+        "access": "read"
+    },
+    "18": {
+        "name": "Current-L3",
+        "description": "Current-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "mA",
+        "access": "read"
+    },
+    "20": {
+        "name": "Current-L4",
+        "description": "Current-L4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "mA",
+        "access": "read"
+    },
+    "22": {
+        "name": "Neutral-current-=-il1+il2+il3",
+        "description": "Neutral-current-=-il1+il2+il3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "mA",
+        "access": "read"
+    },
+    "24": {
+        "name": "Measured-frequency",
+        "description": "Measured-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Hz / 100",
+        "access": "read"
+    },
+    "26": {
+        "name": "Active-power-L1-N",
+        "description": "Active-power-L1-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "28": {
+        "name": "Active-power-L2-N",
+        "description": "Active-power-L2-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "30": {
+        "name": "Active-power-L3-N",
+        "description": "Active-power-L3-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "32": {
+        "name": "Active-power-L4-N",
+        "description": "Active-power-L4-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "34": {
+        "name": "Total-import-active-power",
+        "description": "Total-import-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "36": {
+        "name": "Total-export-active-power",
+        "description": "Total-export-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "38": {
+        "name": "Active-power-+/-=-P-=p1+p2+p3",
+        "description": "Active-power-+/-=-P-=p1+p2+p3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "40": {
+        "name": "Reactive-power-L1",
+        "description": "Reactive-power-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "42": {
+        "name": "Reactive-power-L2",
+        "description": "Reactive-power-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "44": {
+        "name": "Reactive-power-L3",
+        "description": "Reactive-power-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "46": {
+        "name": "Reactive-power-L4",
+        "description": "Reactive-power-L4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "48": {
+        "name": "Quadrant-1-total-reactive-power",
+        "description": "Quadrant-1-total-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "50": {
+        "name": "Quadrant-2-total-reactive-power",
+        "description": "Quadrant-2-total-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "52": {
+        "name": "Quadrant-3-total-reactive-power",
+        "description": "Quadrant-3-total-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "54": {
+        "name": "Quadrant-4-total-reactive-power",
+        "description": "Quadrant-4-total-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "56": {
+        "name": "Reactive-power-+/-=-q=q1+q2+q3",
+        "description": "Reactive-power-+/-=-q=q1+q2+q3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "58": {
+        "name": "Apperant-power-L1-N",
+        "description": "Apperant-power-L1-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "60": {
+        "name": "Apparent-power-L2-N",
+        "description": "Apparent-power-L2-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "62": {
+        "name": "Apparent-power-L3-N",
+        "description": "Apparent-power-L3-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "64": {
+        "name": "Apparent-power-L4-N",
+        "description": "Apparent-power-L4-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "66": {
+        "name": "Total-import-apperant-power",
+        "description": "Total-import-apperant-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "68": {
+        "name": "Total-export-apperant-power",
+        "description": "Total-export-apperant-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "70": {
+        "name": "Apperant-power-+/-=-s=s1+s2+s3",
+        "description": "Apperant-power-+/-=-s=s1+s2+s3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "72": {
+        "name": "Power-factor-L1",
+        "description": "Power-factor-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "74": {
+        "name": "Power-factor-L2",
+        "description": "Power-factor-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "76": {
+        "name": "Power-factor-L3",
+        "description": "Power-factor-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "78": {
+        "name": "Power-factor-L4",
+        "description": "Power-factor-L4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "80": {
+        "name": "Power-factor-+/-=-pf=pfl1+pfl2+pfl3",
+        "description": "Power-factor-+/-=-pf=pfl1+pfl2+pfl3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "82": {
+        "name": "Cosphi-L1",
+        "description": "Cosphi-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "84": {
+        "name": "Cosphi-L2",
+        "description": "Cosphi-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "86": {
+        "name": "Cosphi-L3",
+        "description": "Cosphi-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "88": {
+        "name": "Cosphi-L4",
+        "description": "Cosphi-L4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "90": {
+        "name": "Cos-phi-=-cos_l1-+-cos_l2-+-cos_l3",
+        "description": "Cos-phi-=-cos_l1-+-cos_l2-+-cos_l3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "92": {
+        "name": "Rotation-field;-1=right,-0=none,-1=left",
+        "description": "Rotation-field;-1=right,-0=none,-1=left",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "94": {
+        "name": "Voltage-unbalance",
+        "description": "Voltage-unbalance",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "%",
+        "access": "read"
+    },
+    "96": {
+        "name": "Current-unbalance",
+        "description": "Current-unbalance",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "%",
+        "access": "read"
+    },
+    "98": {
+        "name": "L1-phase-voltage-angle",
+        "description": "L1-phase-voltage-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Angle",
+        "access": "read"
+    },
+    "100": {
+        "name": "L2-phase-voltage-angle",
+        "description": "L2-phase-voltage-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Angle",
+        "access": "read"
+    }
+}

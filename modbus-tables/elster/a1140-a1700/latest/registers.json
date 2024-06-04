@@ -1,0 +1,502 @@
+{
+    "1": {
+        "name": "Va",
+        "description": "Va",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3": {
+        "name": "Vb",
+        "description": "Vb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "5": {
+        "name": "Vc",
+        "description": "Vc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "7": {
+        "name": "La",
+        "description": "La",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "9": {
+        "name": "Lb",
+        "description": "Lb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "11": {
+        "name": "Ic",
+        "description": "Ic",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "13": {
+        "name": "Pa",
+        "description": "Pa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "15": {
+        "name": "Pb",
+        "description": "Pb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "17": {
+        "name": "Pc",
+        "description": "Pc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "19": {
+        "name": "Qa",
+        "description": "Qa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "21": {
+        "name": "Ob",
+        "description": "Ob",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "23": {
+        "name": "Qc",
+        "description": "Qc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "25": {
+        "name": "So",
+        "description": "So",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "27": {
+        "name": "Sb",
+        "description": "Sb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "29": {
+        "name": "Sc",
+        "description": "Sc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "31": {
+        "name": "Pfa",
+        "description": "Pfa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "33": {
+        "name": "Pfb",
+        "description": "Pfb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "35": {
+        "name": "Pfc",
+        "description": "Pfc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "37": {
+        "name": "Psum",
+        "description": "Psum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "39": {
+        "name": "QSUM",
+        "description": "QSUM",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "41": {
+        "name": "SSUM",
+        "description": "SSUM",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "43": {
+        "name": "pfsUM",
+        "description": "pfsUM",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "45": {
+        "name": "Freqa",
+        "description": "Freqa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "47": {
+        "name": "Freqb",
+        "description": "Freqb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "49": {
+        "name": "Freqc",
+        "description": "Freqc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "53": {
+        "name": "kWhTotalExport",
+        "description": "kWhTotalExport",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "55": {
+        "name": "kVarhImportLag",
+        "description": "kVarhImportLag",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "57": {
+        "name": "kVarhImportLead",
+        "description": "kVarhImportLead",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "59": {
+        "name": "kVarhExportLag",
+        "description": "kVarhExportLag",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "63": {
+        "name": "VAhTotal",
+        "description": "VAhTotal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "65": {
+        "name": "Cust1",
+        "description": "Cust1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "67": {
+        "name": "Cust2",
+        "description": "Cust2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "69": {
+        "name": "Cust3",
+        "description": "Cust3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "71": {
+        "name": "TOU1",
+        "description": "TOU1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "73": {
+        "name": "TOU2",
+        "description": "TOU2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "75": {
+        "name": "TOU3",
+        "description": "TOU3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "77": {
+        "name": "TOU4",
+        "description": "TOU4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "79": {
+        "name": "HistTOUl",
+        "description": "HistTOUl",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "81": {
+        "name": "HistTOU2",
+        "description": "HistTOU2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "83": {
+        "name": "HistTOU3",
+        "description": "HistTOU3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "85": {
+        "name": "HistTOU4",
+        "description": "HistTOU4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "95": {
+        "name": "LastEnergyRead",
+        "description": "LastEnergyRead",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "96": {
+        "name": "LastInstRead",
+        "description": "LastInstRead",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "97": {
+        "name": "HIST-kWhTotalImport",
+        "description": "HIST-kWhTotalImport",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "99": {
+        "name": "HIST-kWhTotalExport",
+        "description": "HIST-kWhTotalExport",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "101": {
+        "name": "HIST-kVarhImportLag",
+        "description": "HIST-kVarhImportLag",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "103": {
+        "name": "HIST-kVarhImportLead",
+        "description": "HIST-kVarhImportLead",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "105": {
+        "name": "HIST-kVarhExportLag",
+        "description": "HIST-kVarhExportLag",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "107": {
+        "name": "HIST-kVarhExportLead",
+        "description": "HIST-kVarhExportLead",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "109": {
+        "name": "HIST-VAh-Total",
+        "description": "HIST-VAh-Total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    }
+}

@@ -1,0 +1,502 @@
+{
+    "1000": {
+        "name": "V-A-N",
+        "description": "V-A-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1002": {
+        "name": "V-B-N",
+        "description": "V-B-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1004": {
+        "name": "V-C-N",
+        "description": "V-C-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1006": {
+        "name": "V-A-B",
+        "description": "V-A-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1008": {
+        "name": "V-B-C",
+        "description": "V-B-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1010": {
+        "name": "V-C-A",
+        "description": "V-C-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1012": {
+        "name": "I-A",
+        "description": "I-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "1014": {
+        "name": "I-B",
+        "description": "I-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "1016": {
+        "name": "I-C",
+        "description": "I-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "1018": {
+        "name": "W,-total",
+        "description": "W,-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "1020": {
+        "name": "Var,-total",
+        "description": "Var,-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "1022": {
+        "name": "Va,-total",
+        "description": "Va,-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "1024": {
+        "name": "Pf,-total",
+        "description": "Pf,-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1026": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "1028": {
+        "name": "I-neutral",
+        "description": "I-neutral",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "1030": {
+        "name": "W,-phase-A",
+        "description": "W,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "1032": {
+        "name": "W,-phase-B",
+        "description": "W,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "1034": {
+        "name": "W,-phase-C",
+        "description": "W,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "1036": {
+        "name": "Var,-phase-A",
+        "description": "Var,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "1038": {
+        "name": "Var,-phase-B",
+        "description": "Var,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "1040": {
+        "name": "Var,-phase-C",
+        "description": "Var,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "1042": {
+        "name": "Va,-phase-A",
+        "description": "Va,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "1044": {
+        "name": "Va,-phase-B",
+        "description": "Va,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "1046": {
+        "name": "Va,-phase-C",
+        "description": "Va,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "1048": {
+        "name": "Pf,-phase-A",
+        "description": "Pf,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1050": {
+        "name": "Pf,-phase-B",
+        "description": "Pf,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1052": {
+        "name": "Pf,-phase-C",
+        "description": "Pf,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1054": {
+        "name": "Symmetrical-component-magnitude,-0-sequence-component",
+        "description": "Symmetrical-component-magnitude,-0-sequence-component",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1056": {
+        "name": "Symmetrical-component-magnitude,-positive-sequence",
+        "description": "Symmetrical-component-magnitude,-positive-sequence",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1058": {
+        "name": "Symmetrical-component-magnitude,-negative-sequence-component",
+        "description": "Symmetrical-component-magnitude,-negative-sequence-component",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1060": {
+        "name": "Symmetrical-component-phase,-zero-sequence-component",
+        "description": "Symmetrical-component-phase,-zero-sequence-component",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1061": {
+        "name": "Symmetrical-component-phase,-positive-sequence-component",
+        "description": "Symmetrical-component-phase,-positive-sequence-component",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1062": {
+        "name": "Symmetrical-component-phase,-negative-sequence-component",
+        "description": "Symmetrical-component-phase,-negative-sequence-component",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1063": {
+        "name": "Voltage-unbalance,-zero-sequence-component-component",
+        "description": "Voltage-unbalance,-zero-sequence-component-component",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1064": {
+        "name": "Voltage-unbalance,-negative-sequence-component",
+        "description": "Voltage-unbalance,-negative-sequence-component",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1065": {
+        "name": "Current-unbalance",
+        "description": "Current-unbalance",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1066": {
+        "name": "Quadrant-indicator",
+        "description": "Quadrant-indicator",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1067": {
+        "name": "Q-total",
+        "description": "Q-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1069": {
+        "name": "Q-phase-A",
+        "description": "Q-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1071": {
+        "name": "Q-phase-B",
+        "description": "Q-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1073": {
+        "name": "Q-phase-C",
+        "description": "Q-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1500": {
+        "name": "Wh,-(q1+q4)",
+        "description": "Wh,-(q1+q4)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "1502": {
+        "name": "Wh,-(q2+q3)",
+        "description": "Wh,-(q2+q3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "1504": {
+        "name": "Wh,-net",
+        "description": "Wh,-net",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "1506": {
+        "name": "Wh,-total",
+        "description": "Wh,-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "1508": {
+        "name": "Varh,-(q1+q2)",
+        "description": "Varh,-(q1+q2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VARh",
+        "access": "read"
+    },
+    "1510": {
+        "name": "Varh,-(q3+q4)",
+        "description": "Varh,-(q3+q4)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VARh",
+        "access": "read"
+    },
+    "1512": {
+        "name": "Varh,-net",
+        "description": "Varh,-net",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VARh",
+        "access": "read"
+    },
+    "1514": {
+        "name": "Varh,-total",
+        "description": "Varh,-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VARh",
+        "access": "read"
+    },
+    "1516": {
+        "name": "Vah,-total",
+        "description": "Vah,-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VA",
+        "access": "read"
+    }
+}

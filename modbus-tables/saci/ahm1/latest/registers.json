@@ -1,0 +1,502 @@
+{
+    "6": {
+        "name": "V1",
+        "description": "V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "8": {
+        "name": "V2",
+        "description": "V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "10": {
+        "name": "V3",
+        "description": "V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "12": {
+        "name": "V12",
+        "description": "V12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "14": {
+        "name": "V23",
+        "description": "V23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "16": {
+        "name": "V31",
+        "description": "V31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "18": {
+        "name": "I1",
+        "description": "I1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "20": {
+        "name": "I2",
+        "description": "I2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "22": {
+        "name": "I3",
+        "description": "I3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "24": {
+        "name": "In-(3P4W)",
+        "description": "In-(3P4W)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "26": {
+        "name": "P1",
+        "description": "P1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "28": {
+        "name": "P2",
+        "description": "P2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "30": {
+        "name": "P3",
+        "description": "P3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "32": {
+        "name": "P",
+        "description": "P",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "34": {
+        "name": "Q1",
+        "description": "Q1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "36": {
+        "name": "Q2",
+        "description": "Q2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "38": {
+        "name": "Q3",
+        "description": "Q3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "40": {
+        "name": "Q",
+        "description": "Q",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "42": {
+        "name": "S1",
+        "description": "S1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "44": {
+        "name": "S2",
+        "description": "S2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "46": {
+        "name": "S3",
+        "description": "S3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "48": {
+        "name": "S",
+        "description": "S",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "50": {
+        "name": "PF1",
+        "description": "PF1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "52": {
+        "name": "PF2",
+        "description": "PF2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "54": {
+        "name": "PF3",
+        "description": "PF3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "56": {
+        "name": "PF",
+        "description": "PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "58": {
+        "name": "F",
+        "description": "F",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "60": {
+        "name": "Average-value-of-vph-N",
+        "description": "Average-value-of-vph-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "62": {
+        "name": "Average-value-of-vph-ph",
+        "description": "Average-value-of-vph-ph",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "64": {
+        "name": "Average-current",
+        "description": "Average-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "66": {
+        "name": "Import-active-energy",
+        "description": "Import-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "68": {
+        "name": "Export-active-energy",
+        "description": "Export-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "70": {
+        "name": "Import-reactive-energy",
+        "description": "Import-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "72": {
+        "name": "Export-reactive-energy",
+        "description": "Export-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "74": {
+        "name": "Apparent-energy",
+        "description": "Apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "76": {
+        "name": "1st-quadrant-reactive-energy---EQL+",
+        "description": "1st-quadrant-reactive-energy---EQL+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "78": {
+        "name": "2nd-quadrant-reactive-energy---EQC+",
+        "description": "2nd-quadrant-reactive-energy---EQC+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "80": {
+        "name": "3rd-quadrant-reactive-energy---EQL-",
+        "description": "3rd-quadrant-reactive-energy---EQL-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "82": {
+        "name": "4th-quadrant-reactive-energy---EQC-",
+        "description": "4th-quadrant-reactive-energy---EQC-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "84": {
+        "name": "Hour-meter---EP+",
+        "description": "Hour-meter---EP+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "s",
+        "access": "read"
+    },
+    "86": {
+        "name": "Hour-meter---EP-",
+        "description": "Hour-meter---EP-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "s",
+        "access": "read"
+    },
+    "88": {
+        "name": "Alternative-import-active-energy",
+        "description": "Alternative-import-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "90": {
+        "name": "Alternative-export-active-energy",
+        "description": "Alternative-export-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "92": {
+        "name": "Alternative-import-reactive-energy",
+        "description": "Alternative-import-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "94": {
+        "name": "Alternative-export-reactive-energy",
+        "description": "Alternative-export-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "96": {
+        "name": "Alternative-apparent-energy",
+        "description": "Alternative-apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "98": {
+        "name": "Alternative-energy---EQL+",
+        "description": "Alternative-energy---EQL+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "100": {
+        "name": "Alternative-energy---EQC+",
+        "description": "Alternative-energy---EQC+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "102": {
+        "name": "Alternative-energy---EQL-",
+        "description": "Alternative-energy---EQL-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "104": {
+        "name": "Alternative-energy---EQC-",
+        "description": "Alternative-energy---EQC-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    }
+}

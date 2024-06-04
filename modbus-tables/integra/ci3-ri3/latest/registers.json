@@ -1,0 +1,502 @@
+{
+    "1": {
+        "name": "V1",
+        "description": "V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2": {
+        "name": "V2",
+        "description": "V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "3": {
+        "name": "V3",
+        "description": "V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "4": {
+        "name": "A1",
+        "description": "A1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "5": {
+        "name": "A2",
+        "description": "A2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "6": {
+        "name": "A3",
+        "description": "A3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "7": {
+        "name": "Kp1",
+        "description": "Kp1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "8": {
+        "name": "Kp2",
+        "description": "Kp2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "9": {
+        "name": "Kp3",
+        "description": "Kp3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "10": {
+        "name": "Kva1",
+        "description": "Kva1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "11": {
+        "name": "Kva2",
+        "description": "Kva2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "12": {
+        "name": "Kva3",
+        "description": "Kva3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "13": {
+        "name": "Kvar1",
+        "description": "Kvar1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVAr",
+        "access": "read"
+    },
+    "14": {
+        "name": "Kvar2",
+        "description": "Kvar2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVAr",
+        "access": "read"
+    },
+    "15": {
+        "name": "Kvar3",
+        "description": "Kvar3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVAr",
+        "access": "read"
+    },
+    "19": {
+        "name": "Pa1",
+        "description": "Pa1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Degree",
+        "access": "read"
+    },
+    "20": {
+        "name": "Pa2",
+        "description": "Pa2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Degree",
+        "access": "read"
+    },
+    "21": {
+        "name": "Pa3",
+        "description": "Pa3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Degree",
+        "access": "read"
+    },
+    "22": {
+        "name": "An",
+        "description": "An",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "23": {
+        "name": "V12",
+        "description": "V12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "24": {
+        "name": "V23",
+        "description": "V23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "25": {
+        "name": "V31",
+        "description": "V31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "26": {
+        "name": "Vlnavg",
+        "description": "Vlnavg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "27": {
+        "name": "Aavg",
+        "description": "Aavg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "28": {
+        "name": "Asum",
+        "description": "Asum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "29": {
+        "name": "Vllavg",
+        "description": "Vllavg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "30": {
+        "name": "Kpsum",
+        "description": "Kpsum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "31": {
+        "name": "Kvasum",
+        "description": "Kvasum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "32": {
+        "name": "Kvarsum",
+        "description": "Kvarsum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVAr",
+        "access": "read"
+    },
+    "34": {
+        "name": "Patot",
+        "description": "Patot",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Degree",
+        "access": "read"
+    },
+    "35": {
+        "name": "Freq",
+        "description": "Freq",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "36": {
+        "name": "Lo_egy_imp_pow",
+        "description": "Lo_egy_imp_pow",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "37": {
+        "name": "Hi_egy_imp_pow",
+        "description": "Hi_egy_imp_pow",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "MWh",
+        "access": "read"
+    },
+    "38": {
+        "name": "Lo_egy_exp_pow",
+        "description": "Lo_egy_exp_pow",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "39": {
+        "name": "Hi_egy_exp_pow",
+        "description": "Hi_egy_exp_pow",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "MWh",
+        "access": "read"
+    },
+    "40": {
+        "name": "Lo_egy_imp_var",
+        "description": "Lo_egy_imp_var",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVArh",
+        "access": "read"
+    },
+    "41": {
+        "name": "Hi_egy_imp_var",
+        "description": "Hi_egy_imp_var",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "MVArh",
+        "access": "read"
+    },
+    "42": {
+        "name": "Lo_egy_exp_var",
+        "description": "Lo_egy_exp_var",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVArh",
+        "access": "read"
+    },
+    "43": {
+        "name": "Hi_egy_exp_var",
+        "description": "Hi_egy_exp_var",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "MVArh",
+        "access": "read"
+    },
+    "44": {
+        "name": "Lo_egy_va",
+        "description": "Lo_egy_va",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kAh",
+        "access": "read"
+    },
+    "45": {
+        "name": "Hi_egy_va",
+        "description": "Hi_egy_va",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "MVAh",
+        "access": "read"
+    },
+    "46": {
+        "name": "Lo_egy_amp",
+        "description": "Lo_egy_amp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Ah",
+        "access": "read"
+    },
+    "47": {
+        "name": "Hi_egy_amp",
+        "description": "Hi_egy_amp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kAh",
+        "access": "read"
+    },
+    "48": {
+        "name": "Kpsum_dmd",
+        "description": "Kpsum_dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "49": {
+        "name": "Kpsum_max_dmd",
+        "description": "Kpsum_max_dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "50": {
+        "name": "Kvasum_dmd",
+        "description": "Kvasum_dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "51": {
+        "name": "Kvasum_max_dmd",
+        "description": "Kvasum_max_dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "52": {
+        "name": "A1_dmd",
+        "description": "A1_dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "53": {
+        "name": "A1_max_dmd",
+        "description": "A1_max_dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "54": {
+        "name": "A2_dmd",
+        "description": "A2_dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    }
+}

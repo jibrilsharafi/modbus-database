@@ -1,0 +1,502 @@
+{
+    "16384": {
+        "name": "Voltage-LN1",
+        "description": "Voltage-LN1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "16386": {
+        "name": "Voltage-LN2",
+        "description": "Voltage-LN2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "16388": {
+        "name": "Voltage-LN3",
+        "description": "Voltage-LN3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "16390": {
+        "name": "Current-LN1",
+        "description": "Current-LN1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "16392": {
+        "name": "Current-LN2",
+        "description": "Current-LN2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "16394": {
+        "name": "Current-LN3",
+        "description": "Current-LN3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "16396": {
+        "name": "Total-current",
+        "description": "Total-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "16398": {
+        "name": "Active-power-L1",
+        "description": "Active-power-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "16400": {
+        "name": "Active-power-L2",
+        "description": "Active-power-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "16402": {
+        "name": "Active-power-L3",
+        "description": "Active-power-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "16404": {
+        "name": "Reactive-power-L1",
+        "description": "Reactive-power-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "16406": {
+        "name": "Reactive-power-L2",
+        "description": "Reactive-power-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "16408": {
+        "name": "Reactive-power-L3",
+        "description": "Reactive-power-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "16410": {
+        "name": "Apparent-power-L1",
+        "description": "Apparent-power-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "16412": {
+        "name": "Apparent-power-L2",
+        "description": "Apparent-power-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "16414": {
+        "name": "Apparent-power-L3",
+        "description": "Apparent-power-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "16416": {
+        "name": "Power-factor-L1",
+        "description": "Power-factor-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "16418": {
+        "name": "Power-factor-L2",
+        "description": "Power-factor-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "16420": {
+        "name": "Power-factor-L3",
+        "description": "Power-factor-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "16422": {
+        "name": "Cos-L1",
+        "description": "Cos-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "16424": {
+        "name": "Cos-L2",
+        "description": "Cos-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "16426": {
+        "name": "Cos-L3",
+        "description": "Cos-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "16428": {
+        "name": "Voltage-L12",
+        "description": "Voltage-L12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "16430": {
+        "name": "Voltage-L23",
+        "description": "Voltage-L23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "16432": {
+        "name": "Voltage-L31",
+        "description": "Voltage-L31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "16434": {
+        "name": "Voltage-ln",
+        "description": "Voltage-ln",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "16436": {
+        "name": "Voltage-ll",
+        "description": "Voltage-ll",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "16438": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "16440": {
+        "name": "Total-active-power",
+        "description": "Total-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "16442": {
+        "name": "Total-reactive-power",
+        "description": "Total-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "16444": {
+        "name": "Total-apparent-power",
+        "description": "Total-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "16446": {
+        "name": "Thd-V1",
+        "description": "Thd-V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "%",
+        "access": "read"
+    },
+    "16448": {
+        "name": "Thd-V2",
+        "description": "Thd-V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "%",
+        "access": "read"
+    },
+    "16450": {
+        "name": "Thd-V3",
+        "description": "Thd-V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "%",
+        "access": "read"
+    },
+    "16452": {
+        "name": "Thd-v3p",
+        "description": "Thd-v3p",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "%",
+        "access": "read"
+    },
+    "16454": {
+        "name": "Thd-I1",
+        "description": "Thd-I1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "%",
+        "access": "read"
+    },
+    "16456": {
+        "name": "Thd-I2",
+        "description": "Thd-I2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "%",
+        "access": "read"
+    },
+    "16458": {
+        "name": "Thd-I3",
+        "description": "Thd-I3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "%",
+        "access": "read"
+    },
+    "16460": {
+        "name": "Thd-i3p",
+        "description": "Thd-i3p",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "%",
+        "access": "read"
+    },
+    "16462": {
+        "name": "Voltage-high-LN1",
+        "description": "Voltage-high-LN1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "16464": {
+        "name": "Voltage-high-LN2",
+        "description": "Voltage-high-LN2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "16466": {
+        "name": "Voltage-high-LN3",
+        "description": "Voltage-high-LN3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "16468": {
+        "name": "Voltage-low-LN1",
+        "description": "Voltage-low-LN1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "16470": {
+        "name": "Voltage-low-LN2",
+        "description": "Voltage-low-LN2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "16472": {
+        "name": "Voltage-low-LN3",
+        "description": "Voltage-low-LN3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "16474": {
+        "name": "Demand-current-high-L1",
+        "description": "Demand-current-high-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "16476": {
+        "name": "Demand-current-high-L2",
+        "description": "Demand-current-high-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "16478": {
+        "name": "Demand-current-high-L3",
+        "description": "Demand-current-high-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "16480": {
+        "name": "Demand-current-low-L1",
+        "description": "Demand-current-low-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "16482": {
+        "name": "Demand-current-low-L2",
+        "description": "Demand-current-low-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    }
+}

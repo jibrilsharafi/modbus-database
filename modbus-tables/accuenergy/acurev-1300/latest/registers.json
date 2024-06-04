@@ -1,0 +1,505 @@
+{
+    "4132": {
+        "name": "Options",
+        "description": "Options",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 16
+    },
+    "4140": {
+        "name": "Version",
+        "description": "Version",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 16
+    },
+    "4148": {
+        "name": "Serial-number",
+        "description": "Serial-number",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 12
+    },
+    "4164": {
+        "name": "Device-address",
+        "description": "Device-address",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4165": {
+        "name": "Id",
+        "description": "Id",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4166": {
+        "name": "Lenth",
+        "description": "Lenth",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4167": {
+        "name": "Amps-(total):-sunspec;-total-current:-acurev-1300",
+        "description": "Amps-(total):-sunspec;-total-current:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4168": {
+        "name": "Amps-phase-a:-sunspec;-phase-A-current:-acurev-1300",
+        "description": "Amps-phase-a:-sunspec;-phase-A-current:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4169": {
+        "name": "Amps-phase-b:-sunspec;-phase-B-current:-acurev-1300",
+        "description": "Amps-phase-b:-sunspec;-phase-B-current:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4170": {
+        "name": "Amps-phase-c:-sunspec;-phase-C-current:-acurev-1300",
+        "description": "Amps-phase-c:-sunspec;-phase-C-current:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4172": {
+        "name": "Voltage-ln-(average):-sunspec;-phase-average-voltage:-acurev-1300",
+        "description": "Voltage-ln-(average):-sunspec;-phase-average-voltage:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4173": {
+        "name": "Phase-voltage-an:-sunspec;-phase-A-voltage:-acurev-1300",
+        "description": "Phase-voltage-an:-sunspec;-phase-A-voltage:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4174": {
+        "name": "Phase-voltage-bn:-sunspec;-phase-B-voltage:-acurev-1300",
+        "description": "Phase-voltage-bn:-sunspec;-phase-B-voltage:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4175": {
+        "name": "Phase-voltage-cn:-sunspec;-phase-C-voltage:-acurev-1300",
+        "description": "Phase-voltage-cn:-sunspec;-phase-C-voltage:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4176": {
+        "name": "Voltage-ll-(average):-sunspec;-line-average-voltage:-acurev-1300",
+        "description": "Voltage-ll-(average):-sunspec;-line-average-voltage:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4177": {
+        "name": "Phase-voltage-ab:-sunspec;-line-ab-voltage:-acurev-1300",
+        "description": "Phase-voltage-ab:-sunspec;-line-ab-voltage:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4178": {
+        "name": "Phase-voltage-bc:-sunspec;-line-bc-voltage:-acurev-1300",
+        "description": "Phase-voltage-bc:-sunspec;-line-bc-voltage:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4179": {
+        "name": "Phase-voltage-ca:-sunspec;-line-ca-voltage:-acurev-1300",
+        "description": "Phase-voltage-ca:-sunspec;-line-ca-voltage:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4181": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4183": {
+        "name": "Total-real-power:-sunspec;-total-active-power:-acurev-1300",
+        "description": "Total-real-power:-sunspec;-total-active-power:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4184": {
+        "name": "Watts-phase-a:-sunspec;-phase-A-active-power:-acurev-1300",
+        "description": "Watts-phase-a:-sunspec;-phase-A-active-power:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4185": {
+        "name": "Watts-phase-b:-sunspec;-phase-B-active-power:-acurev-1300",
+        "description": "Watts-phase-b:-sunspec;-phase-B-active-power:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4186": {
+        "name": "Watts-phase-c:-sunspec;-phase-C-active-power:-acurev-1300",
+        "description": "Watts-phase-c:-sunspec;-phase-C-active-power:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4188": {
+        "name": "Ac-apparent-power-va:-sunspec;-total-apparent-power:-acurev-1300",
+        "description": "Ac-apparent-power-va:-sunspec;-total-apparent-power:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4189": {
+        "name": "Va-phase-a:-sunspec;-phase-A-apparent-power:-acurev-1300",
+        "description": "Va-phase-a:-sunspec;-phase-A-apparent-power:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4190": {
+        "name": "Va-phase-b:-sunspec;-phase-B-apparent-power:-acurev-1300",
+        "description": "Va-phase-b:-sunspec;-phase-B-apparent-power:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4191": {
+        "name": "Va-phaseca:-sunspec;-phase-C-apparent-power:-acurev-1300",
+        "description": "Va-phaseca:-sunspec;-phase-C-apparent-power:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4193": {
+        "name": "Reactive-power-var:-sunspec;-total-reactive-power:-acurev-1300",
+        "description": "Reactive-power-var:-sunspec;-total-reactive-power:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4194": {
+        "name": "Var-phase-a:-sunspec;-phase-A-reactive-power:-acurev-1300",
+        "description": "Var-phase-a:-sunspec;-phase-A-reactive-power:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4195": {
+        "name": "4195-var-phase-b:-sunspec;-phase-B-reactive-power:-acurev-1300",
+        "description": "4195-var-phase-b:-sunspec;-phase-B-reactive-power:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4196": {
+        "name": "Var-phase-c:-sunspec;-phase-C-reactive-power:-acurev-1300",
+        "description": "Var-phase-c:-sunspec;-phase-C-reactive-power:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4198": {
+        "name": "Power-factor",
+        "description": "Power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4199": {
+        "name": "Pf-phase-A",
+        "description": "Pf-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4200": {
+        "name": "Pf-phase-B",
+        "description": "Pf-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4201": {
+        "name": "Pf-phase-C",
+        "description": "Pf-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4203": {
+        "name": "Total-real-energy-exported:-sunspec-total-active-energy-exported:-acurev-1300",
+        "description": "Total-real-energy-exported:-sunspec-total-active-energy-exported:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4205": {
+        "name": "Total-watt-hours-exported-in-phase-a:-sunspec;-total-active-energy-exported-in-phase-a:-acurev-1300",
+        "description": "Total-watt-hours-exported-in-phase-a:-sunspec;-total-active-energy-exported-in-phase-a:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4207": {
+        "name": "Total-watt-hours-exported-in-phase-b:-sunspec;-total-active-energy-exported-in-phase-b:-acurev-1300",
+        "description": "Total-watt-hours-exported-in-phase-b:-sunspec;-total-active-energy-exported-in-phase-b:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4209": {
+        "name": "Total-watt-hours-exported-in-phase-c:-sunspec;-total-active-energy-exported-in-phase-c:-acurev-1300",
+        "description": "Total-watt-hours-exported-in-phase-c:-sunspec;-total-active-energy-exported-in-phase-c:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4211": {
+        "name": "Total-real-energy-imported:-sunspec;-total-active-energy-imported:-acurev-1300",
+        "description": "Total-real-energy-imported:-sunspec;-total-active-energy-imported:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4213": {
+        "name": "Total-watt-hours-imported-phase-a:-sunspec;-total-active-energy-imported-in-phase-a:-acurev-1300",
+        "description": "Total-watt-hours-imported-phase-a:-sunspec;-total-active-energy-imported-in-phase-a:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4215": {
+        "name": "Total-watt-hours-imported-phase-b:-sunspec;-total-active-energy-imported-in-phase-b:-acurev-1300",
+        "description": "Total-watt-hours-imported-phase-b:-sunspec;-total-active-energy-imported-in-phase-b:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4217": {
+        "name": "Total-watt-hours-imported-phase-c:-sunspec;-total-active-energy-imported-in-phase-c:-acurev-1300",
+        "description": "Total-watt-hours-imported-phase-c:-sunspec;-total-active-energy-imported-in-phase-c:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4220": {
+        "name": "Total-va-hours-exported:-sunspec;-total-apparent-power-exported:-acurev-1300",
+        "description": "Total-va-hours-exported:-sunspec;-total-apparent-power-exported:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4222": {
+        "name": "Total-va-hours-exported-phase-a:-sunspec;-total-apparent-power-exported-in-phase-a:-acurev-1300",
+        "description": "Total-va-hours-exported-phase-a:-sunspec;-total-apparent-power-exported-in-phase-a:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4224": {
+        "name": "Total-va-hours-exported-phase-b:-sunspec;-total-apparent-power-exported-in-phase-b:-acurev-1300",
+        "description": "Total-va-hours-exported-phase-b:-sunspec;-total-apparent-power-exported-in-phase-b:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4226": {
+        "name": "Total-va-hours-exported-phase-c:-sunspec;-total-apparent-power-exported-in-phase-c:-acurev-1300",
+        "description": "Total-va-hours-exported-phase-c:-sunspec;-total-apparent-power-exported-in-phase-c:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4228": {
+        "name": "Total-va-hours-imported:-sunspec;-total-apparent-power-imported:-acurev-1300",
+        "description": "Total-va-hours-imported:-sunspec;-total-apparent-power-imported:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4230": {
+        "name": "Total-va-hours-imported-phase-a:-sunspec;-total-apparent-power-imported-in-phase-a:-acurev-1300",
+        "description": "Total-va-hours-imported-phase-a:-sunspec;-total-apparent-power-imported-in-phase-a:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4232": {
+        "name": "Total-va-hours-imported-phase-b:-sunspec;-total-apparent-power-imported-in-phase-b:-acurev-1300",
+        "description": "Total-va-hours-imported-phase-b:-sunspec;-total-apparent-power-imported-in-phase-b:-acurev-1300",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    }
+}

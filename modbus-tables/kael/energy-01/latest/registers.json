@@ -1,0 +1,502 @@
+{
+    "1": {
+        "name": "Company-code",
+        "description": "Company-code",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2": {
+        "name": "Product-code",
+        "description": "Product-code",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "4": {
+        "name": "Barcode-check",
+        "description": "Barcode-check",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "5": {
+        "name": "Program-communication-version",
+        "description": "Program-communication-version",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "6": {
+        "name": "User-define-number-H",
+        "description": "User-define-number-H",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "7": {
+        "name": "User-define-number-L",
+        "description": "User-define-number-L",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4095": {
+        "name": "Voltage-transformer-ratio",
+        "description": "Voltage-transformer-ratio",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4096": {
+        "name": "Current-transformer-ratio",
+        "description": "Current-transformer-ratio",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4097": {
+        "name": "Device-working-information-bits",
+        "description": "Device-working-information-bits",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4098": {
+        "name": "Input-voltage-phase1",
+        "description": "Input-voltage-phase1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "4099": {
+        "name": "Input-voltage-phase2",
+        "description": "Input-voltage-phase2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "4100": {
+        "name": "Input-voltage-phase3",
+        "description": "Input-voltage-phase3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "4101": {
+        "name": "Input-current-phase1",
+        "description": "Input-current-phase1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "4102": {
+        "name": "Input-current-phase2",
+        "description": "Input-current-phase2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "4103": {
+        "name": "Input-current-phase3",
+        "description": "Input-current-phase3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "4104": {
+        "name": "Input-active-power-phase1",
+        "description": "Input-active-power-phase1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "watt",
+        "access": "read"
+    },
+    "4105": {
+        "name": "Input-active-power-phase2",
+        "description": "Input-active-power-phase2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "watt",
+        "access": "read"
+    },
+    "4106": {
+        "name": "Input-active-power-phase3",
+        "description": "Input-active-power-phase3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "watt",
+        "access": "read"
+    },
+    "4107": {
+        "name": "Input-reactive-power-phase1",
+        "description": "Input-reactive-power-phase1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Var",
+        "access": "read"
+    },
+    "4108": {
+        "name": "Input-reactive-power-phase2",
+        "description": "Input-reactive-power-phase2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Var",
+        "access": "read"
+    },
+    "4109": {
+        "name": "Input-reactive-power-phase3",
+        "description": "Input-reactive-power-phase3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Var",
+        "access": "read"
+    },
+    "4110": {
+        "name": "Input-appearent-power-phase1",
+        "description": "Input-appearent-power-phase1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4111": {
+        "name": "Input-appearent-power-phase2",
+        "description": "Input-appearent-power-phase2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4112": {
+        "name": "Input-appearent-power-phase3",
+        "description": "Input-appearent-power-phase3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4113": {
+        "name": "Cos-phase1",
+        "description": "Cos-phase1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "0.001",
+        "access": "read"
+    },
+    "4114": {
+        "name": "Cos-phase2",
+        "description": "Cos-phase2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "0.001",
+        "access": "read"
+    },
+    "4115": {
+        "name": "Cos-phase3",
+        "description": "Cos-phase3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "0.001",
+        "access": "read"
+    },
+    "4116": {
+        "name": "SUM-cos",
+        "description": "SUM-cos",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "0.001",
+        "access": "read"
+    },
+    "4117": {
+        "name": "PF-phase1",
+        "description": "PF-phase1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "0.01",
+        "access": "read"
+    },
+    "4118": {
+        "name": "PF-phase2",
+        "description": "PF-phase2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "0.01",
+        "access": "read"
+    },
+    "4119": {
+        "name": "PF-phase3",
+        "description": "PF-phase3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "0.01",
+        "access": "read"
+    },
+    "4120": {
+        "name": "SUM-PF",
+        "description": "SUM-PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "0.01",
+        "access": "read"
+    },
+    "4121": {
+        "name": "Total-active-power",
+        "description": "Total-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "watt",
+        "access": "read"
+    },
+    "4122": {
+        "name": "Total-inductive-power",
+        "description": "Total-inductive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Var",
+        "access": "read"
+    },
+    "4123": {
+        "name": "Total-capacitive-power",
+        "description": "Total-capacitive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Var",
+        "access": "read"
+    },
+    "4124": {
+        "name": "SUM-reactive-power",
+        "description": "SUM-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Var",
+        "access": "read"
+    },
+    "4125": {
+        "name": "SUM-appearent-power",
+        "description": "SUM-appearent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4126": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "4127": {
+        "name": "Frequency-measure-order",
+        "description": "Frequency-measure-order",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "012",
+        "access": "read"
+    },
+    "4133": {
+        "name": "Phase-connection-and-no-current-alerts",
+        "description": "Phase-connection-and-no-current-alerts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4134": {
+        "name": "Voltage1-ZeroCrossOverAngle",
+        "description": "Voltage1-ZeroCrossOverAngle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Degree",
+        "access": "read"
+    },
+    "4135": {
+        "name": "Current1-ZeroCrossOverAngle",
+        "description": "Current1-ZeroCrossOverAngle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Degree",
+        "access": "read"
+    },
+    "4136": {
+        "name": "Voltage2-ZeroCrossOverAngle",
+        "description": "Voltage2-ZeroCrossOverAngle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Degree",
+        "access": "read"
+    },
+    "4137": {
+        "name": "Current2-ZeroCrossOverAngle",
+        "description": "Current2-ZeroCrossOverAngle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Degree",
+        "access": "read"
+    },
+    "4138": {
+        "name": "Voltage3-ZeroCrossOverAngle",
+        "description": "Voltage3-ZeroCrossOverAngle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Degree",
+        "access": "read"
+    },
+    "4139": {
+        "name": "Current3-ZeroCrossOverAngle",
+        "description": "Current3-ZeroCrossOverAngle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Degree",
+        "access": "read"
+    },
+    "4140": {
+        "name": "Input-voltage-phase1-2",
+        "description": "Input-voltage-phase1-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "4141": {
+        "name": "Input-voltage-phase2-3",
+        "description": "Input-voltage-phase2-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "4142": {
+        "name": "Input-voltage-phase3-1",
+        "description": "Input-voltage-phase3-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "4143": {
+        "name": "Notr-current",
+        "description": "Notr-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amp",
+        "access": "read"
+    }
+}

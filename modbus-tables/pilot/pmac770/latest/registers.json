@@ -1,0 +1,502 @@
+{
+    "1": {
+        "name": "Vb-(ph-N)",
+        "description": "Vb-(ph-N)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2": {
+        "name": "Vc-(ph-N)",
+        "description": "Vc-(ph-N)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "5": {
+        "name": "Vab-(ph-ph)",
+        "description": "Vab-(ph-ph)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "6": {
+        "name": "Vbc-(ph-ph)",
+        "description": "Vbc-(ph-ph)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "7": {
+        "name": "Vca-(ph-ph)",
+        "description": "Vca-(ph-ph)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "10": {
+        "name": "Positive-sequence-voltage",
+        "description": "Positive-sequence-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "11": {
+        "name": "Negative-sequence-voltage",
+        "description": "Negative-sequence-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "12": {
+        "name": "Neutral-voltage",
+        "description": "Neutral-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "13": {
+        "name": "Ia",
+        "description": "Ia",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "14": {
+        "name": "Ib",
+        "description": "Ib",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "15": {
+        "name": "Ic",
+        "description": "Ic",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "16": {
+        "name": "In",
+        "description": "In",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "17": {
+        "name": "Average-current",
+        "description": "Average-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "24": {
+        "name": "Negative-sequence-current",
+        "description": "Negative-sequence-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "25": {
+        "name": "Neutral-current",
+        "description": "Neutral-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "26": {
+        "name": "Phase-A-active-power",
+        "description": "Phase-A-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "W",
+        "access": "read"
+    },
+    "27": {
+        "name": "Phase-B-active-power",
+        "description": "Phase-B-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "W",
+        "access": "read"
+    },
+    "28": {
+        "name": "Phase-C-active-power",
+        "description": "Phase-C-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "W",
+        "access": "read"
+    },
+    "29": {
+        "name": "Total-active-power",
+        "description": "Total-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "30": {
+        "name": "Total-active-power",
+        "description": "Total-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "31": {
+        "name": "Phase-A-reactive-power",
+        "description": "Phase-A-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "var",
+        "access": "read"
+    },
+    "32": {
+        "name": "Phase-B-reactive-power",
+        "description": "Phase-B-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "var",
+        "access": "read"
+    },
+    "33": {
+        "name": "Phase-C-reactive-power",
+        "description": "Phase-C-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "var",
+        "access": "read"
+    },
+    "34": {
+        "name": "Total-reactive-power",
+        "description": "Total-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "35": {
+        "name": "Total-reactive-power",
+        "description": "Total-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "36": {
+        "name": "Phase-A-apparent-power",
+        "description": "Phase-A-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "37": {
+        "name": "Phase-B-apparent-power",
+        "description": "Phase-B-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "38": {
+        "name": "Phase-C-apparent-power",
+        "description": "Phase-C-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "39": {
+        "name": "Total-apparent-power",
+        "description": "Total-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40": {
+        "name": "Phase-A-power-factor",
+        "description": "Phase-A-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "41": {
+        "name": "Phase-B-power-factor",
+        "description": "Phase-B-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "42": {
+        "name": "Phase-C-power-factor",
+        "description": "Phase-C-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "43": {
+        "name": "Total-power-factor",
+        "description": "Total-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "44": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "45": {
+        "name": "Digital-input-status",
+        "description": "Digital-input-status",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "50": {
+        "name": "Analog-input-2",
+        "description": "Analog-input-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "51": {
+        "name": "Pulse-input",
+        "description": "Pulse-input",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "53": {
+        "name": "Phase-B-voltage-deviation",
+        "description": "Phase-B-voltage-deviation",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "%",
+        "access": "read"
+    },
+    "54": {
+        "name": "Phase-C-voltage-deviation",
+        "description": "Phase-C-voltage-deviation",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "%",
+        "access": "read"
+    },
+    "10055": {
+        "name": "Frequency-deviation",
+        "description": "Frequency-deviation",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "10056": {
+        "name": "Vph-N-unbalance-rate",
+        "description": "Vph-N-unbalance-rate",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "100": {
+        "name": "1st-quadrant,-phase-A-kWh",
+        "description": "1st-quadrant,-phase-A-kWh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "101": {
+        "name": "1st-quadrant,-phase-A-kWh",
+        "description": "1st-quadrant,-phase-A-kWh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "102": {
+        "name": "1st-quadrant,-phase-B-kWh",
+        "description": "1st-quadrant,-phase-B-kWh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "103": {
+        "name": "1st-quadrant,-phase-B-kWh",
+        "description": "1st-quadrant,-phase-B-kWh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "104": {
+        "name": "1st-quadrant,-phase-C-kWh",
+        "description": "1st-quadrant,-phase-C-kWh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "105": {
+        "name": "1st-quadrant,-phase-C-kWh",
+        "description": "1st-quadrant,-phase-C-kWh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "106": {
+        "name": "1st-quadrant,-total-kWh",
+        "description": "1st-quadrant,-total-kWh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "107": {
+        "name": "1st-quadrant,-total-kWh",
+        "description": "1st-quadrant,-total-kWh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "108": {
+        "name": "1st-quadrant,-phase-A-kvarh",
+        "description": "1st-quadrant,-phase-A-kvarh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvarh",
+        "access": "read"
+    }
+}

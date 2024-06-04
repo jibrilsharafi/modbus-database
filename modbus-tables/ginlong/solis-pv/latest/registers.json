@@ -1,0 +1,502 @@
+{
+    "3021": {
+        "name": "System-time-year",
+        "description": "System-time-year",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "a",
+        "access": "read"
+    },
+    "3022": {
+        "name": "System-time-month",
+        "description": "System-time-month",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3023": {
+        "name": "System-time-day",
+        "description": "System-time-day",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "a",
+        "access": "read"
+    },
+    "3024": {
+        "name": "System-time",
+        "description": "System-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3025": {
+        "name": "System-time",
+        "description": "System-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3026": {
+        "name": "System-time-second",
+        "description": "System-time-second",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3028": {
+        "name": "Inverter-total-power-generation",
+        "description": "Inverter-total-power-generation",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3030": {
+        "name": "Inverter-power-generation-in-the-month",
+        "description": "Inverter-power-generation-in-the-month",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3032": {
+        "name": "Inverted-last-month's-power-generation",
+        "description": "Inverted-last-month's-power-generation",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3034": {
+        "name": "Inverter-power-generation-today",
+        "description": "Inverter-power-generation-today",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3035": {
+        "name": "Inverter-yesterday's-power-generation",
+        "description": "Inverter-yesterday's-power-generation",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3036": {
+        "name": "Inverter-power-generation-this-year",
+        "description": "Inverter-power-generation-this-year",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3038": {
+        "name": "Inverter-last-year's-power-generation",
+        "description": "Inverter-last-year's-power-generation",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3048": {
+        "name": "Dc-voltage-1",
+        "description": "Dc-voltage-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "3049": {
+        "name": "Dc-current-1",
+        "description": "Dc-current-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "3050": {
+        "name": "Dc-voltage-2",
+        "description": "Dc-voltage-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "3051": {
+        "name": "Dc-current-2",
+        "description": "Dc-current-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "3052": {
+        "name": "Dc-voltage-3",
+        "description": "Dc-voltage-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "3053": {
+        "name": "Dc-current-3",
+        "description": "Dc-current-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "3054": {
+        "name": "Dc-voltage-4",
+        "description": "Dc-voltage-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "3055": {
+        "name": "Dc-current-4",
+        "description": "Dc-current-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "3056": {
+        "name": "Total-dc-output-power",
+        "description": "Total-dc-output-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "W",
+        "access": "read"
+    },
+    "3070": {
+        "name": "Dc-bus-voltage",
+        "description": "Dc-bus-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "3071": {
+        "name": "Dc-bus-half-voltage",
+        "description": "Dc-bus-half-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "3072": {
+        "name": "Ab-line-voltage-/-phase-A-voltage",
+        "description": "Ab-line-voltage-/-phase-A-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "3073": {
+        "name": "Bc-line-voltage-/-phase-B-voltage",
+        "description": "Bc-line-voltage-/-phase-B-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "3074": {
+        "name": "Ca-line-voltage-/-C-phase-voltage",
+        "description": "Ca-line-voltage-/-C-phase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "3075": {
+        "name": "Phase-A-current",
+        "description": "Phase-A-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "3076": {
+        "name": "Phase-B-current",
+        "description": "Phase-B-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "3077": {
+        "name": "Phase-C-current",
+        "description": "Phase-C-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "3078": {
+        "name": "Active-power",
+        "description": "Active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "3082": {
+        "name": "Apparent-power",
+        "description": "Apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "3091": {
+        "name": "National-standard",
+        "description": "National-standard",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3092": {
+        "name": "Inverter-temperature",
+        "description": "Inverter-temperature",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3093": {
+        "name": "Grid-frequency",
+        "description": "Grid-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "3094": {
+        "name": "Current-state-of-the-inverter",
+        "description": "Current-state-of-the-inverter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3103": {
+        "name": "Actual-power",
+        "description": "Actual-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3104": {
+        "name": "Actual-power",
+        "description": "Actual-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "3114": {
+        "name": "Set-the-flag-bit",
+        "description": "Set-the-flag-bit",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3125": {
+        "name": "Electricity-meter-total-active-power-generation",
+        "description": "Electricity-meter-total-active-power-generation",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "3127": {
+        "name": "Meter-voltage",
+        "description": "Meter-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3128": {
+        "name": "Meter-current",
+        "description": "Meter-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3129": {
+        "name": "Meter-active-power",
+        "description": "Meter-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "3131": {
+        "name": "Energy-storage-control-switch",
+        "description": "Energy-storage-control-switch",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3132": {
+        "name": "Battery-voltage",
+        "description": "Battery-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "3133": {
+        "name": "Battery-current",
+        "description": "Battery-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "A",
+        "access": "read"
+    },
+    "3134": {
+        "name": "Battery-current-direction",
+        "description": "Battery-current-direction",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3135": {
+        "name": "Llcbus-voltage",
+        "description": "Llcbus-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "3136": {
+        "name": "Bypassac-voltage",
+        "description": "Bypassac-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "3137": {
+        "name": "Bypass-ac-current",
+        "description": "Bypass-ac-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    }
+}

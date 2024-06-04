@@ -1,0 +1,502 @@
+{
+    "4096": {
+        "name": "System-voltage",
+        "description": "System-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mV",
+        "access": "read"
+    },
+    "4098": {
+        "name": "L-N-voltage-phase-1",
+        "description": "L-N-voltage-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mV",
+        "access": "read"
+    },
+    "4100": {
+        "name": "L-N-voltage-phase-2",
+        "description": "L-N-voltage-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mV",
+        "access": "read"
+    },
+    "4102": {
+        "name": "L-N-voltage-phase-3",
+        "description": "L-N-voltage-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mV",
+        "access": "read"
+    },
+    "4104": {
+        "name": "L-L-voltage-line-12",
+        "description": "L-L-voltage-line-12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mV",
+        "access": "read"
+    },
+    "4106": {
+        "name": "L-L-voltage-line-23",
+        "description": "L-L-voltage-line-23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mV",
+        "access": "read"
+    },
+    "4108": {
+        "name": "L-L-voltage-line-31",
+        "description": "L-L-voltage-line-31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mV",
+        "access": "read"
+    },
+    "4110": {
+        "name": "System-current",
+        "description": "System-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mA",
+        "access": "read"
+    },
+    "4112": {
+        "name": "Phase-1-current",
+        "description": "Phase-1-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mA",
+        "access": "read"
+    },
+    "4114": {
+        "name": "Phase-2-current",
+        "description": "Phase-2-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mA",
+        "access": "read"
+    },
+    "4116": {
+        "name": "Phase-3-current",
+        "description": "Phase-3-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mA",
+        "access": "read"
+    },
+    "4118": {
+        "name": "System-power-factor",
+        "description": "System-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4120": {
+        "name": "Phase-1-power-factor",
+        "description": "Phase-1-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4122": {
+        "name": "Phase-2-power-factor",
+        "description": "Phase-2-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4124": {
+        "name": "Phase-3-power-factor",
+        "description": "Phase-3-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4126": {
+        "name": "Phase-order",
+        "description": "Phase-order",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4128": {
+        "name": "Phase-1-cos",
+        "description": "Phase-1-cos",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4130": {
+        "name": "Phase-2-cos",
+        "description": "Phase-2-cos",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4132": {
+        "name": "Phase-3-cos",
+        "description": "Phase-3-cos",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4134": {
+        "name": "System-apparent-power",
+        "description": "System-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mVA",
+        "access": "read"
+    },
+    "4136": {
+        "name": "Phase-1-apparent-power",
+        "description": "Phase-1-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mVA",
+        "access": "read"
+    },
+    "4138": {
+        "name": "Phase-2-apparent-power",
+        "description": "Phase-2-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mVA",
+        "access": "read"
+    },
+    "4140": {
+        "name": "Phase-3-apparent-power",
+        "description": "Phase-3-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mVA",
+        "access": "read"
+    },
+    "4142": {
+        "name": "System-active-power",
+        "description": "System-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mW",
+        "access": "read"
+    },
+    "4144": {
+        "name": "Phase-1-active-power",
+        "description": "Phase-1-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mW",
+        "access": "read"
+    },
+    "4146": {
+        "name": "Phase-2-active-power",
+        "description": "Phase-2-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mW",
+        "access": "read"
+    },
+    "4148": {
+        "name": "Phase-3-active-power",
+        "description": "Phase-3-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mW",
+        "access": "read"
+    },
+    "4150": {
+        "name": "System-reactive-power",
+        "description": "System-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mvar",
+        "access": "read"
+    },
+    "4152": {
+        "name": "Phase-1-reactive-power",
+        "description": "Phase-1-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mvar",
+        "access": "read"
+    },
+    "4154": {
+        "name": "Phase-2-reactive-power",
+        "description": "Phase-2-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mvar",
+        "access": "read"
+    },
+    "4156": {
+        "name": "Phase-3-reactive-power",
+        "description": "Phase-3-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mvar",
+        "access": "read"
+    },
+    "4158": {
+        "name": "Imported-active-energy",
+        "description": "Imported-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mWh",
+        "access": "read"
+    },
+    "4160": {
+        "name": "Imported-reactive-inductive-energy",
+        "description": "Imported-reactive-inductive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mvarh",
+        "access": "read"
+    },
+    "4162": {
+        "name": "Exported-active-energy",
+        "description": "Exported-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mWh",
+        "access": "read"
+    },
+    "4164": {
+        "name": "Exported-reactive-inductive-energy",
+        "description": "Exported-reactive-inductive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mvarh",
+        "access": "read"
+    },
+    "4166": {
+        "name": "Line-frequency",
+        "description": "Line-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mHz",
+        "access": "read"
+    },
+    "4168": {
+        "name": "Phase-1-voltage-thd",
+        "description": "Phase-1-voltage-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "m%",
+        "access": "read"
+    },
+    "4170": {
+        "name": "Phase-2-voltage-thd",
+        "description": "Phase-2-voltage-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "m%",
+        "access": "read"
+    },
+    "4172": {
+        "name": "Phase-3-voltage-thd",
+        "description": "Phase-3-voltage-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "m%",
+        "access": "read"
+    },
+    "4174": {
+        "name": "Phase-1-current-thd",
+        "description": "Phase-1-current-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "m%",
+        "access": "read"
+    },
+    "4176": {
+        "name": "Phase-2-current-thd",
+        "description": "Phase-2-current-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "m%",
+        "access": "read"
+    },
+    "4178": {
+        "name": "Phase-3-current-thd",
+        "description": "Phase-3-current-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "m%",
+        "access": "read"
+    },
+    "4180": {
+        "name": "Void",
+        "description": "Void",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4182": {
+        "name": "Void",
+        "description": "Void",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4184": {
+        "name": "Imported-reactive-capacitive-energy",
+        "description": "Imported-reactive-capacitive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mvarh",
+        "access": "read"
+    },
+    "4186": {
+        "name": "Exported-reactive-capacitive-energy",
+        "description": "Exported-reactive-capacitive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mvarh",
+        "access": "read"
+    },
+    "4188": {
+        "name": "Imported-apparent-energy",
+        "description": "Imported-apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mVAh",
+        "access": "read"
+    },
+    "4190": {
+        "name": "Exported-apparent-energy",
+        "description": "Exported-apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mVAh",
+        "access": "read"
+    },
+    "4192": {
+        "name": "Neutral-current",
+        "description": "Neutral-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mA",
+        "access": "read"
+    },
+    "4194": {
+        "name": "System-current-demand",
+        "description": "System-current-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mA",
+        "access": "read"
+    }
+}

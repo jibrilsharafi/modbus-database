@@ -1,0 +1,502 @@
+{
+    "6": {
+        "name": "V1",
+        "description": "V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "v",
+        "access": "read"
+    },
+    "8": {
+        "name": "V2",
+        "description": "V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "v",
+        "access": "read"
+    },
+    "10": {
+        "name": "V3",
+        "description": "V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "v",
+        "access": "read"
+    },
+    "12": {
+        "name": "V12",
+        "description": "V12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "v",
+        "access": "read"
+    },
+    "14": {
+        "name": "V23",
+        "description": "V23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "v",
+        "access": "read"
+    },
+    "16": {
+        "name": "V31",
+        "description": "V31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "v",
+        "access": "read"
+    },
+    "18": {
+        "name": "11",
+        "description": "11",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "20": {
+        "name": "12",
+        "description": "12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "22": {
+        "name": "13",
+        "description": "13",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "24": {
+        "name": "In",
+        "description": "In",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "26": {
+        "name": "P1",
+        "description": "P1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "28": {
+        "name": "P2",
+        "description": "P2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "30": {
+        "name": "P3",
+        "description": "P3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "32": {
+        "name": "P",
+        "description": "P",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "34": {
+        "name": "Q-1",
+        "description": "Q-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "36": {
+        "name": "Q2",
+        "description": "Q2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "38": {
+        "name": "Q3",
+        "description": "Q3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "42": {
+        "name": "S1",
+        "description": "S1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "44": {
+        "name": "S2",
+        "description": "S2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "46": {
+        "name": "S3",
+        "description": "S3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "48": {
+        "name": "S",
+        "description": "S",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "50": {
+        "name": "Pfi",
+        "description": "Pfi",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "52": {
+        "name": "PF2",
+        "description": "PF2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "54": {
+        "name": "PF3",
+        "description": "PF3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "56": {
+        "name": "Pf",
+        "description": "Pf",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "58": {
+        "name": "F",
+        "description": "F",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "60": {
+        "name": "Import-active-energy",
+        "description": "Import-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "62": {
+        "name": "Export-active-energy",
+        "description": "Export-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "64": {
+        "name": "Import-reactive-energy",
+        "description": "Import-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "66": {
+        "name": "Export-reactive-energy",
+        "description": "Export-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "68": {
+        "name": "Apparent-energy",
+        "description": "Apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "70": {
+        "name": "1-quadrant-reactive-energy-eql+",
+        "description": "1-quadrant-reactive-energy-eql+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "72": {
+        "name": "2--quadrant-reactive-energy-eqc",
+        "description": "2--quadrant-reactive-energy-eqc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "74": {
+        "name": "3--quadrant-reactive-energy-eql",
+        "description": "3--quadrant-reactive-energy-eql",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "76": {
+        "name": "4--quadrant-reactive-energy-eqc",
+        "description": "4--quadrant-reactive-energy-eqc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "78": {
+        "name": "Fundamenta-import-active-energy",
+        "description": "Fundamenta-import-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "80": {
+        "name": "Fundamenta-export-active-energy",
+        "description": "Fundamenta-export-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "82": {
+        "name": "Fundamenta-import-reactive-energy",
+        "description": "Fundamenta-import-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "84": {
+        "name": "Fundamenta-export-reactive-energy",
+        "description": "Fundamenta-export-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "86": {
+        "name": "L1-import-active-energy",
+        "description": "L1-import-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "88": {
+        "name": "L2-import-active-energy",
+        "description": "L2-import-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "90": {
+        "name": "L3-import-active-energy",
+        "description": "L3-import-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "92": {
+        "name": "Li-export-active-energy",
+        "description": "Li-export-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "94": {
+        "name": "L2-export-active-energy",
+        "description": "L2-export-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "96": {
+        "name": "L3-export-active-energy",
+        "description": "L3-export-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "98": {
+        "name": "Li-import-reactive-energy",
+        "description": "Li-import-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "100": {
+        "name": "L2-import-reactive-energy",
+        "description": "L2-import-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "102": {
+        "name": "L3-import-reactive-energy",
+        "description": "L3-import-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "104": {
+        "name": "L1-export-reactive-energy",
+        "description": "L1-export-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "106": {
+        "name": "L2-export-reactive-energy",
+        "description": "L2-export-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    }
+}

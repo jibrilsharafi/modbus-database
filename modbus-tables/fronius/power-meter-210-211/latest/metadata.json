@@ -1,0 +1,11 @@
+{
+    "manufacturer": "fronius",
+    "model": "power-meter-210-211",
+    "description": "",
+    "version": "",
+    "url": "https://www.aggsoft.com/serial-data-logger/tutorials/modbus-data-logging/fronius-power-meter-210-211.htm",
+    "tags": {
+        "industry": "Unknown",
+        "application": "Unknown"
+    }
+}

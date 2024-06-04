@@ -1,0 +1,502 @@
+{
+    "20480": {
+        "name": "Active-import",
+        "description": "Active-import",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20484": {
+        "name": "Active-export",
+        "description": "Active-export",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20488": {
+        "name": "Active-net",
+        "description": "Active-net",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20492": {
+        "name": "Reactive-import",
+        "description": "Reactive-import",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20496": {
+        "name": "Reactive-export",
+        "description": "Reactive-export",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20500": {
+        "name": "Reactive-net",
+        "description": "Reactive-net",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20504": {
+        "name": "Apparent-import",
+        "description": "Apparent-import",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "20508": {
+        "name": "Apparent-export",
+        "description": "Apparent-export",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "20512": {
+        "name": "Apparent-net",
+        "description": "Apparent-net",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "20516": {
+        "name": "Active-import-CO2",
+        "description": "Active-import-CO2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kg",
+        "access": "read"
+    },
+    "20532": {
+        "name": "Active-import-currency",
+        "description": "Active-import-currency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "currency",
+        "access": "read"
+    },
+    "20848": {
+        "name": "Active-import-tariff-1",
+        "description": "Active-import-tariff-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20852": {
+        "name": "Active-import-tariff-2",
+        "description": "Active-import-tariff-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20856": {
+        "name": "Active-import-tariff-3",
+        "description": "Active-import-tariff-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20860": {
+        "name": "Active-import-tariff-4",
+        "description": "Active-import-tariff-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20880": {
+        "name": "Active-export-tariff-1",
+        "description": "Active-export-tariff-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20884": {
+        "name": "Active-export-tariff-2",
+        "description": "Active-export-tariff-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20888": {
+        "name": "Active-export-tariff-3",
+        "description": "Active-export-tariff-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20892": {
+        "name": "Active-export-tariff-4",
+        "description": "Active-export-tariff-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "20912": {
+        "name": "Reactive-import-tariff-1",
+        "description": "Reactive-import-tariff-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20916": {
+        "name": "Reactive-import-tariff-2",
+        "description": "Reactive-import-tariff-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20920": {
+        "name": "Reactive-import-tariff-3",
+        "description": "Reactive-import-tariff-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20924": {
+        "name": "Reactive-import-tariff-4",
+        "description": "Reactive-import-tariff-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20944": {
+        "name": "Reactive-export-tariff-1",
+        "description": "Reactive-export-tariff-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20948": {
+        "name": "Reactive-export-tariff-2",
+        "description": "Reactive-export-tariff-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20952": {
+        "name": "Reactive-export-tariff-3",
+        "description": "Reactive-export-tariff-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "20956": {
+        "name": "Reactive-export-tariff-4",
+        "description": "Reactive-export-tariff-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "21600": {
+        "name": "Active-import-L1",
+        "description": "Active-import-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "21604": {
+        "name": "Active-import-L2",
+        "description": "Active-import-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "21608": {
+        "name": "Active-import-L3",
+        "description": "Active-import-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "21612": {
+        "name": "Active-export-L1",
+        "description": "Active-export-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "21616": {
+        "name": "Active-export-L2",
+        "description": "Active-export-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "21620": {
+        "name": "Active-export-L3",
+        "description": "Active-export-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "21624": {
+        "name": "Active-net-L1",
+        "description": "Active-net-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "21628": {
+        "name": "Active-net-L2",
+        "description": "Active-net-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "21632": {
+        "name": "Active-net-L3",
+        "description": "Active-net-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "21636": {
+        "name": "Reactive-import-L1",
+        "description": "Reactive-import-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "21640": {
+        "name": "Reactive-import-L2",
+        "description": "Reactive-import-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "21644": {
+        "name": "Reactive-import-L3",
+        "description": "Reactive-import-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "21648": {
+        "name": "Reactive-export-L1",
+        "description": "Reactive-export-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "21652": {
+        "name": "Reactive-export-L2",
+        "description": "Reactive-export-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "21656": {
+        "name": "Reactive-export-L3",
+        "description": "Reactive-export-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "21660": {
+        "name": "Reactive-net-L1",
+        "description": "Reactive-net-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "21664": {
+        "name": "Reactive-net-L2",
+        "description": "Reactive-net-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "21668": {
+        "name": "Reactive-net-L3",
+        "description": "Reactive-net-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "21672": {
+        "name": "Apparent-import-L1",
+        "description": "Apparent-import-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "21676": {
+        "name": "Apparent-import-L2",
+        "description": "Apparent-import-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "21680": {
+        "name": "Apparent-import-L3",
+        "description": "Apparent-import-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "21684": {
+        "name": "Apparent-export-L1",
+        "description": "Apparent-export-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "21688": {
+        "name": "Apparent-export-L2",
+        "description": "Apparent-export-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVAh",
+        "access": "read"
+    }
+}

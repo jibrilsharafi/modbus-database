@@ -1,0 +1,11 @@
+{
+    "manufacturer": "fronius",
+    "model": "symo-20",
+    "description": "",
+    "version": "",
+    "url": "https://www.aggsoft.com/serial-data-logger/tutorials/modbus-data-logging/fronius-symo-20.htm",
+    "tags": {
+        "industry": "Unknown",
+        "application": "Unknown"
+    }
+}

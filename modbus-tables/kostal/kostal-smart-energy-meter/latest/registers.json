@@ -1,0 +1,502 @@
+{
+    "40069": {
+        "name": "Total-AC-Current",
+        "description": "Total-AC-Current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "A",
+        "access": "read"
+    },
+    "40070": {
+        "name": "Phase-A-Current",
+        "description": "Phase-A-Current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "A",
+        "access": "read"
+    },
+    "40071": {
+        "name": "Phase-B-Current",
+        "description": "Phase-B-Current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "A",
+        "access": "read"
+    },
+    "40072": {
+        "name": "Phase-C-Current",
+        "description": "Phase-C-Current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "A",
+        "access": "read"
+    },
+    "40073": {
+        "name": "Current-scale-factor",
+        "description": "Current-scale-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40074": {
+        "name": "Line-to-Neutral-AC-Voltage-(average-of-active-phases)",
+        "description": "Line-to-Neutral-AC-Voltage-(average-of-active-phases)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "V",
+        "access": "read"
+    },
+    "40075": {
+        "name": "Phase-Voltage-AN",
+        "description": "Phase-Voltage-AN",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "V",
+        "access": "read"
+    },
+    "40076": {
+        "name": "Phase-Voltage-BN",
+        "description": "Phase-Voltage-BN",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "V",
+        "access": "read"
+    },
+    "40077": {
+        "name": "Phase-Voltage-CN",
+        "description": "Phase-Voltage-CN",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "V",
+        "access": "read"
+    },
+    "40078": {
+        "name": "Line-to-Line-AC-Voltage-(average-of-active-phases)",
+        "description": "Line-to-Line-AC-Voltage-(average-of-active-phases)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "V",
+        "access": "read"
+    },
+    "40079": {
+        "name": "PHVPHAB",
+        "description": "PHVPHAB",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "V",
+        "access": "read"
+    },
+    "40080": {
+        "name": "PHVPHBC",
+        "description": "PHVPHBC",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "V",
+        "access": "read"
+    },
+    "40081": {
+        "name": "PHVPHCA",
+        "description": "PHVPHCA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "V",
+        "access": "read"
+    },
+    "40082": {
+        "name": "Voltage-scale-factor",
+        "description": "Voltage-scale-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40083": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "40084": {
+        "name": "Frequency-scale-factor",
+        "description": "Frequency-scale-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40085": {
+        "name": "Total-Real-Power",
+        "description": "Total-Real-Power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "W",
+        "access": "read"
+    },
+    "40086": {
+        "name": "WPHA",
+        "description": "WPHA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "W",
+        "access": "read"
+    },
+    "40087": {
+        "name": "WPHB",
+        "description": "WPHB",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "W",
+        "access": "read"
+    },
+    "40088": {
+        "name": "WPHC",
+        "description": "WPHC",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "W",
+        "access": "read"
+    },
+    "40089": {
+        "name": "Real-Power-scale-factor",
+        "description": "Real-Power-scale-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40090": {
+        "name": "AC-Apparent-Power",
+        "description": "AC-Apparent-Power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40091": {
+        "name": "VAPHA",
+        "description": "VAPHA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40092": {
+        "name": "VAPHB",
+        "description": "VAPHB",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40093": {
+        "name": "VAPHC",
+        "description": "VAPHC",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40094": {
+        "name": "Apparent-Power-scale-factor",
+        "description": "Apparent-Power-scale-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40095": {
+        "name": "Reactive-Power",
+        "description": "Reactive-Power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "var",
+        "access": "read"
+    },
+    "40096": {
+        "name": "VARPHA",
+        "description": "VARPHA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "var",
+        "access": "read"
+    },
+    "40097": {
+        "name": "VARPHB",
+        "description": "VARPHB",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "var",
+        "access": "read"
+    },
+    "40098": {
+        "name": "VARPHC",
+        "description": "VARPHC",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "var",
+        "access": "read"
+    },
+    "40099": {
+        "name": "Reactive-Power-scale-factor",
+        "description": "Reactive-Power-scale-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40100": {
+        "name": "Power-Factor",
+        "description": "Power-Factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Pct",
+        "access": "read"
+    },
+    "40101": {
+        "name": "PFPHA",
+        "description": "PFPHA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Pct",
+        "access": "read"
+    },
+    "40102": {
+        "name": "PFPHB",
+        "description": "PFPHB",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Pct",
+        "access": "read"
+    },
+    "40103": {
+        "name": "PFPHC",
+        "description": "PFPHC",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Pct",
+        "access": "read"
+    },
+    "40104": {
+        "name": "Power-Factor-scale-factor",
+        "description": "Power-Factor-scale-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40105": {
+        "name": "Total-Real-Energy-Exported",
+        "description": "Total-Real-Energy-Exported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "40107": {
+        "name": "TOTWHEXPPHA",
+        "description": "TOTWHEXPPHA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "40109": {
+        "name": "TOTWHEXPPHB",
+        "description": "TOTWHEXPPHB",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "40111": {
+        "name": "TOTWHEXPPHC",
+        "description": "TOTWHEXPPHC",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "40113": {
+        "name": "Total-Real-Energy-Imported",
+        "description": "Total-Real-Energy-Imported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "40115": {
+        "name": "TOTWHIMPPHA",
+        "description": "TOTWHIMPPHA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "40117": {
+        "name": "TOTWHIMPPHB",
+        "description": "TOTWHIMPPHB",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "40119": {
+        "name": "TOTWHIMPPHC",
+        "description": "TOTWHIMPPHC",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "40121": {
+        "name": "Real-Energy-scale-factor",
+        "description": "Real-Energy-scale-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "40122": {
+        "name": "Total-Apparent-Energy-Exported",
+        "description": "Total-Apparent-Energy-Exported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "40124": {
+        "name": "TOTVAHEXPPHA",
+        "description": "TOTVAHEXPPHA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "40126": {
+        "name": "TOTVAHEXPPHB",
+        "description": "TOTVAHEXPPHB",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "40128": {
+        "name": "TOTVAHEXPPHC",
+        "description": "TOTVAHEXPPHC",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "40130": {
+        "name": "Total-Apparent-Energy-Imported",
+        "description": "Total-Apparent-Energy-Imported",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VAh",
+        "access": "read"
+    }
+}

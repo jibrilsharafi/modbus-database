@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "L2-(L-n)-phase-voltage",
+        "description": "L2-(L-n)-phase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4": {
+        "name": "L3-(L-n)-phase-voltage",
+        "description": "L3-(L-n)-phase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "6": {
+        "name": "L1-current-strength",
+        "description": "L1-current-strength",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "8": {
+        "name": "L2-current-strength",
+        "description": "L2-current-strength",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "10": {
+        "name": "L3-current-strength",
+        "description": "L3-current-strength",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "12": {
+        "name": "L1-active-power",
+        "description": "L1-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "14": {
+        "name": "L2-active-power",
+        "description": "L2-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "16": {
+        "name": "L3-active-power",
+        "description": "L3-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "18": {
+        "name": "L1-apparent-power",
+        "description": "L1-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "20": {
+        "name": "L2-apparent-power",
+        "description": "L2-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "22": {
+        "name": "L3-apparent-power",
+        "description": "L3-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "24": {
+        "name": "L1-reactive-power",
+        "description": "L1-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Var",
+        "access": "read"
+    },
+    "26": {
+        "name": "L2-reactive-power",
+        "description": "L2-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Var",
+        "access": "read"
+    },
+    "28": {
+        "name": "L3-reactive-power",
+        "description": "L3-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Var",
+        "access": "read"
+    },
+    "30": {
+        "name": "L1-power-factor",
+        "description": "L1-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "32": {
+        "name": "L2-power-factor",
+        "description": "L2-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "34": {
+        "name": "L3-power-factor",
+        "description": "L3-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "36": {
+        "name": "L1-phase-angle",
+        "description": "L1-phase-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Degrees",
+        "access": "read"
+    },
+    "38": {
+        "name": "L2-phase-angle",
+        "description": "L2-phase-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Degrees",
+        "access": "read"
+    },
+    "40": {
+        "name": "L3-phase-angle",
+        "description": "L3-phase-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Degrees",
+        "access": "read"
+    },
+    "42": {
+        "name": "Average-phase-voltage-among-phase-and-neutral-wire",
+        "description": "Average-phase-voltage-among-phase-and-neutral-wire",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "46": {
+        "name": "Average-line-current",
+        "description": "Average-line-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "48": {
+        "name": "Sum-of-phase-currents",
+        "description": "Sum-of-phase-currents",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "52": {
+        "name": "Total-system-power",
+        "description": "Total-system-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "56": {
+        "name": "Total-system-volt-amps",
+        "description": "Total-system-volt-amps",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "60": {
+        "name": "Total-system-var",
+        "description": "Total-system-var",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Var",
+        "access": "read"
+    },
+    "62": {
+        "name": "Total-system-power-factor-(*1)",
+        "description": "Total-system-power-factor-(*1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "66": {
+        "name": "Total-system-phase-angle",
+        "description": "Total-system-phase-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Degrees",
+        "access": "read"
+    },
+    "70": {
+        "name": "Frequency-of-supply-voltages",
+        "description": "Frequency-of-supply-voltages",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "72": {
+        "name": "Imported-active-energy",
+        "description": "Imported-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh/ MWh",
+        "access": "read"
+    },
+    "74": {
+        "name": "Exported-active-energy",
+        "description": "Exported-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWH/ MWh",
+        "access": "read"
+    },
+    "76": {
+        "name": "Imported-reactive-energy",
+        "description": "Imported-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVarh/ MVarh",
+        "access": "read"
+    },
+    "78": {
+        "name": "Exported-reactive-energy",
+        "description": "Exported-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVarh/ MVarh",
+        "access": "read"
+    },
+    "80": {
+        "name": "Apparent-power",
+        "description": "Apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVah/ MVAh",
+        "access": "read"
+    },
+    "82": {
+        "name": "Ah-since-last-reset",
+        "description": "Ah-since-last-reset",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ah/kAh",
+        "access": "read"
+    },
+    "84": {
+        "name": "Total-system-power-demand-(*2)",
+        "description": "Total-system-power-demand-(*2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "86": {
+        "name": "Maximum-total-system-power-demand-(*2)",
+        "description": "Maximum-total-system-power-demand-(*2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "100": {
+        "name": "Total-system-VA-demand-(*2)",
+        "description": "Total-system-VA-demand-(*2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "102": {
+        "name": "Maximum-total-system-VA-demand",
+        "description": "Maximum-total-system-VA-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "104": {
+        "name": "Neutral-current-demand",
+        "description": "Neutral-current-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "106": {
+        "name": "Maximum-neutral-current-demand",
+        "description": "Maximum-neutral-current-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "200": {
+        "name": "L1-L2-interphase-voltage",
+        "description": "L1-L2-interphase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "202": {
+        "name": "L2-L3-interphase-voltage",
+        "description": "L2-L3-interphase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "204": {
+        "name": "L3-L1-interphase-voltage",
+        "description": "L3-L1-interphase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "206": {
+        "name": "Average-interphase-voltage",
+        "description": "Average-interphase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "224": {
+        "name": "Neutral-current",
+        "description": "Neutral-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "234": {
+        "name": "Phase-1-L/N-volts-THD",
+        "description": "Phase-1-L/N-volts-THD",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "236": {
+        "name": "Phase-2-L/N-volts-THD",
+        "description": "Phase-2-L/N-volts-THD",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "238": {
+        "name": "Phase-3-L/N-volts-THD",
+        "description": "Phase-3-L/N-volts-THD",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "240": {
+        "name": "Phase-1-current-THD",
+        "description": "Phase-1-current-THD",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    }
+}

@@ -1,0 +1,502 @@
+{
+    "4096": {
+        "name": "Phase-1-N-voltage",
+        "description": "Phase-1-N-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4098": {
+        "name": "Phase-2-N-voltage",
+        "description": "Phase-2-N-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4100": {
+        "name": "Phase-3-N-voltage",
+        "description": "Phase-3-N-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4102": {
+        "name": "Line-12-voltage",
+        "description": "Line-12-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4104": {
+        "name": "Line-23-voltage",
+        "description": "Line-23-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4106": {
+        "name": "Line-31-voltage",
+        "description": "Line-31-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4108": {
+        "name": "System-voltage",
+        "description": "System-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4110": {
+        "name": "Phase-1-current",
+        "description": "Phase-1-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4112": {
+        "name": "Phase-2-current",
+        "description": "Phase-2-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4114": {
+        "name": "Phase-3-current",
+        "description": "Phase-3-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4116": {
+        "name": "Neutral-current",
+        "description": "Neutral-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4118": {
+        "name": "System-current",
+        "description": "System-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4120": {
+        "name": "Phase-1-active-power",
+        "description": "Phase-1-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4122": {
+        "name": "Phase-2-active-power",
+        "description": "Phase-2-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4124": {
+        "name": "Phase-3-active-power",
+        "description": "Phase-3-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4126": {
+        "name": "System-active-power",
+        "description": "System-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4128": {
+        "name": "Phase-1-apparent-power",
+        "description": "Phase-1-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4130": {
+        "name": "Phase-2-apparent-power",
+        "description": "Phase-2-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4132": {
+        "name": "Phase-3-apparent-power",
+        "description": "Phase-3-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4134": {
+        "name": "System-apparent-power",
+        "description": "System-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4136": {
+        "name": "Phase-1-reactive-power",
+        "description": "Phase-1-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4138": {
+        "name": "Phase-2-reactive-power",
+        "description": "Phase-2-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4140": {
+        "name": "Phase-3-reactive-power",
+        "description": "Phase-3-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4142": {
+        "name": "System-reactive-power",
+        "description": "System-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4144": {
+        "name": "Phase-1-power-factor",
+        "description": "Phase-1-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4146": {
+        "name": "Phase-2-power-factor",
+        "description": "Phase-2-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4148": {
+        "name": "Phase-3-power-factor",
+        "description": "Phase-3-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4150": {
+        "name": "System-power-factor",
+        "description": "System-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4152": {
+        "name": "Phase-1-DPF",
+        "description": "Phase-1-DPF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4154": {
+        "name": "Phase-2-DPF",
+        "description": "Phase-2-DPF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4156": {
+        "name": "Phase-3-DPF",
+        "description": "Phase-3-DPF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4158": {
+        "name": "Phase-1-tangent",
+        "description": "Phase-1-tangent",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4160": {
+        "name": "Phase-2-tangent",
+        "description": "Phase-2-tangent",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4162": {
+        "name": "Phase-3-tangent",
+        "description": "Phase-3-tangent",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4164": {
+        "name": "System-tangent",
+        "description": "System-tangent",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4166": {
+        "name": "Phase-1-N-voltage-THD",
+        "description": "Phase-1-N-voltage-THD",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "4168": {
+        "name": "Phase-2-N-voltage-THD",
+        "description": "Phase-2-N-voltage-THD",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "4170": {
+        "name": "Phase-3-N-voltage-THD",
+        "description": "Phase-3-N-voltage-THD",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "4172": {
+        "name": "Line-12-voltage-THD",
+        "description": "Line-12-voltage-THD",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "4174": {
+        "name": "Line-23-voltage-THD",
+        "description": "Line-23-voltage-THD",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "4176": {
+        "name": "Line-31-voltage-THD",
+        "description": "Line-31-voltage-THD",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "4178": {
+        "name": "Phase-1-current-THD",
+        "description": "Phase-1-current-THD",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "4180": {
+        "name": "Phase-2-current-THD",
+        "description": "Phase-2-current-THD",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "4182": {
+        "name": "Phase-3-current-THD",
+        "description": "Phase-3-current-THD",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "4184": {
+        "name": "Neutral-current-THD",
+        "description": "Neutral-current-THD",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "4186": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "4188": {
+        "name": "Phase-sequence-($00=123-CCW,-$01=321-CW,-$02=not-defined)",
+        "description": "Phase-sequence-($00=123-CCW,-$01=321-CW,-$02=not-defined)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4190": {
+        "name": "Installation-hourcounter",
+        "description": "Installation-hourcounter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "h",
+        "access": "read"
+    },
+    "4192": {
+        "name": "Measurement-hourcounter",
+        "description": "Measurement-hourcounter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "h",
+        "access": "read"
+    },
+    "4366": {
+        "name": "Phase-1-current-DMD",
+        "description": "Phase-1-current-DMD",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    }
+}

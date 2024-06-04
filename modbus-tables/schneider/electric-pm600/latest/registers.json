@@ -1,0 +1,502 @@
+{
+    "2019": {
+        "name": "Scale-Factor-A",
+        "description": "Scale-Factor-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "2022": {
+        "name": "Scale-Factor-D",
+        "description": "Scale-Factor-D",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "2023": {
+        "name": "Scale-Factor-E",
+        "description": "Scale-Factor-E",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "999": {
+        "name": "Update-interval",
+        "description": "Update-interval",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1000": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Hertz",
+        "access": "read"
+    },
+    "1002": {
+        "name": "Current,-phase-A",
+        "description": "Current,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Amps",
+        "access": "read"
+    },
+    "1003": {
+        "name": "Current,-phase-B",
+        "description": "Current,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Amps",
+        "access": "read"
+    },
+    "1004": {
+        "name": "Current,-phase-C",
+        "description": "Current,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Amps",
+        "access": "read"
+    },
+    "1005": {
+        "name": "Current,-calculated-neutral",
+        "description": "Current,-calculated-neutral",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Amps",
+        "access": "read"
+    },
+    "1009": {
+        "name": "Current-unbalance,-phase-A",
+        "description": "Current-unbalance,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Percent",
+        "access": "read"
+    },
+    "1010": {
+        "name": "Current-unbalance,-phase-B",
+        "description": "Current-unbalance,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Percent",
+        "access": "read"
+    },
+    "1011": {
+        "name": "Current-unbalance,-phase-C",
+        "description": "Current-unbalance,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Percent",
+        "access": "read"
+    },
+    "1012": {
+        "name": "Current-unbalance,-worst",
+        "description": "Current-unbalance,-worst",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Percent",
+        "access": "read"
+    },
+    "1013": {
+        "name": "Voltage,-phase-A-to-B",
+        "description": "Voltage,-phase-A-to-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "1014": {
+        "name": "Voltage,-phase-B-to-C",
+        "description": "Voltage,-phase-B-to-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "1015": {
+        "name": "Voltage,-phase-C-to-A",
+        "description": "Voltage,-phase-C-to-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "1017": {
+        "name": "Voltage,-phase-A-to-neutral",
+        "description": "Voltage,-phase-A-to-neutral",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "1018": {
+        "name": "Voltage,-phase-B-to-neutral",
+        "description": "Voltage,-phase-B-to-neutral",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "1019": {
+        "name": "Voltage,-phase-C-to-neutral",
+        "description": "Voltage,-phase-C-to-neutral",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "1021": {
+        "name": "Voltage-unbalance,-phase-A-B",
+        "description": "Voltage-unbalance,-phase-A-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Percent",
+        "access": "read"
+    },
+    "1022": {
+        "name": "Voltage-unbalance,-phase-B-C",
+        "description": "Voltage-unbalance,-phase-B-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Percent",
+        "access": "read"
+    },
+    "1023": {
+        "name": "Voltage-unbalance,-phase-C-A",
+        "description": "Voltage-unbalance,-phase-C-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Percent",
+        "access": "read"
+    },
+    "1024": {
+        "name": "Voltage-unbalance,-L-L-worst",
+        "description": "Voltage-unbalance,-L-L-worst",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Percent",
+        "access": "read"
+    },
+    "1025": {
+        "name": "Voltage-unbalance,-phase-A",
+        "description": "Voltage-unbalance,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Percent",
+        "access": "read"
+    },
+    "1026": {
+        "name": "Voltage-unbalance,-phase-B",
+        "description": "Voltage-unbalance,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Percent",
+        "access": "read"
+    },
+    "1027": {
+        "name": "Voltage-unbalance,-phase-C",
+        "description": "Voltage-unbalance,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Percent",
+        "access": "read"
+    },
+    "1028": {
+        "name": "Voltage-unbalance,-L-N-worst",
+        "description": "Voltage-unbalance,-L-N-worst",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Percent",
+        "access": "read"
+    },
+    "1030": {
+        "name": "True-power-factor,-phase-A",
+        "description": "True-power-factor,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1031": {
+        "name": "True-power-factor,-phase-B",
+        "description": "True-power-factor,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1032": {
+        "name": "True-power-factor,-phase-C",
+        "description": "True-power-factor,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1033": {
+        "name": "True-power-factor,-3-phase-total",
+        "description": "True-power-factor,-3-phase-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1038": {
+        "name": "Real-power,-phase-A",
+        "description": "Real-power,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1039": {
+        "name": "Real-power,-phase-B",
+        "description": "Real-power,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1040": {
+        "name": "Real-power,-phase-C",
+        "description": "Real-power,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1041": {
+        "name": "Real-power,-3-phase-total",
+        "description": "Real-power,-3-phase-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1042": {
+        "name": "Reactive-power,-phase-A",
+        "description": "Reactive-power,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kVAr",
+        "access": "read"
+    },
+    "1043": {
+        "name": "Reactive-power,-phase-B",
+        "description": "Reactive-power,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kVAr",
+        "access": "read"
+    },
+    "1044": {
+        "name": "Reactive-power,-phase-C",
+        "description": "Reactive-power,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kVAr",
+        "access": "read"
+    },
+    "1045": {
+        "name": "Reactive-power,-3-phase-total",
+        "description": "Reactive-power,-3-phase-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kVAr",
+        "access": "read"
+    },
+    "1046": {
+        "name": "Apparent-power,-phase-A",
+        "description": "Apparent-power,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1047": {
+        "name": "Apparent-power,-phase-B",
+        "description": "Apparent-power,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1048": {
+        "name": "Apparent-power,-phase-C",
+        "description": "Apparent-power,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1049": {
+        "name": "Apparent-power,-3-phase-total",
+        "description": "Apparent-power,-3-phase-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1050": {
+        "name": "Thd/thd-A-current",
+        "description": "Thd/thd-A-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1051": {
+        "name": "Thd/thd-B-current",
+        "description": "Thd/thd-B-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1052": {
+        "name": "Thd/thd-C-current",
+        "description": "Thd/thd-C-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1054": {
+        "name": "Thd/thd-A-voltage",
+        "description": "Thd/thd-A-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1055": {
+        "name": "Thd/thd-B-voltage",
+        "description": "Thd/thd-B-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1056": {
+        "name": "Thd/thd-C-voltage",
+        "description": "Thd/thd-C-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1077": {
+        "name": "A-current-fundamental-rms-magnitude",
+        "description": "A-current-fundamental-rms-magnitude",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Amps",
+        "access": "read"
+    }
+}
