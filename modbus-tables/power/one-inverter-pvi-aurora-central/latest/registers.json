@@ -1,0 +1,502 @@
+{
+    "3650": {
+        "name": "Modbus-interface-type",
+        "description": "Modbus-interface-type",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "3651": {
+        "name": "Firmware-major-release",
+        "description": "Firmware-major-release",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "3652": {
+        "name": "Firmware-minor-release",
+        "description": "Firmware-minor-release",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "3653": {
+        "name": "Firmware-build-release",
+        "description": "Firmware-build-release",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "3700": {
+        "name": "Collection-daily-energy-of-all-modules",
+        "description": "Collection-daily-energy-of-all-modules",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWattHour",
+        "access": "read"
+    },
+    "3702": {
+        "name": "Collection-total-energy-of-all-modules",
+        "description": "Collection-total-energy-of-all-modules",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWattHour",
+        "access": "read"
+    },
+    "3704": {
+        "name": "Collection-partial-energy-of-all-modules",
+        "description": "Collection-partial-energy-of-all-modules",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWattHour",
+        "access": "read"
+    },
+    "3706": {
+        "name": "Collection-week-energy-of-all-modules",
+        "description": "Collection-week-energy-of-all-modules",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWattHour",
+        "access": "read"
+    },
+    "3708": {
+        "name": "Collection-monthly-energy-of-all-modules",
+        "description": "Collection-monthly-energy-of-all-modules",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWattHour",
+        "access": "read"
+    },
+    "3710": {
+        "name": "Collection-yearly-energy-of-all-modules",
+        "description": "Collection-yearly-energy-of-all-modules",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWattHour",
+        "access": "read"
+    },
+    "0129": {
+        "name": "PN5-module-01",
+        "description": "PN5-module-01",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "0130": {
+        "name": "Type-of-module-(Master-or-slave)",
+        "description": "Type-of-module-(Master-or-slave)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "0131": {
+        "name": "Status0-module-01-(Global-state)",
+        "description": "Status0-module-01-(Global-state)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "0132": {
+        "name": "Status1-module-01-(Inverter-state)",
+        "description": "Status1-module-01-(Inverter-state)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "0133": {
+        "name": "Status2-module-01-(Alarm-state)",
+        "description": "Status2-module-01-(Alarm-state)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "0136": {
+        "name": "Daily-energy-module-01",
+        "description": "Daily-energy-module-01",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWattHour",
+        "access": "read"
+    },
+    "0138": {
+        "name": "Total-energy-module-01",
+        "description": "Total-energy-module-01",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWattHour",
+        "access": "read"
+    },
+    "0140": {
+        "name": "Partial-energy-module-01",
+        "description": "Partial-energy-module-01",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWattHour",
+        "access": "read"
+    },
+    "0142": {
+        "name": "Week-energy-module-01",
+        "description": "Week-energy-module-01",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWattHour",
+        "access": "read"
+    },
+    "0144": {
+        "name": "Monthly-energy-module-01",
+        "description": "Monthly-energy-module-01",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWattHour",
+        "access": "read"
+    },
+    "0146": {
+        "name": "Yearly-energy-module-01",
+        "description": "Yearly-energy-module-01",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWattHour",
+        "access": "read"
+    },
+    "0148": {
+        "name": "3-phases-grid-voltage-module-01-(Slave)",
+        "description": "3-phases-grid-voltage-module-01-(Slave)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt Rms",
+        "access": "read"
+    },
+    "0150": {
+        "name": "3-phases-grid-current-module-01-(Slave)",
+        "description": "3-phases-grid-current-module-01-(Slave)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ampere Rms",
+        "access": "read"
+    },
+    "0152": {
+        "name": "3-phases-grid-power-module-01-(Slave)",
+        "description": "3-phases-grid-power-module-01-(Slave)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWatt",
+        "access": "read"
+    },
+    "0154": {
+        "name": "3-phases-frequence-module-01-(Slave)",
+        "description": "3-phases-frequence-module-01-(Slave)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "0156": {
+        "name": "Input-power-module-01-(Slave)",
+        "description": "Input-power-module-01-(Slave)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWatt",
+        "access": "read"
+    },
+    "0158": {
+        "name": "Input-voltage-module-01-(Slave)",
+        "description": "Input-voltage-module-01-(Slave)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "0160": {
+        "name": "Input-current-module-01-(Slave)",
+        "description": "Input-current-module-01-(Slave)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ampere",
+        "access": "read"
+    },
+    "0162": {
+        "name": "Supervisor-temperature-module-01",
+        "description": "Supervisor-temperature-module-01",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Celsius Degree",
+        "access": "read"
+    },
+    "0164": {
+        "name": "Power-supply-temperature-module-01",
+        "description": "Power-supply-temperature-module-01",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Celsius Degree",
+        "access": "read"
+    },
+    "0166": {
+        "name": "Headsink-module-01",
+        "description": "Headsink-module-01",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Celsius Degree",
+        "access": "read"
+    },
+    "0168": {
+        "name": "T2-module-01",
+        "description": "T2-module-01",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Celsius Degree",
+        "access": "read"
+    },
+    "0170": {
+        "name": "T3-module-01",
+        "description": "T3-module-01",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Celsius Degree",
+        "access": "read"
+    },
+    "0172": {
+        "name": "Daily-energy-module-01-(Rack-energy)",
+        "description": "Daily-energy-module-01-(Rack-energy)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWattHour",
+        "access": "read"
+    },
+    "0174": {
+        "name": "Total-energy-module-01-(Rack-energy)",
+        "description": "Total-energy-module-01-(Rack-energy)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWattHour",
+        "access": "read"
+    },
+    "0176": {
+        "name": "Partial-energy-module-01-(Rack-energy)",
+        "description": "Partial-energy-module-01-(Rack-energy)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWattHour",
+        "access": "read"
+    },
+    "0178": {
+        "name": "Week-energy-module-01-(Rack-energy)",
+        "description": "Week-energy-module-01-(Rack-energy)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWattHour",
+        "access": "read"
+    },
+    "0180": {
+        "name": "Monthly-energy-module-01-(Rack-energy)",
+        "description": "Monthly-energy-module-01-(Rack-energy)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWattHour",
+        "access": "read"
+    },
+    "0182": {
+        "name": "Yearly-energy-module-01-(Rack-energy)",
+        "description": "Yearly-energy-module-01-(Rack-energy)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWattHour",
+        "access": "read"
+    },
+    "0184": {
+        "name": "Grid-voltage-module-01-(Master-mean-of-3-phases-global-measurements)",
+        "description": "Grid-voltage-module-01-(Master-mean-of-3-phases-global-measurements)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "0186": {
+        "name": "Grid-current-module-01-(Master-mean-of-3-phases-global-measurements)",
+        "description": "Grid-current-module-01-(Master-mean-of-3-phases-global-measurements)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ampere",
+        "access": "read"
+    },
+    "0188": {
+        "name": "Grid-power-module-01-(Master-mean-of-3-phases-global-measurements)",
+        "description": "Grid-power-module-01-(Master-mean-of-3-phases-global-measurements)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWatt",
+        "access": "read"
+    },
+    "0190": {
+        "name": "Input-power-module-01-(Master-global-measurements)",
+        "description": "Input-power-module-01-(Master-global-measurements)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KWatt",
+        "access": "read"
+    },
+    "0192": {
+        "name": "Input-voltage-module-01-(Master-global-measurements)",
+        "description": "Input-voltage-module-01-(Master-global-measurements)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "0194": {
+        "name": "Input-current-module-01-(Master-global-measurements)",
+        "description": "Input-current-module-01-(Master-global-measurements)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ampere",
+        "access": "read"
+    },
+    "4100": {
+        "name": "Numbers-junction-box-presents-in-the-system-(Total)",
+        "description": "Numbers-junction-box-presents-in-the-system-(Total)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4101": {
+        "name": "RackNumber-of-the-module-that-manages-the-junction-box",
+        "description": "RackNumber-of-the-module-that-manages-the-junction-box",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4102": {
+        "name": "Address-of-the-module-that-manages-the-junction-box",
+        "description": "Address-of-the-module-that-manages-the-junction-box",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4103": {
+        "name": "Junction-box-present-in-the-rack",
+        "description": "Junction-box-present-in-the-rack",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4104": {
+        "name": "Address-junction-box-01",
+        "description": "Address-junction-box-01",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    }
+}

@@ -1,0 +1,502 @@
+{
+    "1": {
+        "name": "Voltage-VL1-N",
+        "description": "Voltage-VL1-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3": {
+        "name": "Voltage-vlz",
+        "description": "Voltage-vlz",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "5": {
+        "name": "Voltage-vl-N",
+        "description": "Voltage-vl-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "7": {
+        "name": "Voltage-VL1-L2",
+        "description": "Voltage-VL1-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "9": {
+        "name": "Voltage-vlz-L3",
+        "description": "Voltage-vlz-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "11": {
+        "name": "Voltage-vl-L1",
+        "description": "Voltage-vl-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "13": {
+        "name": "Current-L1",
+        "description": "Current-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "15": {
+        "name": "Current-L2",
+        "description": "Current-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "17": {
+        "name": "Current-L3",
+        "description": "Current-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "19": {
+        "name": "Apparent-power-L1",
+        "description": "Apparent-power-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "21": {
+        "name": "Apparent-power-L2",
+        "description": "Apparent-power-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "23": {
+        "name": "Apparent-power-L3",
+        "description": "Apparent-power-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "25": {
+        "name": "Active-power-L1",
+        "description": "Active-power-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "27": {
+        "name": "Active-power-L2",
+        "description": "Active-power-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "29": {
+        "name": "Active-power-L3",
+        "description": "Active-power-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "31": {
+        "name": "Reactive-power-L1",
+        "description": "Reactive-power-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "33": {
+        "name": "Reactive-power-L2",
+        "description": "Reactive-power-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "35": {
+        "name": "Reactive-power-L3",
+        "description": "Reactive-power-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "37": {
+        "name": "Power-factor-L1",
+        "description": "Power-factor-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "39": {
+        "name": "Power-factor-L2",
+        "description": "Power-factor-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "41": {
+        "name": "Power-factor-L3",
+        "description": "Power-factor-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "55": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "57": {
+        "name": "Average-voltage-V-L-N",
+        "description": "Average-voltage-V-L-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "59": {
+        "name": "Average-voltage-V-L-L",
+        "description": "Average-voltage-V-L-L",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "61": {
+        "name": "Average-current",
+        "description": "Average-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "63": {
+        "name": "Total-apparent-power",
+        "description": "Total-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "65": {
+        "name": "Total-active-power",
+        "description": "Total-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "67": {
+        "name": "Total-reactive-power",
+        "description": "Total-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "69": {
+        "name": "Total-power-factor",
+        "description": "Total-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "205": {
+        "name": "Device-diagnostics-and-device-status",
+        "description": "Device-diagnostics-and-device-status",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "207": {
+        "name": "Status-of-the-digital-outputs",
+        "description": "Status-of-the-digital-outputs",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "209": {
+        "name": "Status-of-the-digital-inputs",
+        "description": "Status-of-the-digital-inputs",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "211": {
+        "name": "Active-tariff",
+        "description": "Active-tariff",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "215": {
+        "name": "Universal-counter",
+        "description": "Universal-counter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "217": {
+        "name": "Relevant-parameter-changes-counter",
+        "description": "Relevant-parameter-changes-counter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "219": {
+        "name": "Counter-all-parameter-changes",
+        "description": "Counter-all-parameter-changes",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "501": {
+        "name": "Cumulated-active-power-import",
+        "description": "Cumulated-active-power-import",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "503": {
+        "name": "Cumulated-reactive-power-import",
+        "description": "Cumulated-reactive-power-import",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "505": {
+        "name": "Cumulated-active-power-export",
+        "description": "Cumulated-active-power-export",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "507": {
+        "name": "Cumulated-reactive-power-export",
+        "description": "Cumulated-reactive-power-export",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "509": {
+        "name": "Maximum-active-power-reading-during-the-period",
+        "description": "Maximum-active-power-reading-during-the-period",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "511": {
+        "name": "Minimum-active-power-reading-during-the-period",
+        "description": "Minimum-active-power-reading-during-the-period",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "513": {
+        "name": "Maximum-reactive-power-reading-dur-ing-the-period",
+        "description": "Maximum-reactive-power-reading-dur-ing-the-period",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "515": {
+        "name": "Minimum-reactive-power-reading-dur-ing-the-period",
+        "description": "Minimum-reactive-power-reading-dur-ing-the-period",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "517": {
+        "name": "Length-of-the-current-measuring-period",
+        "description": "Length-of-the-current-measuring-period",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "s",
+        "access": "read"
+    },
+    "519": {
+        "name": "Time-since-start-of-the-active-demand-period",
+        "description": "Time-since-start-of-the-active-demand-period",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "s",
+        "access": "read"
+    },
+    "801": {
+        "name": "Active-energy-import-tariff-1",
+        "description": "Active-energy-import-tariff-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "805": {
+        "name": "Active-energy-import-tariff-2",
+        "description": "Active-energy-import-tariff-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "809": {
+        "name": "Active-energy-export-tariff-1",
+        "description": "Active-energy-export-tariff-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "813": {
+        "name": "Active-energy-export-tariff-2",
+        "description": "Active-energy-export-tariff-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "Wh",
+        "access": "read"
+    }
+}

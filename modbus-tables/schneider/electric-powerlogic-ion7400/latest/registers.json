@@ -1,0 +1,505 @@
+{
+    "30": {
+        "name": "Meter-name",
+        "description": "Meter-name",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 40
+    },
+    "50": {
+        "name": "Meter-model",
+        "description": "Meter-model",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 40
+    },
+    "1717": {
+        "name": "Current-version",
+        "description": "Current-version",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 12
+    },
+    "1837": {
+        "name": "Year",
+        "description": "Year",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "year",
+        "access": "read"
+    },
+    "1838": {
+        "name": "Month",
+        "description": "Month",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "month",
+        "access": "read"
+    },
+    "1839": {
+        "name": "Day",
+        "description": "Day",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "days",
+        "access": "read"
+    },
+    "1840": {
+        "name": "Hour",
+        "description": "Hour",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "hours",
+        "access": "read"
+    },
+    "1841": {
+        "name": "Minute",
+        "description": "Minute",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "minutes",
+        "access": "read"
+    },
+    "1842": {
+        "name": "Second",
+        "description": "Second",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "seconds",
+        "access": "read"
+    },
+    "1844": {
+        "name": "Day-of-week",
+        "description": "Day-of-week",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2400": {
+        "name": "Digital-input-status-validity-base-unit",
+        "description": "Digital-input-status-validity-base-unit",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2402": {
+        "name": "Digital-output-status-validity-base-unit",
+        "description": "Digital-output-status-validity-base-unit",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2420": {
+        "name": "Setpoint-status-validity",
+        "description": "Setpoint-status-validity",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2550": {
+        "name": "Digital-input-status-validity-option-slot-A",
+        "description": "Digital-input-status-validity-option-slot-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2552": {
+        "name": "Digital-input-status-validity-option-slot-B",
+        "description": "Digital-input-status-validity-option-slot-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2554": {
+        "name": "Digital-input-status-validity-option-slot-C",
+        "description": "Digital-input-status-validity-option-slot-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2556": {
+        "name": "Digital-input-status-validity-option-slot-D",
+        "description": "Digital-input-status-validity-option-slot-D",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2566": {
+        "name": "Digital-output-status-validity-option-slot-A",
+        "description": "Digital-output-status-validity-option-slot-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2568": {
+        "name": "Digital-output-status-validity-option-slot-B",
+        "description": "Digital-output-status-validity-option-slot-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2570": {
+        "name": "Digital-output-status-validity-option-slot-C",
+        "description": "Digital-output-status-validity-option-slot-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2572": {
+        "name": "Digital-output-status-validity-option-slot-D",
+        "description": "Digital-output-status-validity-option-slot-D",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2700": {
+        "name": "Active-energy-delivered-(into-load)",
+        "description": "Active-energy-delivered-(into-load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2702": {
+        "name": "Active-energy-received-(out-of-load)",
+        "description": "Active-energy-received-(out-of-load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2704": {
+        "name": "Active-energy-delivered-+-received",
+        "description": "Active-energy-delivered-+-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2706": {
+        "name": "Active-energy-delivered-received",
+        "description": "Active-energy-delivered-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2708": {
+        "name": "Reactive-energy-delivered",
+        "description": "Reactive-energy-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "2710": {
+        "name": "Reactive-energy-received",
+        "description": "Reactive-energy-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "2712": {
+        "name": "Reactive-energy-delivered-+-received",
+        "description": "Reactive-energy-delivered-+-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "2714": {
+        "name": "Reactive-energy-delivered-received",
+        "description": "Reactive-energy-delivered-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "2716": {
+        "name": "Apparent-energy-delivered",
+        "description": "Apparent-energy-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "2718": {
+        "name": "Apparent-energy-received",
+        "description": "Apparent-energy-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "2720": {
+        "name": "Apparent-energy-delivered-+-received",
+        "description": "Apparent-energy-delivered-+-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "2722": {
+        "name": "Apparent-energy-delivered-received",
+        "description": "Apparent-energy-delivered-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "2724": {
+        "name": "Active-energy-in-quadrant-I",
+        "description": "Active-energy-in-quadrant-I",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2726": {
+        "name": "Active-energy-in-quadrant-ii",
+        "description": "Active-energy-in-quadrant-ii",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2728": {
+        "name": "Active-energy-in-quadrant-iii",
+        "description": "Active-energy-in-quadrant-iii",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2730": {
+        "name": "Active-energy-in-quadrant-iv",
+        "description": "Active-energy-in-quadrant-iv",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2732": {
+        "name": "Reactive-energy-in-quadrant-I",
+        "description": "Reactive-energy-in-quadrant-I",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "2734": {
+        "name": "Reactive-energy-in-quadrant-ii",
+        "description": "Reactive-energy-in-quadrant-ii",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "2736": {
+        "name": "Reactive-energy-in-quadrant-iii",
+        "description": "Reactive-energy-in-quadrant-iii",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "2738": {
+        "name": "Reactive-energy-in-quadrant-iv",
+        "description": "Reactive-energy-in-quadrant-iv",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "2740": {
+        "name": "Apparent-energy-in-quadrant-I",
+        "description": "Apparent-energy-in-quadrant-I",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "2742": {
+        "name": "Apparent-energy-in-quadrant-ii",
+        "description": "Apparent-energy-in-quadrant-ii",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "2744": {
+        "name": "Apparent-energy-in-quadrant-iii",
+        "description": "Apparent-energy-in-quadrant-iii",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "2746": {
+        "name": "Apparent-energy-in-quadrant-iv",
+        "description": "Apparent-energy-in-quadrant-iv",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "2748": {
+        "name": "Conditional-active-energy-delivered-(into-load)",
+        "description": "Conditional-active-energy-delivered-(into-load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2750": {
+        "name": "Conditional-active-energy-received-(out-of-load)",
+        "description": "Conditional-active-energy-received-(out-of-load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2754": {
+        "name": "Active-energy-delivered-received,-conditional",
+        "description": "Active-energy-delivered-received,-conditional",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2756": {
+        "name": "Conditional-reactive-energy-in-(delivered)",
+        "description": "Conditional-reactive-energy-in-(delivered)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "2758": {
+        "name": "Conditional-reactive-energy-out-(received)",
+        "description": "Conditional-reactive-energy-out-(received)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVARh",
+        "access": "read"
+    }
+}

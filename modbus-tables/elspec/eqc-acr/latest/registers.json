@@ -1,0 +1,502 @@
+{
+    "8448": {
+        "name": "Fault",
+        "description": "Fault",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2": {
+        "name": "Voltage-L2",
+        "description": "Voltage-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4": {
+        "name": "Voltage-L3",
+        "description": "Voltage-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "6": {
+        "name": "Voltage",
+        "description": "Voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "8": {
+        "name": "Voltage-L12",
+        "description": "Voltage-L12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "10": {
+        "name": "Voltage-L23",
+        "description": "Voltage-L23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12": {
+        "name": "Voltage-L31",
+        "description": "Voltage-L31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "14": {
+        "name": "Voltage",
+        "description": "Voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "20": {
+        "name": "Current-L1-(mains)",
+        "description": "Current-L1-(mains)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "22": {
+        "name": "Current-L2-(mains)",
+        "description": "Current-L2-(mains)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "24": {
+        "name": "Current-L3-(mains)",
+        "description": "Current-L3-(mains)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "26": {
+        "name": "Current-(mains)",
+        "description": "Current-(mains)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "28": {
+        "name": "Current-L1-(caps)",
+        "description": "Current-L1-(caps)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "30": {
+        "name": "Current-L2-(caps)",
+        "description": "Current-L2-(caps)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "32": {
+        "name": "Current-L3-(caps)",
+        "description": "Current-L3-(caps)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "34": {
+        "name": "Current-(caps)",
+        "description": "Current-(caps)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "36": {
+        "name": "Current-L1-(load)",
+        "description": "Current-L1-(load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "38": {
+        "name": "Current-L2-(load)",
+        "description": "Current-L2-(load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "40": {
+        "name": "Current-L3-(load)",
+        "description": "Current-L3-(load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "42": {
+        "name": "Current-(load)",
+        "description": "Current-(load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "50": {
+        "name": "Active-power-L1-(mains)",
+        "description": "Active-power-L1-(mains)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "52": {
+        "name": "Active-power-L2-(mains)",
+        "description": "Active-power-L2-(mains)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "54": {
+        "name": "Active-power-L3-(mains)",
+        "description": "Active-power-L3-(mains)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "56": {
+        "name": "Active-power-L3-(mains)",
+        "description": "Active-power-L3-(mains)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "58": {
+        "name": "Reactive-power-L1-(mains)",
+        "description": "Reactive-power-L1-(mains)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "60": {
+        "name": "Reactive-power-L2-(mains)",
+        "description": "Reactive-power-L2-(mains)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "62": {
+        "name": "Reactive-power-L3-(mains)",
+        "description": "Reactive-power-L3-(mains)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "64": {
+        "name": "Reactive-power-L3-(mains)",
+        "description": "Reactive-power-L3-(mains)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "66": {
+        "name": "Apparent-power-L1-(mains)",
+        "description": "Apparent-power-L1-(mains)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "68": {
+        "name": "Apparent-power-L2-(mains)",
+        "description": "Apparent-power-L2-(mains)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "70": {
+        "name": "Apparent-power-L3-(mains)",
+        "description": "Apparent-power-L3-(mains)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "72": {
+        "name": "Apparent-power-L3-(mains)",
+        "description": "Apparent-power-L3-(mains)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "88": {
+        "name": "Reactive-power-L1-(caps)",
+        "description": "Reactive-power-L1-(caps)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "90": {
+        "name": "Reactive-power-L2-(caps)",
+        "description": "Reactive-power-L2-(caps)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "92": {
+        "name": "Reactive-power-L3-(caps)",
+        "description": "Reactive-power-L3-(caps)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "94": {
+        "name": "Reactive-power-L3-(caps)",
+        "description": "Reactive-power-L3-(caps)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "110": {
+        "name": "Active-power-L1-(load)",
+        "description": "Active-power-L1-(load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "112": {
+        "name": "Active-power-L2-(load)",
+        "description": "Active-power-L2-(load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "114": {
+        "name": "Active-power-L3-(load)",
+        "description": "Active-power-L3-(load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "116": {
+        "name": "Active-power-L3-(load)",
+        "description": "Active-power-L3-(load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "118": {
+        "name": "Reactive-power-L1-(load)",
+        "description": "Reactive-power-L1-(load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "120": {
+        "name": "Reactive-power-L2-(load)",
+        "description": "Reactive-power-L2-(load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "122": {
+        "name": "Reactive-power-L3-(load)",
+        "description": "Reactive-power-L3-(load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "124": {
+        "name": "Reactive-power-L3-(load)",
+        "description": "Reactive-power-L3-(load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "126": {
+        "name": "Apparent-power-L1-(load)",
+        "description": "Apparent-power-L1-(load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "128": {
+        "name": "Apparent-power-L2-(load)",
+        "description": "Apparent-power-L2-(load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "130": {
+        "name": "Apparent-power-L3-(load)",
+        "description": "Apparent-power-L3-(load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "132": {
+        "name": "Apparent-power-L3-(load)",
+        "description": "Apparent-power-L3-(load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "140": {
+        "name": "Power-factor-(mains)",
+        "description": "Power-factor-(mains)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    }
+}

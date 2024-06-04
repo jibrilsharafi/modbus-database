@@ -1,0 +1,11 @@
+{
+    "manufacturer": "abb",
+    "model": "m4m",
+    "description": "",
+    "version": "",
+    "url": "https://www.aggsoft.com/serial-data-logger/tutorials/modbus-data-logging/abb-m4m.htm",
+    "tags": {
+        "industry": "Unknown",
+        "application": "Unknown"
+    }
+}

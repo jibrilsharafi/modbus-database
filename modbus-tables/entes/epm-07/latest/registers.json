@@ -1,0 +1,502 @@
+{
+    "152": {
+        "name": "L3-phase-min.-Apparent-power",
+        "description": "L3-phase-min.-Apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "154": {
+        "name": "Total-min.-Import-active-power",
+        "description": "Total-min.-Import-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "156": {
+        "name": "Total-min.-Export-active-power",
+        "description": "Total-min.-Export-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "158": {
+        "name": "Total-min.-Import-reactive-power",
+        "description": "Total-min.-Import-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "160": {
+        "name": "Total-min.-Export-reactive-power",
+        "description": "Total-min.-Export-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "162": {
+        "name": "Total-min.-Apparent-power",
+        "description": "Total-min.-Apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "164": {
+        "name": "L1-phase-max.-Voltage",
+        "description": "L1-phase-max.-Voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "166": {
+        "name": "L2-phase-max.-Voltage",
+        "description": "L2-phase-max.-Voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "168": {
+        "name": "L3-phase-max.-Voltage",
+        "description": "L3-phase-max.-Voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "170": {
+        "name": "L1-L2-phase-phase-max.-Voltage",
+        "description": "L1-L2-phase-phase-max.-Voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "172": {
+        "name": "L2-L3-phase-phase-max.-Voltage",
+        "description": "L2-L3-phase-phase-max.-Voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "174": {
+        "name": "L3-L1-phase-phase-max.-Voltage",
+        "description": "L3-L1-phase-phase-max.-Voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "176": {
+        "name": "L1-phase-max.-Current",
+        "description": "L1-phase-max.-Current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amper",
+        "access": "read"
+    },
+    "178": {
+        "name": "L2-phase-max.-Current",
+        "description": "L2-phase-max.-Current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amper",
+        "access": "read"
+    },
+    "180": {
+        "name": "L3-phase-max.-Current",
+        "description": "L3-phase-max.-Current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amper",
+        "access": "read"
+    },
+    "182": {
+        "name": "L1-phase-max.-Active-power",
+        "description": "L1-phase-max.-Active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "184": {
+        "name": "L2-phase-max.-Active-power",
+        "description": "L2-phase-max.-Active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "186": {
+        "name": "L3-phase-max.-Active-power",
+        "description": "L3-phase-max.-Active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "188": {
+        "name": "L1-phase-max.-Reactive-power",
+        "description": "L1-phase-max.-Reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "190": {
+        "name": "L2-phase-max.-Reactive-power",
+        "description": "L2-phase-max.-Reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "192": {
+        "name": "L3-phase-max.-Reactive-power",
+        "description": "L3-phase-max.-Reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "194": {
+        "name": "L1-phase-max.-Apparent-power",
+        "description": "L1-phase-max.-Apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "196": {
+        "name": "L2-phase-max.-Apparent-power",
+        "description": "L2-phase-max.-Apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "198": {
+        "name": "L3-phase-max.-Apparent-power",
+        "description": "L3-phase-max.-Apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "200": {
+        "name": "Total-max.-Import-active-power",
+        "description": "Total-max.-Import-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "202": {
+        "name": "Total-max.-Export-active-power",
+        "description": "Total-max.-Export-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "204": {
+        "name": "Total-max.-Import-reactive-power",
+        "description": "Total-max.-Import-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "206": {
+        "name": "Total-max.-Export-reactive-power",
+        "description": "Total-max.-Export-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "208": {
+        "name": "Total-max.-Apparent-power",
+        "description": "Total-max.-Apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "210": {
+        "name": "L1-phase-max.-Current-demand",
+        "description": "L1-phase-max.-Current-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amper",
+        "access": "read"
+    },
+    "212": {
+        "name": "L2-phase-max.-Current-demand",
+        "description": "L2-phase-max.-Current-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amper",
+        "access": "read"
+    },
+    "214": {
+        "name": "L3-phase-max.-Current-demand",
+        "description": "L3-phase-max.-Current-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amper",
+        "access": "read"
+    },
+    "216": {
+        "name": "L1-phase-import-max.-Demand-active-power",
+        "description": "L1-phase-import-max.-Demand-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "218": {
+        "name": "L1-phase-export-max.-Demand-active-power",
+        "description": "L1-phase-export-max.-Demand-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "220": {
+        "name": "L2-phase-import-max.-Demand-active-power",
+        "description": "L2-phase-import-max.-Demand-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "222": {
+        "name": "L2-phase-export-max.-Demand-active-power",
+        "description": "L2-phase-export-max.-Demand-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "224": {
+        "name": "L3-phase-import-max.-Demand-active-power",
+        "description": "L3-phase-import-max.-Demand-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "226": {
+        "name": "L3-phase-export-max.-Demand-active-power",
+        "description": "L3-phase-export-max.-Demand-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "228": {
+        "name": "L1-phase-import-max.-Demand-reactive-power",
+        "description": "L1-phase-import-max.-Demand-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "230": {
+        "name": "L1-phase-export-max.-Demand-reactive-power",
+        "description": "L1-phase-export-max.-Demand-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "232": {
+        "name": "L2-phase-import-max.-Demand-reactive-power",
+        "description": "L2-phase-import-max.-Demand-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "234": {
+        "name": "L2-phase-export-max.-Demand-reactive-power",
+        "description": "L2-phase-export-max.-Demand-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "236": {
+        "name": "L3-phase-import-max.-Demand-reactive-power",
+        "description": "L3-phase-import-max.-Demand-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "238": {
+        "name": "L3-phase-export-max.-Demand-reactive-power",
+        "description": "L3-phase-export-max.-Demand-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "240": {
+        "name": "L1-phase-max.-Demand-apparent-power",
+        "description": "L1-phase-max.-Demand-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "242": {
+        "name": "L2-phase-max.-Demand-apparent-power",
+        "description": "L2-phase-max.-Demand-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "244": {
+        "name": "L3-phase-max.-Demand-apparent-power",
+        "description": "L3-phase-max.-Demand-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VA",
+        "access": "read"
+    },
+    "246": {
+        "name": "Total-import-max.-Demand-active-power",
+        "description": "Total-import-max.-Demand-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "248": {
+        "name": "Total-export-max.-Demand-active-power",
+        "description": "Total-export-max.-Demand-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "250": {
+        "name": "Total-import-max.-Demand-reactive-power",
+        "description": "Total-import-max.-Demand-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    }
+}

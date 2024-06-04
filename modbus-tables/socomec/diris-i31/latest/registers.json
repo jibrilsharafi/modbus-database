@@ -1,0 +1,502 @@
+{
+    "18433": {
+        "name": "Inst.-Measurement.-Load-#1.-Date-of-last-instance",
+        "description": "Inst.-Measurement.-Load-#1.-Date-of-last-instance",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "s",
+        "access": "read"
+    },
+    "18435": {
+        "name": "Inst.-Measurement.-Load-#1.-Integration-time",
+        "description": "Inst.-Measurement.-Load-#1.-Integration-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "s",
+        "access": "read"
+    },
+    "18442": {
+        "name": "Inst.-Measurement.-Load-#1.-Frequency",
+        "description": "Inst.-Measurement.-Load-#1.-Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "18444": {
+        "name": "Inst.-Measurement.-Load-#1.-Ph-N-voltage-:-V1",
+        "description": "Inst.-Measurement.-Load-#1.-Ph-N-voltage-:-V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "18446": {
+        "name": "Inst.-Measurement.-Load-#1.-Ph-N-voltage-:-V2",
+        "description": "Inst.-Measurement.-Load-#1.-Ph-N-voltage-:-V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "18448": {
+        "name": "Inst.-Measurement.-Load-#1.-Ph-N-voltage-:-V3",
+        "description": "Inst.-Measurement.-Load-#1.-Ph-N-voltage-:-V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "18452": {
+        "name": "Inst.-Measurement.-Load-#1.-Ph-ph-voltage-:-U12",
+        "description": "Inst.-Measurement.-Load-#1.-Ph-ph-voltage-:-U12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "18454": {
+        "name": "Inst.-Measurement.-Load-#1.-Ph-ph-voltage-:-U23",
+        "description": "Inst.-Measurement.-Load-#1.-Ph-ph-voltage-:-U23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "18456": {
+        "name": "Inst.-Measurement.-Load-#1.-Ph-ph-voltage-:-U31",
+        "description": "Inst.-Measurement.-Load-#1.-Ph-ph-voltage-:-U31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "18458": {
+        "name": "Inst.-Measurement.-Load-#1.-Current-:-I1",
+        "description": "Inst.-Measurement.-Load-#1.-Current-:-I1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "18460": {
+        "name": "Inst.-Measurement.-Load-#1.-Current-:-I2",
+        "description": "Inst.-Measurement.-Load-#1.-Current-:-I2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "18462": {
+        "name": "Inst.-Measurement.-Load-#1.-Current-:-I3",
+        "description": "Inst.-Measurement.-Load-#1.-Current-:-I3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "18464": {
+        "name": "Inst.-Measurement.-Load-#1.-Current-:-in",
+        "description": "Inst.-Measurement.-Load-#1.-Current-:-in",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "18474": {
+        "name": "Inst.-Measurement.-Load-#1.-Snom",
+        "description": "Inst.-Measurement.-Load-#1.-Snom",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "18476": {
+        "name": "Inst.-Measurement.-Load-#1.-Total-active-power",
+        "description": "Inst.-Measurement.-Load-#1.-Total-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "18478": {
+        "name": "Inst.-Measurement.-Load-#1.-Total-reactive-power",
+        "description": "Inst.-Measurement.-Load-#1.-Total-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "18480": {
+        "name": "Inst.-Measurement.-Load-#1.-Total-lagging-reactive-power",
+        "description": "Inst.-Measurement.-Load-#1.-Total-lagging-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "18482": {
+        "name": "Inst.-Measurement.-Load-#1.-Total-leading-reactive-power",
+        "description": "Inst.-Measurement.-Load-#1.-Total-leading-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "18484": {
+        "name": "Inst.-Measurement.-Load-#1.-Total-apparent-power",
+        "description": "Inst.-Measurement.-Load-#1.-Total-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "18486": {
+        "name": "Inst.-Measurement.-Load-#1.-Total-power-factor",
+        "description": "Inst.-Measurement.-Load-#1.-Total-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "-",
+        "access": "read"
+    },
+    "18487": {
+        "name": "Inst.-Measurement.-Load-#1.-Total-power-factor-type",
+        "description": "Inst.-Measurement.-Load-#1.-Total-power-factor-type",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "20481": {
+        "name": "Inst.-Measurement.-Load-#2.-Date-of-last-instance",
+        "description": "Inst.-Measurement.-Load-#2.-Date-of-last-instance",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "s",
+        "access": "read"
+    },
+    "20483": {
+        "name": "Inst.-Measurement.-Load-#2.-Integration-time",
+        "description": "Inst.-Measurement.-Load-#2.-Integration-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "s",
+        "access": "read"
+    },
+    "20490": {
+        "name": "Inst.-Measurement.-Load-#2.-Frequency",
+        "description": "Inst.-Measurement.-Load-#2.-Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "20492": {
+        "name": "Inst.-Measurement.-Load-#2.-Ph-N-voltage-:-V1",
+        "description": "Inst.-Measurement.-Load-#2.-Ph-N-voltage-:-V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "20494": {
+        "name": "Inst.-Measurement.-Load-#2.-Ph-N-voltage-:-V2",
+        "description": "Inst.-Measurement.-Load-#2.-Ph-N-voltage-:-V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "20496": {
+        "name": "Inst.-Measurement.-Load-#2.-Ph-N-voltage-:-V3",
+        "description": "Inst.-Measurement.-Load-#2.-Ph-N-voltage-:-V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "20500": {
+        "name": "Inst.-Measurement.-Load-#2.-Ph-ph-voltage-:-U12",
+        "description": "Inst.-Measurement.-Load-#2.-Ph-ph-voltage-:-U12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "20502": {
+        "name": "Inst.-Measurement.-Load-#2.-Ph-ph-voltage-:-U23",
+        "description": "Inst.-Measurement.-Load-#2.-Ph-ph-voltage-:-U23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "20504": {
+        "name": "Inst.-Measurement.-Load-#2.-Ph-ph-voltage-:-U31",
+        "description": "Inst.-Measurement.-Load-#2.-Ph-ph-voltage-:-U31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "20506": {
+        "name": "Inst.-Measurement.-Load-#2.-Current-:-I1",
+        "description": "Inst.-Measurement.-Load-#2.-Current-:-I1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "20508": {
+        "name": "Inst.-Measurement.-Load-#2.-Current-:-I2",
+        "description": "Inst.-Measurement.-Load-#2.-Current-:-I2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "20510": {
+        "name": "Inst.-Measurement.-Load-#2.-Current-:-I3",
+        "description": "Inst.-Measurement.-Load-#2.-Current-:-I3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "20512": {
+        "name": "Inst.-Measurement.-Load-#2.-Current-:-in",
+        "description": "Inst.-Measurement.-Load-#2.-Current-:-in",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "20522": {
+        "name": "Inst.-Measurement.-Load-#2.-Snom",
+        "description": "Inst.-Measurement.-Load-#2.-Snom",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "20524": {
+        "name": "Inst.-Measurement.-Load-#2.-Total-active-power",
+        "description": "Inst.-Measurement.-Load-#2.-Total-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "20526": {
+        "name": "Inst.-Measurement.-Load-#2.-Total-reactive-power",
+        "description": "Inst.-Measurement.-Load-#2.-Total-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "20528": {
+        "name": "Inst.-Measurement.-Load-#2.-Total-lagging-reactive-power",
+        "description": "Inst.-Measurement.-Load-#2.-Total-lagging-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "20530": {
+        "name": "Inst.-Measurement.-Load-#2.-Total-leading-reactive-power",
+        "description": "Inst.-Measurement.-Load-#2.-Total-leading-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "20532": {
+        "name": "Inst.-Measurement.-Load-#2.-Total-apparent-power",
+        "description": "Inst.-Measurement.-Load-#2.-Total-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "20534": {
+        "name": "Inst.-Measurement.-Load-#2.-Total-power-factor",
+        "description": "Inst.-Measurement.-Load-#2.-Total-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "-",
+        "access": "read"
+    },
+    "20535": {
+        "name": "Inst.-Measurement.-Load-#2.-Total-power-factor-type",
+        "description": "Inst.-Measurement.-Load-#2.-Total-power-factor-type",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "22529": {
+        "name": "Inst.-Measurement.-Load-#3.-Date-of-last-instance",
+        "description": "Inst.-Measurement.-Load-#3.-Date-of-last-instance",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "s",
+        "access": "read"
+    },
+    "22531": {
+        "name": "Inst.-Measurement.-Load-#3.-Integration-time",
+        "description": "Inst.-Measurement.-Load-#3.-Integration-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "s",
+        "access": "read"
+    },
+    "22538": {
+        "name": "Inst.-Measurement.-Load-#3.-Frequency",
+        "description": "Inst.-Measurement.-Load-#3.-Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "22540": {
+        "name": "Inst.-Measurement.-Load-#3.-Ph-N-voltage-:-V1",
+        "description": "Inst.-Measurement.-Load-#3.-Ph-N-voltage-:-V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "22542": {
+        "name": "Inst.-Measurement.-Load-#3.-Ph-N-voltage-:-V2",
+        "description": "Inst.-Measurement.-Load-#3.-Ph-N-voltage-:-V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "22544": {
+        "name": "Inst.-Measurement.-Load-#3.-Ph-N-voltage-:-V3",
+        "description": "Inst.-Measurement.-Load-#3.-Ph-N-voltage-:-V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "22548": {
+        "name": "Inst.-Measurement.-Load-#3.-Ph-ph-voltage-:-U12",
+        "description": "Inst.-Measurement.-Load-#3.-Ph-ph-voltage-:-U12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "22550": {
+        "name": "Inst.-Measurement.-Load-#3.-Ph-ph-voltage-:-U23",
+        "description": "Inst.-Measurement.-Load-#3.-Ph-ph-voltage-:-U23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    }
+}

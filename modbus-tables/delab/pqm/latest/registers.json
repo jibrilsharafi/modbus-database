@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "Ampere-L2",
+        "description": "Ampere-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "4": {
+        "name": "Ampere-L3",
+        "description": "Ampere-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "6": {
+        "name": "Ampere-(neutral-current)",
+        "description": "Ampere-(neutral-current)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "8": {
+        "name": "Voltage-L1",
+        "description": "Voltage-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "10": {
+        "name": "Voltage-L2",
+        "description": "Voltage-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "12": {
+        "name": "Voltage-L3",
+        "description": "Voltage-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "14": {
+        "name": "Voltage-L12",
+        "description": "Voltage-L12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "16": {
+        "name": "Voltage-L23",
+        "description": "Voltage-L23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "18": {
+        "name": "Voltage-L31",
+        "description": "Voltage-L31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "20": {
+        "name": "Voltage-assym",
+        "description": "Voltage-assym",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "21": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "22": {
+        "name": "Kw-L1",
+        "description": "Kw-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "24": {
+        "name": "Kw-L2",
+        "description": "Kw-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "26": {
+        "name": "Kw-L3",
+        "description": "Kw-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "28": {
+        "name": "Kvar-L1",
+        "description": "Kvar-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "30": {
+        "name": "Kvar-L2",
+        "description": "Kvar-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "32": {
+        "name": "Kvar-L3",
+        "description": "Kvar-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Var",
+        "access": "read"
+    },
+    "34": {
+        "name": "Kva-L1",
+        "description": "Kva-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "36": {
+        "name": "Kva-L2",
+        "description": "Kva-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "38": {
+        "name": "Kva-L3",
+        "description": "Kva-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40": {
+        "name": "Pf-L1",
+        "description": "Pf-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "41": {
+        "name": "Pf-L2",
+        "description": "Pf-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "42": {
+        "name": "Pf-L3",
+        "description": "Pf-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "43": {
+        "name": "Pf-avg",
+        "description": "Pf-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "44": {
+        "name": "Cos-L1",
+        "description": "Cos-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "45": {
+        "name": "Cos-L2",
+        "description": "Cos-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "46": {
+        "name": "Cos-L3",
+        "description": "Cos-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "47": {
+        "name": "Cos-avg",
+        "description": "Cos-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "48": {
+        "name": "Energy-import-(kwh)",
+        "description": "Energy-import-(kwh)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "52": {
+        "name": "Energy-export-(kwh)",
+        "description": "Energy-export-(kwh)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "56": {
+        "name": "Energy-inductive-(kvarh)",
+        "description": "Energy-inductive-(kvarh)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVarh",
+        "access": "read"
+    },
+    "60": {
+        "name": "Energy-capacitive-(kvarh)",
+        "description": "Energy-capacitive-(kvarh)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVarh",
+        "access": "read"
+    },
+    "64": {
+        "name": "Energy-apparent-(kvah)",
+        "description": "Energy-apparent-(kvah)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "68": {
+        "name": "Max-dmd-kw-L1-(import)",
+        "description": "Max-dmd-kw-L1-(import)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "W",
+        "access": "read"
+    },
+    "70": {
+        "name": "Max-dmd-kw-L2-(import)",
+        "description": "Max-dmd-kw-L2-(import)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "W",
+        "access": "read"
+    },
+    "72": {
+        "name": "Max-dmd-kw-L3-(import)",
+        "description": "Max-dmd-kw-L3-(import)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "W",
+        "access": "read"
+    },
+    "74": {
+        "name": "Max-dmd-kw-total-(import)",
+        "description": "Max-dmd-kw-total-(import)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "W",
+        "access": "read"
+    },
+    "76": {
+        "name": "Max-dmd-kva-L1",
+        "description": "Max-dmd-kva-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "78": {
+        "name": "Max-dmd-kva-L2",
+        "description": "Max-dmd-kva-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "80": {
+        "name": "Max-dmd-kva-L3",
+        "description": "Max-dmd-kva-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "82": {
+        "name": "Max-dmd-kva-total",
+        "description": "Max-dmd-kva-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "84": {
+        "name": "Max-dmd-I-L1",
+        "description": "Max-dmd-I-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "86": {
+        "name": "Max-dmd-I-L2",
+        "description": "Max-dmd-I-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "88": {
+        "name": "Max-dmd-I-L3",
+        "description": "Max-dmd-I-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "90": {
+        "name": "Max-dmd-iavg-(3phase)",
+        "description": "Max-dmd-iavg-(3phase)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "92": {
+        "name": "Prev-dmd-kw-L1-(import)",
+        "description": "Prev-dmd-kw-L1-(import)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "W",
+        "access": "read"
+    },
+    "94": {
+        "name": "Prev-dmd-kw-L2-(import)",
+        "description": "Prev-dmd-kw-L2-(import)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "W",
+        "access": "read"
+    },
+    "96": {
+        "name": "Prev-dmd-kw-L3-(import)",
+        "description": "Prev-dmd-kw-L3-(import)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "W",
+        "access": "read"
+    },
+    "98": {
+        "name": "Prev-dmd-kw-total-(import)",
+        "description": "Prev-dmd-kw-total-(import)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "W",
+        "access": "read"
+    },
+    "100": {
+        "name": "Prev-dmd-kva-L1",
+        "description": "Prev-dmd-kva-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    }
+}

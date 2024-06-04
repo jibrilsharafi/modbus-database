@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "V-L2-N",
+        "description": "V-L2-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "4": {
+        "name": "V-L3-N",
+        "description": "V-L3-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "6": {
+        "name": "V-L1-L2",
+        "description": "V-L1-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "8": {
+        "name": "V-L2-L3",
+        "description": "V-L2-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "10": {
+        "name": "V-L3-L1",
+        "description": "V-L3-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "12": {
+        "name": "A-L1",
+        "description": "A-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Ampere",
+        "access": "read"
+    },
+    "14": {
+        "name": "A-L2",
+        "description": "A-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Ampere",
+        "access": "read"
+    },
+    "16": {
+        "name": "A-L3",
+        "description": "A-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Ampere",
+        "access": "read"
+    },
+    "18": {
+        "name": "Kw-L1",
+        "description": "Kw-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "20": {
+        "name": "Kw-L2",
+        "description": "Kw-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "22": {
+        "name": "Kw-L3",
+        "description": "Kw-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "24": {
+        "name": "Kva-L1",
+        "description": "Kva-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "26": {
+        "name": "Kva-L2",
+        "description": "Kva-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "28": {
+        "name": "Kva-L3",
+        "description": "Kva-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "30": {
+        "name": "Kvar-L1",
+        "description": "Kvar-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "32": {
+        "name": "Kvar-L2",
+        "description": "Kvar-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "34": {
+        "name": "Kvar-L3",
+        "description": "Kvar-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "36": {
+        "name": "V-L-N-sys",
+        "description": "V-L-N-sys",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "38": {
+        "name": "V-L-L-sys",
+        "description": "V-L-L-sys",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "40": {
+        "name": "Kw-sys",
+        "description": "Kw-sys",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "42": {
+        "name": "Kva-sys",
+        "description": "Kva-sys",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "44": {
+        "name": "Kvar-sys",
+        "description": "Kvar-sys",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "46": {
+        "name": "Pf-L1",
+        "description": "Pf-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "47": {
+        "name": "Pf-L2",
+        "description": "Pf-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "48": {
+        "name": "Pf-L3",
+        "description": "Pf-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "49": {
+        "name": "Pf-sys",
+        "description": "Pf-sys",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "50": {
+        "name": "Phase-sequence",
+        "description": "Phase-sequence",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "51": {
+        "name": "Hz",
+        "description": "Hz",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "52": {
+        "name": "Kwh-(+)-tot",
+        "description": "Kwh-(+)-tot",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "54": {
+        "name": "Kvarh-(+)-tot",
+        "description": "Kvarh-(+)-tot",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "56": {
+        "name": "Kw-dmd",
+        "description": "Kw-dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "58": {
+        "name": "Kw-dmd-peak",
+        "description": "Kw-dmd-peak",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Watt",
+        "access": "read"
+    },
+    "60": {
+        "name": "Kwh-(+)-partial",
+        "description": "Kwh-(+)-partial",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "62": {
+        "name": "Kvarh-(+)-partial",
+        "description": "Kvarh-(+)-partial",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "64": {
+        "name": "Kwh-(+)-L1",
+        "description": "Kwh-(+)-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "66": {
+        "name": "Kwh-(+)-L2",
+        "description": "Kwh-(+)-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "68": {
+        "name": "Kwh-(+)-L3",
+        "description": "Kwh-(+)-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "70": {
+        "name": "Kwh-(+)-t1",
+        "description": "Kwh-(+)-t1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "72": {
+        "name": "Kwh-(+)-t2",
+        "description": "Kwh-(+)-t2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "74": {
+        "name": "Kwh-(+)-t3",
+        "description": "Kwh-(+)-t3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "76": {
+        "name": "Kwh-(+)-t4",
+        "description": "Kwh-(+)-t4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "78": {
+        "name": "Kwh-(-)-tot",
+        "description": "Kwh-(-)-tot",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "80": {
+        "name": "Kvarh-(-)-tot",
+        "description": "Kvarh-(-)-tot",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "90": {
+        "name": "Hour-meter",
+        "description": "Hour-meter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "96": {
+        "name": "Kwh-(-)-L1",
+        "description": "Kwh-(-)-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "98": {
+        "name": "Kwh-(-)-L2",
+        "description": "Kwh-(-)-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "100": {
+        "name": "Kwh-(-)-L3",
+        "description": "Kwh-(-)-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "130": {
+        "name": "Thd-A-L1",
+        "description": "Thd-A-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "132": {
+        "name": "Thd-A-L2",
+        "description": "Thd-A-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "134": {
+        "name": "Thd-A-L3",
+        "description": "Thd-A-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    }
+}

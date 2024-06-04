@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "V-L2-N",
+        "description": "V-L2-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "4": {
+        "name": "V-L3-N",
+        "description": "V-L3-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "6": {
+        "name": "V-L1-L2",
+        "description": "V-L1-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "8": {
+        "name": "V-L2-L3",
+        "description": "V-L2-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "10": {
+        "name": "V-L3-L1",
+        "description": "V-L3-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "12": {
+        "name": "A-L1",
+        "description": "A-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "14": {
+        "name": "A-L2",
+        "description": "A-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "16": {
+        "name": "A-L3",
+        "description": "A-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "18": {
+        "name": "W-L1",
+        "description": "W-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "20": {
+        "name": "W-L2",
+        "description": "W-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "22": {
+        "name": "W-L3",
+        "description": "W-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "24": {
+        "name": "Va-L1",
+        "description": "Va-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "26": {
+        "name": "Va-L2",
+        "description": "Va-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "28": {
+        "name": "Va-L3",
+        "description": "Va-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "30": {
+        "name": "Var-L1",
+        "description": "Var-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "32": {
+        "name": "Var-L2",
+        "description": "Var-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "34": {
+        "name": "Var-L3",
+        "description": "Var-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "36": {
+        "name": "V-L-N",
+        "description": "V-L-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "38": {
+        "name": "V-L-L",
+        "description": "V-L-L",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "40": {
+        "name": "W",
+        "description": "W",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "42": {
+        "name": "Va",
+        "description": "Va",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "44": {
+        "name": "Var",
+        "description": "Var",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "46": {
+        "name": "Dmd-W",
+        "description": "Dmd-W",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "48": {
+        "name": "Dmd-va",
+        "description": "Dmd-va",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "50": {
+        "name": "Pf-L1",
+        "description": "Pf-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "51": {
+        "name": "Pf-L2",
+        "description": "Pf-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "52": {
+        "name": "Pf-L3",
+        "description": "Pf-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "53": {
+        "name": "Pf",
+        "description": "Pf",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "54": {
+        "name": "Phase-sequence",
+        "description": "Phase-sequence",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "55": {
+        "name": "Hz",
+        "description": "Hz",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "56": {
+        "name": "Dmd-W-max",
+        "description": "Dmd-W-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "58": {
+        "name": "Dmd-va-max",
+        "description": "Dmd-va-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "60": {
+        "name": "Dmd-A-max",
+        "description": "Dmd-A-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "62": {
+        "name": "Kwh(+)-tot",
+        "description": "Kwh(+)-tot",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "64": {
+        "name": "Kvarh(+)-tot",
+        "description": "Kvarh(+)-tot",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "66": {
+        "name": "Kwh(+)-par",
+        "description": "Kwh(+)-par",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "68": {
+        "name": "Kvarh(+)-par",
+        "description": "Kvarh(+)-par",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "70": {
+        "name": "Kwh(+)-L1",
+        "description": "Kwh(+)-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "72": {
+        "name": "Kwh(+)-L2",
+        "description": "Kwh(+)-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "74": {
+        "name": "Kwh(+)-L3",
+        "description": "Kwh(+)-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "76": {
+        "name": "Kwh(+)-T1",
+        "description": "Kwh(+)-T1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "78": {
+        "name": "Kwh(+)-T2",
+        "description": "Kwh(+)-T2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "80": {
+        "name": "Kwh(+)-T3",
+        "description": "Kwh(+)-T3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "82": {
+        "name": "Kwh(+)-T4",
+        "description": "Kwh(+)-T4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "84": {
+        "name": "Kvarh(+)-T1",
+        "description": "Kvarh(+)-T1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "86": {
+        "name": "Kvarh(+)-T2",
+        "description": "Kvarh(+)-T2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "88": {
+        "name": "Kvarh(+)-T3",
+        "description": "Kvarh(+)-T3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "90": {
+        "name": "Kvarh(+)-T4",
+        "description": "Kvarh(+)-T4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "92": {
+        "name": "Kwh(-)-tot",
+        "description": "Kwh(-)-tot",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "94": {
+        "name": "Kvarh(-)-tot",
+        "description": "Kvarh(-)-tot",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvar",
+        "access": "read"
+    }
+}

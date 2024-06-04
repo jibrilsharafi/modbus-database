@@ -1,0 +1,11 @@
+{
+    "manufacturer": "siemens",
+    "model": "sentron-pac-4200",
+    "description": "",
+    "version": "",
+    "url": "https://www.aggsoft.com/serial-data-logger/tutorials/modbus-data-logging/siemens-sentron-pac-4200.htm",
+    "tags": {
+        "industry": "Building Automation",
+        "application": "Automation"
+    }
+}

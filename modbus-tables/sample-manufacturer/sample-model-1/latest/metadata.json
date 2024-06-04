@@ -5,8 +5,8 @@
     "version": "v1",
     "url": "http://www.example.com",
     "tags": {
-        "industry": "(Energy | Manufacturing | Healthcare | Building Automation | Agriculture | Transportation | Water Management | Telecommunications | Oil and Gas | Smart Cities)",
-        "application": "(Energy Metering | Control | Monitoring | Automation | Data Collection | Diagnostics | Predictive Maintenance | Environmental Monitoring | Security | Process Optimization | Energy Generation | Energy Storage | Backup Power)"
+        "industry": "(Energy | Manufacturing | Healthcare | Building Automation | Agriculture | Transportation | Water Management | Telecommunications | Oil and Gas | Smart Cities | Unknown)",
+        "application": "(Energy Metering | Control | Monitoring | Automation | Data Collection | Diagnostics | Predictive Maintenance | Environmental Monitoring | Security | Process Optimization | Energy Generation | Energy Storage | Backup Power | Unknown)"
     },
     "connection": {
         "RTU": {

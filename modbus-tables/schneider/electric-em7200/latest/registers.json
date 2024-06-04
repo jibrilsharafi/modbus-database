@@ -1,0 +1,506 @@
+{
+    "30": {
+        "name": "Meter-name",
+        "description": "Meter-name",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 40
+    },
+    "50": {
+        "name": "Meter-model",
+        "description": "Meter-model",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 40
+    },
+    "70": {
+        "name": "Manufacturer",
+        "description": "Manufacturer",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 40
+    },
+    "90": {
+        "name": "Product-id-number",
+        "description": "Product-id-number",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "130": {
+        "name": "Serial-number",
+        "description": "Serial-number",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "136": {
+        "name": "Hardware-revision",
+        "description": "Hardware-revision",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 10
+    },
+    "141": {
+        "name": "Production-history-01",
+        "description": "Production-history-01",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "142": {
+        "name": "Production-history-02",
+        "description": "Production-history-02",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "143": {
+        "name": "Production-history-03",
+        "description": "Production-history-03",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "144": {
+        "name": "Production-history-04",
+        "description": "Production-history-04",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "145": {
+        "name": "Production-history-05",
+        "description": "Production-history-05",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "146": {
+        "name": "Production-history-06",
+        "description": "Production-history-06",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "147": {
+        "name": "Production-history-07",
+        "description": "Production-history-07",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "148": {
+        "name": "Production-history-08",
+        "description": "Production-history-08",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "149": {
+        "name": "Production-history-09",
+        "description": "Production-history-09",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "150": {
+        "name": "Production-history-10",
+        "description": "Production-history-10",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "151": {
+        "name": "Production-history-11",
+        "description": "Production-history-11",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "152": {
+        "name": "Production-history-12",
+        "description": "Production-history-12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "153": {
+        "name": "Production-history-13",
+        "description": "Production-history-13",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "154": {
+        "name": "Production-history-14",
+        "description": "Production-history-14",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "155": {
+        "name": "Production-history-15",
+        "description": "Production-history-15",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "156": {
+        "name": "Production-history-16",
+        "description": "Production-history-16",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "157": {
+        "name": "Production-history-17",
+        "description": "Production-history-17",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "158": {
+        "name": "Production-history-18",
+        "description": "Production-history-18",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "159": {
+        "name": "Production-history-19",
+        "description": "Production-history-19",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "160": {
+        "name": "Production-history-20",
+        "description": "Production-history-20",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "161": {
+        "name": "Checksum",
+        "description": "Checksum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1637": {
+        "name": "Present-firmware-version-(dlf-format)-x.y.t",
+        "description": "Present-firmware-version-(dlf-format)-x.y.t",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1638": {
+        "name": "X-major",
+        "description": "X-major",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1639": {
+        "name": "Y-minor",
+        "description": "Y-minor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1640": {
+        "name": "Z-quality",
+        "description": "Z-quality",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1641": {
+        "name": "T-internal-evolutions",
+        "description": "T-internal-evolutions",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1642": {
+        "name": "Previous-firmware-version-(dlf-format)-x.y.t",
+        "description": "Previous-firmware-version-(dlf-format)-x.y.t",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1643": {
+        "name": "X-major",
+        "description": "X-major",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1644": {
+        "name": "Y-minor",
+        "description": "Y-minor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1645": {
+        "name": "Z-quality",
+        "description": "Z-quality",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1646": {
+        "name": "T-internal-evolutions",
+        "description": "T-internal-evolutions",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1701": {
+        "name": "Present-firmware-version-(dlf-format)-x.y.t",
+        "description": "Present-firmware-version-(dlf-format)-x.y.t",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1702": {
+        "name": "X-major",
+        "description": "X-major",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1703": {
+        "name": "Y-minor",
+        "description": "Y-minor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1704": {
+        "name": "Z-quality",
+        "description": "Z-quality",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1705": {
+        "name": "T-internal-evolutions",
+        "description": "T-internal-evolutions",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1706": {
+        "name": "Previous-firmware-version-(dlf-format)-x.y.t",
+        "description": "Previous-firmware-version-(dlf-format)-x.y.t",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1707": {
+        "name": "X-major",
+        "description": "X-major",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1708": {
+        "name": "Y-minor",
+        "description": "Y-minor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1709": {
+        "name": "Z-quality",
+        "description": "Z-quality",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1710": {
+        "name": "T-internal-evolutions",
+        "description": "T-internal-evolutions",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1715": {
+        "name": "Checksum",
+        "description": "Checksum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1716": {
+        "name": "Bridge-code-version",
+        "description": "Bridge-code-version",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1828": {
+        "name": "Number-of-metering-system-restarts",
+        "description": "Number-of-metering-system-restarts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    }
+}

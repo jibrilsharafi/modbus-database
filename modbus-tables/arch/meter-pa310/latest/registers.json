@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "Ct-ratio",
+        "description": "Ct-ratio",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4096": {
+        "name": "Modbus-address",
+        "description": "Modbus-address",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4097": {
+        "name": "Baudrate-set",
+        "description": "Baudrate-set",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4098": {
+        "name": "Stopbit",
+        "description": "Stopbit",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4100": {
+        "name": "Wiring",
+        "description": "Wiring",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4114": {
+        "name": "Clr-kwh",
+        "description": "Clr-kwh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4128": {
+        "name": "Kt-value",
+        "description": "Kt-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4129": {
+        "name": "Voltage-transform-er-ratio",
+        "description": "Voltage-transform-er-ratio",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4130": {
+        "name": "Current-transform-er-ratio",
+        "description": "Current-transform-er-ratio",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4131": {
+        "name": "Year",
+        "description": "Year",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4132": {
+        "name": "Month",
+        "description": "Month",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4133": {
+        "name": "Date",
+        "description": "Date",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4134": {
+        "name": "Hour",
+        "description": "Hour",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4135": {
+        "name": "Minute",
+        "description": "Minute",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4136": {
+        "name": "Second",
+        "description": "Second",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4137": {
+        "name": "Day-of-week",
+        "description": "Day-of-week",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4144": {
+        "name": "Demand-flag",
+        "description": "Demand-flag",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4145": {
+        "name": "Sub-interval",
+        "description": "Sub-interval",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4146": {
+        "name": "Interval-multipli-er",
+        "description": "Interval-multipli-er",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4147": {
+        "name": "Lp_data_group1_-clr",
+        "description": "Lp_data_group1_-clr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4148": {
+        "name": "Lp_group1_datac-ounter",
+        "description": "Lp_group1_datac-ounter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4149": {
+        "name": "Lp-group1-intlen-gth",
+        "description": "Lp-group1-intlen-gth",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4150": {
+        "name": "Lp_g1_ch1_save-data",
+        "description": "Lp_g1_ch1_save-data",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4151": {
+        "name": "Lp-G1-Ch2-save-data",
+        "description": "Lp-G1-Ch2-save-data",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4152": {
+        "name": "Lp_g1_ch3_save-data",
+        "description": "Lp_g1_ch3_save-data",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4153": {
+        "name": "Lp-G1-Ch4-save-data",
+        "description": "Lp-G1-Ch4-save-data",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4154": {
+        "name": "Lp_g1_ch5_save-data",
+        "description": "Lp_g1_ch5_save-data",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4155": {
+        "name": "Lp-G1-Ch6-save-data",
+        "description": "Lp-G1-Ch6-save-data",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4156": {
+        "name": "Lp_g1_ch7_save-data",
+        "description": "Lp_g1_ch7_save-data",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4157": {
+        "name": "Lp-G1-Ch8-save-data",
+        "description": "Lp-G1-Ch8-save-data",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4158": {
+        "name": "Lp_g1_ch9_save-data",
+        "description": "Lp_g1_ch9_save-data",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4159": {
+        "name": "Lp-G1-ch10-save-data",
+        "description": "Lp-G1-ch10-save-data",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4160": {
+        "name": "Lp_g1_ch11_save-data",
+        "description": "Lp_g1_ch11_save-data",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4161": {
+        "name": "Lp_g1_ch12_save-data",
+        "description": "Lp_g1_ch12_save-data",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4162": {
+        "name": "Lp-data-group2-cfr",
+        "description": "Lp-data-group2-cfr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4163": {
+        "name": "Lp-group2-datac-ounter",
+        "description": "Lp-group2-datac-ounter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4164": {
+        "name": "Lp-group2-intlen-gth",
+        "description": "Lp-group2-intlen-gth",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4165": {
+        "name": "Lp-G2-Ch1-save-data",
+        "description": "Lp-G2-Ch1-save-data",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4166": {
+        "name": "Lp-G2-Ch2-save-data",
+        "description": "Lp-G2-Ch2-save-data",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4167": {
+        "name": "Lp-G2-Ch3-save-data",
+        "description": "Lp-G2-Ch3-save-data",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4168": {
+        "name": "Lp-G2-Ch4-save-data",
+        "description": "Lp-G2-Ch4-save-data",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4169": {
+        "name": "Lp-G2-Ch5-save-data",
+        "description": "Lp-G2-Ch5-save-data",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4170": {
+        "name": "Lp-G2-Ch6-save-data",
+        "description": "Lp-G2-Ch6-save-data",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4171": {
+        "name": "Lp-G2-Ch7-save-data",
+        "description": "Lp-G2-Ch7-save-data",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4172": {
+        "name": "Lp-G2-Ch8-save-data",
+        "description": "Lp-G2-Ch8-save-data",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4173": {
+        "name": "Lp-read-begin-int-erval-serial-numbe",
+        "description": "Lp-read-begin-int-erval-serial-numbe",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4864": {
+        "name": "Kwh_deiiver_a",
+        "description": "Kwh_deiiver_a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4866": {
+        "name": "Kwh-receiver-a",
+        "description": "Kwh-receiver-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4868": {
+        "name": "Kvarh_iagging_a",
+        "description": "Kvarh_iagging_a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4870": {
+        "name": "Kvarh_ieading_a",
+        "description": "Kvarh_ieading_a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    }
+}

@@ -1,0 +1,502 @@
+{
+    "512": {
+        "name": "Famiglia-strumento",
+        "description": "Famiglia-strumento",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "513": {
+        "name": "Versione",
+        "description": "Versione",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "514": {
+        "name": "K_RMS_FACTOR",
+        "description": "K_RMS_FACTOR",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "515": {
+        "name": "Valore-calibrazione-fondoscala-I1",
+        "description": "Valore-calibrazione-fondoscala-I1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "516": {
+        "name": "Valore-calibrazione-fondoscala-I2",
+        "description": "Valore-calibrazione-fondoscala-I2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "517": {
+        "name": "Valore-calibrazione-fondoscala-I3",
+        "description": "Valore-calibrazione-fondoscala-I3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "518": {
+        "name": "Valore-calibrazione-fondoscala-V1",
+        "description": "Valore-calibrazione-fondoscala-V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "519": {
+        "name": "Valore-calibrazione-fondoscala-V2",
+        "description": "Valore-calibrazione-fondoscala-V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "520": {
+        "name": "Valore-calibrazione-fondoscala-V3",
+        "description": "Valore-calibrazione-fondoscala-V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "521": {
+        "name": "Valore-calibrazione-frequenzimetro",
+        "description": "Valore-calibrazione-frequenzimetro",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "523": {
+        "name": "Media-misura-frequenzimetro",
+        "description": "Media-misura-frequenzimetro",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "526": {
+        "name": "Tensione-V1",
+        "description": "Tensione-V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "527": {
+        "name": "Tensione-V2",
+        "description": "Tensione-V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "528": {
+        "name": "Tensione-V3",
+        "description": "Tensione-V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "529": {
+        "name": "Tensione-V12",
+        "description": "Tensione-V12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "530": {
+        "name": "Tensione-V23",
+        "description": "Tensione-V23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "531": {
+        "name": "Tensione-V31",
+        "description": "Tensione-V31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "532": {
+        "name": "Tensione-media-trifase",
+        "description": "Tensione-media-trifase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "533": {
+        "name": "Tensione-asimmetria-fasi",
+        "description": "Tensione-asimmetria-fasi",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "534": {
+        "name": "Corrente-I1",
+        "description": "Corrente-I1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "535": {
+        "name": "Corrente-I2",
+        "description": "Corrente-I2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "536": {
+        "name": "Corrente-I3",
+        "description": "Corrente-I3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "537": {
+        "name": "Corrente-media",
+        "description": "Corrente-media",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "538": {
+        "name": "Corrente-nel-neutro",
+        "description": "Corrente-nel-neutro",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "540": {
+        "name": "Misura-frequenza",
+        "description": "Misura-frequenza",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "541": {
+        "name": "Fattore-di-potenza-fase-1",
+        "description": "Fattore-di-potenza-fase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Cos",
+        "access": "read"
+    },
+    "542": {
+        "name": "Fattore-di-potenza-fase-2",
+        "description": "Fattore-di-potenza-fase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Cos",
+        "access": "read"
+    },
+    "543": {
+        "name": "Fattore-di-potenza-fase-3",
+        "description": "Fattore-di-potenza-fase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Cos",
+        "access": "read"
+    },
+    "544": {
+        "name": "Fattore-di-potenza-totale",
+        "description": "Fattore-di-potenza-totale",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Cos",
+        "access": "read"
+    },
+    "546": {
+        "name": "Potenza-attiva-fase-1",
+        "description": "Potenza-attiva-fase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "548": {
+        "name": "Potenza-attiva-fase-2",
+        "description": "Potenza-attiva-fase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "550": {
+        "name": "Potenza-attiva-fase-3",
+        "description": "Potenza-attiva-fase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "552": {
+        "name": "Potenza-attiva-totale",
+        "description": "Potenza-attiva-totale",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "554": {
+        "name": "Potenza-reattiva-fase-1",
+        "description": "Potenza-reattiva-fase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "556": {
+        "name": "Potenza-reattiva-fase-2",
+        "description": "Potenza-reattiva-fase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "558": {
+        "name": "Potenza-reattiva-fase-3",
+        "description": "Potenza-reattiva-fase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "560": {
+        "name": "Potenza-reattiva-totale",
+        "description": "Potenza-reattiva-totale",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "562": {
+        "name": "Potenza-apparente-fase-1",
+        "description": "Potenza-apparente-fase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "564": {
+        "name": "Potenza-apparente-fase-2",
+        "description": "Potenza-apparente-fase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "566": {
+        "name": "Potenza-apparente-fase-3",
+        "description": "Potenza-apparente-fase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "568": {
+        "name": "Potenza-apparente-totale",
+        "description": "Potenza-apparente-totale",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "570": {
+        "name": "Energia-attiva-consumata",
+        "description": "Energia-attiva-consumata",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "572": {
+        "name": "Energia-attiva-prodotta",
+        "description": "Energia-attiva-prodotta",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "574": {
+        "name": "Energia-reattiva-totale",
+        "description": "Energia-reattiva-totale",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "576": {
+        "name": "Ore-del-contaore-TOTALE",
+        "description": "Ore-del-contaore-TOTALE",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "h",
+        "access": "read"
+    },
+    "578": {
+        "name": "Minuti-del-contaore-TOTALE",
+        "description": "Minuti-del-contaore-TOTALE",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "min",
+        "access": "read"
+    },
+    "579": {
+        "name": "Ore-del-contaore-PARZIALE",
+        "description": "Ore-del-contaore-PARZIALE",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "h",
+        "access": "read"
+    },
+    "581": {
+        "name": "Minuti-del-contaore-PARZIALE",
+        "description": "Minuti-del-contaore-PARZIALE",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "min",
+        "access": "read"
+    },
+    "582": {
+        "name": "Secondi-dei-contaore",
+        "description": "Secondi-dei-contaore",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "sec",
+        "access": "read"
+    },
+    "586": {
+        "name": "Display:-0=Nor---1=Copertina---2-=-ProgMode",
+        "description": "Display:-0=Nor---1=Copertina---2-=-ProgMode",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    }
+}

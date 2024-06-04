@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "Ubn",
+        "description": "Ubn",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4": {
+        "name": "Ucn",
+        "description": "Ucn",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "6": {
+        "name": "Uln-average",
+        "description": "Uln-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "8": {
+        "name": "Uab",
+        "description": "Uab",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "10": {
+        "name": "Ubc",
+        "description": "Ubc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "12": {
+        "name": "Uca",
+        "description": "Uca",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "14": {
+        "name": "Ull-average",
+        "description": "Ull-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "16": {
+        "name": "Ia",
+        "description": "Ia",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "18": {
+        "name": "Ib",
+        "description": "Ib",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "20": {
+        "name": "Ic",
+        "description": "Ic",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "22": {
+        "name": "I-average",
+        "description": "I-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "24": {
+        "name": "kWa",
+        "description": "kWa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "26": {
+        "name": "kWb",
+        "description": "kWb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "28": {
+        "name": "kWc",
+        "description": "kWc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "30": {
+        "name": "kW-total",
+        "description": "kW-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "32": {
+        "name": "Kvara",
+        "description": "Kvara",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "34": {
+        "name": "Kvarb",
+        "description": "Kvarb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "36": {
+        "name": "Kvarc",
+        "description": "Kvarc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "38": {
+        "name": "Kvar-total",
+        "description": "Kvar-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "40": {
+        "name": "kVAa",
+        "description": "kVAa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "42": {
+        "name": "kVAb",
+        "description": "kVAb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "44": {
+        "name": "kVAc",
+        "description": "kVAc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "46": {
+        "name": "kVA-total",
+        "description": "kVA-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "48": {
+        "name": "PFa",
+        "description": "PFa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "50": {
+        "name": "PFb",
+        "description": "PFb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "52": {
+        "name": "PFc",
+        "description": "PFc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "54": {
+        "name": "PF-total",
+        "description": "PF-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "56": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "58": {
+        "name": "Uan/Uab-(3P3W)-angle",
+        "description": "Uan/Uab-(3P3W)-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "D",
+        "access": "read"
+    },
+    "60": {
+        "name": "Ubn/Ubc-(3P3W)-angle",
+        "description": "Ubn/Ubc-(3P3W)-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "D",
+        "access": "read"
+    },
+    "62": {
+        "name": "Ucn/Uca-(3P3W)-angle",
+        "description": "Ucn/Uca-(3P3W)-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "D",
+        "access": "read"
+    },
+    "64": {
+        "name": "Ia-angle",
+        "description": "Ia-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "D",
+        "access": "read"
+    },
+    "66": {
+        "name": "Ib-angle",
+        "description": "Ib-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "D",
+        "access": "read"
+    },
+    "68": {
+        "name": "Ic-angle",
+        "description": "Ic-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "D",
+        "access": "read"
+    },
+    "70": {
+        "name": "In-(Calculated)",
+        "description": "In-(Calculated)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "72": {
+        "name": "IR1",
+        "description": "IR1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "mA",
+        "access": "read"
+    },
+    "74": {
+        "name": "Displacement-PFa",
+        "description": "Displacement-PFa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "76": {
+        "name": "Displacement-PFb",
+        "description": "Displacement-PFb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "78": {
+        "name": "Displacement-PFc",
+        "description": "Displacement-PFc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "80": {
+        "name": "Displacement-PF-total",
+        "description": "Displacement-PF-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "86": {
+        "name": "TC11",
+        "description": "TC11",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "88": {
+        "name": "TC21",
+        "description": "TC21",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "90": {
+        "name": "TC31",
+        "description": "TC31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "92": {
+        "name": "TC41",
+        "description": "TC41",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "96": {
+        "name": "DI-status1,-2",
+        "description": "DI-status1,-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "98": {
+        "name": "DO-status-1,-3",
+        "description": "DO-status-1,-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "100": {
+        "name": "Setpoint-alarm-status4",
+        "description": "Setpoint-alarm-status4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "101": {
+        "name": "Wiring-diagnostic-status5",
+        "description": "Wiring-diagnostic-status5",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "102": {
+        "name": "SOE-pointer6",
+        "description": "SOE-pointer6",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "104": {
+        "name": "Device-operating-time7",
+        "description": "Device-operating-time7",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Hour",
+        "access": "read"
+    }
+}

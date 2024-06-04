@@ -1,0 +1,502 @@
+{
+    "4096": {
+        "name": "V1-L-N-voltage-phase-1",
+        "description": "V1-L-N-voltage-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4098": {
+        "name": "V2-L-N-voltage-phase-2",
+        "description": "V2-L-N-voltage-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4100": {
+        "name": "V3-L-N-voltage-phase-3",
+        "description": "V3-L-N-voltage-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4102": {
+        "name": "V12-L-L-voltage-line-12",
+        "description": "V12-L-L-voltage-line-12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4104": {
+        "name": "V23-L-L-voltage-line-23",
+        "description": "V23-L-L-voltage-line-23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4106": {
+        "name": "V31-L-L-voltage-line-31",
+        "description": "V31-L-L-voltage-line-31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4108": {
+        "name": "V-system-voltage",
+        "description": "V-system-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4110": {
+        "name": "A1-phase-1-current",
+        "description": "A1-phase-1-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4112": {
+        "name": "A2-phase-2-current",
+        "description": "A2-phase-2-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4114": {
+        "name": "A3-phase-3-current",
+        "description": "A3-phase-3-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4116": {
+        "name": "An-neutral-current",
+        "description": "An-neutral-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4118": {
+        "name": "A-system-current",
+        "description": "A-system-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4120": {
+        "name": "PF1-phase-1-power-factor",
+        "description": "PF1-phase-1-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4122": {
+        "name": "PF2-phase-2-power-factor",
+        "description": "PF2-phase-2-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4124": {
+        "name": "PF3-phase-3-power-factor",
+        "description": "PF3-phase-3-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4126": {
+        "name": "Pf-system-power-factor",
+        "description": "Pf-system-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4128": {
+        "name": "P1-phase-1-active-power",
+        "description": "P1-phase-1-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4130": {
+        "name": "P2-phase-2-active-power",
+        "description": "P2-phase-2-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4132": {
+        "name": "P3-phase-3-active-power",
+        "description": "P3-phase-3-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4134": {
+        "name": "P-system-active-power",
+        "description": "P-system-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4136": {
+        "name": "S1-phase-1-apparent-power",
+        "description": "S1-phase-1-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4138": {
+        "name": "S2-phase-2-apparent-power",
+        "description": "S2-phase-2-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4140": {
+        "name": "S3-phase-3-apparent-power",
+        "description": "S3-phase-3-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4142": {
+        "name": "S-system-apparent-power",
+        "description": "S-system-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4144": {
+        "name": "Q1-phase-1-reactive-power",
+        "description": "Q1-phase-1-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4146": {
+        "name": "Q2-phase-2-reactive-power",
+        "description": "Q2-phase-2-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4148": {
+        "name": "Q3-phase-3-reactive-power",
+        "description": "Q3-phase-3-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4150": {
+        "name": "Q-system-reactive-power",
+        "description": "Q-system-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4152": {
+        "name": "F-frequency",
+        "description": "F-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "4352": {
+        "name": "+kwh1-phase-1-imported-active-energy",
+        "description": "+kwh1-phase-1-imported-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4354": {
+        "name": "+kwh2-phase-2-imported-active-energy",
+        "description": "+kwh2-phase-2-imported-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4356": {
+        "name": "+kwh3-phase-3-imported-active-energy",
+        "description": "+kwh3-phase-3-imported-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4358": {
+        "name": "+kwh-system-imported-active-energy",
+        "description": "+kwh-system-imported-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4360": {
+        "name": "Kwh1-phase-1-exported-active-energy",
+        "description": "Kwh1-phase-1-exported-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4362": {
+        "name": "Kwh2-phase-2-exported-active-energy",
+        "description": "Kwh2-phase-2-exported-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4364": {
+        "name": "Kwh3-phase-3-exported-active-energy",
+        "description": "Kwh3-phase-3-exported-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4366": {
+        "name": "Kwh-system-exported-active-energy",
+        "description": "Kwh-system-exported-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4368": {
+        "name": "+kvah1-L-phase-1-imported-lagging-apparent-energy",
+        "description": "+kvah1-L-phase-1-imported-lagging-apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4370": {
+        "name": "+kvah2-L-phase-2-imported-lagging-apparent-energy",
+        "description": "+kvah2-L-phase-2-imported-lagging-apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4372": {
+        "name": "+kvah3-L-phase-3-imported-lagging-apparent-energy",
+        "description": "+kvah3-L-phase-3-imported-lagging-apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4374": {
+        "name": "+kvah-L-system-imported-lagging-apparent-energy",
+        "description": "+kvah-L-system-imported-lagging-apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4376": {
+        "name": "Kvah1-L-phase-1-exported-lagging-apparent-energy",
+        "description": "Kvah1-L-phase-1-exported-lagging-apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4378": {
+        "name": "Kvah2-L-phase-2-exported-lagging-apparent-energy",
+        "description": "Kvah2-L-phase-2-exported-lagging-apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4380": {
+        "name": "Kvah3-L-phase-3-exported-lagging-apparent-energy",
+        "description": "Kvah3-L-phase-3-exported-lagging-apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4382": {
+        "name": "Kvah-L-system-exported-lagging-apparent-energy",
+        "description": "Kvah-L-system-exported-lagging-apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4384": {
+        "name": "+kvah1-C-phase-1-imported-leading-apparent-energy",
+        "description": "+kvah1-C-phase-1-imported-leading-apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4386": {
+        "name": "+kvah2-C-phase-2-imported-leading-apparent-energy",
+        "description": "+kvah2-C-phase-2-imported-leading-apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4388": {
+        "name": "+kvah3-C-phase-3-imported-leading-apparent-energy",
+        "description": "+kvah3-C-phase-3-imported-leading-apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4390": {
+        "name": "+kvah-C-system-imported-leading-apparent-energy",
+        "description": "+kvah-C-system-imported-leading-apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4392": {
+        "name": "Kvah1-C-phase-1-exported-leading-apparent-energy",
+        "description": "Kvah1-C-phase-1-exported-leading-apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    }
+}

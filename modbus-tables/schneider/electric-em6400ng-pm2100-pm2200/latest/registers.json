@@ -1,0 +1,502 @@
+{
+    "2699": {
+        "name": "Active-energy-delivered-(into-load)",
+        "description": "Active-energy-delivered-(into-load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2701": {
+        "name": "Active-energy-received-(out-of-load)",
+        "description": "Active-energy-received-(out-of-load)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2703": {
+        "name": "Active-energy-delivered-+-received",
+        "description": "Active-energy-delivered-+-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2705": {
+        "name": "Active-energy-delivered-received",
+        "description": "Active-energy-delivered-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2707": {
+        "name": "Reactive-energy-delivered",
+        "description": "Reactive-energy-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "2709": {
+        "name": "Reactive-energy-received",
+        "description": "Reactive-energy-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "2711": {
+        "name": "Reactive-energy-delivered-+-received",
+        "description": "Reactive-energy-delivered-+-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "2713": {
+        "name": "Reactive-energy-delivered-received",
+        "description": "Reactive-energy-delivered-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "2715": {
+        "name": "Apparent-energy-delivered",
+        "description": "Apparent-energy-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "2717": {
+        "name": "Apparent-energy-received",
+        "description": "Apparent-energy-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "2719": {
+        "name": "Apparent-energy-delivered-+-received",
+        "description": "Apparent-energy-delivered-+-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "2721": {
+        "name": "Apparent-energy-delivered-received",
+        "description": "Apparent-energy-delivered-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "2999": {
+        "name": "Current-A",
+        "description": "Current-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3001": {
+        "name": "Current-B",
+        "description": "Current-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3003": {
+        "name": "Current-C",
+        "description": "Current-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3005": {
+        "name": "Current-N",
+        "description": "Current-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3007": {
+        "name": "Current-G",
+        "description": "Current-G",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3009": {
+        "name": "Current-avg",
+        "description": "Current-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3011": {
+        "name": "Current-unbalance-A",
+        "description": "Current-unbalance-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "3013": {
+        "name": "Current-unbalance-B",
+        "description": "Current-unbalance-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "3015": {
+        "name": "Current-unbalance-C",
+        "description": "Current-unbalance-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "3017": {
+        "name": "Current-unbalance-worst",
+        "description": "Current-unbalance-worst",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "3019": {
+        "name": "Voltage-A-B",
+        "description": "Voltage-A-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3021": {
+        "name": "Voltage-B-C",
+        "description": "Voltage-B-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3023": {
+        "name": "Voltage-C-A",
+        "description": "Voltage-C-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3025": {
+        "name": "Voltage-L-L-avg",
+        "description": "Voltage-L-L-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3027": {
+        "name": "Voltage-A-N",
+        "description": "Voltage-A-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3029": {
+        "name": "Voltage-B-N",
+        "description": "Voltage-B-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3031": {
+        "name": "Voltage-C-N",
+        "description": "Voltage-C-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3035": {
+        "name": "Voltage-L-N-avg",
+        "description": "Voltage-L-N-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3037": {
+        "name": "Voltage-unbalance-A-B",
+        "description": "Voltage-unbalance-A-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "3039": {
+        "name": "Voltage-unbalance-B-C",
+        "description": "Voltage-unbalance-B-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "3041": {
+        "name": "Voltage-unbalance-C-A",
+        "description": "Voltage-unbalance-C-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "3043": {
+        "name": "Voltage-unbalance-L-L-worst",
+        "description": "Voltage-unbalance-L-L-worst",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "3045": {
+        "name": "Voltage-unbalance-A-N",
+        "description": "Voltage-unbalance-A-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "3047": {
+        "name": "Voltage-unbalance-B-N",
+        "description": "Voltage-unbalance-B-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "3049": {
+        "name": "Voltage-unbalance-C-N",
+        "description": "Voltage-unbalance-C-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "3051": {
+        "name": "Voltage-unbalance-L-N-worst",
+        "description": "Voltage-unbalance-L-N-worst",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "3053": {
+        "name": "Active-power-A",
+        "description": "Active-power-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3055": {
+        "name": "Active-power-B",
+        "description": "Active-power-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3057": {
+        "name": "Active-power-C",
+        "description": "Active-power-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3059": {
+        "name": "Active-power-total",
+        "description": "Active-power-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3061": {
+        "name": "Reactive-power-A",
+        "description": "Reactive-power-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "3063": {
+        "name": "Reactive-power-B",
+        "description": "Reactive-power-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "3065": {
+        "name": "Reactive-power-C",
+        "description": "Reactive-power-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "3067": {
+        "name": "Reactive-power-total",
+        "description": "Reactive-power-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "3069": {
+        "name": "Apparent-power-A",
+        "description": "Apparent-power-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "3071": {
+        "name": "Apparent-power-B",
+        "description": "Apparent-power-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "3073": {
+        "name": "Apparent-power-C",
+        "description": "Apparent-power-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "3075": {
+        "name": "Apparent-power-total",
+        "description": "Apparent-power-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    }
+}

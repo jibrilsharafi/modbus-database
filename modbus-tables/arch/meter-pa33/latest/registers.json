@@ -1,0 +1,542 @@
+{
+    "4098": {
+        "name": "Meter-ratio",
+        "description": "Meter-ratio",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4099": {
+        "name": "Pt-ratio",
+        "description": "Pt-ratio",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4100": {
+        "name": "Ct-ratio",
+        "description": "Ct-ratio",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4106": {
+        "name": "Wiring-mode",
+        "description": "Wiring-mode",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1": {
+        "name": "S(s-t)-voltage",
+        "description": "S(s-t)-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "2": {
+        "name": "T(t-r)-voltage",
+        "description": "T(t-r)-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "3": {
+        "name": "R-current",
+        "description": "R-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "4": {
+        "name": "S-current",
+        "description": "S-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "5": {
+        "name": "T-current",
+        "description": "T-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "6": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "7": {
+        "name": "Pf",
+        "description": "Pf",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "PF",
+        "access": "read"
+    },
+    "8": {
+        "name": "Kw",
+        "description": "Kw",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "9": {
+        "name": "Kvar",
+        "description": "Kvar",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "10": {
+        "name": "Kwh",
+        "description": "Kwh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "12": {
+        "name": "Kvarh",
+        "description": "Kvarh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4352": {
+        "name": "V-a",
+        "description": "V-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4354": {
+        "name": "I-a",
+        "description": "I-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "4356": {
+        "name": "Kw_a",
+        "description": "Kw_a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4358": {
+        "name": "Kvar-a",
+        "description": "Kvar-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "4360": {
+        "name": "Kva_a",
+        "description": "Kva_a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4362": {
+        "name": "Pf-a",
+        "description": "Pf-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4364": {
+        "name": "Kwh_a",
+        "description": "Kwh_a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4366": {
+        "name": "Kvarh_a",
+        "description": "Kvarh_a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4368": {
+        "name": "Kvah_a",
+        "description": "Kvah_a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4370": {
+        "name": "V-b",
+        "description": "V-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4372": {
+        "name": "I_b",
+        "description": "I_b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "4374": {
+        "name": "Kw-b",
+        "description": "Kw-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4376": {
+        "name": "Kvar-b",
+        "description": "Kvar-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "4378": {
+        "name": "Kva_b",
+        "description": "Kva_b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4380": {
+        "name": "Pf_b",
+        "description": "Pf_b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4382": {
+        "name": "Kwh-b",
+        "description": "Kwh-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4384": {
+        "name": "Kvarh-b",
+        "description": "Kvarh-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4386": {
+        "name": "Kvah_b",
+        "description": "Kvah_b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4388": {
+        "name": "V_c",
+        "description": "V_c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "4390": {
+        "name": "I-c",
+        "description": "I-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "4392": {
+        "name": "Kw-c",
+        "description": "Kw-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4394": {
+        "name": "Kvar-c",
+        "description": "Kvar-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "4396": {
+        "name": "Kva-c",
+        "description": "Kva-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4398": {
+        "name": "Pf_c",
+        "description": "Pf_c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4400": {
+        "name": "Kwh-c",
+        "description": "Kwh-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4402": {
+        "name": "Kvarh-c",
+        "description": "Kvarh-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4406": {
+        "name": "V_avg(v_d)",
+        "description": "V_avg(v_d)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "4408": {
+        "name": "I-avg(i-d)",
+        "description": "I-avg(i-d)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "4410": {
+        "name": "Kw_tot(kw_d)",
+        "description": "Kw_tot(kw_d)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4412": {
+        "name": "Kvar_tot(kvar_d)",
+        "description": "Kvar_tot(kvar_d)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "4414": {
+        "name": "Kva-tot(kva-d)",
+        "description": "Kva-tot(kva-d)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4416": {
+        "name": "Pf-tot(pf-d)",
+        "description": "Pf-tot(pf-d)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4418": {
+        "name": "Kwh-tot(kwh-d)",
+        "description": "Kwh-tot(kwh-d)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4420": {
+        "name": "Kvarh-totkvarh-d)",
+        "description": "Kvarh-totkvarh-d)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4422": {
+        "name": "Kvah-tot(kvah-d)",
+        "description": "Kvah-tot(kvah-d)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4608": {
+        "name": "V_a",
+        "description": "V_a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "4610": {
+        "name": "I_a",
+        "description": "I_a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "4612": {
+        "name": "Kw_a",
+        "description": "Kw_a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4614": {
+        "name": "Kvar-a",
+        "description": "Kvar-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvar",
+        "access": "read"
+    }
+}

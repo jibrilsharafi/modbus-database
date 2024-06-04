@@ -1,0 +1,502 @@
+{
+    "45056": {
+        "name": "V,-L1-N",
+        "description": "V,-L1-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "45057": {
+        "name": "V,-L2-N",
+        "description": "V,-L2-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "45058": {
+        "name": "V,-L3-N",
+        "description": "V,-L3-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "45059": {
+        "name": "V,-L1-L2",
+        "description": "V,-L1-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "45060": {
+        "name": "V,-L2-L3",
+        "description": "V,-L2-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "45061": {
+        "name": "V,-L3-L1",
+        "description": "V,-L3-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "45062": {
+        "name": "F",
+        "description": "F",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "45063": {
+        "name": "Not-used",
+        "description": "Not-used",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "45064": {
+        "name": "Not-used",
+        "description": "Not-used",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "45065": {
+        "name": "I,-L1",
+        "description": "I,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "mA",
+        "access": "read"
+    },
+    "45067": {
+        "name": "I,-L2",
+        "description": "I,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "mA",
+        "access": "read"
+    },
+    "45069": {
+        "name": "I,-L3",
+        "description": "I,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "mA",
+        "access": "read"
+    },
+    "45071": {
+        "name": "I,-neutral",
+        "description": "I,-neutral",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "mA",
+        "access": "read"
+    },
+    "45073": {
+        "name": "P,-sum-L",
+        "description": "P,-sum-L",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "KW",
+        "access": "read"
+    },
+    "45075": {
+        "name": "Q,-sum-L",
+        "description": "Q,-sum-L",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "45077": {
+        "name": "S,-sum-L",
+        "description": "S,-sum-L",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "KvA",
+        "access": "read"
+    },
+    "45079": {
+        "name": "Pf,-sum-L-iec",
+        "description": "Pf,-sum-L-iec",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "45080": {
+        "name": "Pf,-sum-L-ieee",
+        "description": "Pf,-sum-L-ieee",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "45081": {
+        "name": "P,-L1",
+        "description": "P,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "KW",
+        "access": "read"
+    },
+    "45083": {
+        "name": "P,-L2",
+        "description": "P,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "KW",
+        "access": "read"
+    },
+    "45085": {
+        "name": "P,-L3",
+        "description": "P,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "KW",
+        "access": "read"
+    },
+    "45087": {
+        "name": "Q,-L1",
+        "description": "Q,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "45089": {
+        "name": "Q,-L2",
+        "description": "Q,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "45091": {
+        "name": "Q,-L3",
+        "description": "Q,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "45093": {
+        "name": "S,-L1",
+        "description": "S,-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "KvA",
+        "access": "read"
+    },
+    "45095": {
+        "name": "S,-L2",
+        "description": "S,-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "KvA",
+        "access": "read"
+    },
+    "45097": {
+        "name": "S,-L3",
+        "description": "S,-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "KvA",
+        "access": "read"
+    },
+    "45099": {
+        "name": "Pf,-L1-iec",
+        "description": "Pf,-L1-iec",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "45100": {
+        "name": "Pf,-L2-iec",
+        "description": "Pf,-L2-iec",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "45101": {
+        "name": "Pf,-L3-iec",
+        "description": "Pf,-L3-iec",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "45102": {
+        "name": "Pf,-L1-ieee",
+        "description": "Pf,-L1-ieee",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "45103": {
+        "name": "Pf,-L2-ieee",
+        "description": "Pf,-L2-ieee",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "45104": {
+        "name": "Pf,-L3-ieee",
+        "description": "Pf,-L3-ieee",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "45152": {
+        "name": "Ea+,-sum-T",
+        "description": "Ea+,-sum-T",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "45154": {
+        "name": "Er+,-sum-T",
+        "description": "Er+,-sum-T",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "45156": {
+        "name": "Ea-,-sum-T",
+        "description": "Ea-,-sum-T",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "45158": {
+        "name": "Er-,-sum-T",
+        "description": "Er-,-sum-T",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "45160": {
+        "name": "P_ea+,-sum-T",
+        "description": "P_ea+,-sum-T",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "45162": {
+        "name": "P_ea-,-sum-T",
+        "description": "P_ea-,-sum-T",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "45184": {
+        "name": "Ea+,-m1,-sum-T",
+        "description": "Ea+,-m1,-sum-T",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "45186": {
+        "name": "Ea+,-m2,-sum-T",
+        "description": "Ea+,-m2,-sum-T",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "45188": {
+        "name": "Ea+,-m3,-sum-T",
+        "description": "Ea+,-m3,-sum-T",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "45190": {
+        "name": "Ea-,-m1,-sum-T",
+        "description": "Ea-,-m1,-sum-T",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "45192": {
+        "name": "Ea-,-m2,-sum-T",
+        "description": "Ea-,-m2,-sum-T",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "45194": {
+        "name": "Ea-,-m3,-sum-T",
+        "description": "Ea-,-m3,-sum-T",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "45196": {
+        "name": "P_ea+,-m1,-sum-T",
+        "description": "P_ea+,-m1,-sum-T",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "45198": {
+        "name": "P_ea+,-m2,-sum-T",
+        "description": "P_ea+,-m2,-sum-T",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "45200": {
+        "name": "P_ea+,-m3,-sum-T",
+        "description": "P_ea+,-m3,-sum-T",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "45202": {
+        "name": "P_ea-,-m1,-sum-T",
+        "description": "P_ea-,-m1,-sum-T",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "45204": {
+        "name": "P_ea-,-m2,-sum-T",
+        "description": "P_ea-,-m2,-sum-T",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    }
+}

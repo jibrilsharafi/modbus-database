@@ -1,0 +1,502 @@
+{
+    "1999": {
+        "name": "Amps-a,-average",
+        "description": "Amps-a,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amps",
+        "access": "read"
+    },
+    "2001": {
+        "name": "Amps-b,-average",
+        "description": "Amps-b,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amps",
+        "access": "read"
+    },
+    "2003": {
+        "name": "Amps-c,-average",
+        "description": "Amps-c,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amps",
+        "access": "read"
+    },
+    "2005": {
+        "name": "Positive-watts,-3-ph,-average",
+        "description": "Positive-watts,-3-ph,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "watts",
+        "access": "read"
+    },
+    "2007": {
+        "name": "Positive-vars,-3-ph,-average",
+        "description": "Positive-vars,-3-ph,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VARs",
+        "access": "read"
+    },
+    "2009": {
+        "name": "Negative-watts,-3-ph,-average",
+        "description": "Negative-watts,-3-ph,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "watts",
+        "access": "read"
+    },
+    "2011": {
+        "name": "Negative-vars,-3-ph,-average",
+        "description": "Negative-vars,-3-ph,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VARs",
+        "access": "read"
+    },
+    "2013": {
+        "name": "Vas,-3-ph,-average",
+        "description": "Vas,-3-ph,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAs",
+        "access": "read"
+    },
+    "2015": {
+        "name": "Positive-pf,-3-ph,-average",
+        "description": "Positive-pf,-3-ph,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "none",
+        "access": "read"
+    },
+    "2017": {
+        "name": "Negative-pf,-3-pf,-average",
+        "description": "Negative-pf,-3-pf,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "none",
+        "access": "read"
+    },
+    "2019": {
+        "name": "Neutral-current,-average",
+        "description": "Neutral-current,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amps",
+        "access": "read"
+    },
+    "2021": {
+        "name": "Positive-watts,-phase-a,-average",
+        "description": "Positive-watts,-phase-a,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "watts",
+        "access": "read"
+    },
+    "2023": {
+        "name": "Positive-watts,-phase-b,-average",
+        "description": "Positive-watts,-phase-b,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "watts",
+        "access": "read"
+    },
+    "2025": {
+        "name": "Positive-watts,-phase-c,-average",
+        "description": "Positive-watts,-phase-c,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "watts",
+        "access": "read"
+    },
+    "2027": {
+        "name": "Positive-vars,-phase-a,-average",
+        "description": "Positive-vars,-phase-a,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VARs",
+        "access": "read"
+    },
+    "2029": {
+        "name": "Positive-vars,-phase-b,-average",
+        "description": "Positive-vars,-phase-b,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VARs",
+        "access": "read"
+    },
+    "2031": {
+        "name": "Positive-vars,-phase-c,-average",
+        "description": "Positive-vars,-phase-c,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VARs",
+        "access": "read"
+    },
+    "2033": {
+        "name": "Negative-watts,-phase-a,-average",
+        "description": "Negative-watts,-phase-a,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "watts",
+        "access": "read"
+    },
+    "2035": {
+        "name": "Negative-watts,-phase-b,-average",
+        "description": "Negative-watts,-phase-b,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "watts",
+        "access": "read"
+    },
+    "2037": {
+        "name": "Negative-watts,-phase-c,-average",
+        "description": "Negative-watts,-phase-c,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "watts",
+        "access": "read"
+    },
+    "2039": {
+        "name": "Negative-vars,-phase-a,-average",
+        "description": "Negative-vars,-phase-a,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VARs",
+        "access": "read"
+    },
+    "2041": {
+        "name": "Negative-vars,-phase-b,-average",
+        "description": "Negative-vars,-phase-b,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VARs",
+        "access": "read"
+    },
+    "2043": {
+        "name": "Negative-vars,-phase-c,-average",
+        "description": "Negative-vars,-phase-c,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VARs",
+        "access": "read"
+    },
+    "2045": {
+        "name": "Vas,-phase-a,-average",
+        "description": "Vas,-phase-a,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAs",
+        "access": "read"
+    },
+    "2047": {
+        "name": "Vas,-phase-b,-average",
+        "description": "Vas,-phase-b,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAs",
+        "access": "read"
+    },
+    "2049": {
+        "name": "Vas,-phase-c,-average",
+        "description": "Vas,-phase-c,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAs",
+        "access": "read"
+    },
+    "2051": {
+        "name": "Positive-pf,-phase-a,-average",
+        "description": "Positive-pf,-phase-a,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "none",
+        "access": "read"
+    },
+    "2053": {
+        "name": "Positive-pf,-phase-b,-average",
+        "description": "Positive-pf,-phase-b,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "none",
+        "access": "read"
+    },
+    "2055": {
+        "name": "Positive-pf,-phase-c,-average",
+        "description": "Positive-pf,-phase-c,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "none",
+        "access": "read"
+    },
+    "2057": {
+        "name": "Negative-pf,-phase-a,-average",
+        "description": "Negative-pf,-phase-a,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "none",
+        "access": "read"
+    },
+    "2059": {
+        "name": "Negative-pf,-phase-b,-average",
+        "description": "Negative-pf,-phase-b,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "none",
+        "access": "read"
+    },
+    "2061": {
+        "name": "Negative-pf,-phase-c,-average",
+        "description": "Negative-pf,-phase-c,-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "none",
+        "access": "read"
+    },
+    "2999": {
+        "name": "Watts,-3-ph-total",
+        "description": "Watts,-3-ph-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "watts",
+        "access": "read"
+    },
+    "3001": {
+        "name": "Vars,-3-ph-total",
+        "description": "Vars,-3-ph-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VARs",
+        "access": "read"
+    },
+    "3003": {
+        "name": "Vas,-3-ph-total",
+        "description": "Vas,-3-ph-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAs",
+        "access": "read"
+    },
+    "3005": {
+        "name": "Power-factor,-3-ph-total",
+        "description": "Power-factor,-3-ph-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "none",
+        "access": "read"
+    },
+    "3007": {
+        "name": "Watts,-phase-a",
+        "description": "Watts,-phase-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "watts",
+        "access": "read"
+    },
+    "3009": {
+        "name": "Watts,-phase-b",
+        "description": "Watts,-phase-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "watts",
+        "access": "read"
+    },
+    "3011": {
+        "name": "Watts,-phase-c",
+        "description": "Watts,-phase-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "watts",
+        "access": "read"
+    },
+    "3013": {
+        "name": "Vars,-phase-a",
+        "description": "Vars,-phase-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VARs",
+        "access": "read"
+    },
+    "3017": {
+        "name": "Vars,-phase-c",
+        "description": "Vars,-phase-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VARs",
+        "access": "read"
+    },
+    "3019": {
+        "name": "Vas,-phase-a",
+        "description": "Vas,-phase-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAs",
+        "access": "read"
+    },
+    "3021": {
+        "name": "Vas,-phase-b",
+        "description": "Vas,-phase-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAs",
+        "access": "read"
+    },
+    "3023": {
+        "name": "Vas,-phase-c",
+        "description": "Vas,-phase-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAs",
+        "access": "read"
+    },
+    "3025": {
+        "name": "Power-factor,-phase-a",
+        "description": "Power-factor,-phase-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "none",
+        "access": "read"
+    },
+    "3027": {
+        "name": "Power-factor,-phase-b",
+        "description": "Power-factor,-phase-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "none",
+        "access": "read"
+    },
+    "3029": {
+        "name": "Power-factor,-phase-c",
+        "description": "Power-factor,-phase-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "none",
+        "access": "read"
+    },
+    "3031": {
+        "name": "W-hours,-received",
+        "description": "W-hours,-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Wh per energy format",
+        "access": "read"
+    },
+    "3033": {
+        "name": "W-hours,-delivered",
+        "description": "W-hours,-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Wh per energy format",
+        "access": "read"
+    },
+    "3035": {
+        "name": "W-hours,-net",
+        "description": "W-hours,-net",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Wh per energy format",
+        "access": "read"
+    }
+}

@@ -1,0 +1,502 @@
+{
+    "10": {
+        "name": "Vln-a,-Volts/Amps/Freq",
+        "description": "Vln-a,-Volts/Amps/Freq",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "11": {
+        "name": "Vln-b,-Volts/Amps/Freq",
+        "description": "Vln-b,-Volts/Amps/Freq",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "12": {
+        "name": "Vln-c,-Volts/Amps/Freq",
+        "description": "Vln-c,-Volts/Amps/Freq",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "13": {
+        "name": "Vln-avg,-Volts/Amps/Freq",
+        "description": "Vln-avg,-Volts/Amps/Freq",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "14": {
+        "name": "Vll-ab,-Volts/Amps/Freq",
+        "description": "Vll-ab,-Volts/Amps/Freq",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "15": {
+        "name": "Vll-bc,-Volts/Amps/Freq",
+        "description": "Vll-bc,-Volts/Amps/Freq",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "16": {
+        "name": "Vll-ca,-Volts/Amps/Freq",
+        "description": "Vll-ca,-Volts/Amps/Freq",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "17": {
+        "name": "Vll-avg,-Volts/Amps/Freq",
+        "description": "Vll-avg,-Volts/Amps/Freq",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "18": {
+        "name": "I-a,-Volts/Amps/Freq",
+        "description": "I-a,-Volts/Amps/Freq",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "19": {
+        "name": "I-b,-Volts/Amps/Freq",
+        "description": "I-b,-Volts/Amps/Freq",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "20": {
+        "name": "I-c,-Volts/Amps/Freq",
+        "description": "I-c,-Volts/Amps/Freq",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "21": {
+        "name": "I-avg,-Volts/Amps/Freq",
+        "description": "I-avg,-Volts/Amps/Freq",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "22": {
+        "name": "V-unbal,-Volts/Amps/Freq",
+        "description": "V-unbal,-Volts/Amps/Freq",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "23": {
+        "name": "I-unbal,-Volts/Amps/Freq",
+        "description": "I-unbal,-Volts/Amps/Freq",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "24": {
+        "name": "Freq,-Volts/Amps/Freq",
+        "description": "Freq,-Volts/Amps/Freq",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "25": {
+        "name": "I4,-Volts/Amps/Freq",
+        "description": "I4,-Volts/Amps/Freq",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "26": {
+        "name": "kW-a,-Power/PF",
+        "description": "kW-a,-Power/PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "28": {
+        "name": "kW-b,-Power/PF",
+        "description": "kW-b,-Power/PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "30": {
+        "name": "kW-c,-Power/PF",
+        "description": "kW-c,-Power/PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "32": {
+        "name": "kW-tot,-Power/PF",
+        "description": "kW-tot,-Power/PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "34": {
+        "name": "kVAR-a,-Power/PF",
+        "description": "kVAR-a,-Power/PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "36": {
+        "name": "kVAR-b,-Power/PF",
+        "description": "kVAR-b,-Power/PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "38": {
+        "name": "kVAR-c,-Power/PF",
+        "description": "kVAR-c,-Power/PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "40": {
+        "name": "kVAR-tot,-Power/PF",
+        "description": "kVAR-tot,-Power/PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "42": {
+        "name": "kVA-a,-Power/PF",
+        "description": "kVA-a,-Power/PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "44": {
+        "name": "kVA-b,-Power/PF",
+        "description": "kVA-b,-Power/PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "46": {
+        "name": "kVA-c,-Power/PF",
+        "description": "kVA-c,-Power/PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "48": {
+        "name": "kVA-tot,-Power/PF",
+        "description": "kVA-tot,-Power/PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "50": {
+        "name": "PF-sign-a,-Power/PF",
+        "description": "PF-sign-a,-Power/PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "52": {
+        "name": "PF-sign-b,-Power/PF",
+        "description": "PF-sign-b,-Power/PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "54": {
+        "name": "PF-sign-c,-Power/PF",
+        "description": "PF-sign-c,-Power/PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "56": {
+        "name": "PF-sign-tot,-Power/PF",
+        "description": "PF-sign-tot,-Power/PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "58": {
+        "name": "Vll-avg-mx,-Min/Max/Demand",
+        "description": "Vll-avg-mx,-Min/Max/Demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "60": {
+        "name": "I-avg-mx,-Min/Max/Demand",
+        "description": "I-avg-mx,-Min/Max/Demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "62": {
+        "name": "kW-tot-mx,-Min/Max/Demand",
+        "description": "kW-tot-mx,-Min/Max/Demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "64": {
+        "name": "kVAR-tot-mx,-Min/Max/Demand",
+        "description": "kVAR-tot-mx,-Min/Max/Demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "66": {
+        "name": "kVA-tot-mx,-Min/Max/Demand",
+        "description": "kVA-tot-mx,-Min/Max/Demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "68": {
+        "name": "Freq-mx,-Min/Max/Demand",
+        "description": "Freq-mx,-Min/Max/Demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "70": {
+        "name": "Vll-avg-mn,-Min/Max/Demand",
+        "description": "Vll-avg-mn,-Min/Max/Demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "72": {
+        "name": "I-avg-mn,-Min/Max/Demand",
+        "description": "I-avg-mn,-Min/Max/Demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "74": {
+        "name": "Freq-mn,-Min/Max/Demand",
+        "description": "Freq-mn,-Min/Max/Demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "76": {
+        "name": "kW-sd-del-rec,-Min/Max/Demand",
+        "description": "kW-sd-del-rec,-Min/Max/Demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "78": {
+        "name": "kVA-sd-del+rec,-Min/Max/Demand",
+        "description": "kVA-sd-del+rec,-Min/Max/Demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "80": {
+        "name": "kVAR-sd-del-rec,-Min/Max/Demand",
+        "description": "kVAR-sd-del-rec,-Min/Max/Demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "82": {
+        "name": "kW-sd-mx-d-r,-Min/Max/Demand",
+        "description": "kW-sd-mx-d-r,-Min/Max/Demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "84": {
+        "name": "kVA-sd-mx-d+r,-Min/Max/Demand",
+        "description": "kVA-sd-mx-d+r,-Min/Max/Demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "86": {
+        "name": "kVAR-sd-mx-d-r,-Min/Max/Demand",
+        "description": "kVAR-sd-mx-d-r,-Min/Max/Demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "88": {
+        "name": "Phase-Rev,-Min/Max/Demand",
+        "description": "Phase-Rev,-Min/Max/Demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "90": {
+        "name": "kWh-del,-Energy/THD",
+        "description": "kWh-del,-Energy/THD",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "92": {
+        "name": "kWh-rec,-Energy/THD",
+        "description": "kWh-rec,-Energy/THD",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    }
+}

@@ -1,0 +1,502 @@
+{
+    "4099": {
+        "name": "Device-type",
+        "description": "Device-type",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4100": {
+        "name": "Firmware-version",
+        "description": "Firmware-version",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4101": {
+        "name": "Range-overflow-alarm",
+        "description": "Range-overflow-alarm",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4102": {
+        "name": "Running-tariff",
+        "description": "Running-tariff",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "4104": {
+        "name": "PID-bytes-1-and-2",
+        "description": "PID-bytes-1-and-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4105": {
+        "name": "PID-bytes-3-and-4",
+        "description": "PID-bytes-3-and-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4106": {
+        "name": "PID-bytes-5-and-6",
+        "description": "PID-bytes-5-and-6",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4107": {
+        "name": "PID-bytes-7-and-8",
+        "description": "PID-bytes-7-and-8",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4108": {
+        "name": "PID-bytes-9-and-10",
+        "description": "PID-bytes-9-and-10",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4109": {
+        "name": "PID-bytes-11-and-12",
+        "description": "PID-bytes-11-and-12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4110": {
+        "name": "PID-bytes-13-and-14",
+        "description": "PID-bytes-13-and-14",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4119": {
+        "name": "Active-energy-1st-phase-T1,-imp",
+        "description": "Active-energy-1st-phase-T1,-imp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4123": {
+        "name": "Active-energy-2nd-phase-T1,-imp",
+        "description": "Active-energy-2nd-phase-T1,-imp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4127": {
+        "name": "Active-energy-3rd-phase-T1,-imp",
+        "description": "Active-energy-3rd-phase-T1,-imp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4131": {
+        "name": "Active-energy-sum-T1,-imp",
+        "description": "Active-energy-sum-T1,-imp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4135": {
+        "name": "Active-energy-1st-phase-T2,-imp",
+        "description": "Active-energy-1st-phase-T2,-imp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4139": {
+        "name": "Active-energy-2nd-phase-T2,-imp",
+        "description": "Active-energy-2nd-phase-T2,-imp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4143": {
+        "name": "Active-energy-3rd-phase-T2,-imp",
+        "description": "Active-energy-3rd-phase-T2,-imp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4147": {
+        "name": "Active-energy-sum-T2,-imp",
+        "description": "Active-energy-sum-T2,-imp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4151": {
+        "name": "Active-power-1st-phase",
+        "description": "Active-power-1st-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "4153": {
+        "name": "Active-power-2nd-phase",
+        "description": "Active-power-2nd-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "4155": {
+        "name": "Active-power-3rd-phase",
+        "description": "Active-power-3rd-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "4157": {
+        "name": "Active-power-sum",
+        "description": "Active-power-sum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "",
+        "access": "read"
+    },
+    "4161": {
+        "name": "Active-energy-1st-phase-T1,-exp",
+        "description": "Active-energy-1st-phase-T1,-exp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4165": {
+        "name": "Active-energy-2nd-phase-T1,-exp",
+        "description": "Active-energy-2nd-phase-T1,-exp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4169": {
+        "name": "Active-energy-3rd-phase-T1,-exp",
+        "description": "Active-energy-3rd-phase-T1,-exp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4173": {
+        "name": "Active-energy-sum-T1,-exp",
+        "description": "Active-energy-sum-T1,-exp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4177": {
+        "name": "Active-energy-1st-phase-T2,-exp",
+        "description": "Active-energy-1st-phase-T2,-exp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4181": {
+        "name": "Active-energy-2nd-phase-T2,-exp",
+        "description": "Active-energy-2nd-phase-T2,-exp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4185": {
+        "name": "Active-energy-3rd-phase-T2,-exp",
+        "description": "Active-energy-3rd-phase-T2,-exp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4189": {
+        "name": "Active-energy-sum-T2,-exp",
+        "description": "Active-energy-sum-T2,-exp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4193": {
+        "name": "Reactive-energy-1st-phase-T1,-imp",
+        "description": "Reactive-energy-1st-phase-T1,-imp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4197": {
+        "name": "Reactive-energy-2nd-phase-T1,-imp",
+        "description": "Reactive-energy-2nd-phase-T1,-imp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4201": {
+        "name": "Reactive-energy-3rd-phase-T1,-imp",
+        "description": "Reactive-energy-3rd-phase-T1,-imp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4205": {
+        "name": "Reactive-energy-sum-T1,-imp",
+        "description": "Reactive-energy-sum-T1,-imp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4209": {
+        "name": "Reactive-energy-1st-phase-T2,-imp",
+        "description": "Reactive-energy-1st-phase-T2,-imp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4213": {
+        "name": "Reactive-energy-2nd-phase-T2,-imp",
+        "description": "Reactive-energy-2nd-phase-T2,-imp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4217": {
+        "name": "Reactive-energy-3rd-phase-T2,-imp",
+        "description": "Reactive-energy-3rd-phase-T2,-imp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4221": {
+        "name": "Reactive-energy-sum-T2,-imp",
+        "description": "Reactive-energy-sum-T2,-imp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4225": {
+        "name": "Reactive-energy-1st-phase-T1,-exp",
+        "description": "Reactive-energy-1st-phase-T1,-exp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4229": {
+        "name": "Reactive-energy-2nd-phase-T1,-exp",
+        "description": "Reactive-energy-2nd-phase-T1,-exp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4233": {
+        "name": "Reactive-energy-3rd-phase-T1,-exp",
+        "description": "Reactive-energy-3rd-phase-T1,-exp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4237": {
+        "name": "Reactive-energy-sum-T1,-exp",
+        "description": "Reactive-energy-sum-T1,-exp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4241": {
+        "name": "Reactive-energy-1st-phase-T2,-exp",
+        "description": "Reactive-energy-1st-phase-T2,-exp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4245": {
+        "name": "Reactive-energy-2nd-phase-T2,-exp",
+        "description": "Reactive-energy-2nd-phase-T2,-exp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4249": {
+        "name": "Reactive-energy-3rd-phase-T2,-exp",
+        "description": "Reactive-energy-3rd-phase-T2,-exp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4253": {
+        "name": "Reactive-energy-sum-T2,-exp",
+        "description": "Reactive-energy-sum-T2,-exp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "4257": {
+        "name": "Reactive-power-1st-phase",
+        "description": "Reactive-power-1st-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "4259": {
+        "name": "Reactive-power-2nd-phase",
+        "description": "Reactive-power-2nd-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "4261": {
+        "name": "Reactive-power-3rd-phase",
+        "description": "Reactive-power-3rd-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvar",
+        "access": "read"
+    }
+}

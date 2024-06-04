@@ -1,0 +1,502 @@
+{
+    "4096": {
+        "name": "Phase-A-voltage",
+        "description": "Phase-A-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4097": {
+        "name": "Phase-B-voltage",
+        "description": "Phase-B-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4098": {
+        "name": "Phase-C-voltage",
+        "description": "Phase-C-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4099": {
+        "name": "Phase-voltage-mean-value",
+        "description": "Phase-voltage-mean-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4100": {
+        "name": "Zero-sequence-voltage",
+        "description": "Zero-sequence-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4101": {
+        "name": "Line-voltage-(A-b)",
+        "description": "Line-voltage-(A-b)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4102": {
+        "name": "Line-voltage-(B-c)",
+        "description": "Line-voltage-(B-c)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4103": {
+        "name": "Line-voltage-(C-a)",
+        "description": "Line-voltage-(C-a)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4104": {
+        "name": "Line-voltage-mean-value",
+        "description": "Line-voltage-mean-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4105": {
+        "name": "Phase/line-current-of-phase-A",
+        "description": "Phase/line-current-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4106": {
+        "name": "Phase/line-current-of-phase-B",
+        "description": "Phase/line-current-of-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4107": {
+        "name": "Phase/line-current-of-phase-C",
+        "description": "Phase/line-current-of-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4108": {
+        "name": "Phase/line-current-mean-value",
+        "description": "Phase/line-current-mean-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4109": {
+        "name": "Zero-sequence-current",
+        "description": "Zero-sequence-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4110": {
+        "name": "Active-power-of-phase-A",
+        "description": "Active-power-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4111": {
+        "name": "Active-power-of-phase-B",
+        "description": "Active-power-of-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4112": {
+        "name": "Active-power-of-phase-C",
+        "description": "Active-power-of-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4113": {
+        "name": "Total-three-phase-active-power",
+        "description": "Total-three-phase-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4114": {
+        "name": "Reactive-power-of-phase-A",
+        "description": "Reactive-power-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4115": {
+        "name": "Reactive-power-of-phase-B",
+        "description": "Reactive-power-of-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4116": {
+        "name": "Reactive-power-of-phase-C",
+        "description": "Reactive-power-of-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4117": {
+        "name": "Total-three-phase-reactive-power",
+        "description": "Total-three-phase-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4118": {
+        "name": "Apparent-power-of-phase-A",
+        "description": "Apparent-power-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4119": {
+        "name": "Apparent-power-of-phase-B",
+        "description": "Apparent-power-of-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4120": {
+        "name": "Apparent-power-of-phase-C",
+        "description": "Apparent-power-of-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4121": {
+        "name": "Total-three-phase-apparent-power",
+        "description": "Total-three-phase-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4122": {
+        "name": "Power-factor-of-phase-A",
+        "description": "Power-factor-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4123": {
+        "name": "Power-factor-of-phase-B",
+        "description": "Power-factor-of-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4124": {
+        "name": "Power-factor-of-phase-C",
+        "description": "Power-factor-of-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4125": {
+        "name": "Total-three-phase-power-factor",
+        "description": "Total-three-phase-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "4126": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4127": {
+        "name": "Voltage-unbalance-factor",
+        "description": "Voltage-unbalance-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4128": {
+        "name": "Current-unbalance-factor",
+        "description": "Current-unbalance-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4129": {
+        "name": "Inductance-capacitance-resistance-\uff08L/C/R",
+        "description": "Inductance-capacitance-resistance-\uff08L/C/R",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4352": {
+        "name": "Line/phase-voltage-THD-of-phase-A",
+        "description": "Line/phase-voltage-THD-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4353": {
+        "name": "Line/phase-voltage-THD-of-phase-B",
+        "description": "Line/phase-voltage-THD-of-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4354": {
+        "name": "Line/phase-voltage-THD-of-phase-C",
+        "description": "Line/phase-voltage-THD-of-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4355": {
+        "name": "Line/phase-voltage-mean-value-THD",
+        "description": "Line/phase-voltage-mean-value-THD",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4356": {
+        "name": "Current-THD-of-phase-A",
+        "description": "Current-THD-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4357": {
+        "name": "Current-THD-of-phase-B",
+        "description": "Current-THD-of-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4358": {
+        "name": "Current-THD-of-phase-C",
+        "description": "Current-THD-of-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4359": {
+        "name": "Current-mean-value-THD",
+        "description": "Current-mean-value-THD",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4360": {
+        "name": "3rd-line/phase-voltage-harmonic-content-of-phase-A",
+        "description": "3rd-line/phase-voltage-harmonic-content-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4361": {
+        "name": "5th-line/phase-voltage-harmonic-content-of-phase-A",
+        "description": "5th-line/phase-voltage-harmonic-content-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4362": {
+        "name": "7th-line/phase-voltage-harmonic-content-of-phase-A",
+        "description": "7th-line/phase-voltage-harmonic-content-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4363": {
+        "name": "9th-line/phase-voltage-harmonic-content-of-phase-A",
+        "description": "9th-line/phase-voltage-harmonic-content-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4364": {
+        "name": "11th-line/phase-voltage-harmonic-content-of-phase-A",
+        "description": "11th-line/phase-voltage-harmonic-content-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4365": {
+        "name": "13th-line/phase-voltage-harmonic-content-of-phase-A",
+        "description": "13th-line/phase-voltage-harmonic-content-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4366": {
+        "name": "15th-line/phase-voltage-harmonic-content-of-phase-A",
+        "description": "15th-line/phase-voltage-harmonic-content-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4367": {
+        "name": "17th-line/phase-voltage-harmonic-content-of-phase-A",
+        "description": "17th-line/phase-voltage-harmonic-content-of-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    }
+}

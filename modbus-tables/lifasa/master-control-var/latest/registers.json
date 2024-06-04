@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "L1-current",
+        "description": "L1-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "mA",
+        "access": "read"
+    },
+    "4": {
+        "name": "L1-active-power",
+        "description": "L1-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "W",
+        "access": "read"
+    },
+    "6": {
+        "name": "L1-inductive-reactive-power",
+        "description": "L1-inductive-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "varL",
+        "access": "read"
+    },
+    "8": {
+        "name": "L1-capacitive-reactive-power",
+        "description": "L1-capacitive-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "varC",
+        "access": "read"
+    },
+    "10": {
+        "name": "L1-reactive-power",
+        "description": "L1-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "var",
+        "access": "read"
+    },
+    "12": {
+        "name": "L1-apparent-power",
+        "description": "L1-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "14": {
+        "name": "L1-reactive-power-consumed",
+        "description": "L1-reactive-power-consumed",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "var",
+        "access": "read"
+    },
+    "16": {
+        "name": "L1-reactive-power-generated",
+        "description": "L1-reactive-power-generated",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "var",
+        "access": "read"
+    },
+    "18": {
+        "name": "L1-power-factor",
+        "description": "L1-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "20": {
+        "name": "L1-cos",
+        "description": "L1-cos",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "22": {
+        "name": "L1-kW-sign",
+        "description": "L1-kW-sign",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "+1 or -1",
+        "access": "read"
+    },
+    "24": {
+        "name": "L1-kvar-sign",
+        "description": "L1-kvar-sign",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "+1 or -1",
+        "access": "read"
+    },
+    "26": {
+        "name": "L2-phase-voltage",
+        "description": "L2-phase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "28": {
+        "name": "L2-current",
+        "description": "L2-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "mA",
+        "access": "read"
+    },
+    "30": {
+        "name": "L2-active-power",
+        "description": "L2-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "W",
+        "access": "read"
+    },
+    "32": {
+        "name": "L2-inductive-reactive-power",
+        "description": "L2-inductive-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "varL",
+        "access": "read"
+    },
+    "34": {
+        "name": "L2-capacitive-reactive-power",
+        "description": "L2-capacitive-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "varC",
+        "access": "read"
+    },
+    "36": {
+        "name": "L2-reactive-power",
+        "description": "L2-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "var",
+        "access": "read"
+    },
+    "38": {
+        "name": "L2-apparent-power",
+        "description": "L2-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "40": {
+        "name": "L2-reactive-power-consumed",
+        "description": "L2-reactive-power-consumed",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "var",
+        "access": "read"
+    },
+    "42": {
+        "name": "L2-reactive-power-generated",
+        "description": "L2-reactive-power-generated",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "var",
+        "access": "read"
+    },
+    "44": {
+        "name": "L2-power-factor",
+        "description": "L2-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "46": {
+        "name": "L2-cos",
+        "description": "L2-cos",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "48": {
+        "name": "L2-kW-sign",
+        "description": "L2-kW-sign",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "+1 or -1",
+        "access": "read"
+    },
+    "50": {
+        "name": "L2-kvar-sign",
+        "description": "L2-kvar-sign",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "+1 or -1",
+        "access": "read"
+    },
+    "52": {
+        "name": "L3-phase-voltage",
+        "description": "L3-phase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "54": {
+        "name": "L3-current",
+        "description": "L3-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "mA",
+        "access": "read"
+    },
+    "56": {
+        "name": "L3-active-power",
+        "description": "L3-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "W",
+        "access": "read"
+    },
+    "58": {
+        "name": "L3-inductive-reactive-power",
+        "description": "L3-inductive-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "varL",
+        "access": "read"
+    },
+    "60": {
+        "name": "L3-capacitive-reactive-power",
+        "description": "L3-capacitive-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "varC",
+        "access": "read"
+    },
+    "62": {
+        "name": "L3-reactive-power",
+        "description": "L3-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "var",
+        "access": "read"
+    },
+    "64": {
+        "name": "L3-apparent-power",
+        "description": "L3-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "66": {
+        "name": "L3-reactive-power-consumed",
+        "description": "L3-reactive-power-consumed",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "var",
+        "access": "read"
+    },
+    "68": {
+        "name": "L3-reactive-power-generated",
+        "description": "L3-reactive-power-generated",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "var",
+        "access": "read"
+    },
+    "70": {
+        "name": "L3-power-factor",
+        "description": "L3-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "72": {
+        "name": "L3-cos",
+        "description": "L3-cos",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "74": {
+        "name": "L3-kW-sign",
+        "description": "L3-kW-sign",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "+1 or -1",
+        "access": "read"
+    },
+    "76": {
+        "name": "L3-kvar-sign",
+        "description": "L3-kvar-sign",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "+1 or -1",
+        "access": "read"
+    },
+    "78": {
+        "name": "Three-phase-voltage",
+        "description": "Three-phase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "80": {
+        "name": "Three-phase-current",
+        "description": "Three-phase-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "mA",
+        "access": "read"
+    },
+    "82": {
+        "name": "Three-phase-active-power",
+        "description": "Three-phase-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "W",
+        "access": "read"
+    },
+    "84": {
+        "name": "Three-phase-inductive-power",
+        "description": "Three-phase-inductive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "varL",
+        "access": "read"
+    },
+    "86": {
+        "name": "Three-phase-capacitive-power",
+        "description": "Three-phase-capacitive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "varC",
+        "access": "read"
+    },
+    "88": {
+        "name": "Three-phase-reactive-power",
+        "description": "Three-phase-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "var",
+        "access": "read"
+    },
+    "90": {
+        "name": "Three-phase-apparent-power",
+        "description": "Three-phase-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "92": {
+        "name": "Three-phase-reactive-power-consumed",
+        "description": "Three-phase-reactive-power-consumed",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "var",
+        "access": "read"
+    },
+    "94": {
+        "name": "Three-phase-reactive-power-generated",
+        "description": "Three-phase-reactive-power-generated",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "var",
+        "access": "read"
+    },
+    "96": {
+        "name": "Three-phase-power-factor",
+        "description": "Three-phase-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "98": {
+        "name": "Three-phase-cos",
+        "description": "Three-phase-cos",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "100": {
+        "name": "Three-phase-kW-sign",
+        "description": "Three-phase-kW-sign",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    }
+}

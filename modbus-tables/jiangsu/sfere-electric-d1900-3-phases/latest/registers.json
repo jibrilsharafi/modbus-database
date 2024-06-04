@@ -1,0 +1,502 @@
+{
+    "290": {
+        "name": "Active-energy-of-this-month-[total/tip/peak/level/valley",
+        "description": "Active-energy-of-this-month-[total/tip/peak/level/valley",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "300": {
+        "name": "Active-energy-of-last-month-[total/tip/peak/level/valley",
+        "description": "Active-energy-of-last-month-[total/tip/peak/level/valley",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "310": {
+        "name": "Active-energy-of-the-month-before-last-[total/tip/peak/level/valley",
+        "description": "Active-energy-of-the-month-before-last-[total/tip/peak/level/valley",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "512": {
+        "name": "Phase-A-voltage",
+        "description": "Phase-A-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "513": {
+        "name": "Phase-B-voltage",
+        "description": "Phase-B-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "514": {
+        "name": "Phase-C-voltage",
+        "description": "Phase-C-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "515": {
+        "name": "Ab-line-voltage",
+        "description": "Ab-line-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "516": {
+        "name": "Bc-line-voltage",
+        "description": "Bc-line-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "517": {
+        "name": "Ca-line-voltage",
+        "description": "Ca-line-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "518": {
+        "name": "Phase-A-current",
+        "description": "Phase-A-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "A",
+        "access": "read"
+    },
+    "519": {
+        "name": "Phase-B-current",
+        "description": "Phase-B-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "A",
+        "access": "read"
+    },
+    "520": {
+        "name": "Phase-C-current",
+        "description": "Phase-C-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "A",
+        "access": "read"
+    },
+    "521": {
+        "name": "Phase-A-active-power",
+        "description": "Phase-A-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "522": {
+        "name": "Phase-B-active-power",
+        "description": "Phase-B-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "523": {
+        "name": "Phase-C-active-power",
+        "description": "Phase-C-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "524": {
+        "name": "Total-active-power",
+        "description": "Total-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "525": {
+        "name": "Phase-A-reactive-power",
+        "description": "Phase-A-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "526": {
+        "name": "Phase-B-reactive-power",
+        "description": "Phase-B-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "527": {
+        "name": "Phase-C-reactive-power",
+        "description": "Phase-C-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "528": {
+        "name": "Total-reactive-power",
+        "description": "Total-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "529": {
+        "name": "Phase-A-apparent-power",
+        "description": "Phase-A-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "530": {
+        "name": "Phase-B-apparent-power",
+        "description": "Phase-B-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "531": {
+        "name": "Phase-C-apparent-power",
+        "description": "Phase-C-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "532": {
+        "name": "Total-apparent-power",
+        "description": "Total-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "533": {
+        "name": "Phase-A-power-factor",
+        "description": "Phase-A-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "534": {
+        "name": "Phase-B-power-factor",
+        "description": "Phase-B-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "535": {
+        "name": "Phase-C-power-factor",
+        "description": "Phase-C-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "536": {
+        "name": "Total-power-factor",
+        "description": "Total-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "537": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "538": {
+        "name": "Phase-A-(ab-line)-voltage-thd",
+        "description": "Phase-A-(ab-line)-voltage-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "539": {
+        "name": "Phase-B-voltage-thd",
+        "description": "Phase-B-voltage-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "540": {
+        "name": "Phase-C-(cb-line)-voltage-thd",
+        "description": "Phase-C-(cb-line)-voltage-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "541": {
+        "name": "Phase-A-current-thd",
+        "description": "Phase-A-current-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "542": {
+        "name": "Phase-B-current-thd",
+        "description": "Phase-B-current-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "543": {
+        "name": "Phase-C-current-thd",
+        "description": "Phase-C-current-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "544": {
+        "name": "Phase-A-(ab-line)-voltage-harmonic-content",
+        "description": "Phase-A-(ab-line)-voltage-harmonic-content",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "545": {
+        "name": "Phase-B-voltage-harmonic-content",
+        "description": "Phase-B-voltage-harmonic-content",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "546": {
+        "name": "Phase-C-(cb-line)-voltage-harmonic-content",
+        "description": "Phase-C-(cb-line)-voltage-harmonic-content",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "547": {
+        "name": "Phase-A-current-harmonic-content",
+        "description": "Phase-A-current-harmonic-content",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "A",
+        "access": "read"
+    },
+    "548": {
+        "name": "Phase-B-current-harmonic-content",
+        "description": "Phase-B-current-harmonic-content",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "A",
+        "access": "read"
+    },
+    "549": {
+        "name": "Phase-C-current-harmonic-content",
+        "description": "Phase-C-current-harmonic-content",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "A",
+        "access": "read"
+    },
+    "1536": {
+        "name": "Max.-phase-voltage-value",
+        "description": "Max.-phase-voltage-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "1537": {
+        "name": "Max.-line-voltage-value",
+        "description": "Max.-line-voltage-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "1538": {
+        "name": "Max.-current-value",
+        "description": "Max.-current-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "A",
+        "access": "read"
+    },
+    "1539": {
+        "name": "Max.-active-power-value",
+        "description": "Max.-active-power-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "1540": {
+        "name": "Max.-reactive-power-value",
+        "description": "Max.-reactive-power-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "1541": {
+        "name": "Max.-apparent-power-value",
+        "description": "Max.-apparent-power-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    },
+    "1542": {
+        "name": "Max.-active-power-demand-value",
+        "description": "Max.-active-power-demand-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "1543": {
+        "name": "Max.-reactive-power-demand-value",
+        "description": "Max.-reactive-power-demand-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "1544": {
+        "name": "Max.-apparent-power-demand-value",
+        "description": "Max.-apparent-power-demand-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "V",
+        "access": "read"
+    }
+}

@@ -1,0 +1,502 @@
+{
+    "10101": {
+        "name": "Total-kwh-(msw)",
+        "description": "Total-kwh-(msw)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "10109": {
+        "name": "Total-kw",
+        "description": "Total-kw",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "10113": {
+        "name": "Total-kva",
+        "description": "Total-kva",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "10115": {
+        "name": "Total-pf",
+        "description": "Total-pf",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "PF",
+        "access": "read"
+    },
+    "10119": {
+        "name": "Average-current",
+        "description": "Average-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amperes",
+        "access": "read"
+    },
+    "10121": {
+        "name": "Present-kw-demand",
+        "description": "Present-kw-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "10127": {
+        "name": "Present-current-demand",
+        "description": "Present-current-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amperes",
+        "access": "read"
+    },
+    "10129": {
+        "name": "Max-kw-demand",
+        "description": "Max-kw-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "10135": {
+        "name": "Max-current-demand",
+        "description": "Max-current-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amperes",
+        "access": "read"
+    },
+    "10137": {
+        "name": "Max-kw",
+        "description": "Max-kw",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "10143": {
+        "name": "Max-current",
+        "description": "Max-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amperes",
+        "access": "read"
+    },
+    "10145": {
+        "name": "Voltage,-L-l,-average-of-3-phases",
+        "description": "Voltage,-L-l,-average-of-3-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "10147": {
+        "name": "Voltage,-L-n,-average-of-3-phases",
+        "description": "Voltage,-L-n,-average-of-3-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "10149": {
+        "name": "Frequency-(derived-from-phase-a)",
+        "description": "Frequency-(derived-from-phase-a)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hertz",
+        "access": "read"
+    },
+    "10151": {
+        "name": "Thd-current,-weighted-average-of-3-phases",
+        "description": "Thd-current,-weighted-average-of-3-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "10153": {
+        "name": "Thd-voltage-L-l,-weighted-average-of-3-phases",
+        "description": "Thd-voltage-L-l,-weighted-average-of-3-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "10155": {
+        "name": "Thd-voltage-L-n,-weighted-average-of-3-phases",
+        "description": "Thd-voltage-L-n,-weighted-average-of-3-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "10157": {
+        "name": "Snapshot-kwh-(msw)",
+        "description": "Snapshot-kwh-(msw)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "10301": {
+        "name": "Kwh-(msw)",
+        "description": "Kwh-(msw)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "10309": {
+        "name": "Kw",
+        "description": "Kw",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "10313": {
+        "name": "Kva",
+        "description": "Kva",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "10315": {
+        "name": "Pf",
+        "description": "Pf",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "PF",
+        "access": "read"
+    },
+    "10317": {
+        "name": "Current-angle",
+        "description": "Current-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "degrees-angular",
+        "access": "read"
+    },
+    "10319": {
+        "name": "Current",
+        "description": "Current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amperes",
+        "access": "read"
+    },
+    "10321": {
+        "name": "Present-kw-demand",
+        "description": "Present-kw-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "10327": {
+        "name": "Present-current-demand",
+        "description": "Present-current-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amperes",
+        "access": "read"
+    },
+    "10329": {
+        "name": "Max-kw-demand",
+        "description": "Max-kw-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "10335": {
+        "name": "Max-current-demand",
+        "description": "Max-current-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amperes",
+        "access": "read"
+    },
+    "10337": {
+        "name": "Max-kw",
+        "description": "Max-kw",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "10343": {
+        "name": "Max-current",
+        "description": "Max-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amperes",
+        "access": "read"
+    },
+    "10345": {
+        "name": "Voltage,-L-L",
+        "description": "Voltage,-L-L",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "10347": {
+        "name": "Voltage,-L-N",
+        "description": "Voltage,-L-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "10349": {
+        "name": "Frequency-(derived-from-phase-a)",
+        "description": "Frequency-(derived-from-phase-a)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hertz",
+        "access": "read"
+    },
+    "10351": {
+        "name": "Thd-current",
+        "description": "Thd-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "10353": {
+        "name": "Thd-voltage-L-L",
+        "description": "Thd-voltage-L-L",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "10355": {
+        "name": "Thd-voltage-L-N",
+        "description": "Thd-voltage-L-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "10357": {
+        "name": "Kwh-snapshot-(msw)",
+        "description": "Kwh-snapshot-(msw)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "10501": {
+        "name": "Kwh-(msw)",
+        "description": "Kwh-(msw)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "10509": {
+        "name": "Kw",
+        "description": "Kw",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "10513": {
+        "name": "Kva",
+        "description": "Kva",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "10515": {
+        "name": "Pf",
+        "description": "Pf",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "PF",
+        "access": "read"
+    },
+    "10517": {
+        "name": "Current-angle",
+        "description": "Current-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "degrees-angular",
+        "access": "read"
+    },
+    "10519": {
+        "name": "Current",
+        "description": "Current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amperes",
+        "access": "read"
+    },
+    "10521": {
+        "name": "Present-kw-demand",
+        "description": "Present-kw-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "10527": {
+        "name": "Present-current-demand",
+        "description": "Present-current-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amperes",
+        "access": "read"
+    },
+    "10529": {
+        "name": "Max-kw-demand",
+        "description": "Max-kw-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "10535": {
+        "name": "Max-current-demand",
+        "description": "Max-current-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amperes",
+        "access": "read"
+    },
+    "10537": {
+        "name": "Max-kw",
+        "description": "Max-kw",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "10543": {
+        "name": "Max-current",
+        "description": "Max-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amperes",
+        "access": "read"
+    },
+    "10545": {
+        "name": "Voltage,-L-L",
+        "description": "Voltage,-L-L",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volts",
+        "access": "read"
+    }
+}

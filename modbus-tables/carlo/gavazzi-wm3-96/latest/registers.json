@@ -1,0 +1,502 @@
+{
+    "4": {
+        "name": "A-L1",
+        "description": "A-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "8": {
+        "name": "W-L1",
+        "description": "W-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "12": {
+        "name": "V-L2-N",
+        "description": "V-L2-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "16": {
+        "name": "A-L2",
+        "description": "A-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "20": {
+        "name": "W-L2",
+        "description": "W-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "24": {
+        "name": "V-L3-N",
+        "description": "V-L3-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "28": {
+        "name": "A-L3",
+        "description": "A-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "32": {
+        "name": "W-L3",
+        "description": "W-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "36": {
+        "name": "V-L1",
+        "description": "V-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "40": {
+        "name": "V-L2",
+        "description": "V-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "44": {
+        "name": "V-L3",
+        "description": "V-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "48": {
+        "name": "VA-L1",
+        "description": "VA-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "52": {
+        "name": "Var-L1",
+        "description": "Var-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "56": {
+        "name": "PF-L1",
+        "description": "PF-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "60": {
+        "name": "VA-L2",
+        "description": "VA-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "64": {
+        "name": "Var-L2",
+        "description": "Var-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "68": {
+        "name": "PF-L2",
+        "description": "PF-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "72": {
+        "name": "VA-L3",
+        "description": "VA-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "76": {
+        "name": "Var-L3",
+        "description": "Var-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "80": {
+        "name": "PF-L3",
+        "description": "PF-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "84": {
+        "name": "V",
+        "description": "V",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "88": {
+        "name": "A-N",
+        "description": "A-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "92": {
+        "name": "W",
+        "description": "W",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "96": {
+        "name": "VA",
+        "description": "VA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "100": {
+        "name": "Var",
+        "description": "Var",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "104": {
+        "name": "PF",
+        "description": "PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "108": {
+        "name": "THD-V1",
+        "description": "THD-V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "112": {
+        "name": "THDe-V1",
+        "description": "THDe-V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "116": {
+        "name": "THDo-V1",
+        "description": "THDo-V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "120": {
+        "name": "THD-V2",
+        "description": "THD-V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "124": {
+        "name": "THDe-V2",
+        "description": "THDe-V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "128": {
+        "name": "THDo-V2",
+        "description": "THDo-V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "132": {
+        "name": "THD-V3",
+        "description": "THD-V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "136": {
+        "name": "THDe-V3",
+        "description": "THDe-V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "140": {
+        "name": "THDo-V3",
+        "description": "THDo-V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "144": {
+        "name": "THD-A1",
+        "description": "THD-A1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "148": {
+        "name": "THDe-A1",
+        "description": "THDe-A1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "152": {
+        "name": "THDo-A1",
+        "description": "THDo-A1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "156": {
+        "name": "THD-A2",
+        "description": "THD-A2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "160": {
+        "name": "THDe-A2",
+        "description": "THDe-A2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "164": {
+        "name": "THDo-A2",
+        "description": "THDo-A2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "168": {
+        "name": "THD-A3",
+        "description": "THD-A3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "172": {
+        "name": "THDe-A3",
+        "description": "THDe-A3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "176": {
+        "name": "THDo-A3",
+        "description": "THDo-A3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "180": {
+        "name": "A-dmd",
+        "description": "A-dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "184": {
+        "name": "VA-dmd",
+        "description": "VA-dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "188": {
+        "name": "TPF-avg",
+        "description": "TPF-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "192": {
+        "name": "W-dmd",
+        "description": "W-dmd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "196": {
+        "name": "Hz",
+        "description": "Hz",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "200": {
+        "name": "ASY",
+        "description": "ASY",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    }
+}

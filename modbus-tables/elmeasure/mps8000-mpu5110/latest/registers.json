@@ -1,0 +1,502 @@
+{
+    "100": {
+        "name": "Watts-total",
+        "description": "Watts-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "102": {
+        "name": "Watts-R-phase",
+        "description": "Watts-R-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "104": {
+        "name": "Watts-Y-phase",
+        "description": "Watts-Y-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "106": {
+        "name": "Watts-B-phase",
+        "description": "Watts-B-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "108": {
+        "name": "Var-total",
+        "description": "Var-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "110": {
+        "name": "Var-R-phase",
+        "description": "Var-R-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "112": {
+        "name": "Var-Y-phase",
+        "description": "Var-Y-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "114": {
+        "name": "Var-B-phase",
+        "description": "Var-B-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "116": {
+        "name": "Pf-avg(inst)",
+        "description": "Pf-avg(inst)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "118": {
+        "name": "Pf-R-phase",
+        "description": "Pf-R-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "120": {
+        "name": "Pf-Y-phase",
+        "description": "Pf-Y-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "122": {
+        "name": "Pf-B-phase",
+        "description": "Pf-B-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "124": {
+        "name": "Va-total",
+        "description": "Va-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "126": {
+        "name": "Va-R-phase",
+        "description": "Va-R-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "128": {
+        "name": "Va-Y-phase",
+        "description": "Va-Y-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "130": {
+        "name": "Va-B-phase",
+        "description": "Va-B-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "132": {
+        "name": "Vll-average",
+        "description": "Vll-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "134": {
+        "name": "Vry-phase",
+        "description": "Vry-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "136": {
+        "name": "Vyb-phase",
+        "description": "Vyb-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "138": {
+        "name": "Vbr-phase",
+        "description": "Vbr-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "140": {
+        "name": "Vln-average",
+        "description": "Vln-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "142": {
+        "name": "V-R-phase",
+        "description": "V-R-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "144": {
+        "name": "V-Y-phase",
+        "description": "V-Y-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "146": {
+        "name": "V-B-phase",
+        "description": "V-B-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "148": {
+        "name": "Current-average",
+        "description": "Current-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "150": {
+        "name": "Current-R-phase",
+        "description": "Current-R-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "152": {
+        "name": "Current-Y-phase",
+        "description": "Current-Y-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "154": {
+        "name": "Current-B-phase",
+        "description": "Current-B-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "156": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "158": {
+        "name": "Wh-received",
+        "description": "Wh-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "160": {
+        "name": "Vah-received",
+        "description": "Vah-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "162": {
+        "name": "Varh-ind.-Received",
+        "description": "Varh-ind.-Received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "164": {
+        "name": "Varh-cap.-Received",
+        "description": "Varh-cap.-Received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "174": {
+        "name": "Pf-average-received",
+        "description": "Pf-average-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "176": {
+        "name": "Amps-hours-received",
+        "description": "Amps-hours-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "182": {
+        "name": "Neutral-current",
+        "description": "Neutral-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "184": {
+        "name": "Voltage-R-harmonics",
+        "description": "Voltage-R-harmonics",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "186": {
+        "name": "Voltage-Y-harmonics",
+        "description": "Voltage-Y-harmonics",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "188": {
+        "name": "Voltage-B-harmonics",
+        "description": "Voltage-B-harmonics",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "190": {
+        "name": "Current-R-harmonics",
+        "description": "Current-R-harmonics",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "192": {
+        "name": "Current-Y-harmonics",
+        "description": "Current-Y-harmonics",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "194": {
+        "name": "Current-B-harmonics",
+        "description": "Current-B-harmonics",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "214": {
+        "name": "Rpm",
+        "description": "Rpm",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "216": {
+        "name": "Load-hours-received",
+        "description": "Load-hours-received",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "220": {
+        "name": "No-of-interruptions",
+        "description": "No-of-interruptions",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "230": {
+        "name": "On-hours-(-in-seconds)",
+        "description": "On-hours-(-in-seconds)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "232": {
+        "name": "Voltage-R-phase-angle",
+        "description": "Voltage-R-phase-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "234": {
+        "name": "Voltage-Y-phase-angle",
+        "description": "Voltage-Y-phase-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "236": {
+        "name": "Voltage-B-phase-angle",
+        "description": "Voltage-B-phase-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "238": {
+        "name": "Current-R-phase-angle",
+        "description": "Current-R-phase-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    }
+}

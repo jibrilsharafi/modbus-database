@@ -1,0 +1,502 @@
+{
+    "1": {
+        "name": "System-time",
+        "description": "System-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2": {
+        "name": "Day-of-week",
+        "description": "Day-of-week",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3": {
+        "name": "Month",
+        "description": "Month",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "112",
+        "access": "read"
+    },
+    "4": {
+        "name": "Day",
+        "description": "Day",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "131",
+        "access": "read"
+    },
+    "5": {
+        "name": "Year",
+        "description": "Year",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "6": {
+        "name": "Week-of-month",
+        "description": "Week-of-month",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "7": {
+        "name": "Voltage-l1l2",
+        "description": "Voltage-l1l2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "8": {
+        "name": "Voltage-l2l3",
+        "description": "Voltage-l2l3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "9": {
+        "name": "Voltage-l3l1",
+        "description": "Voltage-l3l1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "10": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "11": {
+        "name": "Voltage-l1l0",
+        "description": "Voltage-l1l0",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "12": {
+        "name": "Voltage-l2l0",
+        "description": "Voltage-l2l0",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "13": {
+        "name": "Voltage-l3l0",
+        "description": "Voltage-l3l0",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "14": {
+        "name": "Alert-code",
+        "description": "Alert-code",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "AeRGode",
+        "access": "read"
+    },
+    "15": {
+        "name": "Engine-speed",
+        "description": "Engine-speed",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "16": {
+        "name": "Coolant-temp",
+        "description": "Coolant-temp",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "17": {
+        "name": "Oil-pressure",
+        "description": "Oil-pressure",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "18": {
+        "name": "Battery-voltage",
+        "description": "Battery-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VDC ",
+        "access": "read"
+    },
+    "19": {
+        "name": "L1-current",
+        "description": "L1-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amps",
+        "access": "read"
+    },
+    "20": {
+        "name": "L2-current",
+        "description": "L2-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amps",
+        "access": "read"
+    },
+    "21": {
+        "name": "L3-current",
+        "description": "L3-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amps",
+        "access": "read"
+    },
+    "22": {
+        "name": "Power-factor",
+        "description": "Power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": " 100",
+        "access": "read"
+    },
+    "23": {
+        "name": "Total-real-power",
+        "description": "Total-real-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "24": {
+        "name": "Percent-of-max.-Power",
+        "description": "Percent-of-max.-Power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "33": {
+        "name": "Status",
+        "description": "Status",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "01: Sw. Position (00=open; 01=auto; 10=run; 11=off)",
+        "access": "read"
+    },
+    "47": {
+        "name": "Engine-start-time",
+        "description": "Engine-start-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Sec",
+        "access": "read"
+    },
+    "48": {
+        "name": "Crank-time",
+        "description": "Crank-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Sec",
+        "access": "read"
+    },
+    "49": {
+        "name": "Crank-pause-time",
+        "description": "Crank-pause-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Sec",
+        "access": "read"
+    },
+    "50": {
+        "name": "Num-of-crank-cycles",
+        "description": "Num-of-crank-cycles",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "51": {
+        "name": "Engine-cooldown-time",
+        "description": "Engine-cooldown-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Sec",
+        "access": "read"
+    },
+    "52": {
+        "name": "Over-voltage-time-delay",
+        "description": "Over-voltage-time-delay",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Sec",
+        "access": "read"
+    },
+    "53": {
+        "name": "Under-voltage-time-delay",
+        "description": "Under-voltage-time-delay",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Sec",
+        "access": "read"
+    },
+    "54": {
+        "name": "Starting-aid-time",
+        "description": "Starting-aid-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Sec",
+        "access": "read"
+    },
+    "55": {
+        "name": "Aux-1-inhibit-time",
+        "description": "Aux-1-inhibit-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Sec",
+        "access": "read"
+    },
+    "56": {
+        "name": "Aux-1-delay-time",
+        "description": "Aux-1-delay-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Sec",
+        "access": "read"
+    },
+    "57": {
+        "name": "Aux-2-inhibit-time",
+        "description": "Aux-2-inhibit-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Sec",
+        "access": "read"
+    },
+    "58": {
+        "name": "Aux-2-delay-time",
+        "description": "Aux-2-delay-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Sec",
+        "access": "read"
+    },
+    "59": {
+        "name": "Aux-3-inhibit-time",
+        "description": "Aux-3-inhibit-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Sec",
+        "access": "read"
+    },
+    "60": {
+        "name": "Aux-3-delay-time",
+        "description": "Aux-3-delay-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Sec",
+        "access": "read"
+    },
+    "61": {
+        "name": "Aux-4-inhibit-time",
+        "description": "Aux-4-inhibit-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Sec",
+        "access": "read"
+    },
+    "62": {
+        "name": "Aux-4-delay-time",
+        "description": "Aux-4-delay-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Sec",
+        "access": "read"
+    },
+    "63": {
+        "name": "Over-voltage-trip-point",
+        "description": "Over-voltage-trip-point",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "64": {
+        "name": "Under-voltage-trip-point",
+        "description": "Under-voltage-trip-point",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "65": {
+        "name": "Over-freq-trip-point",
+        "description": "Over-freq-trip-point",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "66": {
+        "name": "Under-freq-trip-point",
+        "description": "Under-freq-trip-point",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "67": {
+        "name": "Over-speed-trip-point",
+        "description": "Over-speed-trip-point",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "68": {
+        "name": "Low-battery-voltage-trip-point",
+        "description": "Low-battery-voltage-trip-point",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VDC",
+        "access": "read"
+    },
+    "69": {
+        "name": "High-battery-voltage-trip-point",
+        "description": "High-battery-voltage-trip-point",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "VDC ",
+        "access": "read"
+    },
+    "70": {
+        "name": "System-voltage",
+        "description": "System-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts, 105-14600",
+        "access": "read"
+    },
+    "71": {
+        "name": "System-frequency",
+        "description": "System-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz, 48-62",
+        "access": "read"
+    }
+}

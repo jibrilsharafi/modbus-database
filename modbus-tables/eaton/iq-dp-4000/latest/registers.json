@@ -1,0 +1,502 @@
+{
+    "7222": {
+        "name": "Peak-demand-forward-watts",
+        "description": "Peak-demand-forward-watts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "7264": {
+        "name": "Peak-demand-reverse-watts",
+        "description": "Peak-demand-reverse-watts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "7305": {
+        "name": "Peak-demand-lagging-vars",
+        "description": "Peak-demand-lagging-vars",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "7347": {
+        "name": "Peak-demand-leading-vars",
+        "description": "Peak-demand-leading-vars",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "3000": {
+        "name": "Status",
+        "description": "Status",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4002": {
+        "name": "Vab",
+        "description": "Vab",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4004": {
+        "name": "Vbc",
+        "description": "Vbc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4006": {
+        "name": "Vca",
+        "description": "Vca",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4010": {
+        "name": "Van",
+        "description": "Van",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4012": {
+        "name": "Vbn",
+        "description": "Vbn",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4014": {
+        "name": "Vcn",
+        "description": "Vcn",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "5002": {
+        "name": "La",
+        "description": "La",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "5004": {
+        "name": "Ib",
+        "description": "Ib",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "5006": {
+        "name": "Ic",
+        "description": "Ic",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "5014": {
+        "name": "Peak-demand-la",
+        "description": "Peak-demand-la",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "5016": {
+        "name": "Peak-demand-lb",
+        "description": "Peak-demand-lb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "5018": {
+        "name": "Peak-demand-ic",
+        "description": "Peak-demand-ic",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "5250": {
+        "name": "Demand-la",
+        "description": "Demand-la",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "5252": {
+        "name": "Demand-ib",
+        "description": "Demand-ib",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "5254": {
+        "name": "Demand-ic",
+        "description": "Demand-ic",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "6006": {
+        "name": "Real-power",
+        "description": "Real-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "6070": {
+        "name": "Apparent-power",
+        "description": "Apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "6134": {
+        "name": "Reactive-power",
+        "description": "Reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "6218": {
+        "name": "Pf-displacement",
+        "description": "Pf-displacement",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "6220": {
+        "name": "Pf-apparent",
+        "description": "Pf-apparent",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "7004": {
+        "name": "Forward-real-energy",
+        "description": "Forward-real-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "7006": {
+        "name": "Reverse-real-energy",
+        "description": "Reverse-real-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "7008": {
+        "name": "Net-real-energy",
+        "description": "Net-real-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "7010": {
+        "name": "Leading-reactive-energy",
+        "description": "Leading-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Varh",
+        "access": "read"
+    },
+    "7012": {
+        "name": "Lagging-reactive-energy",
+        "description": "Lagging-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Varh",
+        "access": "read"
+    },
+    "7014": {
+        "name": "Net-reactive-energy",
+        "description": "Net-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "reactive-hours",
+        "access": "read"
+    },
+    "7016": {
+        "name": "Apparent-energy",
+        "description": "Apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "hours",
+        "access": "read"
+    },
+    "7023": {
+        "name": "Demand-watts",
+        "description": "Demand-watts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "7220": {
+        "name": "Demand-forward-watts",
+        "description": "Demand-forward-watts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "7262": {
+        "name": "Demand-reverse-watts",
+        "description": "Demand-reverse-watts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "7029": {
+        "name": "Demand-vars",
+        "description": "Demand-vars",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA- reactive",
+        "access": "read"
+    },
+    "7303": {
+        "name": "Demand-lagging-vars",
+        "description": "Demand-lagging-vars",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA- reactive",
+        "access": "read"
+    },
+    "7345": {
+        "name": "Demand-leading-vars",
+        "description": "Demand-leading-vars",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "reactive",
+        "access": "read"
+    },
+    "7035": {
+        "name": "Demand-vas",
+        "description": "Demand-vas",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "7040": {
+        "name": "Peak-demand-watts",
+        "description": "Peak-demand-watts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "7045": {
+        "name": "Peak-demand-vars",
+        "description": "Peak-demand-vars",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAr",
+        "access": "read"
+    },
+    "7050": {
+        "name": "Peak-demand-vas",
+        "description": "Peak-demand-vas",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAs",
+        "access": "read"
+    },
+    "7628": {
+        "name": "Total-reactive-energy",
+        "description": "Total-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "reactive-hours",
+        "access": "read"
+    },
+    "7679": {
+        "name": "Total-real-energy",
+        "description": "Total-real-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "9436": {
+        "name": "Percent-thd-la",
+        "description": "Percent-thd-la",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "9438": {
+        "name": "Percent-thd-lb",
+        "description": "Percent-thd-lb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "9440": {
+        "name": "Percent-thd-ic",
+        "description": "Percent-thd-ic",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "8148": {
+        "name": "Percent-thd-vab",
+        "description": "Percent-thd-vab",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "8150": {
+        "name": "Percent-thd-vbc",
+        "description": "Percent-thd-vbc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "8152": {
+        "name": "Percent-thd-vca",
+        "description": "Percent-thd-vca",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    }
+}

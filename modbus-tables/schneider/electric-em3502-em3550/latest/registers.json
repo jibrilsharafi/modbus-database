@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "Total-instantaneous-real-power-(3-phase-total)",
+        "description": "Total-instantaneous-real-power-(3-phase-total)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3": {
+        "name": "Total-instantaneous-reactive-power-(3-phase-total)",
+        "description": "Total-instantaneous-reactive-power-(3-phase-total)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "4": {
+        "name": "Total-instantaneous-apparent-power-(3-phase-total)",
+        "description": "Total-instantaneous-apparent-power-(3-phase-total)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "5": {
+        "name": "Total-power-factor-(total-kw-/-total-kva)",
+        "description": "Total-power-factor-(total-kw-/-total-kva)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Ratio",
+        "access": "read"
+    },
+    "6": {
+        "name": "Voltage,-L-l,-average-of-3-phases",
+        "description": "Voltage,-L-l,-average-of-3-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "7": {
+        "name": "Voltage,-L-n,-average-of-3-phases",
+        "description": "Voltage,-L-n,-average-of-3-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "8": {
+        "name": "Current,-average-of-3-phases",
+        "description": "Current,-average-of-3-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "9": {
+        "name": "Real-power,-phase-A",
+        "description": "Real-power,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "10": {
+        "name": "Real-power,-phase-B",
+        "description": "Real-power,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "11": {
+        "name": "Real-power,-phase-C",
+        "description": "Real-power,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "12": {
+        "name": "Power-factor,-phase-A",
+        "description": "Power-factor,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Ratio",
+        "access": "read"
+    },
+    "13": {
+        "name": "Power-factor,-phase-B",
+        "description": "Power-factor,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Ratio",
+        "access": "read"
+    },
+    "14": {
+        "name": "Power-factor,-phase-C",
+        "description": "Power-factor,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Ratio",
+        "access": "read"
+    },
+    "15": {
+        "name": "Voltage,-phase-A-B",
+        "description": "Voltage,-phase-A-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "16": {
+        "name": "Voltage,-phase-B-C",
+        "description": "Voltage,-phase-B-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "17": {
+        "name": "Voltage,-phase-A-C",
+        "description": "Voltage,-phase-A-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "18": {
+        "name": "Voltage,-phase-A-N",
+        "description": "Voltage,-phase-A-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "19": {
+        "name": "Voltage,-phase-B-N",
+        "description": "Voltage,-phase-B-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "20": {
+        "name": "Voltage,-phase-C-N",
+        "description": "Voltage,-phase-C-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "21": {
+        "name": "Current,-instantaneous,-phase-A",
+        "description": "Current,-instantaneous,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "22": {
+        "name": "Current,-instantaneous,-phase-B",
+        "description": "Current,-instantaneous,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "23": {
+        "name": "Current,-instantaneous,-phase-C",
+        "description": "Current,-instantaneous,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "25": {
+        "name": "Frequency-(derived-from-phase-a)",
+        "description": "Frequency-(derived-from-phase-a)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "26": {
+        "name": "Apparent-energy-consumption-(msr)",
+        "description": "Apparent-energy-consumption-(msr)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "KVAh",
+        "access": "read"
+    },
+    "28": {
+        "name": "Reactive-energy-consumption-(msr)",
+        "description": "Reactive-energy-consumption-(msr)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "KVARh",
+        "access": "read"
+    },
+    "30": {
+        "name": "Apparent-power,-phase-A",
+        "description": "Apparent-power,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "31": {
+        "name": "Apparent-power,-phase-B",
+        "description": "Apparent-power,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "32": {
+        "name": "Apparent-power,-phase-C",
+        "description": "Apparent-power,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "33": {
+        "name": "Reactive-power,-phase-A",
+        "description": "Reactive-power,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "34": {
+        "name": "Reactive-power,-phase-B",
+        "description": "Reactive-power,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "35": {
+        "name": "Reactive-power,-phase-C",
+        "description": "Reactive-power,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "36": {
+        "name": "Total-real-power-present-demand",
+        "description": "Total-real-power-present-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "37": {
+        "name": "Total-reactive-power-present-demand",
+        "description": "Total-reactive-power-present-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "38": {
+        "name": "Total-apparent-power-present-demand",
+        "description": "Total-apparent-power-present-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "39": {
+        "name": "Total-real-power-max.-demand",
+        "description": "Total-real-power-max.-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "40": {
+        "name": "Total-reactive-power-max.-demand",
+        "description": "Total-reactive-power-max.-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "41": {
+        "name": "Total-apparent-power-max.-demand",
+        "description": "Total-apparent-power-max.-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "42": {
+        "name": "Pulse-counter-1-(real-energy)",
+        "description": "Pulse-counter-1-(real-energy)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "44": {
+        "name": "Pulse-counter-2-(reactive-energy)",
+        "description": "Pulse-counter-2-(reactive-energy)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "46": {
+        "name": "Real-energy-consumption-phase-A",
+        "description": "Real-energy-consumption-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "48": {
+        "name": "Real-energy-consumption-phase-B",
+        "description": "Real-energy-consumption-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "50": {
+        "name": "Real-energy-consumption-phase-C",
+        "description": "Real-energy-consumption-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "129": {
+        "name": "Single-phase:-A-+-N",
+        "description": "Single-phase:-A-+-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "130": {
+        "name": "Ct-ratio-primary",
+        "description": "Ct-ratio-primary",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amps",
+        "access": "read"
+    },
+    "131": {
+        "name": "Ct-ratio-secondary-interface-(1-or-1/3-v,-may-not-be-user-configurable)",
+        "description": "Ct-ratio-secondary-interface-(1-or-1/3-v,-may-not-be-user-configurable)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "132": {
+        "name": "Pt-ratio:-the-meter-scales-this-value-by-100-(i.e.-entering-200-yields-a-potential-transformer-ratio-of-2:1).-the-default-is-100-(1.00:1),-which-is-with-no-pt-attached.-set-this-value-before-setting-the-system-voltage-(below)",
+        "description": "Pt-ratio:-the-meter-scales-this-value-by-100-(i.e.-entering-200-yields-a-potential-transformer-ratio-of-2:1).-the-default-is-100-(1.00:1),-which-is-with-no-pt-attached.-set-this-value-before-setting-the-system-voltage-(below)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "133": {
+        "name": "System-voltage:-this-voltage-is-line-to-line,-except-for-system-type-10-which-is-line-to-neutral.-the-meter-uses-this-value-to-calculate-the-full-scale-power-for-the-analog-outputs-and-pulse-configuration-(below),-and-as-full-scale-for-phase-loss-(register-142).-the-meter-will-refuse-voltages-that-are-outside-the-range-of-82-660-volts-when-divided-by-the-pt-ratio-(above)",
+        "description": "System-voltage:-this-voltage-is-line-to-line,-except-for-system-type-10-which-is-line-to-neutral.-the-meter-uses-this-value-to-calculate-the-full-scale-power-for-the-analog-outputs-and-pulse-configuration-(below),-and-as-full-scale-for-phase-loss-(register-142).-the-meter-will-refuse-voltages-that-are-outside-the-range-of-82-660-volts-when-divided-by-the-pt-ratio-(above)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "134": {
+        "name": "Theoretical-maximum-system-power:-this-read-only-value-is-the-theoretical-maximum-power-the-meter-can-expect-to-see-on-a-service.-this-value-is-100%-of-scale-on-the-analog-output-(0-5-vdc-or-4-20-ma),-if-equipped.-the-meter-recalculates-this-value-if-the-user-changes-the-ct-size,-system-type,-or-system-voltage.-this-integer-value-has-the-same-scale-as-other-integer-power-registers-(see-register-140-for-power-scaling)",
+        "description": "Theoretical-maximum-system-power:-this-read-only-value-is-the-theoretical-maximum-power-the-meter-can-expect-to-see-on-a-service.-this-value-is-100%-of-scale-on-the-analog-output-(0-5-vdc-or-4-20-ma),-if-equipped.-the-meter-recalculates-this-value-if-the-user-changes-the-ct-size,-system-type,-or-system-voltage.-this-integer-value-has-the-same-scale-as-other-integer-power-registers-(see-register-140-for-power-scaling)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "136": {
+        "name": "Display-units:-0-=-iec-(u,-v,-p,-q,-s),-1-=-ieee-(default:-vll,-vln,-w,-var,-va)",
+        "description": "Display-units:-0-=-iec-(u,-v,-p,-q,-s),-1-=-ieee-(default:-vll,-vln,-w,-var,-va)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "137": {
+        "name": "Scale-factors-note:-these-registers-contain-a-signed-integer-that-scales-the-corresponding-integer-registers.-floating-point-registers-are-not-scaled.-scaling-is-recalculated-when-the-meter-configuration-is-changed",
+        "description": "Scale-factors-note:-these-registers-contain-a-signed-integer-that-scales-the-corresponding-integer-registers.-floating-point-registers-are-not-scaled.-scaling-is-recalculated-when-the-meter-configuration-is-changed",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    }
+}

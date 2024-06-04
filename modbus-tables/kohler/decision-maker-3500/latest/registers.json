@@ -1,0 +1,502 @@
+{
+    "1": {
+        "name": "Rms-generator-voltage-L2-L3",
+        "description": "Rms-generator-voltage-L2-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "2": {
+        "name": "Rms-generator-voltage-L3-L1",
+        "description": "Rms-generator-voltage-L3-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "3": {
+        "name": "Rms-generator-voltage-line-to-line-average",
+        "description": "Rms-generator-voltage-line-to-line-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "4": {
+        "name": "Rms-generator-voltage-L1-N",
+        "description": "Rms-generator-voltage-L1-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "5": {
+        "name": "Rms-generator-voltage-L2-N",
+        "description": "Rms-generator-voltage-L2-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "6": {
+        "name": "Rms-generator-voltage-L3-N",
+        "description": "Rms-generator-voltage-L3-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "7": {
+        "name": "Rms-generator-voltage-line-to-neutral-average",
+        "description": "Rms-generator-voltage-line-to-neutral-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "8": {
+        "name": "Rms-generator-current-L1",
+        "description": "Rms-generator-current-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "9": {
+        "name": "Rms-generator-current-L2",
+        "description": "Rms-generator-current-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "10": {
+        "name": "Rms-generator-current-L3",
+        "description": "Rms-generator-current-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "11": {
+        "name": "Rms-generator-current-average",
+        "description": "Rms-generator-current-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "12": {
+        "name": "Generator-frequency",
+        "description": "Generator-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": " 100",
+        "access": "read"
+    },
+    "13": {
+        "name": "Generator-real-power-L1",
+        "description": "Generator-real-power-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "14": {
+        "name": "Generator-real-power-L2",
+        "description": "Generator-real-power-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "15": {
+        "name": "Generator-real-power-L3",
+        "description": "Generator-real-power-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "16": {
+        "name": "Generator-total-real-power",
+        "description": "Generator-total-real-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "17": {
+        "name": "Generator-reactive-power-L1",
+        "description": "Generator-reactive-power-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "18": {
+        "name": "Generator-reactive-power-L2",
+        "description": "Generator-reactive-power-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "19": {
+        "name": "Generator-reactive-power-L3",
+        "description": "Generator-reactive-power-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "20": {
+        "name": "Generator-reactive-power",
+        "description": "Generator-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "21": {
+        "name": "Generator-apparent-power-L1",
+        "description": "Generator-apparent-power-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "22": {
+        "name": "Generator-apparent-power-L2",
+        "description": "Generator-apparent-power-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "23": {
+        "name": "Generator-apparent-power-L3",
+        "description": "Generator-apparent-power-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "24": {
+        "name": "Generator-apparent-power",
+        "description": "Generator-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "25": {
+        "name": "Generator-power-factor-L1",
+        "description": "Generator-power-factor-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "pF ",
+        "access": "read"
+    },
+    "26": {
+        "name": "Generator-power-factor-L2",
+        "description": "Generator-power-factor-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "pF",
+        "access": "read"
+    },
+    "27": {
+        "name": "Generator-power-factor-L3",
+        "description": "Generator-power-factor-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "pF ",
+        "access": "read"
+    },
+    "28": {
+        "name": "Generator-power-factor",
+        "description": "Generator-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "pF ",
+        "access": "read"
+    },
+    "29": {
+        "name": "Generator-phase-angle-voltage-L1-voltage-L2",
+        "description": "Generator-phase-angle-voltage-L1-voltage-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "D ",
+        "access": "read"
+    },
+    "30": {
+        "name": "Generator-phase-angle-voltage-L1-voltage-L3",
+        "description": "Generator-phase-angle-voltage-L1-voltage-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "D ",
+        "access": "read"
+    },
+    "31": {
+        "name": "Generator-phase-angle-voltage-L1-current-L1",
+        "description": "Generator-phase-angle-voltage-L1-current-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "D ",
+        "access": "read"
+    },
+    "32": {
+        "name": "Generator-phase-angle-voltage-L2-current-L2",
+        "description": "Generator-phase-angle-voltage-L2-current-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "D ",
+        "access": "read"
+    },
+    "33": {
+        "name": "Generator-phase-angle-voltage-L3-current-L3",
+        "description": "Generator-phase-angle-voltage-L3-current-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "D ",
+        "access": "read"
+    },
+    "43": {
+        "name": "Rms-bus-voltage-L1-L2",
+        "description": "Rms-bus-voltage-L1-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "44": {
+        "name": "Rms-bus-voltage-L2-L3",
+        "description": "Rms-bus-voltage-L2-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "45": {
+        "name": "Rms-bus-voltage-L3-L1",
+        "description": "Rms-bus-voltage-L3-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "46": {
+        "name": "Rms-bus-voltage-average-line-to-line",
+        "description": "Rms-bus-voltage-average-line-to-line",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "47": {
+        "name": "Total-bus-real-power",
+        "description": "Total-bus-real-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "48": {
+        "name": "Total-bus-reactive-power",
+        "description": "Total-bus-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "49": {
+        "name": "Bus-frequency",
+        "description": "Bus-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": " 100",
+        "access": "read"
+    },
+    "51": {
+        "name": "Phase-angle-generator-voltage-L1-bus-voltage-L1",
+        "description": "Phase-angle-generator-voltage-L1-bus-voltage-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "D ",
+        "access": "read"
+    },
+    "52": {
+        "name": "Speed-bias",
+        "description": "Speed-bias",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "53": {
+        "name": "Voltage-bias",
+        "description": "Voltage-bias",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "110": {
+        "name": "Engine-run-speed",
+        "description": "Engine-run-speed",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "RPM",
+        "access": "read"
+    },
+    "512": {
+        "name": "Total-number-of-starts",
+        "description": "Total-number-of-starts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "513": {
+        "name": "Total-runtime-hours-since-maintenance-lw",
+        "description": "Total-runtime-hours-since-maintenance-lw",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "hr ",
+        "access": "read"
+    },
+    "515": {
+        "name": "Total-loaded-hours-since-maintenance-lw",
+        "description": "Total-loaded-hours-since-maintenance-lw",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "hr ",
+        "access": "read"
+    },
+    "517": {
+        "name": "Total-kw-hours-since-maintenance-lw",
+        "description": "Total-kw-hours-since-maintenance-lw",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "519": {
+        "name": "Last-maintenance-day,-month",
+        "description": "Last-maintenance-day,-month",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Day of Month, Month of Year",
+        "access": "read"
+    },
+    "520": {
+        "name": "Last-maintenance-year",
+        "description": "Last-maintenance-year",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "16 bit year ",
+        "access": "read"
+    }
+}

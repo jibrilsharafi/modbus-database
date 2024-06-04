@@ -1,0 +1,502 @@
+{
+    "278": {
+        "name": "Volt-an,-Instant",
+        "description": "Volt-an,-Instant",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "317": {
+        "name": "Volt-an,-Average",
+        "description": "Volt-an,-Average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "356": {
+        "name": "Volt-an,-Max",
+        "description": "Volt-an,-Max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "395": {
+        "name": "Volt-an,-Min",
+        "description": "Volt-an,-Min",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "279": {
+        "name": "Volt-bn,-Instant",
+        "description": "Volt-bn,-Instant",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "318": {
+        "name": "Volt-bn,-Average",
+        "description": "Volt-bn,-Average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "357": {
+        "name": "Volt-bn,-Max",
+        "description": "Volt-bn,-Max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "396": {
+        "name": "Volt-bn,-Min",
+        "description": "Volt-bn,-Min",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "280": {
+        "name": "Volt-cn,-Instant",
+        "description": "Volt-cn,-Instant",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "319": {
+        "name": "Volt-cn,-Average",
+        "description": "Volt-cn,-Average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "358": {
+        "name": "Volt-cn,-Max",
+        "description": "Volt-cn,-Max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "397": {
+        "name": "Volt-cn,-Min",
+        "description": "Volt-cn,-Min",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "281": {
+        "name": "Volt-ab,-Instant",
+        "description": "Volt-ab,-Instant",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "320": {
+        "name": "Volt-ab,-Average",
+        "description": "Volt-ab,-Average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "359": {
+        "name": "Volt-ab,-Max",
+        "description": "Volt-ab,-Max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "398": {
+        "name": "Volt-ab,-Min",
+        "description": "Volt-ab,-Min",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "282": {
+        "name": "Volt-bc,-Instant",
+        "description": "Volt-bc,-Instant",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "321": {
+        "name": "Volt-bc,-Average",
+        "description": "Volt-bc,-Average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "360": {
+        "name": "Volt-bc,-Max",
+        "description": "Volt-bc,-Max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "399": {
+        "name": "Volt-bc,-Min",
+        "description": "Volt-bc,-Min",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "283": {
+        "name": "Volt-ca,-Instant",
+        "description": "Volt-ca,-Instant",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "322": {
+        "name": "Volt-ca,-Average",
+        "description": "Volt-ca,-Average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "361": {
+        "name": "Volt-ca,-Max",
+        "description": "Volt-ca,-Max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "400": {
+        "name": "Volt-ca,-Min",
+        "description": "Volt-ca,-Min",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "284": {
+        "name": "Amp-A,-Instant",
+        "description": "Amp-A,-Instant",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "323": {
+        "name": "Amp-A,-Average",
+        "description": "Amp-A,-Average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "362": {
+        "name": "Amp-A,-Max",
+        "description": "Amp-A,-Max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "401": {
+        "name": "Amp-A,-Min",
+        "description": "Amp-A,-Min",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "285": {
+        "name": "Amp-B,-Instant",
+        "description": "Amp-B,-Instant",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "324": {
+        "name": "Amp-B,-Average",
+        "description": "Amp-B,-Average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "363": {
+        "name": "Amp-B,-Max",
+        "description": "Amp-B,-Max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "402": {
+        "name": "Amp-B,-Min",
+        "description": "Amp-B,-Min",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "286": {
+        "name": "Amp-C,-Instant",
+        "description": "Amp-C,-Instant",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "325": {
+        "name": "Amp-C,-Average",
+        "description": "Amp-C,-Average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "364": {
+        "name": "Amp-C,-Max",
+        "description": "Amp-C,-Max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "403": {
+        "name": "Amp-C,-Min",
+        "description": "Amp-C,-Min",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "287": {
+        "name": "Amp-N,-Instant",
+        "description": "Amp-N,-Instant",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "326": {
+        "name": "Amp-N,-Average",
+        "description": "Amp-N,-Average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "365": {
+        "name": "Amp-N,-Max",
+        "description": "Amp-N,-Max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "404": {
+        "name": "Amp-N,-Min",
+        "description": "Amp-N,-Min",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "288": {
+        "name": "Watt,-Instant",
+        "description": "Watt,-Instant",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "327": {
+        "name": "Watt,-Average",
+        "description": "Watt,-Average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "366": {
+        "name": "Watt,-Max",
+        "description": "Watt,-Max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "405": {
+        "name": "Watt,-Min",
+        "description": "Watt,-Min",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "289": {
+        "name": "Var,-Instant",
+        "description": "Var,-Instant",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "328": {
+        "name": "Var,-Average",
+        "description": "Var,-Average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "367": {
+        "name": "Var,-Max",
+        "description": "Var,-Max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "406": {
+        "name": "Var,-Min",
+        "description": "Var,-Min",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "290": {
+        "name": "Va,-Instant",
+        "description": "Va,-Instant",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "329": {
+        "name": "Va,-Average",
+        "description": "Va,-Average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    }
+}

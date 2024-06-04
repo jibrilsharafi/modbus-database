@@ -1,0 +1,502 @@
+{
+    "199": {
+        "name": "Vln-R",
+        "description": "Vln-R",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "201": {
+        "name": "Vin-Y",
+        "description": "Vin-Y",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "203": {
+        "name": "Vin-B",
+        "description": "Vin-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "205": {
+        "name": "Vin-avg",
+        "description": "Vin-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "207": {
+        "name": "Vii-ry",
+        "description": "Vii-ry",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "209": {
+        "name": "Vii-yb",
+        "description": "Vii-yb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "211": {
+        "name": "Vii-br",
+        "description": "Vii-br",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "213": {
+        "name": "Vii-avg",
+        "description": "Vii-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "215": {
+        "name": "Ir",
+        "description": "Ir",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "217": {
+        "name": "Iy",
+        "description": "Iy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "219": {
+        "name": "Lb",
+        "description": "Lb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "221": {
+        "name": "Lavg",
+        "description": "Lavg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "223": {
+        "name": "I-neutral",
+        "description": "I-neutral",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "229": {
+        "name": "Hz",
+        "description": "Hz",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "231": {
+        "name": "System-pf",
+        "description": "System-pf",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "233": {
+        "name": "Pfr",
+        "description": "Pfr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "235": {
+        "name": "Pfy",
+        "description": "Pfy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "237": {
+        "name": "Pfb",
+        "description": "Pfb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "239": {
+        "name": "System-kw",
+        "description": "System-kw",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "241": {
+        "name": "System-kvar",
+        "description": "System-kvar",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "243": {
+        "name": "System-kva",
+        "description": "System-kva",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "245": {
+        "name": "Kwr",
+        "description": "Kwr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "247": {
+        "name": "Kwy",
+        "description": "Kwy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "249": {
+        "name": "Kwb",
+        "description": "Kwb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "251": {
+        "name": "Kvar-r",
+        "description": "Kvar-r",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "253": {
+        "name": "Kvar-y",
+        "description": "Kvar-y",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "255": {
+        "name": "Kvar-b",
+        "description": "Kvar-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "257": {
+        "name": "Kva-r",
+        "description": "Kva-r",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "259": {
+        "name": "Kva-y",
+        "description": "Kva-y",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "261": {
+        "name": "Kva-b",
+        "description": "Kva-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "263": {
+        "name": "Kw-demand",
+        "description": "Kw-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "265": {
+        "name": "Md-kw",
+        "description": "Md-kw",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "269": {
+        "name": "Md-kva",
+        "description": "Md-kva",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "275": {
+        "name": "Sys-kwh",
+        "description": "Sys-kwh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "277": {
+        "name": "Sys-kvarh",
+        "description": "Sys-kvarh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "279": {
+        "name": "Sys.-Kvarh-lg",
+        "description": "Sys.-Kvarh-lg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "281": {
+        "name": "Sys.-Kvarh-ld",
+        "description": "Sys.-Kvarh-ld",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "283": {
+        "name": "Sys-kvah",
+        "description": "Sys-kvah",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "285": {
+        "name": "3rd-hvr",
+        "description": "3rd-hvr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "287": {
+        "name": "Sth-hvr",
+        "description": "Sth-hvr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "289": {
+        "name": "7th-hvr",
+        "description": "7th-hvr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "291": {
+        "name": "8th-hvr",
+        "description": "8th-hvr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "293": {
+        "name": "9th-hvr",
+        "description": "9th-hvr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "295": {
+        "name": "11th-hvr",
+        "description": "11th-hvr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "297": {
+        "name": "15th-hvr",
+        "description": "15th-hvr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "299": {
+        "name": "Thd-hvr",
+        "description": "Thd-hvr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "301": {
+        "name": "3rd-hlr",
+        "description": "3rd-hlr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "303": {
+        "name": "Sth-hlr",
+        "description": "Sth-hlr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "305": {
+        "name": "7th-hlr",
+        "description": "7th-hlr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "307": {
+        "name": "8th-hlr",
+        "description": "8th-hlr",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    }
+}

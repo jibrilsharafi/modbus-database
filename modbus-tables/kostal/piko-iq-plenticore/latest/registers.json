@@ -1,0 +1,506 @@
+{
+    "4": {
+        "name": "Modbus-unit-id",
+        "description": "Modbus-unit-id",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "6": {
+        "name": "Inverter-article-number",
+        "description": "Inverter-article-number",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 16
+    },
+    "14": {
+        "name": "Inverter-serial-number",
+        "description": "Inverter-serial-number",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 16
+    },
+    "30": {
+        "name": "Number-of-bidirectional-converter",
+        "description": "Number-of-bidirectional-converter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "32": {
+        "name": "Number-of-ac-phases",
+        "description": "Number-of-ac-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "34": {
+        "name": "Number-of-pv-strings",
+        "description": "Number-of-pv-strings",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "36": {
+        "name": "Hardware-version",
+        "description": "Hardware-version",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "38": {
+        "name": "Software-version-maincontroller-(mc)",
+        "description": "Software-version-maincontroller-(mc)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 16
+    },
+    "46": {
+        "name": "Software-version-io-controller-(ioc)",
+        "description": "Software-version-io-controller-(ioc)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 16
+    },
+    "54": {
+        "name": "Power-id",
+        "description": "Power-id",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "56": {
+        "name": "Inverter-state2",
+        "description": "Inverter-state2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "100": {
+        "name": "Total-dc-power",
+        "description": "Total-dc-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "104": {
+        "name": "State-of-energy-manager3",
+        "description": "State-of-energy-manager3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "106": {
+        "name": "Home-own-consumption-from-battery",
+        "description": "Home-own-consumption-from-battery",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "108": {
+        "name": "Home-own-consumption-from-grid",
+        "description": "Home-own-consumption-from-grid",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "110": {
+        "name": "Total-home-consumption-battery",
+        "description": "Total-home-consumption-battery",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "112": {
+        "name": "Total-home-consumption-grid",
+        "description": "Total-home-consumption-grid",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "114": {
+        "name": "Total-home-consumption-pv",
+        "description": "Total-home-consumption-pv",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "116": {
+        "name": "Home-own-consumption-from-pv",
+        "description": "Home-own-consumption-from-pv",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "118": {
+        "name": "Total-home-consumption",
+        "description": "Total-home-consumption",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "120": {
+        "name": "Isolation-resistance",
+        "description": "Isolation-resistance",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ohm",
+        "access": "read"
+    },
+    "122": {
+        "name": "Power-limit-from-evu",
+        "description": "Power-limit-from-evu",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "124": {
+        "name": "Total-home-consumption-rate",
+        "description": "Total-home-consumption-rate",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "144": {
+        "name": "Worktime",
+        "description": "Worktime",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "s",
+        "access": "read"
+    },
+    "150": {
+        "name": "Actual-cos",
+        "description": "Actual-cos",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "152": {
+        "name": "Grid-frequency",
+        "description": "Grid-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "154": {
+        "name": "Current-phase-1",
+        "description": "Current-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "156": {
+        "name": "Active-power-phase-1",
+        "description": "Active-power-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "158": {
+        "name": "Voltage-phase-1",
+        "description": "Voltage-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "160": {
+        "name": "Current-phase-2",
+        "description": "Current-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "162": {
+        "name": "Active-power-phase-2",
+        "description": "Active-power-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "164": {
+        "name": "Voltage-phase-2",
+        "description": "Voltage-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "166": {
+        "name": "Current-phase-3",
+        "description": "Current-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "168": {
+        "name": "Active-power-phase-3",
+        "description": "Active-power-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "170": {
+        "name": "Voltage-phase-3",
+        "description": "Voltage-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "172": {
+        "name": "Total-ac-active-power",
+        "description": "Total-ac-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "174": {
+        "name": "Total-ac-reactive-power",
+        "description": "Total-ac-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Var",
+        "access": "read"
+    },
+    "178": {
+        "name": "Total-ac-apparent-power",
+        "description": "Total-ac-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "190": {
+        "name": "Battery-charge-current",
+        "description": "Battery-charge-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "194": {
+        "name": "Number-of-battery-cycles",
+        "description": "Number-of-battery-cycles",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "200": {
+        "name": "Actual-battery-charge-()-/-discharge-(+)-current",
+        "description": "Actual-battery-charge-()-/-discharge-(+)-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "202": {
+        "name": "Pssb-fuse-state5",
+        "description": "Pssb-fuse-state5",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "208": {
+        "name": "Battery-ready-flag",
+        "description": "Battery-ready-flag",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "210": {
+        "name": "Act.-State-of-charge",
+        "description": "Act.-State-of-charge",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "214": {
+        "name": "Battery-temperature",
+        "description": "Battery-temperature",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "DC",
+        "access": "read"
+    },
+    "216": {
+        "name": "Battery-voltage",
+        "description": "Battery-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "218": {
+        "name": "Cos-(powermeter)",
+        "description": "Cos-(powermeter)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "220": {
+        "name": "Frequency-(powermeter)",
+        "description": "Frequency-(powermeter)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "222": {
+        "name": "Current-phase-1-(powermeter)",
+        "description": "Current-phase-1-(powermeter)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "224": {
+        "name": "Active-power-phase-1-(powermeter)",
+        "description": "Active-power-phase-1-(powermeter)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    }
+}

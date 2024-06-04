@@ -1,0 +1,502 @@
+{
+    "3056": {
+        "name": "Current-average",
+        "description": "Current-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3008": {
+        "name": "Current,-phase-1",
+        "description": "Current,-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3024": {
+        "name": "Current,-phase-2",
+        "description": "Current,-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3040": {
+        "name": "Current,-phase-3",
+        "description": "Current,-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3058": {
+        "name": "Voltage-(ll)-average",
+        "description": "Voltage-(ll)-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3010": {
+        "name": "Voltage(ll),-phase-1-2",
+        "description": "Voltage(ll),-phase-1-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3026": {
+        "name": "Voltage(ll),-phase-2-3",
+        "description": "Voltage(ll),-phase-2-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3042": {
+        "name": "Voltage(ll),-phase-3-1",
+        "description": "Voltage(ll),-phase-3-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3060": {
+        "name": "Voltage(ln)-average",
+        "description": "Voltage(ln)-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3012": {
+        "name": "Voltage(ln),-phase-1",
+        "description": "Voltage(ln),-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3028": {
+        "name": "Voltage(ln),-phase-2",
+        "description": "Voltage(ln),-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3044": {
+        "name": "Voltage(ln),-phase-3",
+        "description": "Voltage(ln),-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3062": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3050": {
+        "name": "Active-power,-total",
+        "description": "Active-power,-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3002": {
+        "name": "Active-power,-phase-1",
+        "description": "Active-power,-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3018": {
+        "name": "Active-power,-phase-2",
+        "description": "Active-power,-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3034": {
+        "name": "Active-power,-phase-3",
+        "description": "Active-power,-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3052": {
+        "name": "Reactive-power,-total",
+        "description": "Reactive-power,-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3004": {
+        "name": "Reactive-power,-phase-1",
+        "description": "Reactive-power,-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3020": {
+        "name": "Reactive-power,-phase-2",
+        "description": "Reactive-power,-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3036": {
+        "name": "Reactive-power,-phase-3",
+        "description": "Reactive-power,-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3048": {
+        "name": "Apparent-power,-total",
+        "description": "Apparent-power,-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3000": {
+        "name": "Apparent-power,-phase-1",
+        "description": "Apparent-power,-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3016": {
+        "name": "Apparent-power,-phase-2",
+        "description": "Apparent-power,-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3032": {
+        "name": "Apparent-power,-phase-3",
+        "description": "Apparent-power,-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3054": {
+        "name": "Power-factor-total",
+        "description": "Power-factor-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3006": {
+        "name": "Power-factor,-phase-1",
+        "description": "Power-factor,-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3022": {
+        "name": "Power-factor,-phase-2",
+        "description": "Power-factor,-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3038": {
+        "name": "Power-factor,-phase-3",
+        "description": "Power-factor,-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3200": {
+        "name": "Forward-apparent-energy",
+        "description": "Forward-apparent-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3202": {
+        "name": "Forward-active-energy",
+        "description": "Forward-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3204": {
+        "name": "Forward-reactive-energy",
+        "description": "Forward-reactive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3264": {
+        "name": "Forward-run-seconds",
+        "description": "Forward-run-seconds",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "3266": {
+        "name": "On-seconds",
+        "description": "On-seconds",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "3268": {
+        "name": "Number-of-input-voltage-interruptions",
+        "description": "Number-of-input-voltage-interruptions",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "2506": {
+        "name": "Current-average",
+        "description": "Current-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2500": {
+        "name": "Current,-phase-1",
+        "description": "Current,-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2502": {
+        "name": "Current,-phase-2",
+        "description": "Current,-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2504": {
+        "name": "Current,-phase-3",
+        "description": "Current,-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2514": {
+        "name": "Voltage-(ll)-average",
+        "description": "Voltage-(ll)-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2508": {
+        "name": "Voltage(ll),-phase-1-2",
+        "description": "Voltage(ll),-phase-1-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2510": {
+        "name": "Voltage(ll),-phase-2-3",
+        "description": "Voltage(ll),-phase-2-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2512": {
+        "name": "Voltage(ll),-phase-3-1",
+        "description": "Voltage(ll),-phase-3-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2522": {
+        "name": "Voltage(ln)-average",
+        "description": "Voltage(ln)-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2516": {
+        "name": "Voltage(ln),-phase-1",
+        "description": "Voltage(ln),-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2518": {
+        "name": "Voltage(ln),-phase-2",
+        "description": "Voltage(ln),-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2520": {
+        "name": "Voltage(ln),-phase-3",
+        "description": "Voltage(ln),-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2530": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2546": {
+        "name": "Active-power,-total",
+        "description": "Active-power,-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "2540": {
+        "name": "Active-power,-phase-1",
+        "description": "Active-power,-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    }
+}

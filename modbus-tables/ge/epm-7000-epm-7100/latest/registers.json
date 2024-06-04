@@ -1,0 +1,506 @@
+{
+    "8": {
+        "name": "Meter-SerialNumber",
+        "description": "Meter-SerialNumber",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 16
+    },
+    "16": {
+        "name": "Meter-type",
+        "description": "Meter-type",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "17": {
+        "name": "Firmware-version",
+        "description": "Firmware-version",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 4
+    },
+    "19": {
+        "name": "Map-version",
+        "description": "Map-version",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "20": {
+        "name": "MeterConfiguration",
+        "description": "MeterConfiguration",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "21": {
+        "name": "ASIC-version",
+        "description": "ASIC-version",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "22": {
+        "name": "Boot-Firmware-Version",
+        "description": "Boot-Firmware-Version",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 4
+    },
+    "24": {
+        "name": "Option-slot-1Usage",
+        "description": "Option-slot-1Usage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "25": {
+        "name": "Option-slot-2Usage",
+        "description": "Option-slot-2Usage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "26": {
+        "name": "Meter-type-name",
+        "description": "Meter-type-name",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 8
+    },
+    "278": {
+        "name": "Integer-readings-block-occupies-these-registers,-see-below",
+        "description": "Integer-readings-block-occupies-these-registers,-see-below",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "279": {
+        "name": "Volts-B-N",
+        "description": "Volts-B-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "280": {
+        "name": "Volts-C-N",
+        "description": "Volts-C-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "281": {
+        "name": "Volts-A-B",
+        "description": "Volts-A-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "282": {
+        "name": "Volts-B-C",
+        "description": "Volts-B-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "283": {
+        "name": "Volts-C-A",
+        "description": "Volts-C-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "284": {
+        "name": "Amps-A",
+        "description": "Amps-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "285": {
+        "name": "Amps-B",
+        "description": "Amps-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "286": {
+        "name": "Amps-C",
+        "description": "Amps-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "289": {
+        "name": "VARs,-3-Ph-total",
+        "description": "VARs,-3-Ph-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "290": {
+        "name": "VAs,-3-Ph-total",
+        "description": "VAs,-3-Ph-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "291": {
+        "name": "Power-factor,-3-Phtotal",
+        "description": "Power-factor,-3-Phtotal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "294": {
+        "name": "Watts,-phase-B",
+        "description": "Watts,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "295": {
+        "name": "Watts,-phase-C",
+        "description": "Watts,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "296": {
+        "name": "VARs,-phase-A",
+        "description": "VARs,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "297": {
+        "name": "VARs,-phase-B",
+        "description": "VARs,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "298": {
+        "name": "VARs,-phase-C",
+        "description": "VARs,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "299": {
+        "name": "VAs,-phase-A",
+        "description": "VAs,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "300": {
+        "name": "VAs,-phase-B",
+        "description": "VAs,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "303": {
+        "name": "Power-Factor,Phase-B",
+        "description": "Power-Factor,Phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "304": {
+        "name": "Power-Factor,Phase-C",
+        "description": "Power-Factor,Phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "999": {
+        "name": "Volts-A-N",
+        "description": "Volts-A-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1001": {
+        "name": "Volts-B-N",
+        "description": "Volts-B-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1003": {
+        "name": "Volts-C-N",
+        "description": "Volts-C-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1005": {
+        "name": "Volts-A-B",
+        "description": "Volts-A-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1007": {
+        "name": "Volts-B-C",
+        "description": "Volts-B-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1009": {
+        "name": "Volts-C-A",
+        "description": "Volts-C-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1011": {
+        "name": "Amps-A",
+        "description": "Amps-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1013": {
+        "name": "Amps-B",
+        "description": "Amps-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1015": {
+        "name": "Amps-C",
+        "description": "Amps-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1017": {
+        "name": "Watts,-3-Ph-total",
+        "description": "Watts,-3-Ph-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1019": {
+        "name": "VARs,-3-Ph-total",
+        "description": "VARs,-3-Ph-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1021": {
+        "name": "VAs,-3-Ph-total",
+        "description": "VAs,-3-Ph-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1023": {
+        "name": "Power-factor,-3-Phtotal",
+        "description": "Power-factor,-3-Phtotal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1025": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1027": {
+        "name": "Neutral-current",
+        "description": "Neutral-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1029": {
+        "name": "Watts,-phase-A",
+        "description": "Watts,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1031": {
+        "name": "Watts,-phase-B",
+        "description": "Watts,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1033": {
+        "name": "Watts,-phase-C",
+        "description": "Watts,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1035": {
+        "name": "VARs,-phase-A",
+        "description": "VARs,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    }
+}

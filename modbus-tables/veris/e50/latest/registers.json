@@ -1,0 +1,502 @@
+{
+    "1": {
+        "name": "Real-energy-consumption",
+        "description": "Real-energy-consumption",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "3": {
+        "name": "Total-instantaneous-real-power-(3-phase-total)",
+        "description": "Total-instantaneous-real-power-(3-phase-total)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4": {
+        "name": "Total-instantaneous-reactive-power-(3-phase-total)",
+        "description": "Total-instantaneous-reactive-power-(3-phase-total)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "5": {
+        "name": "Total-instantaneous-apparent-power-(3-phase-total)",
+        "description": "Total-instantaneous-apparent-power-(3-phase-total)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "KVA",
+        "access": "read"
+    },
+    "6": {
+        "name": "Total-power-factor-(total-kw-/total-kva)",
+        "description": "Total-power-factor-(total-kw-/total-kva)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Ratio",
+        "access": "read"
+    },
+    "7": {
+        "name": "Voltage,-L-l,-average-of-3-phases",
+        "description": "Voltage,-L-l,-average-of-3-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "8": {
+        "name": "Voltage,-L-ii,-average-of-3-phases",
+        "description": "Voltage,-L-ii,-average-of-3-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "9": {
+        "name": "Current,-average-of-3-phases",
+        "description": "Current,-average-of-3-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "10": {
+        "name": "Real-power,-phase-A",
+        "description": "Real-power,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "11": {
+        "name": "Real-power,-phase-B",
+        "description": "Real-power,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "12": {
+        "name": "Real-power,-phase-C",
+        "description": "Real-power,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "13": {
+        "name": "Power-factor,-phase-A",
+        "description": "Power-factor,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Ratio",
+        "access": "read"
+    },
+    "14": {
+        "name": "Power-factor,-phase-B",
+        "description": "Power-factor,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Ratio",
+        "access": "read"
+    },
+    "15": {
+        "name": "Power-factor,-phase-C",
+        "description": "Power-factor,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Ratio",
+        "access": "read"
+    },
+    "16": {
+        "name": "Voltage,-phase-A-B",
+        "description": "Voltage,-phase-A-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "17": {
+        "name": "Voltage,-phase-B-C",
+        "description": "Voltage,-phase-B-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "18": {
+        "name": "Voltage,-phase-A-C",
+        "description": "Voltage,-phase-A-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "19": {
+        "name": "Voltage,-phase-A-N",
+        "description": "Voltage,-phase-A-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "20": {
+        "name": "Voltage,-phase-B-N",
+        "description": "Voltage,-phase-B-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "21": {
+        "name": "Voltage,-phase-C-N",
+        "description": "Voltage,-phase-C-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "22": {
+        "name": "Current,-instantaneous,-phase-A",
+        "description": "Current,-instantaneous,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "23": {
+        "name": "Current,-instantaneous,-phase-B",
+        "description": "Current,-instantaneous,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "24": {
+        "name": "Ljrrent,-instantaneous,-phase-C",
+        "description": "Ljrrent,-instantaneous,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "26": {
+        "name": "Frequency-(derived-from-phase-A)",
+        "description": "Frequency-(derived-from-phase-A)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "31": {
+        "name": "Apparent-power-phase-A",
+        "description": "Apparent-power-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "KVA",
+        "access": "read"
+    },
+    "32": {
+        "name": "Apparent-power-phase-B",
+        "description": "Apparent-power-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "KVA",
+        "access": "read"
+    },
+    "34": {
+        "name": "Reactive-power,-phase-A",
+        "description": "Reactive-power,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "35": {
+        "name": "Reactive-power,-phase-B",
+        "description": "Reactive-power,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "36": {
+        "name": "Reactive-power,-phase-C",
+        "description": "Reactive-power,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "37": {
+        "name": "Total-real-power-present-demand",
+        "description": "Total-real-power-present-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "38": {
+        "name": "Total-reactive-power-present-demand",
+        "description": "Total-reactive-power-present-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "39": {
+        "name": "Total-apparent-power-present-demand",
+        "description": "Total-apparent-power-present-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "KVA",
+        "access": "read"
+    },
+    "40": {
+        "name": "Total-real-power-max-demand",
+        "description": "Total-real-power-max-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "41": {
+        "name": "Total-reactive-power-max-demand",
+        "description": "Total-reactive-power-max-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "42": {
+        "name": "Total-apparent-power-max-demand",
+        "description": "Total-apparent-power-max-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "KVA",
+        "access": "read"
+    },
+    "257": {
+        "name": "Real-energy-consumption-(clear-via-reset-register)",
+        "description": "Real-energy-consumption-(clear-via-reset-register)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "259": {
+        "name": "Real-energy-consumption-(clear-via-reset-register)",
+        "description": "Real-energy-consumption-(clear-via-reset-register)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "261": {
+        "name": "Total-instantaneous-real-power",
+        "description": "Total-instantaneous-real-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "263": {
+        "name": "Total-instantaneous-reactive-power",
+        "description": "Total-instantaneous-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAk",
+        "access": "read"
+    },
+    "265": {
+        "name": "Total-instantaneous-apparent-power",
+        "description": "Total-instantaneous-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "267": {
+        "name": "Total-power-factor-(total-kw-/-total-kva)",
+        "description": "Total-power-factor-(total-kw-/-total-kva)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ratio",
+        "access": "read"
+    },
+    "273": {
+        "name": "Current,-average-of-3-phases",
+        "description": "Current,-average-of-3-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Amp",
+        "access": "read"
+    },
+    "275": {
+        "name": "Real-power-phase-A",
+        "description": "Real-power-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "277": {
+        "name": "Real-power-phase-B",
+        "description": "Real-power-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "279": {
+        "name": "Real-power-phase-C",
+        "description": "Real-power-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "281": {
+        "name": "Power-factor-phase-A",
+        "description": "Power-factor-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ratio",
+        "access": "read"
+    },
+    "283": {
+        "name": "Power-factor-phase-B",
+        "description": "Power-factor-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ratio",
+        "access": "read"
+    },
+    "285": {
+        "name": "Power-factor-phase-C",
+        "description": "Power-factor-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Ratio",
+        "access": "read"
+    },
+    "287": {
+        "name": "Voltage,-phase-A-B",
+        "description": "Voltage,-phase-A-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    },
+    "289": {
+        "name": "Voltage,-phase-B-C",
+        "description": "Voltage,-phase-B-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Volt",
+        "access": "read"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "manufacturer": "schneider",
+    "model": "electric-pm1000-pm1200",
+    "description": "",
+    "version": "",
+    "url": "https://www.aggsoft.com/serial-data-logger/tutorials/modbus-data-logging/schneider-electric-pm1000-pm1200.htm",
+    "tags": {
+        "industry": "Unknown",
+        "application": "Unknown"
+    }
+}

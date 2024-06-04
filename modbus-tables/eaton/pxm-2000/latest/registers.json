@@ -1,0 +1,507 @@
+{
+    "1032": {
+        "name": "Vendor-name",
+        "description": "Vendor-name",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 64
+    },
+    "1064": {
+        "name": "Model-name",
+        "description": "Model-name",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 64
+    },
+    "1096": {
+        "name": "Display-name",
+        "description": "Display-name",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 64
+    },
+    "1276": {
+        "name": "Serial-number",
+        "description": "Serial-number",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 64
+    },
+    "2108": {
+        "name": "Software-version",
+        "description": "Software-version",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 48
+    },
+    "1355": {
+        "name": "Nominal-voltage",
+        "description": "Nominal-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "volts",
+        "access": "read"
+    },
+    "1361": {
+        "name": "Phases-to-display-on-meter-front",
+        "description": "Phases-to-display-on-meter-front",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1605": {
+        "name": "Field-replaceable-unit",
+        "description": "Field-replaceable-unit",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1668": {
+        "name": "Nominal-frequency",
+        "description": "Nominal-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "hertz",
+        "access": "read"
+    },
+    "1810": {
+        "name": "Output-current-rating",
+        "description": "Output-current-rating",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "amperes",
+        "access": "read"
+    },
+    "3000": {
+        "name": "Status",
+        "description": "Status",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4002": {
+        "name": "Vab",
+        "description": "Vab",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "volts",
+        "access": "read"
+    },
+    "4004": {
+        "name": "Vbc",
+        "description": "Vbc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "volts",
+        "access": "read"
+    },
+    "4006": {
+        "name": "Vca",
+        "description": "Vca",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "volts",
+        "access": "read"
+    },
+    "4008": {
+        "name": "V-(L-l)-average",
+        "description": "V-(L-l)-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "volts",
+        "access": "read"
+    },
+    "4010": {
+        "name": "Van",
+        "description": "Van",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "volts",
+        "access": "read"
+    },
+    "4012": {
+        "name": "Vbn",
+        "description": "Vbn",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "volts",
+        "access": "read"
+    },
+    "4014": {
+        "name": "Vcn",
+        "description": "Vcn",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "volts",
+        "access": "read"
+    },
+    "4016": {
+        "name": "V-(L-n)-average",
+        "description": "V-(L-n)-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "volts",
+        "access": "read"
+    },
+    "4497": {
+        "name": "Phase-angle-vab",
+        "description": "Phase-angle-vab",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "degrees-phase",
+        "access": "read"
+    },
+    "4499": {
+        "name": "Phase-angle-vbc",
+        "description": "Phase-angle-vbc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "degrees-phase",
+        "access": "read"
+    },
+    "4501": {
+        "name": "Phase-angle-vca",
+        "description": "Phase-angle-vca",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "degrees-phase",
+        "access": "read"
+    },
+    "4525": {
+        "name": "V-(L-l)-average---long-term-average",
+        "description": "V-(L-l)-average---long-term-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "volts",
+        "access": "read"
+    },
+    "4527": {
+        "name": "V-(L-n)-average---long-term-average",
+        "description": "V-(L-n)-average---long-term-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "volts",
+        "access": "read"
+    },
+    "5002": {
+        "name": "Ia",
+        "description": "Ia",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amperes",
+        "access": "read"
+    },
+    "5004": {
+        "name": "Ib",
+        "description": "Ib",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amperes",
+        "access": "read"
+    },
+    "5006": {
+        "name": "Ic",
+        "description": "Ic",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amperes",
+        "access": "read"
+    },
+    "5010": {
+        "name": "In",
+        "description": "In",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amperes",
+        "access": "read"
+    },
+    "5012": {
+        "name": "Iavg",
+        "description": "Iavg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amperes",
+        "access": "read"
+    },
+    "5014": {
+        "name": "Demand-ia-peak",
+        "description": "Demand-ia-peak",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amperes",
+        "access": "read"
+    },
+    "5016": {
+        "name": "Demand-ib-peak",
+        "description": "Demand-ib-peak",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amperes",
+        "access": "read"
+    },
+    "5018": {
+        "name": "Demand-ic-peak",
+        "description": "Demand-ic-peak",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amperes",
+        "access": "read"
+    },
+    "5250": {
+        "name": "Demand-ia",
+        "description": "Demand-ia",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amperes",
+        "access": "read"
+    },
+    "5252": {
+        "name": "Demand-ib",
+        "description": "Demand-ib",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amperes",
+        "access": "read"
+    },
+    "5254": {
+        "name": "Demand-ic",
+        "description": "Demand-ic",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amperes",
+        "access": "read"
+    },
+    "5258": {
+        "name": "Demand-in",
+        "description": "Demand-in",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amperes",
+        "access": "read"
+    },
+    "5262": {
+        "name": "Demand-in-peak",
+        "description": "Demand-in-peak",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amperes",
+        "access": "read"
+    },
+    "5338": {
+        "name": "Phase-angle-ia",
+        "description": "Phase-angle-ia",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "degrees-phase",
+        "access": "read"
+    },
+    "5340": {
+        "name": "Phase-angle-ib",
+        "description": "Phase-angle-ib",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "degrees-phase",
+        "access": "read"
+    },
+    "5342": {
+        "name": "Phase-angle-ic",
+        "description": "Phase-angle-ic",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "degrees-phase",
+        "access": "read"
+    },
+    "5448": {
+        "name": "Ia---long-term-average",
+        "description": "Ia---long-term-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amperes",
+        "access": "read"
+    },
+    "5450": {
+        "name": "Ib---long-term-average",
+        "description": "Ib---long-term-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amperes",
+        "access": "read"
+    },
+    "5452": {
+        "name": "Ic---long-term-average",
+        "description": "Ic---long-term-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amperes",
+        "access": "read"
+    },
+    "5454": {
+        "name": "In---long-term-average",
+        "description": "In---long-term-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "amperes",
+        "access": "read"
+    },
+    "6000": {
+        "name": "Real-power-phase-A",
+        "description": "Real-power-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "watts",
+        "access": "read"
+    },
+    "6002": {
+        "name": "Real-power-phase-B",
+        "description": "Real-power-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "watts",
+        "access": "read"
+    },
+    "6004": {
+        "name": "Real-power-phase-C",
+        "description": "Real-power-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "watts",
+        "access": "read"
+    },
+    "6006": {
+        "name": "Real-power",
+        "description": "Real-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "watts",
+        "access": "read"
+    },
+    "6064": {
+        "name": "Apparent-power-phase-A",
+        "description": "Apparent-power-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "volt-amperes",
+        "access": "read"
+    },
+    "6066": {
+        "name": "Apparent-power-phase-B",
+        "description": "Apparent-power-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "volt-amperes",
+        "access": "read"
+    }
+}

@@ -1,0 +1,502 @@
+{
+    "99": {
+        "name": "0-=-direct-connect-1-=-VT",
+        "description": "0-=-direct-connect-1-=-VT",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "102": {
+        "name": "=realvalue*1000",
+        "description": "=realvalue*1000",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "1000": {
+        "name": "Current-phase-A",
+        "description": "Current-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "1002": {
+        "name": "Current-phase-B",
+        "description": "Current-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "1004": {
+        "name": "Current-phase-C",
+        "description": "Current-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "1006": {
+        "name": "Current-phase-N",
+        "description": "Current-phase-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "1008": {
+        "name": "Average-of-IA,-IB,-IC",
+        "description": "Average-of-IA,-IB,-IC",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "1010": {
+        "name": "Voltage-UA-UN",
+        "description": "Voltage-UA-UN",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1012": {
+        "name": "Voltage-UB-UN",
+        "description": "Voltage-UB-UN",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1014": {
+        "name": "Voltage-UC-UN",
+        "description": "Voltage-UC-UN",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1016": {
+        "name": "Voltage-UN-UE",
+        "description": "Voltage-UN-UE",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1018": {
+        "name": "Average-of-UA,-UB,-UC",
+        "description": "Average-of-UA,-UB,-UC",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1020": {
+        "name": "Voltage-UA-UB",
+        "description": "Voltage-UA-UB",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1022": {
+        "name": "Voltage-UB-UC",
+        "description": "Voltage-UB-UC",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1024": {
+        "name": "Voltage-UC-UA",
+        "description": "Voltage-UC-UA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1026": {
+        "name": "Average-of-UAB,-UBC,-UCA",
+        "description": "Average-of-UAB,-UBC,-UCA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1028": {
+        "name": "Active-power-phase-A",
+        "description": "Active-power-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1030": {
+        "name": "Active-power-phase-B",
+        "description": "Active-power-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1032": {
+        "name": "Active-power-phase-C",
+        "description": "Active-power-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1034": {
+        "name": "Total-active-power",
+        "description": "Total-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1036": {
+        "name": "Reactive-power-phase-A",
+        "description": "Reactive-power-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "1038": {
+        "name": "Reactive-power-phase-B",
+        "description": "Reactive-power-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "1040": {
+        "name": "Reactive-power-phase-C",
+        "description": "Reactive-power-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "1042": {
+        "name": "Total-reactive-power",
+        "description": "Total-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "1044": {
+        "name": "Apparent-power-phase-A",
+        "description": "Apparent-power-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1046": {
+        "name": "Apparent-power-phase-B",
+        "description": "Apparent-power-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1048": {
+        "name": "Apparent-power-phase-C",
+        "description": "Apparent-power-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1050": {
+        "name": "Total-apparent-power",
+        "description": "Total-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1052": {
+        "name": "Power-factor-phase-A",
+        "description": "Power-factor-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1054": {
+        "name": "Power-factor-phase-B",
+        "description": "Power-factor-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1056": {
+        "name": "Power-factor-phase-C",
+        "description": "Power-factor-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1058": {
+        "name": "Total-power-factor",
+        "description": "Total-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1060": {
+        "name": "Displacement-power-factor-phase-A",
+        "description": "Displacement-power-factor-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1062": {
+        "name": "Displacement-power-factor-phase-B",
+        "description": "Displacement-power-factor-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1064": {
+        "name": "Displacement-power-factor-phase-C",
+        "description": "Displacement-power-factor-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1066": {
+        "name": "Total-displacement-power-factor",
+        "description": "Total-displacement-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1068": {
+        "name": "Frequency-phase-A",
+        "description": "Frequency-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "1070": {
+        "name": "Frequency-phase-B",
+        "description": "Frequency-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "1072": {
+        "name": "Frequency-phase-C",
+        "description": "Frequency-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "1074": {
+        "name": "Average-of-FreqA,-FreqB,-FreqC",
+        "description": "Average-of-FreqA,-FreqB,-FreqC",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "2000": {
+        "name": "Active-energy-import-phase-A",
+        "description": "Active-energy-import-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2002": {
+        "name": "Active-energy-import-phase-B",
+        "description": "Active-energy-import-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2004": {
+        "name": "Active-energy-import-phase-C",
+        "description": "Active-energy-import-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2006": {
+        "name": "Total-active-energy-import-phase-all",
+        "description": "Total-active-energy-import-phase-all",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2008": {
+        "name": "Active-energy-export-phase-A",
+        "description": "Active-energy-export-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2010": {
+        "name": "Active-energy-export-phase-B",
+        "description": "Active-energy-export-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2012": {
+        "name": "Active-energy-export-phase-C",
+        "description": "Active-energy-export-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2014": {
+        "name": "Total-active-energy-export-phase-all",
+        "description": "Total-active-energy-export-phase-all",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2016": {
+        "name": "Reactive-energy-import-phase-A",
+        "description": "Reactive-energy-import-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "2018": {
+        "name": "Reactive-energy-import-phase-B",
+        "description": "Reactive-energy-import-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVARh",
+        "access": "read"
+    }
+}

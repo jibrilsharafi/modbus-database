@@ -1,0 +1,502 @@
+{
+    "199": {
+        "name": "Overflow-voltage-L1-N-(ov-UL1)",
+        "description": "Overflow-voltage-L1-N-(ov-UL1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "200": {
+        "name": "Voltage-L-N-(u-L1)",
+        "description": "Voltage-L-N-(u-L1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "202": {
+        "name": "Voltage-L-N-(u-L2)",
+        "description": "Voltage-L-N-(u-L2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "204": {
+        "name": "Voltage-L-N-(u-L3)",
+        "description": "Voltage-L-N-(u-L3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "206": {
+        "name": "Sum-of-voltages-L-N-(calculated)-(u-ne)",
+        "description": "Sum-of-voltages-L-N-(calculated)-(u-ne)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "208": {
+        "name": "Current-(i-L1)",
+        "description": "Current-(i-L1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "210": {
+        "name": "Current-(i-L2)",
+        "description": "Current-(i-L2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "212": {
+        "name": "Current-(i-L3)",
+        "description": "Current-(i-L3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "214": {
+        "name": "Current-(i-ne)",
+        "description": "Current-(i-ne)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "216": {
+        "name": "Voltage-L-L-(u-L12)",
+        "description": "Voltage-L-L-(u-L12)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "218": {
+        "name": "Voltage-L-L-(u-L23)",
+        "description": "Voltage-L-L-(u-L23)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "220": {
+        "name": "Voltage-L-L-(u-L31)",
+        "description": "Voltage-L-L-(u-L31)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "222": {
+        "name": "Voltage-sum-(u-sum)",
+        "description": "Voltage-sum-(u-sum)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "224": {
+        "name": "Current-sum-(i-sum)",
+        "description": "Current-sum-(i-sum)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "226": {
+        "name": "Active-power-(p-L1)",
+        "description": "Active-power-(p-L1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "228": {
+        "name": "Active-power-(p-L2)",
+        "description": "Active-power-(p-L2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "230": {
+        "name": "Active-power-(p-L3)",
+        "description": "Active-power-(p-L3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "232": {
+        "name": "Active-power-(p)",
+        "description": "Active-power-(p)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "234": {
+        "name": "Reactive-power-(q-L1)",
+        "description": "Reactive-power-(q-L1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "236": {
+        "name": "Reactive-power-(q-L2)",
+        "description": "Reactive-power-(q-L2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "238": {
+        "name": "Reactive-power-(q-L3)",
+        "description": "Reactive-power-(q-L3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "240": {
+        "name": "Reactive-power-(q)",
+        "description": "Reactive-power-(q)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "242": {
+        "name": "Apparent-power-(s-L1)",
+        "description": "Apparent-power-(s-L1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "244": {
+        "name": "Apparent-power-(s-L2)",
+        "description": "Apparent-power-(s-L2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "246": {
+        "name": "Apparent-power-(s-L3)",
+        "description": "Apparent-power-(s-L3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "248": {
+        "name": "Apparent-power-(s)",
+        "description": "Apparent-power-(s)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "250": {
+        "name": "Active-factor-cos-(cos-phi-L1)",
+        "description": "Active-factor-cos-(cos-phi-L1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "252": {
+        "name": "Active-factor-cos-(cos-phi-L2)",
+        "description": "Active-factor-cos-(cos-phi-L2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "254": {
+        "name": "Active-factor-cos-(cos-phi-L3)",
+        "description": "Active-factor-cos-(cos-phi-L3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "256": {
+        "name": "Active-factor-cos-(cos-phi)",
+        "description": "Active-factor-cos-(cos-phi)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "258": {
+        "name": "Power-factor-(pf-L1)",
+        "description": "Power-factor-(pf-L1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "260": {
+        "name": "Power-factor-(pf-L2)",
+        "description": "Power-factor-(pf-L2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "262": {
+        "name": "Power-factor-(pf-L3)",
+        "description": "Power-factor-(pf-L3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "264": {
+        "name": "Power-factor-(pf)",
+        "description": "Power-factor-(pf)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "266": {
+        "name": "Phase-angle-(phi-L1)",
+        "description": "Phase-angle-(phi-L1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "D (degree)",
+        "access": "read"
+    },
+    "268": {
+        "name": "Phase-angle-(phi-L2)",
+        "description": "Phase-angle-(phi-L2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "D (degree)",
+        "access": "read"
+    },
+    "270": {
+        "name": "Phase-angle-(phi-L3)",
+        "description": "Phase-angle-(phi-L3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "D (degree)",
+        "access": "read"
+    },
+    "272": {
+        "name": "Phase-angle-(phi-sum)",
+        "description": "Phase-angle-(phi-sum)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "D (degree)",
+        "access": "read"
+    },
+    "274": {
+        "name": "Frequency-(f)",
+        "description": "Frequency-(f)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "276": {
+        "name": "Voltage-unbalance-(asym-U)",
+        "description": "Voltage-unbalance-(asym-U)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "278": {
+        "name": "Current-unbalance-(asym-I)",
+        "description": "Current-unbalance-(asym-I)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "280": {
+        "name": "Thd-voltage-(thdu-L1)",
+        "description": "Thd-voltage-(thdu-L1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "282": {
+        "name": "Thd-voltage-(thdu-L2)",
+        "description": "Thd-voltage-(thdu-L2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "284": {
+        "name": "Thd-voltage-(thdu-L3)",
+        "description": "Thd-voltage-(thdu-L3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "286": {
+        "name": "Thd-current-(thdi-L1)",
+        "description": "Thd-current-(thdi-L1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "288": {
+        "name": "Thd-current-(thdi-L2)",
+        "description": "Thd-current-(thdi-L2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "290": {
+        "name": "Thd-current-(thdi-L3)",
+        "description": "Thd-current-(thdi-L3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "292": {
+        "name": "Harmonic-voltage,-5th-harmonic-wave-(hu-L1-5)",
+        "description": "Harmonic-voltage,-5th-harmonic-wave-(hu-L1-5)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "294": {
+        "name": "Harmonic-voltage,-5th-harmonic-wave-(hu-L2-5)",
+        "description": "Harmonic-voltage,-5th-harmonic-wave-(hu-L2-5)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "296": {
+        "name": "Harmonic-voltage,-5th-harmonic-wave-(hu-L3-5)",
+        "description": "Harmonic-voltage,-5th-harmonic-wave-(hu-L3-5)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    }
+}

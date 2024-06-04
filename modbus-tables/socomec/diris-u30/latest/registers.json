@@ -1,0 +1,502 @@
+{
+    "36864": {
+        "name": "Inst.-Measurement.-Network.-Date-of-last-instance",
+        "description": "Inst.-Measurement.-Network.-Date-of-last-instance",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "s",
+        "access": "read"
+    },
+    "36866": {
+        "name": "Inst.-Measurement.-Network.-Integration-time",
+        "description": "Inst.-Measurement.-Network.-Integration-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "s",
+        "access": "read"
+    },
+    "36867": {
+        "name": "Inst.-Measurement.-Network.-System-ph-N-voltage",
+        "description": "Inst.-Measurement.-Network.-System-ph-N-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "36869": {
+        "name": "Inst.-Measurement.-Network.-System-ph-ph-voltage",
+        "description": "Inst.-Measurement.-Network.-System-ph-ph-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "36871": {
+        "name": "Inst.-Measurement.-Network.-Frequency",
+        "description": "Inst.-Measurement.-Network.-Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "36873": {
+        "name": "Inst.-Measurement.-Network.-Ph-N-voltage-:-V1",
+        "description": "Inst.-Measurement.-Network.-Ph-N-voltage-:-V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "36875": {
+        "name": "Inst.-Measurement.-Network.-Ph-N-voltage-:-V2",
+        "description": "Inst.-Measurement.-Network.-Ph-N-voltage-:-V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "36877": {
+        "name": "Inst.-Measurement.-Network.-Ph-N-voltage-:-V3",
+        "description": "Inst.-Measurement.-Network.-Ph-N-voltage-:-V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "36879": {
+        "name": "Inst.-Measurement.-Network.-Ph-N-voltage-:-vn",
+        "description": "Inst.-Measurement.-Network.-Ph-N-voltage-:-vn",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "36881": {
+        "name": "Inst.-Measurement.-Network.-Ph-ph-voltage-:-U12",
+        "description": "Inst.-Measurement.-Network.-Ph-ph-voltage-:-U12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "36883": {
+        "name": "Inst.-Measurement.-Network.-Ph-ph-voltage-:-U23",
+        "description": "Inst.-Measurement.-Network.-Ph-ph-voltage-:-U23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "36885": {
+        "name": "Inst.-Measurement.-Network.-Ph-ph-voltage-:-U31",
+        "description": "Inst.-Measurement.-Network.-Ph-ph-voltage-:-U31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "36887": {
+        "name": "Inst.-Measurement.-Network.-Vdir",
+        "description": "Inst.-Measurement.-Network.-Vdir",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "36889": {
+        "name": "Inst.-Measurement.-Network.-Vinv",
+        "description": "Inst.-Measurement.-Network.-Vinv",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "36891": {
+        "name": "Inst.-Measurement.-Network.-Vhom",
+        "description": "Inst.-Measurement.-Network.-Vhom",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "36893": {
+        "name": "Inst.-Measurement.-Network.-Vnb",
+        "description": "Inst.-Measurement.-Network.-Vnb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "36894": {
+        "name": "Inst.-Measurement.-Network.-Udir",
+        "description": "Inst.-Measurement.-Network.-Udir",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "36896": {
+        "name": "Inst.-Measurement.-Network.-Uinv",
+        "description": "Inst.-Measurement.-Network.-Uinv",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "36898": {
+        "name": "Inst.-Measurement.-Network.-Unb",
+        "description": "Inst.-Measurement.-Network.-Unb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "36899": {
+        "name": "Inst.-Measurement.-Network.-Vnba",
+        "description": "Inst.-Measurement.-Network.-Vnba",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "36900": {
+        "name": "Inst.-Measurement.-Network.-Unba",
+        "description": "Inst.-Measurement.-Network.-Unba",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "36992": {
+        "name": "Avg.-Measurement.-Network.-Date-of-last-instance",
+        "description": "Avg.-Measurement.-Network.-Date-of-last-instance",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "s",
+        "access": "read"
+    },
+    "36994": {
+        "name": "Avg.-Measurement.-Network.-Integration-time",
+        "description": "Avg.-Measurement.-Network.-Integration-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "s",
+        "access": "read"
+    },
+    "36995": {
+        "name": "Avg.-Measurement.-Network.-System-ph-N-voltage",
+        "description": "Avg.-Measurement.-Network.-System-ph-N-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "36997": {
+        "name": "Avg.-Measurement.-Network.-System-ph-ph-voltage",
+        "description": "Avg.-Measurement.-Network.-System-ph-ph-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "36999": {
+        "name": "Avg.-Measurement.-Network.-Frequency",
+        "description": "Avg.-Measurement.-Network.-Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "37001": {
+        "name": "Avg.-Measurement.-Network.-Ph-N-voltage-:-V1",
+        "description": "Avg.-Measurement.-Network.-Ph-N-voltage-:-V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "37003": {
+        "name": "Avg.-Measurement.-Network.-Ph-N-voltage-:-V2",
+        "description": "Avg.-Measurement.-Network.-Ph-N-voltage-:-V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "37005": {
+        "name": "Avg.-Measurement.-Network.-Ph-N-voltage-:-V3",
+        "description": "Avg.-Measurement.-Network.-Ph-N-voltage-:-V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "37007": {
+        "name": "Avg.-Measurement.-Network.-Ph-N-voltage-:-vn",
+        "description": "Avg.-Measurement.-Network.-Ph-N-voltage-:-vn",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "37009": {
+        "name": "Avg.-Measurement.-Network.-Ph-ph-voltage-:-U12",
+        "description": "Avg.-Measurement.-Network.-Ph-ph-voltage-:-U12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "37011": {
+        "name": "Avg.-Measurement.-Network.-Ph-ph-voltage-:-U23",
+        "description": "Avg.-Measurement.-Network.-Ph-ph-voltage-:-U23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "37013": {
+        "name": "Avg.-Measurement.-Network.-Ph-ph-voltage-:-U31",
+        "description": "Avg.-Measurement.-Network.-Ph-ph-voltage-:-U31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "37015": {
+        "name": "Avg.-Measurement.-Network.-Vdir",
+        "description": "Avg.-Measurement.-Network.-Vdir",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "37017": {
+        "name": "Avg.-Measurement.-Network.-Vinv",
+        "description": "Avg.-Measurement.-Network.-Vinv",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "37019": {
+        "name": "Avg.-Measurement.-Network.-Vhom",
+        "description": "Avg.-Measurement.-Network.-Vhom",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "37021": {
+        "name": "Avg.-Measurement.-Network.-Vnb",
+        "description": "Avg.-Measurement.-Network.-Vnb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "37022": {
+        "name": "Avg.-Measurement.-Network.-Udir",
+        "description": "Avg.-Measurement.-Network.-Udir",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "37024": {
+        "name": "Avg.-Measurement.-Network.-Uinv",
+        "description": "Avg.-Measurement.-Network.-Uinv",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "37026": {
+        "name": "Avg.-Measurement.-Network.-Unb",
+        "description": "Avg.-Measurement.-Network.-Unb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "37027": {
+        "name": "Avg.-Measurement.-Network.-Vnba",
+        "description": "Avg.-Measurement.-Network.-Vnba",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "37028": {
+        "name": "Avg.-Measurement.-Network.-Unba",
+        "description": "Avg.-Measurement.-Network.-Unba",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "37120": {
+        "name": "Inst.-Fundamental-measurement.-Network.-Date-of-last-instance",
+        "description": "Inst.-Fundamental-measurement.-Network.-Date-of-last-instance",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "s",
+        "access": "read"
+    },
+    "37122": {
+        "name": "Inst.-Fundamental-measurement.-Network.-Integration-time",
+        "description": "Inst.-Fundamental-measurement.-Network.-Integration-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "s",
+        "access": "read"
+    },
+    "37123": {
+        "name": "Inst.-Fundamental-measurement.-Network.-Ph-N-voltage:-v1h1",
+        "description": "Inst.-Fundamental-measurement.-Network.-Ph-N-voltage:-v1h1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "37125": {
+        "name": "Inst.-Fundamental-measurement.-Network.-Ph-N-voltage:-v2h1",
+        "description": "Inst.-Fundamental-measurement.-Network.-Ph-N-voltage:-v2h1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "37127": {
+        "name": "Inst.-Fundamental-measurement.-Network.-Ph-N-voltage:-v3h1",
+        "description": "Inst.-Fundamental-measurement.-Network.-Ph-N-voltage:-v3h1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "37129": {
+        "name": "Inst.-Fundamental-measurement.-Network.-Ph-N-voltage:-vnh1",
+        "description": "Inst.-Fundamental-measurement.-Network.-Ph-N-voltage:-vnh1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "37131": {
+        "name": "Inst.-Fundamental-measurement.-Network.-Ph-N-voltage-phase:-phv1h1",
+        "description": "Inst.-Fundamental-measurement.-Network.-Ph-N-voltage-phase:-phv1h1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "?",
+        "access": "read"
+    },
+    "37132": {
+        "name": "Inst.-Fundamental-measurement.-Network.-Ph-N-voltage-phase:-phv2h1",
+        "description": "Inst.-Fundamental-measurement.-Network.-Ph-N-voltage-phase:-phv2h1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "?",
+        "access": "read"
+    }
+}

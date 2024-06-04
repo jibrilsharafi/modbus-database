@@ -1,0 +1,506 @@
+{
+    "29": {
+        "name": "Meter-name",
+        "description": "Meter-name",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 40
+    },
+    "49": {
+        "name": "Meter-model",
+        "description": "Meter-model",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 40
+    },
+    "69": {
+        "name": "Manufacturer",
+        "description": "Manufacturer",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 40
+    },
+    "89": {
+        "name": "Product-ID-number",
+        "description": "Product-ID-number",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "129": {
+        "name": "Serial-number",
+        "description": "Serial-number",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "135": {
+        "name": "Hardware-revision",
+        "description": "Hardware-revision",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 10
+    },
+    "1827": {
+        "name": "Number-of-metering-system-restarts",
+        "description": "Number-of-metering-system-restarts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1828": {
+        "name": "Number-of-control-power-failures",
+        "description": "Number-of-control-power-failures",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1833": {
+        "name": "Duration-of-last-control-power-failure",
+        "description": "Duration-of-last-control-power-failure",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "seconds",
+        "access": "read"
+    },
+    "1835": {
+        "name": "Cause-of-last-meter-reset",
+        "description": "Cause-of-last-meter-reset",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1836": {
+        "name": "Year",
+        "description": "Year",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "year",
+        "access": "read"
+    },
+    "1837": {
+        "name": "Month",
+        "description": "Month",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "month",
+        "access": "read"
+    },
+    "1838": {
+        "name": "Day",
+        "description": "Day",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "days",
+        "access": "read"
+    },
+    "1839": {
+        "name": "Hour",
+        "description": "Hour",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "hours",
+        "access": "read"
+    },
+    "1840": {
+        "name": "Minute",
+        "description": "Minute",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "minutes",
+        "access": "read"
+    },
+    "1841": {
+        "name": "Second",
+        "description": "Second",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "seconds",
+        "access": "read"
+    },
+    "1842": {
+        "name": "Millisecond",
+        "description": "Millisecond",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "msec",
+        "access": "read"
+    },
+    "1844": {
+        "name": "Year",
+        "description": "Year",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1845": {
+        "name": "Month-and-day",
+        "description": "Month-and-day",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1846": {
+        "name": "Hour-and-minute",
+        "description": "Hour-and-minute",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1847": {
+        "name": "Milliseconds",
+        "description": "Milliseconds",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1999": {
+        "name": "Conditional-energy-control-status",
+        "description": "Conditional-energy-control-status",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2001": {
+        "name": "Active-load-timer",
+        "description": "Active-load-timer",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "seconds",
+        "access": "read"
+    },
+    "2003": {
+        "name": "Meter-operation-timer",
+        "description": "Meter-operation-timer",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "seconds",
+        "access": "read"
+    },
+    "2005": {
+        "name": "Cycle-count",
+        "description": "Cycle-count",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "2013": {
+        "name": "Number-of-phases",
+        "description": "Number-of-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2014": {
+        "name": "Number-of-wires",
+        "description": "Number-of-wires",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2015": {
+        "name": "Power-system-configuration",
+        "description": "Power-system-configuration",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2016": {
+        "name": "Nominal-frequency",
+        "description": "Nominal-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "2017": {
+        "name": "Nominal-voltage",
+        "description": "Nominal-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "2019": {
+        "name": "Nominal-current",
+        "description": "Nominal-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "2021": {
+        "name": "Nominal-power-factor",
+        "description": "Nominal-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "2023": {
+        "name": "Normal-phase-rotation",
+        "description": "Normal-phase-rotation",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2024": {
+        "name": "Number-VTs",
+        "description": "Number-VTs",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2025": {
+        "name": "VT-primary",
+        "description": "VT-primary",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "2027": {
+        "name": "VT-secondary",
+        "description": "VT-secondary",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2028": {
+        "name": "Number-CTs",
+        "description": "Number-CTs",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2029": {
+        "name": "CT-primary",
+        "description": "CT-primary",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "2030": {
+        "name": "CT-secondary",
+        "description": "CT-secondary",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "2033": {
+        "name": "CT-location-for-1-or-2-CT-metering",
+        "description": "CT-location-for-1-or-2-CT-metering",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2034": {
+        "name": "VT-location-for-1-or-2-VT-metering",
+        "description": "VT-location-for-1-or-2-VT-metering",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2035": {
+        "name": "VT-connection-type",
+        "description": "VT-connection-type",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2047": {
+        "name": "Peak-current-demand-over-last-year",
+        "description": "Peak-current-demand-over-last-year",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "2049": {
+        "name": "Active-load-timer-setpoint",
+        "description": "Active-load-timer-setpoint",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "2125": {
+        "name": "Alarm-/-energy-LED-mode",
+        "description": "Alarm-/-energy-LED-mode",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2129": {
+        "name": "Energy-channel",
+        "description": "Energy-channel",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2131": {
+        "name": "Pulse-weight",
+        "description": "Pulse-weight",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh, kVAh, kVAh",
+        "access": "read"
+    },
+    "2133": {
+        "name": "Energy-channel",
+        "description": "Energy-channel",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2135": {
+        "name": "Pulse-weight",
+        "description": "Pulse-weight",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh, kVAh, kVAh",
+        "access": "read"
+    },
+    "2137": {
+        "name": "Energy-channel",
+        "description": "Energy-channel",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    }
+}

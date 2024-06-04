@@ -1,0 +1,502 @@
+{
+    "1": {
+        "name": "L2-L3-voltage",
+        "description": "L2-L3-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "2": {
+        "name": "L3-L1-voltage",
+        "description": "L3-L1-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "3": {
+        "name": "L1-l0-voltage",
+        "description": "L1-l0-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "4": {
+        "name": "L2-l0-voltage",
+        "description": "L2-l0-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "5": {
+        "name": "L3-l0-voltage",
+        "description": "L3-l0-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "6": {
+        "name": "L1-current",
+        "description": "L1-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amps AC",
+        "access": "read"
+    },
+    "7": {
+        "name": "L2-current",
+        "description": "L2-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amps AC",
+        "access": "read"
+    },
+    "8": {
+        "name": "L3-current",
+        "description": "L3-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amps AC",
+        "access": "read"
+    },
+    "9": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz ",
+        "access": "read"
+    },
+    "10": {
+        "name": "Total-kw",
+        "description": "Total-kw",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "11": {
+        "name": "Percent-of-rated-kw",
+        "description": "Percent-of-rated-kw",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% Rated kW",
+        "access": "read"
+    },
+    "12": {
+        "name": "Total-power-factor",
+        "description": "Total-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "PF ",
+        "access": "read"
+    },
+    "13": {
+        "name": "L1-kw",
+        "description": "L1-kw",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "14": {
+        "name": "L1-power-factor",
+        "description": "L1-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "PF ",
+        "access": "read"
+    },
+    "15": {
+        "name": "L2-kw",
+        "description": "L2-kw",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "16": {
+        "name": "L2-power-factor",
+        "description": "L2-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "PF ",
+        "access": "read"
+    },
+    "17": {
+        "name": "L3-kw",
+        "description": "L3-kw",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "18": {
+        "name": "L3-power-factor",
+        "description": "L3-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "PF ",
+        "access": "read"
+    },
+    "19": {
+        "name": "Total-kvar",
+        "description": "Total-kvar",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kVAR ",
+        "access": "read"
+    },
+    "20": {
+        "name": "L1-kvar",
+        "description": "L1-kvar",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kVAR ",
+        "access": "read"
+    },
+    "21": {
+        "name": "L2-kvar",
+        "description": "L2-kvar",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kVAR ",
+        "access": "read"
+    },
+    "22": {
+        "name": "L3-kvar",
+        "description": "L3-kvar",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "kVAR ",
+        "access": "read"
+    },
+    "23": {
+        "name": "Total-kva",
+        "description": "Total-kva",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "24": {
+        "name": "L1-kva",
+        "description": "L1-kva",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "25": {
+        "name": "L2-kva",
+        "description": "L2-kva",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "26": {
+        "name": "L3-kva",
+        "description": "L3-kva",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "27": {
+        "name": "Current-lead/lag",
+        "description": "Current-lead/lag",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Bits 0-1 Total Current - Leading = 10 Lagging = 01 Bits 2-3 L1 Current Leading = 10 Lagging = 01 Bits 4-5 L2 Current - Leading = 10 Lagging = 01 Bits 6-7 L3 Current - Leading = 10 Lagging = 01",
+        "access": "read"
+    },
+    "32": {
+        "name": "Oil-pressure",
+        "description": "Oil-pressure",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kPa/psi",
+        "access": "read"
+    },
+    "33": {
+        "name": "Coolant-temperature",
+        "description": "Coolant-temperature",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Degrees C/Degrees F",
+        "access": "read"
+    },
+    "34": {
+        "name": "Engine-speed",
+        "description": "Engine-speed",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "RPM",
+        "access": "read"
+    },
+    "35": {
+        "name": "Local-battery-voltage",
+        "description": "Local-battery-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts DC ",
+        "access": "read"
+    },
+    "36": {
+        "name": "Fuel-pressure",
+        "description": "Fuel-pressure",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kPa/psi DDEC/MDEC/ADEC only",
+        "access": "read"
+    },
+    "37": {
+        "name": "Fuel-temperature",
+        "description": "Fuel-temperature",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Degrees C/Degrees F DDEC/MDEC/ADEC only",
+        "access": "read"
+    },
+    "38": {
+        "name": "Fuel-rate",
+        "description": "Fuel-rate",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Liters/Hour ",
+        "access": "read"
+    },
+    "39": {
+        "name": "Used-last-run",
+        "description": "Used-last-run",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Liters/Gallons DDEC only",
+        "access": "read"
+    },
+    "40": {
+        "name": "Coolant-pressure",
+        "description": "Coolant-pressure",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kPa/psi DDEC only",
+        "access": "read"
+    },
+    "41": {
+        "name": "Coolant-level",
+        "description": "Coolant-level",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "42": {
+        "name": "Lube-oil-temperature",
+        "description": "Lube-oil-temperature",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Degrees C/Degrees F DDEC/MDEC/ADEC only",
+        "access": "read"
+    },
+    "43": {
+        "name": "Oil-level",
+        "description": "Oil-level",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "% ",
+        "access": "read"
+    },
+    "44": {
+        "name": "Crankcase-pressure",
+        "description": "Crankcase-pressure",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kPa/psi DDEC only",
+        "access": "read"
+    },
+    "45": {
+        "name": "Ambient-temperature",
+        "description": "Ambient-temperature",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Degrees C/Degrees F DDEC only",
+        "access": "read"
+    },
+    "46": {
+        "name": "Ecm-battery-voltage",
+        "description": "Ecm-battery-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts DC ",
+        "access": "read"
+    },
+    "47": {
+        "name": "Ecm-status",
+        "description": "Ecm-status",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0 = DDEC-Equipped, 1 = Non-ECM, 2 = MDEC/ADEC-Equipped",
+        "access": "read"
+    },
+    "48": {
+        "name": "Intake-air-temperature",
+        "description": "Intake-air-temperature",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "Degrees C/Degrees F MDEC/ADEC only",
+        "access": "read"
+    },
+    "49": {
+        "name": "Intake-air-pressure",
+        "description": "Intake-air-pressure",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Degrees C/Degrees F MDEC/ADEC only",
+        "access": "read"
+    },
+    "50": {
+        "name": "Mdec/adec-fault-codes",
+        "description": "Mdec/adec-fault-codes",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Numeric Fault Code MDEC/ADEC only",
+        "access": "read"
+    },
+    "60": {
+        "name": "Analog-input-00-(battery-voltage)",
+        "description": "Analog-input-00-(battery-voltage)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts DC",
+        "access": "read"
+    },
+    "61": {
+        "name": "Analog-input01",
+        "description": "Analog-input01",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "User-defined and calibrated through the 6000 controller. See the controller operation manual.",
+        "access": "read"
+    },
+    "62": {
+        "name": "Analog-input02",
+        "description": "Analog-input02",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "63": {
+        "name": "Analog-input03",
+        "description": "Analog-input03",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    }
+}

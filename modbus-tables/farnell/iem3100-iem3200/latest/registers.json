@@ -1,0 +1,492 @@
+{
+    "130": {
+        "name": "Serial-Number",
+        "description": "Serial-Number",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "1637": {
+        "name": "Present-Firmware-Version-(DLF-format):-X.Y.ZTT",
+        "description": "Present-Firmware-Version-(DLF-format):-X.Y.ZTT",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2004": {
+        "name": "Meter-Operation-Timer",
+        "description": "Meter-Operation-Timer",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Secon",
+        "access": "read"
+    },
+    "2014": {
+        "name": "Number-of-Phases",
+        "description": "Number-of-Phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2015": {
+        "name": "Number-of-Wires",
+        "description": "Number-of-Wires",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2016": {
+        "name": "Power-System",
+        "description": "Power-System",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2017": {
+        "name": "Nominal-Frequency",
+        "description": "Nominal-Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "2025": {
+        "name": "Number-VTs",
+        "description": "Number-VTs",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2026": {
+        "name": "VT-Primary",
+        "description": "VT-Primary",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "2028": {
+        "name": "VT-Secondary",
+        "description": "VT-Secondary",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2029": {
+        "name": "Number-CTs",
+        "description": "Number-CTs",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2030": {
+        "name": "CT-Primary",
+        "description": "CT-Primary",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "2031": {
+        "name": "CT-Secondary",
+        "description": "CT-Secondary",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "2036": {
+        "name": "VT-Connection-Type",
+        "description": "VT-Connection-Type",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2129": {
+        "name": "Energy-Pulse-Duration",
+        "description": "Energy-Pulse-Duration",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Millisecond",
+        "access": "read"
+    },
+    "2131": {
+        "name": "Digital-Output-Association",
+        "description": "Digital-Output-Association",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2132": {
+        "name": "Pulse-Weight",
+        "description": "Pulse-Weight",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "pulse/kWh",
+        "access": "read"
+    },
+    "5250": {
+        "name": "Requested-Command",
+        "description": "Requested-Command",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "5252": {
+        "name": "Command-Parameter-001",
+        "description": "Command-Parameter-001",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "5374": {
+        "name": "Command-Parameter-123",
+        "description": "Command-Parameter-123",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "5375": {
+        "name": "Command-Status",
+        "description": "Command-Status",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "5376": {
+        "name": "Command--Result-codes:",
+        "description": "Command--Result-codes:",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "5377": {
+        "name": "Command-Data-001",
+        "description": "Command-Data-001",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "5499": {
+        "name": "Command-Data-123",
+        "description": "Command-Data-123",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "6500": {
+        "name": "Protocol",
+        "description": "Protocol",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "6501": {
+        "name": "Address",
+        "description": "Address",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "6502": {
+        "name": "Baud-Rate:",
+        "description": "Baud-Rate:",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "6503": {
+        "name": "Parity:",
+        "description": "Parity:",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "7052": {
+        "name": "Pulse-Constant",
+        "description": "Pulse-Constant",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "pulse/unit",
+        "access": "read"
+    },
+    "7055": {
+        "name": "Digital-Input-Association",
+        "description": "Digital-Input-Association",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "7274": {
+        "name": "Digital-Input-Control-Mode:",
+        "description": "Digital-Input-Control-Mode:",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "9673": {
+        "name": "Digital-Output-Control-Mode-Status:",
+        "description": "Digital-Output-Control-Mode-Status:",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3000": {
+        "name": "I1:-phase-1-current",
+        "description": "I1:-phase-1-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3002": {
+        "name": "I2:-phase-2-current",
+        "description": "I2:-phase-2-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3004": {
+        "name": "I3:-phase-3-current",
+        "description": "I3:-phase-3-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3010": {
+        "name": "Current-Avg-Voltage",
+        "description": "Current-Avg-Voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3020": {
+        "name": "Voltage-L1-L2",
+        "description": "Voltage-L1-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3022": {
+        "name": "Voltage-L2-L3",
+        "description": "Voltage-L2-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3024": {
+        "name": "Voltage-L3-L1",
+        "description": "Voltage-L3-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3026": {
+        "name": "Voltage-L-L-Avg",
+        "description": "Voltage-L-L-Avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3028": {
+        "name": "Voltage-L1-N",
+        "description": "Voltage-L1-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3030": {
+        "name": "Voltage-L2-N",
+        "description": "Voltage-L2-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3032": {
+        "name": "Voltage-L3-N",
+        "description": "Voltage-L3-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3036": {
+        "name": "Voltage-L-N-Avg-Power",
+        "description": "Voltage-L-N-Avg-Power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3054": {
+        "name": "Active-Power-Phase-1",
+        "description": "Active-Power-Phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3056": {
+        "name": "Active-Power-Phase-2",
+        "description": "Active-Power-Phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3058": {
+        "name": "Active-Power-Phase-3",
+        "description": "Active-Power-Phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3060": {
+        "name": "Total-Active-Power",
+        "description": "Total-Active-Power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3068": {
+        "name": "Total-Reactive-Power",
+        "description": "Total-Reactive-Power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAR",
+        "access": "read"
+    }
+}

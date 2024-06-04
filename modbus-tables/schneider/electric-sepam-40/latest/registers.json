@@ -1,0 +1,502 @@
+{
+    "275": {
+        "name": "Phase-current-I1",
+        "description": "Phase-current-I1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "276": {
+        "name": "Phase-current-I2",
+        "description": "Phase-current-I2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "277": {
+        "name": "Phase-current-I3",
+        "description": "Phase-current-I3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "278": {
+        "name": "Residual-current-i0-sum",
+        "description": "Residual-current-i0-sum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "279": {
+        "name": "Residual-current-measured",
+        "description": "Residual-current-measured",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "280": {
+        "name": "Average-phase-current-IM1",
+        "description": "Average-phase-current-IM1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "281": {
+        "name": "Average-phase-current-IM2",
+        "description": "Average-phase-current-IM2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "282": {
+        "name": "Average-phase-current-IM3",
+        "description": "Average-phase-current-IM3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "283": {
+        "name": "Peak-demand-phase-current-IM1",
+        "description": "Peak-demand-phase-current-IM1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "284": {
+        "name": "Peak-demand-phase-current-IM2",
+        "description": "Peak-demand-phase-current-IM2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "285": {
+        "name": "Peak-demand-phase-current-IM3",
+        "description": "Peak-demand-phase-current-IM3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "286": {
+        "name": "Phase-to-phase-voltage-U21",
+        "description": "Phase-to-phase-voltage-U21",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "287": {
+        "name": "Phase-to-phase-voltage-U32",
+        "description": "Phase-to-phase-voltage-U32",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "288": {
+        "name": "Phase-to-phase-voltage-U13",
+        "description": "Phase-to-phase-voltage-U13",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "289": {
+        "name": "Phase-to-neutral-voltage-V1",
+        "description": "Phase-to-neutral-voltage-V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "290": {
+        "name": "Phase-to-neutral-voltage-V2",
+        "description": "Phase-to-neutral-voltage-V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "291": {
+        "name": "Phase-to-neutral-voltage-V3",
+        "description": "Phase-to-neutral-voltage-V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "292": {
+        "name": "Residual-voltage-v0",
+        "description": "Residual-voltage-v0",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "293": {
+        "name": "Positive-sequence-voltage-vd",
+        "description": "Positive-sequence-voltage-vd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "294": {
+        "name": "Negative-sequence-voltage-vi",
+        "description": "Negative-sequence-voltage-vi",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "295": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "296": {
+        "name": "Active-power-P",
+        "description": "Active-power-P",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "297": {
+        "name": "Reactive-power-Q",
+        "description": "Reactive-power-Q",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "298": {
+        "name": "Apparent-power-S",
+        "description": "Apparent-power-S",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "299": {
+        "name": "Peak-demand-active-power-pm",
+        "description": "Peak-demand-active-power-pm",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "300": {
+        "name": "Peak-demand-reactive-power-qm",
+        "description": "Peak-demand-reactive-power-qm",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "301": {
+        "name": "Power-factor-cos",
+        "description": "Power-factor-cos",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "302": {
+        "name": "Positive-active-energy-ea+",
+        "description": "Positive-active-energy-ea+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "304": {
+        "name": "Negative-active-energy-ea-",
+        "description": "Negative-active-energy-ea-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "306": {
+        "name": "Positive-reactive-energy-er+",
+        "description": "Positive-reactive-energy-er+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "308": {
+        "name": "Negative-reactive-energy-er-",
+        "description": "Negative-reactive-energy-er-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "310": {
+        "name": "Phase-current-I1",
+        "description": "Phase-current-I1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "311": {
+        "name": "Phase-current-I2",
+        "description": "Phase-current-I2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "312": {
+        "name": "Phase-current-I3",
+        "description": "Phase-current-I3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "313": {
+        "name": "Residual-current-i0-sum",
+        "description": "Residual-current-i0-sum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "314": {
+        "name": "Residual-current-measured",
+        "description": "Residual-current-measured",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "315": {
+        "name": "Average-phase-current-IM1",
+        "description": "Average-phase-current-IM1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "316": {
+        "name": "Average-phase-current-IM2",
+        "description": "Average-phase-current-IM2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "317": {
+        "name": "Average-phase-current-IM3",
+        "description": "Average-phase-current-IM3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "318": {
+        "name": "Peak-demand-phase-current-IM1",
+        "description": "Peak-demand-phase-current-IM1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "319": {
+        "name": "Peak-demand-phase-current-IM2",
+        "description": "Peak-demand-phase-current-IM2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "320": {
+        "name": "Peak-demand-phase-current-IM3",
+        "description": "Peak-demand-phase-current-IM3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "321": {
+        "name": "Phase-to-phase-voltage-U21",
+        "description": "Phase-to-phase-voltage-U21",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "322": {
+        "name": "Phase-to-phase-voltage-U32",
+        "description": "Phase-to-phase-voltage-U32",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "323": {
+        "name": "Phase-to-phase-voltage-U13",
+        "description": "Phase-to-phase-voltage-U13",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "324": {
+        "name": "Phase-to-neutral-voltage-V1",
+        "description": "Phase-to-neutral-voltage-V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "325": {
+        "name": "Phase-to-neutral-voltage-V2",
+        "description": "Phase-to-neutral-voltage-V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "326": {
+        "name": "Phase-to-neutral-voltage-V3",
+        "description": "Phase-to-neutral-voltage-V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "327": {
+        "name": "Residual-voltage-v0",
+        "description": "Residual-voltage-v0",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "328": {
+        "name": "Positive-sequence-voltage-vd",
+        "description": "Positive-sequence-voltage-vd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    }
+}

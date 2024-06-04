@@ -1,0 +1,502 @@
+{
+    "543": {
+        "name": "Compliance-name-(EN-50160-or-any-other-compliance-standard)",
+        "description": "Compliance-name-(EN-50160-or-any-other-compliance-standard)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "String",
+        "access": "read"
+    },
+    "563": {
+        "name": "Compliance-description",
+        "description": "Compliance-description",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "String",
+        "access": "read"
+    },
+    "603": {
+        "name": "OK-/-fail-/-NA-status-of-the-compliance-currently-running",
+        "description": "OK-/-fail-/-NA-status-of-the-compliance-currently-running",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "UINT16",
+        "access": "read"
+    },
+    "621": {
+        "name": "Percentage-from-the-entire-time-(including-off-time)-in-which-this-compliance-parameters-was-ok",
+        "description": "Percentage-from-the-entire-time-(including-off-time)-in-which-this-compliance-parameters-was-ok",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "623": {
+        "name": "Percentage-from-the-entire-time-(including-off-time)-in-which-this-the-compliance-parameter-was-not-ok",
+        "description": "Percentage-from-the-entire-time-(including-off-time)-in-which-this-the-compliance-parameter-was-not-ok",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "625": {
+        "name": "Percentage-from-the-entire-time-(including-off-time)-in-which-this-compliance-parameter-was-not-evaluated-(due-to-device-off-time)",
+        "description": "Percentage-from-the-entire-time-(including-off-time)-in-which-this-compliance-parameter-was-not-evaluated-(due-to-device-off-time)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "627": {
+        "name": "Number-of-compliance-parameters-under-check",
+        "description": "Number-of-compliance-parameters-under-check",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "UINT32",
+        "access": "read"
+    },
+    "537": {
+        "name": "Power-supply-temperature-(read-every-second)",
+        "description": "Power-supply-temperature-(read-every-second)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "999": {
+        "name": "The-measured-frequency-,-calculated-every-200-msec-(10/12-cycles)",
+        "description": "The-measured-frequency-,-calculated-every-200-msec-(10/12-cycles)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1025": {
+        "name": "Line-1-active-power-(W),-calculate-every-cycle",
+        "description": "Line-1-active-power-(W),-calculate-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1027": {
+        "name": "Line-2-active-power-(W),-calculate-every-cycle",
+        "description": "Line-2-active-power-(W),-calculate-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1029": {
+        "name": "Line-3-active-power-(W),-calculate-every-cycle",
+        "description": "Line-3-active-power-(W),-calculate-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1037": {
+        "name": "Total-active-power-(W),-calculate-every-cycle",
+        "description": "Total-active-power-(W),-calculate-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1041": {
+        "name": "Line-1-reactive-power-(VAr)-calculate-every-cycle",
+        "description": "Line-1-reactive-power-(VAr)-calculate-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1043": {
+        "name": "Line-2-reactive-power-(VAr)-calculate-every-cycle",
+        "description": "Line-2-reactive-power-(VAr)-calculate-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1045": {
+        "name": "Line-3-reactive-power-(VAr)-calculate-every-cycle",
+        "description": "Line-3-reactive-power-(VAr)-calculate-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1053": {
+        "name": "Reactive-power---total-(VAr)-calculate-every-cycle",
+        "description": "Reactive-power---total-(VAr)-calculate-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1057": {
+        "name": "Line-1-apparent-power-(VA)-calculate-every-cycle",
+        "description": "Line-1-apparent-power-(VA)-calculate-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1059": {
+        "name": "Line-2-apparent-power-(VA)-calculate-every-cycle",
+        "description": "Line-2-apparent-power-(VA)-calculate-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1061": {
+        "name": "Line-3-apparent-power-(VA)-calculate-every-cycle",
+        "description": "Line-3-apparent-power-(VA)-calculate-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1069": {
+        "name": "Apparent-power-total-(VA)-calculate-every-cycle",
+        "description": "Apparent-power-total-(VA)-calculate-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1103": {
+        "name": "RMS-voltage-V1,-calculate-every-cycle",
+        "description": "RMS-voltage-V1,-calculate-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1105": {
+        "name": "RMS-voltage-V2,-calculate-every-cycle",
+        "description": "RMS-voltage-V2,-calculate-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1107": {
+        "name": "RMS-voltage-V3,-calculate-every-cycle",
+        "description": "RMS-voltage-V3,-calculate-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1109": {
+        "name": "RMS-voltage-V12,-calculate-every-cycle",
+        "description": "RMS-voltage-V12,-calculate-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1111": {
+        "name": "RMS-voltage-V23,-calculate-every-cycle",
+        "description": "RMS-voltage-V23,-calculate-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1113": {
+        "name": "RMS-voltage-V31,-calculate-every-cycle",
+        "description": "RMS-voltage-V31,-calculate-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1117": {
+        "name": "RMS-voltage-I1,-calculate-every-cycle",
+        "description": "RMS-voltage-I1,-calculate-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1119": {
+        "name": "RMS-voltage-I2,-calculate-every-cycle",
+        "description": "RMS-voltage-I2,-calculate-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1121": {
+        "name": "RMS-current-I3,-calculate-every-cycle",
+        "description": "RMS-current-I3,-calculate-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1123": {
+        "name": "Cycle-by-cycle-average-RMS-voltage",
+        "description": "Cycle-by-cycle-average-RMS-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1125": {
+        "name": "Cycle-by-cycle-average-RMS-phase-to-phase-voltage",
+        "description": "Cycle-by-cycle-average-RMS-phase-to-phase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1127": {
+        "name": "Cycle-by-cycle-average-RMS-current",
+        "description": "Cycle-by-cycle-average-RMS-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1159": {
+        "name": "Internal-DSP-temperature,-read-every-cycle",
+        "description": "Internal-DSP-temperature,-read-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1161": {
+        "name": "External-DSP-temperature-(PT100-READING)-,-read-every-cycle",
+        "description": "External-DSP-temperature-(PT100-READING)-,-read-every-cycle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1659": {
+        "name": "PST-(short-term-flicker)---L1---calculated-over-2-seconds",
+        "description": "PST-(short-term-flicker)---L1---calculated-over-2-seconds",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1661": {
+        "name": "PST-(short-term-flicker)---L1---calculated-over-2-seconds",
+        "description": "PST-(short-term-flicker)---L1---calculated-over-2-seconds",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1663": {
+        "name": "PST-(short-term-flicker)---L1---calculated-over-2-seconds",
+        "description": "PST-(short-term-flicker)---L1---calculated-over-2-seconds",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1665": {
+        "name": "PST-(short-term-flicker)--L12---calculated-over-2-seconds",
+        "description": "PST-(short-term-flicker)--L12---calculated-over-2-seconds",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1667": {
+        "name": "PST-(short-term-flicker)--L23--calculated-over-2-seconds",
+        "description": "PST-(short-term-flicker)--L23--calculated-over-2-seconds",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1669": {
+        "name": "PST-(short-term-flicker)--L31---calculated-over-2-seconds",
+        "description": "PST-(short-term-flicker)--L31---calculated-over-2-seconds",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1671": {
+        "name": "PST-(short-term-flicker)---L1---calculated-over-10-seconds",
+        "description": "PST-(short-term-flicker)---L1---calculated-over-10-seconds",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1673": {
+        "name": "PST-(short-term-flicker)--L2---calculated-over-10-seconds",
+        "description": "PST-(short-term-flicker)--L2---calculated-over-10-seconds",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1675": {
+        "name": "PST-(short-term-flicker)--L3---calculated-over-10-seconds",
+        "description": "PST-(short-term-flicker)--L3---calculated-over-10-seconds",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1677": {
+        "name": "PST-(short-term-flicker)--L12---calculated-over-10-seconds",
+        "description": "PST-(short-term-flicker)--L12---calculated-over-10-seconds",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1679": {
+        "name": "PST-(short-term-flicker)--L23---calculated-over-10-seconds",
+        "description": "PST-(short-term-flicker)--L23---calculated-over-10-seconds",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1681": {
+        "name": "PST-(short-term-flicker)--L31---calculated-over-10-seconds",
+        "description": "PST-(short-term-flicker)--L31---calculated-over-10-seconds",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1683": {
+        "name": "PST-(short-term-flicker)--L1---calculated-over-10-minutes",
+        "description": "PST-(short-term-flicker)--L1---calculated-over-10-minutes",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1685": {
+        "name": "PST-(short-term-flicker)--L2---calculated-over-10-minutes",
+        "description": "PST-(short-term-flicker)--L2---calculated-over-10-minutes",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    },
+    "1687": {
+        "name": "PST-(short-term-flicker)--L3---calculated-over-10-minutes",
+        "description": "PST-(short-term-flicker)--L3---calculated-over-10-minutes",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "float",
+        "access": "read"
+    }
+}

@@ -1,0 +1,508 @@
+{
+    "37072": {
+        "name": "Label-of-custom-unit",
+        "description": "Label-of-custom-unit",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 4
+    },
+    "45058": {
+        "name": "Save-context-count",
+        "description": "Save-context-count",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40192": {
+        "name": "Name",
+        "description": "Name",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 10
+    },
+    "40197": {
+        "name": "Mode:-0:-disabled-1:-logical-state-2:-analogical-value-3:-combination",
+        "description": "Mode:-0:-disabled-1:-logical-state-2:-analogical-value-3:-combination",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40198": {
+        "name": "Operand1",
+        "description": "Operand1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40199": {
+        "name": "Operand2",
+        "description": "Operand2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40200": {
+        "name": "Severity:-0:-none-1:-information-2:-warning-3:-default",
+        "description": "Severity:-0:-none-1:-information-2:-warning-3:-default",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40201": {
+        "name": "Logical-mode:-0:-low-state-1:-high-state-2:-falling-edge-3:-rising-edge-4:-both-falling-and-rising-edge",
+        "description": "Logical-mode:-0:-low-state-1:-high-state-2:-falling-edge-3:-rising-edge-4:-both-falling-and-rising-edge",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40202": {
+        "name": "Combination-mode:-0:-OR-1:-AND",
+        "description": "Combination-mode:-0:-OR-1:-AND",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40203": {
+        "name": "Analogical-value-comparison-type:-0:-low-and-high-comparison-1:-only-high-2:-only-low-3:-match-with-high-level-on-rising-4:-match-with-low-level-on-falling",
+        "description": "Analogical-value-comparison-type:-0:-low-and-high-comparison-1:-only-high-2:-only-low-3:-match-with-high-level-on-rising-4:-match-with-low-level-on-falling",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40204": {
+        "name": "AnaValHyst",
+        "description": "AnaValHyst",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40205": {
+        "name": "AnaValLow",
+        "description": "AnaValLow",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40207": {
+        "name": "AnaValHigh",
+        "description": "AnaValHigh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40209": {
+        "name": "Name",
+        "description": "Name",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 10
+    },
+    "40214": {
+        "name": "Mode:-0:-disabled-1:-logical-state-2:-analogical-value-3:-combination",
+        "description": "Mode:-0:-disabled-1:-logical-state-2:-analogical-value-3:-combination",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40215": {
+        "name": "Operand1",
+        "description": "Operand1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40216": {
+        "name": "Operand2",
+        "description": "Operand2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40217": {
+        "name": "Severity:-0:-none-1:-information-2:-warning-3:-default",
+        "description": "Severity:-0:-none-1:-information-2:-warning-3:-default",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40218": {
+        "name": "Logical-mode:-0:-low-state-1:-high-state-2:-falling-edge-3:-rising-edge-4:-both-falling-and-rising-edge",
+        "description": "Logical-mode:-0:-low-state-1:-high-state-2:-falling-edge-3:-rising-edge-4:-both-falling-and-rising-edge",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40219": {
+        "name": "Combination-mode:-0:-OR-1:-AND",
+        "description": "Combination-mode:-0:-OR-1:-AND",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40220": {
+        "name": "Analogical-value-comparison-type:-0:-low-and-high-comparison-1:-only-high-2:-only-low-3:-match-with-high-level-on-rising-4:-match-with-low-level-on-falling",
+        "description": "Analogical-value-comparison-type:-0:-low-and-high-comparison-1:-only-high-2:-only-low-3:-match-with-high-level-on-rising-4:-match-with-low-level-on-falling",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40221": {
+        "name": "AnaValHyst",
+        "description": "AnaValHyst",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40222": {
+        "name": "AnaValLow",
+        "description": "AnaValLow",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40224": {
+        "name": "AnaValHigh",
+        "description": "AnaValHigh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40226": {
+        "name": "Name",
+        "description": "Name",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 10
+    },
+    "40231": {
+        "name": "Mode:-0:-disabled-1:-logical-state-2:-analogical-value-3:-combination",
+        "description": "Mode:-0:-disabled-1:-logical-state-2:-analogical-value-3:-combination",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40232": {
+        "name": "Operand1",
+        "description": "Operand1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40233": {
+        "name": "Operand2",
+        "description": "Operand2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40234": {
+        "name": "Severity:-0:-none-1:-information-2:-warning-3:-default",
+        "description": "Severity:-0:-none-1:-information-2:-warning-3:-default",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40235": {
+        "name": "Logical-mode:-0:-low-state-1:-high-state-2:-falling-edge-3:-rising-edge-4:-both-falling-and-rising-edge",
+        "description": "Logical-mode:-0:-low-state-1:-high-state-2:-falling-edge-3:-rising-edge-4:-both-falling-and-rising-edge",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40236": {
+        "name": "Combination-mode:-0:-OR-1:-AND",
+        "description": "Combination-mode:-0:-OR-1:-AND",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40237": {
+        "name": "Analogical-value-comparison-type:-0:-low-and-high-comparison-1:-only-high-2:-only-low-3:-match-with-high-level-on-rising-4:-match-with-low-level-on-falling",
+        "description": "Analogical-value-comparison-type:-0:-low-and-high-comparison-1:-only-high-2:-only-low-3:-match-with-high-level-on-rising-4:-match-with-low-level-on-falling",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40238": {
+        "name": "AnaValHyst",
+        "description": "AnaValHyst",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40239": {
+        "name": "AnaValLow",
+        "description": "AnaValLow",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40241": {
+        "name": "AnaValHigh",
+        "description": "AnaValHigh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40243": {
+        "name": "Name",
+        "description": "Name",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 10
+    },
+    "40248": {
+        "name": "Mode:-0:-disabled-1:-logical-state-2:-analogical-value-3:-combination",
+        "description": "Mode:-0:-disabled-1:-logical-state-2:-analogical-value-3:-combination",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40249": {
+        "name": "Operand1",
+        "description": "Operand1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40250": {
+        "name": "Operand2",
+        "description": "Operand2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40251": {
+        "name": "Severity:-0:-none-1:-information-2:-warning-3:-default",
+        "description": "Severity:-0:-none-1:-information-2:-warning-3:-default",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40252": {
+        "name": "Logical-mode:-0:-low-state-1:-high-state-2:-falling-edge-3:-rising-edge-4:-both-falling-and-rising-edge",
+        "description": "Logical-mode:-0:-low-state-1:-high-state-2:-falling-edge-3:-rising-edge-4:-both-falling-and-rising-edge",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40253": {
+        "name": "Combination-mode:-0:-OR-1:-AND",
+        "description": "Combination-mode:-0:-OR-1:-AND",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40254": {
+        "name": "Analogical-value-comparison-type:-0:-low-and-high-comparison-1:-only-high-2:-only-low-3:-match-with-high-level-on-rising-4:-match-with-low-level-on-falling",
+        "description": "Analogical-value-comparison-type:-0:-low-and-high-comparison-1:-only-high-2:-only-low-3:-match-with-high-level-on-rising-4:-match-with-low-level-on-falling",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40255": {
+        "name": "AnaValHyst",
+        "description": "AnaValHyst",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40256": {
+        "name": "AnaValLow",
+        "description": "AnaValLow",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40258": {
+        "name": "AnaValHigh",
+        "description": "AnaValHigh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "40260": {
+        "name": "Name",
+        "description": "Name",
+        "function_codes": [
+            3
+        ],
+        "data_type": "string",
+        "unit": "",
+        "access": "read",
+        "size": 10
+    },
+    "40265": {
+        "name": "Mode:-0:-disabled-1:-logical-state-2:-analogical-value-3:-combination",
+        "description": "Mode:-0:-disabled-1:-logical-state-2:-analogical-value-3:-combination",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40266": {
+        "name": "Operand1",
+        "description": "Operand1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "40267": {
+        "name": "Operand2",
+        "description": "Operand2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    }
+}

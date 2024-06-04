@@ -1,0 +1,11 @@
+{
+    "manufacturer": "fronius",
+    "model": "inverter-110-111",
+    "description": "",
+    "version": "",
+    "url": "https://www.aggsoft.com/serial-data-logger/tutorials/modbus-data-logging/fronius-inverter-110-111.htm",
+    "tags": {
+        "industry": "Unknown",
+        "application": "Unknown"
+    }
+}

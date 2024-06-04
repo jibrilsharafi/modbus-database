@@ -1,0 +1,502 @@
+{
+    "1": {
+        "name": "Alarm/Status-register",
+        "description": "Alarm/Status-register",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2": {
+        "name": "Alarm/Status-register",
+        "description": "Alarm/Status-register",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3": {
+        "name": "Alarm/Status-register",
+        "description": "Alarm/Status-register",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4": {
+        "name": "Alarm/Status-register",
+        "description": "Alarm/Status-register",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "5": {
+        "name": "Alarm/Status-register",
+        "description": "Alarm/Status-register",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "6": {
+        "name": "Line-quality-00FF=acceptable-utility-line-quality-0000=unacceptable-utility-line-quality",
+        "description": "Line-quality-00FF=acceptable-utility-line-quality-0000=unacceptable-utility-line-quality",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "7": {
+        "name": "%-battery-capacity-remaining-battery-capacity-as-a-percent-of-the-fully-charged-condition-(0-100)",
+        "description": "%-battery-capacity-remaining-battery-capacity-as-a-percent-of-the-fully-charged-condition-(0-100)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "8": {
+        "name": "Runtime-remaining",
+        "description": "Runtime-remaining",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "minutes",
+        "access": "read"
+    },
+    "9": {
+        "name": "Battery-voltage-present-UPS-battery-voltage",
+        "description": "Battery-voltage-present-UPS-battery-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "10": {
+        "name": "UPS-internal-temperature-(0-209)-00XX=valid-reading-FFXX=invalid-reading-XX=sensor-reading",
+        "description": "UPS-internal-temperature-(0-209)-00XX=valid-reading-FFXX=invalid-reading-XX=sensor-reading",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "DC",
+        "access": "read"
+    },
+    "11": {
+        "name": "Amps-drawn-by-load",
+        "description": "Amps-drawn-by-load",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "12": {
+        "name": "Number-of-battery-packs-with-bad-batteries",
+        "description": "Number-of-battery-packs-with-bad-batteries",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "each",
+        "access": "read"
+    },
+    "13": {
+        "name": "Number-of-battery-packs",
+        "description": "Number-of-battery-packs",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "each",
+        "access": "read"
+    },
+    "14": {
+        "name": "UPS-output-load-as-a-percentage-of-full-rated-load-in-watts",
+        "description": "UPS-output-load-as-a-percentage-of-full-rated-load-in-watts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "15": {
+        "name": "Maximum-input-voltage-since-last-reading",
+        "description": "Maximum-input-voltage-since-last-reading",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "16": {
+        "name": "Minimum-input-voltage-since-last-reading",
+        "description": "Minimum-input-voltage-since-last-reading",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "17": {
+        "name": "Nominal-battery-voltage",
+        "description": "Nominal-battery-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "18": {
+        "name": "Actual-battery-voltage",
+        "description": "Actual-battery-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "19": {
+        "name": "Utility-input-frequency",
+        "description": "Utility-input-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "20": {
+        "name": "Phase-A-utility-input-voltage",
+        "description": "Phase-A-utility-input-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "21": {
+        "name": "Phase-A-utility-input-current",
+        "description": "Phase-A-utility-input-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "22": {
+        "name": "Phase-A-bypass-input-voltage",
+        "description": "Phase-A-bypass-input-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "23": {
+        "name": "Phase-A-percent-of-maximum-output-VA-@-N-+-0",
+        "description": "Phase-A-percent-of-maximum-output-VA-@-N-+-0",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "24": {
+        "name": "Phase-A-percent-of-maximum-output-VA-@-N-+-x",
+        "description": "Phase-A-percent-of-maximum-output-VA-@-N-+-x",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "25": {
+        "name": "Phase-A-output",
+        "description": "Phase-A-output",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "26": {
+        "name": "Phase-A-output-voltage",
+        "description": "Phase-A-output-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "27": {
+        "name": "Phase-A-output-current",
+        "description": "Phase-A-output-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "28": {
+        "name": "Phase-A-peak-output-current",
+        "description": "Phase-A-peak-output-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "29": {
+        "name": "Phase-B-utility-input-voltage",
+        "description": "Phase-B-utility-input-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "30": {
+        "name": "Phase-B-utility-input-current",
+        "description": "Phase-B-utility-input-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "31": {
+        "name": "Phase-B-bypass-input-voltage",
+        "description": "Phase-B-bypass-input-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "32": {
+        "name": "Phase-B-percent-of-maximum-output-VA-@-N-+-0",
+        "description": "Phase-B-percent-of-maximum-output-VA-@-N-+-0",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "33": {
+        "name": "Phase-B-percent-of-maximum-output-VA-@-N-+-x",
+        "description": "Phase-B-percent-of-maximum-output-VA-@-N-+-x",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "34": {
+        "name": "Phase-B-output",
+        "description": "Phase-B-output",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "35": {
+        "name": "Phase-B-output-voltage",
+        "description": "Phase-B-output-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "36": {
+        "name": "Phase-B-output-current",
+        "description": "Phase-B-output-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "37": {
+        "name": "Phase-B-peak-output-current",
+        "description": "Phase-B-peak-output-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "38": {
+        "name": "Phase-C-utility-input-voltage",
+        "description": "Phase-C-utility-input-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "39": {
+        "name": "Phase-C-utility-input-current",
+        "description": "Phase-C-utility-input-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "40": {
+        "name": "Phase-C-bypass-input-voltage",
+        "description": "Phase-C-bypass-input-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "41": {
+        "name": "Phase-C-percent-of-maximum-output-VA-@-N-+-0",
+        "description": "Phase-C-percent-of-maximum-output-VA-@-N-+-0",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "42": {
+        "name": "Phase-C-percent-of-maximum-output-VA-@-N-+-x",
+        "description": "Phase-C-percent-of-maximum-output-VA-@-N-+-x",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "43": {
+        "name": "Phase-C-output",
+        "description": "Phase-C-output",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "44": {
+        "name": "Phase-C-output-voltage",
+        "description": "Phase-C-output-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "45": {
+        "name": "Phase-C-output-current",
+        "description": "Phase-C-output-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "46": {
+        "name": "Phase-C-peak-output-current",
+        "description": "Phase-C-peak-output-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "A",
+        "access": "read"
+    },
+    "47": {
+        "name": "Environmental-monitoring-card-temperature-reading-(Sensor-1)",
+        "description": "Environmental-monitoring-card-temperature-reading-(Sensor-1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "DC",
+        "access": "read"
+    },
+    "48": {
+        "name": "Environmental-monitoring-card-humidity-reading-(Sensor-1)",
+        "description": "Environmental-monitoring-card-humidity-reading-(Sensor-1)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%RH",
+        "access": "read"
+    },
+    "49": {
+        "name": "Environmental-monitoring-card-temperature-reading-(Sensor-2)",
+        "description": "Environmental-monitoring-card-temperature-reading-(Sensor-2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "DC",
+        "access": "read"
+    },
+    "50": {
+        "name": "Environmental-monitoring-card-humidity-reading-(Sensor-2)",
+        "description": "Environmental-monitoring-card-humidity-reading-(Sensor-2)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%RH",
+        "access": "read"
+    }
+}

@@ -1,0 +1,502 @@
+{
+    "4096": {
+        "name": "Conductor-voltage-to-N-U1",
+        "description": "Conductor-voltage-to-N-U1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4098": {
+        "name": "Conductor-voltage-to-N-U2",
+        "description": "Conductor-voltage-to-N-U2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4100": {
+        "name": "Conductor-voltage-to-N-U3",
+        "description": "Conductor-voltage-to-N-U3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4102": {
+        "name": "Conductor-voltage-to-conductor-U12",
+        "description": "Conductor-voltage-to-conductor-U12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4104": {
+        "name": "Conductor-voltage-to-conductor-U23",
+        "description": "Conductor-voltage-to-conductor-U23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4106": {
+        "name": "Conductor-voltage-to-conductor-U31",
+        "description": "Conductor-voltage-to-conductor-U31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4108": {
+        "name": "External-conductor-voltage-system",
+        "description": "External-conductor-voltage-system",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4110": {
+        "name": "Current-in-conductor-I1",
+        "description": "Current-in-conductor-I1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4112": {
+        "name": "Current-in-conductor-I2",
+        "description": "Current-in-conductor-I2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4114": {
+        "name": "Current-in-conductor-I3",
+        "description": "Current-in-conductor-I3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4116": {
+        "name": "Current-in-conductor-in",
+        "description": "Current-in-conductor-in",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4118": {
+        "name": "System-current",
+        "description": "System-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "4120": {
+        "name": "Power-factor-phase-1-+/-",
+        "description": "Power-factor-phase-1-+/-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4122": {
+        "name": "Power-factor-phase-2-+/-",
+        "description": "Power-factor-phase-2-+/-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4124": {
+        "name": "Power-factor-phase-3-+/-",
+        "description": "Power-factor-phase-3-+/-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4126": {
+        "name": "System-power-factor",
+        "description": "System-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4128": {
+        "name": "Active-power-phase-1-+/-",
+        "description": "Active-power-phase-1-+/-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4130": {
+        "name": "Active-power-phase-2-+/-",
+        "description": "Active-power-phase-2-+/-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4132": {
+        "name": "Active-power-phase-3-+/-",
+        "description": "Active-power-phase-3-+/-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4134": {
+        "name": "Total-active-power-+/-",
+        "description": "Total-active-power-+/-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "4136": {
+        "name": "Apparent-power-phase-1",
+        "description": "Apparent-power-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4138": {
+        "name": "Apparent-power-phase-2",
+        "description": "Apparent-power-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4140": {
+        "name": "Apparent-power-phase-3",
+        "description": "Apparent-power-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4142": {
+        "name": "Total-apparent-power-+/-",
+        "description": "Total-apparent-power-+/-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "4144": {
+        "name": "Reactive-power-phase-1-+/-",
+        "description": "Reactive-power-phase-1-+/-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4146": {
+        "name": "Reactive-power-phase-2-+/-",
+        "description": "Reactive-power-phase-2-+/-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4148": {
+        "name": "Reactive-power-phase-3-+/-",
+        "description": "Reactive-power-phase-3-+/-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4150": {
+        "name": "Total-reactive-power-+/-",
+        "description": "Total-reactive-power-+/-",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "4152": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "4154": {
+        "name": "Phase-sequence-0.123",
+        "description": "Phase-sequence-0.123",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "4352": {
+        "name": "Total-active-energy-procurement-L1",
+        "description": "Total-active-energy-procurement-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4354": {
+        "name": "Total-active-energy-procurement-L2",
+        "description": "Total-active-energy-procurement-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4356": {
+        "name": "Total-active-energy-procurement-L3",
+        "description": "Total-active-energy-procurement-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4358": {
+        "name": "Total-active-energy-procurement-sum",
+        "description": "Total-active-energy-procurement-sum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4360": {
+        "name": "Total-active-energy-supply-L1",
+        "description": "Total-active-energy-supply-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4362": {
+        "name": "Total-active-energy-supply-L2",
+        "description": "Total-active-energy-supply-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4364": {
+        "name": "Total-active-energy-supply-L3",
+        "description": "Total-active-energy-supply-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4366": {
+        "name": "Total-active-energy-supply-sum",
+        "description": "Total-active-energy-supply-sum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "4368": {
+        "name": "Total-inductive-apparent-energy-procurement-L1",
+        "description": "Total-inductive-apparent-energy-procurement-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4370": {
+        "name": "Total-inductive-apparent-energy-procurement-L2",
+        "description": "Total-inductive-apparent-energy-procurement-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4372": {
+        "name": "Total-inductive-apparent-energy-procurement-L3",
+        "description": "Total-inductive-apparent-energy-procurement-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4376": {
+        "name": "Total-inductive-apparent-energy-supply-L1",
+        "description": "Total-inductive-apparent-energy-supply-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4378": {
+        "name": "Total-inductive-apparent-energy-supply-L2",
+        "description": "Total-inductive-apparent-energy-supply-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4380": {
+        "name": "Total-inductive-apparent-energy-supply-L3",
+        "description": "Total-inductive-apparent-energy-supply-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4382": {
+        "name": "Total-inductive-apparent-energy-supply-sum",
+        "description": "Total-inductive-apparent-energy-supply-sum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4384": {
+        "name": "Total-capacitive-apparent-energy-procurement-L1",
+        "description": "Total-capacitive-apparent-energy-procurement-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4386": {
+        "name": "Total-capacitive-apparent-energy-procurement-L2",
+        "description": "Total-capacitive-apparent-energy-procurement-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4388": {
+        "name": "Total-capacitive-apparent-energy-procurement-L3",
+        "description": "Total-capacitive-apparent-energy-procurement-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4390": {
+        "name": "Total-capacitive-apparent-energy-procurement-sum",
+        "description": "Total-capacitive-apparent-energy-procurement-sum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "4392": {
+        "name": "Total-capacitive-apparent-energy-supply-L1",
+        "description": "Total-capacitive-apparent-energy-supply-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    }
+}

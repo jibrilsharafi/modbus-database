@@ -1,0 +1,502 @@
+{
+    "1": {
+        "name": "Communication-module-firmware-version-(only-in-case-mceth-or-mcbacip-modules)",
+        "description": "Communication-module-firmware-version-(only-in-case-mceth-or-mcbacip-modules)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2": {
+        "name": "Analogue-output-module-firmware-version-(position-1-only-in-case-moa2-or-mov2-modules)",
+        "description": "Analogue-output-module-firmware-version-(position-1-only-in-case-moa2-or-mov2-modules)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3": {
+        "name": "Advanced-six-channel-digital-inputs-+-four-channel-outputs-module-firmware-version-(only-in-case-mfi6r4-or-mfi6o6)",
+        "description": "Advanced-six-channel-digital-inputs-+-four-channel-outputs-module-firmware-version-(only-in-case-mfi6r4-or-mfi6o6)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4": {
+        "name": "Process-module-(only-in-case-matp-or-matpn)",
+        "description": "Process-module-(only-in-case-matp-or-matpn)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "5": {
+        "name": "Analogue-output-module-firmware-version-(position-2-only-in-case-moa2-or-mov2-modules)",
+        "description": "Analogue-output-module-firmware-version-(position-2-only-in-case-moa2-or-mov2-modules)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "11": {
+        "name": "Carlo-gavazzi-controls-identification-code",
+        "description": "Carlo-gavazzi-controls-identification-code",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "32": {
+        "name": "Letter-1-(from-sx)-letter-2-(from-sx)",
+        "description": "Letter-1-(from-sx)-letter-2-(from-sx)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "33": {
+        "name": "Letter-3-(from-sx)-letter-4-(from-sx)",
+        "description": "Letter-3-(from-sx)-letter-4-(from-sx)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "34": {
+        "name": "Letter-5-(from-sx)-letter-6-(from-sx)",
+        "description": "Letter-5-(from-sx)-letter-6-(from-sx)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "35": {
+        "name": "Letter-7-(from-sx)-letter-8-(from-sx)",
+        "description": "Letter-7-(from-sx)-letter-8-(from-sx)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "36": {
+        "name": "Letter-9-(from-sx)-letter-10-(from-sx)",
+        "description": "Letter-9-(from-sx)-letter-10-(from-sx)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "37": {
+        "name": "Letter-11-(from-sx)-letter-12-(from-sx)",
+        "description": "Letter-11-(from-sx)-letter-12-(from-sx)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "38": {
+        "name": "Letter-13-(from-sx)",
+        "description": "Letter-13-(from-sx)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "80": {
+        "name": "V-L1-N",
+        "description": "V-L1-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "82": {
+        "name": "V-L2-N",
+        "description": "V-L2-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "84": {
+        "name": "V-L3-N",
+        "description": "V-L3-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "86": {
+        "name": "V-L-N",
+        "description": "V-L-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "88": {
+        "name": "V-L1-L2",
+        "description": "V-L1-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "90": {
+        "name": "V-L2-L3",
+        "description": "V-L2-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "92": {
+        "name": "V-L3-L1",
+        "description": "V-L3-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "94": {
+        "name": "V-L-L",
+        "description": "V-L-L",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "96": {
+        "name": "A-L1",
+        "description": "A-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "98": {
+        "name": "A-L2",
+        "description": "A-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "100": {
+        "name": "A-L3",
+        "description": "A-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "102": {
+        "name": "A-N",
+        "description": "A-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "104": {
+        "name": "W-L1",
+        "description": "W-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "106": {
+        "name": "W-L2",
+        "description": "W-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "108": {
+        "name": "W-L3",
+        "description": "W-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "110": {
+        "name": "W",
+        "description": "W",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "112": {
+        "name": "Va-L1",
+        "description": "Va-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "114": {
+        "name": "Va-L2",
+        "description": "Va-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "116": {
+        "name": "Va-L3",
+        "description": "Va-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "118": {
+        "name": "Va",
+        "description": "Va",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "120": {
+        "name": "Var-L1",
+        "description": "Var-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "122": {
+        "name": "Var-L2",
+        "description": "Var-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "124": {
+        "name": "Var-L3",
+        "description": "Var-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "126": {
+        "name": "Var",
+        "description": "Var",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "128": {
+        "name": "Pf-L1",
+        "description": "Pf-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "130": {
+        "name": "Pf-L2",
+        "description": "Pf-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "132": {
+        "name": "Pf-L3",
+        "description": "Pf-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "134": {
+        "name": "Pf",
+        "description": "Pf",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "136": {
+        "name": "Hz",
+        "description": "Hz",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "138": {
+        "name": "Asymmetry-L-N",
+        "description": "Asymmetry-L-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "140": {
+        "name": "Asymmetry-L-L",
+        "description": "Asymmetry-L-L",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "142": {
+        "name": "Phase-sequence",
+        "description": "Phase-sequence",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "144": {
+        "name": "K-factor-L1",
+        "description": "K-factor-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "146": {
+        "name": "K-factor-L2",
+        "description": "K-factor-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "148": {
+        "name": "K-factor-L3",
+        "description": "K-factor-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "150": {
+        "name": "Temperature",
+        "description": "Temperature",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "152": {
+        "name": "Analogue-input",
+        "description": "Analogue-input",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    }
+}

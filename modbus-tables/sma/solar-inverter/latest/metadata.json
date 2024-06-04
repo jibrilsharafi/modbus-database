@@ -1,0 +1,11 @@
+{
+    "manufacturer": "sma",
+    "model": "solar-inverter",
+    "description": "",
+    "version": "",
+    "url": "https://www.aggsoft.com/serial-data-logger/tutorials/modbus-data-logging/sma-solar-inverter.htm",
+    "tags": {
+        "industry": "Unknown",
+        "application": "Unknown"
+    }
+}

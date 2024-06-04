@@ -1,0 +1,502 @@
+{
+    "7274": {
+        "name": "Digital-input-control-mode",
+        "description": "Digital-input-control-mode",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "8905": {
+        "name": "Digital-input-status-(only-bit-1-is-used):-bit",
+        "description": "Digital-input-status-(only-bit-1-is-used):-bit",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "9673": {
+        "name": "Digital-output-control-mode-status",
+        "description": "Digital-output-control-mode-status",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3000": {
+        "name": "I1:-phase-1-current",
+        "description": "I1:-phase-1-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3002": {
+        "name": "I2:-phase-2-current",
+        "description": "I2:-phase-2-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3004": {
+        "name": "I3:-phase-3-current",
+        "description": "I3:-phase-3-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3010": {
+        "name": "Currentavg",
+        "description": "Currentavg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3020": {
+        "name": "Voltage-L1-L2",
+        "description": "Voltage-L1-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3022": {
+        "name": "Voltage-L2-L3",
+        "description": "Voltage-L2-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3024": {
+        "name": "Voltage-L3-L1",
+        "description": "Voltage-L3-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3026": {
+        "name": "Voltage-ll-avg",
+        "description": "Voltage-ll-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3028": {
+        "name": "Voltage-L1-N",
+        "description": "Voltage-L1-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3030": {
+        "name": "Voltage-L2-N",
+        "description": "Voltage-L2-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3032": {
+        "name": "Voltage-L3-N",
+        "description": "Voltage-L3-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3036": {
+        "name": "Voltage-ln-avg",
+        "description": "Voltage-ln-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3054": {
+        "name": "Active-power-phase-1",
+        "description": "Active-power-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3056": {
+        "name": "Active-power-phase-2",
+        "description": "Active-power-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3058": {
+        "name": "Active-power-phase-3",
+        "description": "Active-power-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3060": {
+        "name": "Total-active-power",
+        "description": "Total-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3068": {
+        "name": "Total-reactive-power-not-applicable-for-iem3150-/-iem3250-/-iem3350",
+        "description": "Total-reactive-power-not-applicable-for-iem3150-/-iem3250-/-iem3350",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "3076": {
+        "name": "Total-apparent-power-not-applicable-for-iem3150-/-iem3250-/-iem3350",
+        "description": "Total-apparent-power-not-applicable-for-iem3150-/-iem3250-/-iem3350",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "3084": {
+        "name": "Total-power-factor:-1-&lt;-pf",
+        "description": "Total-power-factor:-1-&lt;-pf",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "3110": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "4191": {
+        "name": "Multitariffs-energy-active-rate-0:-multi-tariff-disabled-1-to-4:-rate-A-to-rate-D-not-applicable-for-iem3150-/-iem3250-/-iem3350-note:-you-can-only-set-the-tariff-using-this-method-if-the-tariff-mode-is-set-to-by-communication",
+        "description": "Multitariffs-energy-active-rate-0:-multi-tariff-disabled-1-to-4:-rate-A-to-rate-D-not-applicable-for-iem3150-/-iem3250-/-iem3350-note:-you-can-only-set-the-tariff-using-this-method-if-the-tariff-mode-is-set-to-by-communication",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3204": {
+        "name": "Total-active-energy-import",
+        "description": "Total-active-energy-import",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "3208": {
+        "name": "Total-active-energy-export-not-applicable-for-iem3150-/-iem3250-/-iem3350",
+        "description": "Total-active-energy-export-not-applicable-for-iem3150-/-iem3250-/-iem3350",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "3220": {
+        "name": "Total-reactive-energy-import-not-applicable-for-iem3150-/-iem3250-/-iem3350",
+        "description": "Total-reactive-energy-import-not-applicable-for-iem3150-/-iem3250-/-iem3350",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "VARh",
+        "access": "read"
+    },
+    "3224": {
+        "name": "Total-reactive-energy-export-not-applicable-for-iem3150-/-iem3250-/-iem3350",
+        "description": "Total-reactive-energy-export-not-applicable-for-iem3150-/-iem3250-/-iem3350",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "VARh",
+        "access": "read"
+    },
+    "3256": {
+        "name": "Partial-active-energy-import",
+        "description": "Partial-active-energy-import",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "3272": {
+        "name": "Partial-reactive-energy-import-not-applicable-for-iem3150-/-iem3250-/-iem3350",
+        "description": "Partial-reactive-energy-import-not-applicable-for-iem3150-/-iem3250-/-iem3350",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "VARh",
+        "access": "read"
+    },
+    "3518": {
+        "name": "Active-energy-import-phase1",
+        "description": "Active-energy-import-phase1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "3522": {
+        "name": "Active-energy-import-phase-2",
+        "description": "Active-energy-import-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "3526": {
+        "name": "Active-energy-import-phase-3",
+        "description": "Active-energy-import-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "3558": {
+        "name": "Input-metering-accumulation-not-applicable-for-iem3150-/-iem3250-/-iem3350",
+        "description": "Input-metering-accumulation-not-applicable-for-iem3150-/-iem3250-/-iem3350",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int64",
+        "unit": "Unit",
+        "access": "read"
+    },
+    "3701": {
+        "name": "Demand-method",
+        "description": "Demand-method",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "3702": {
+        "name": "Demand-interval-duration",
+        "description": "Demand-interval-duration",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Minute",
+        "access": "read"
+    },
+    "3766": {
+        "name": "Active-power-demand",
+        "description": "Active-power-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3770": {
+        "name": "Active-power-peak-demand",
+        "description": "Active-power-peak-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kW",
+        "access": "read"
+    },
+    "3782": {
+        "name": "Reactive-power-demand",
+        "description": "Reactive-power-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "3786": {
+        "name": "Reactive-power-peak-demand",
+        "description": "Reactive-power-peak-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "3798": {
+        "name": "Apparent-power-demand",
+        "description": "Apparent-power-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "3802": {
+        "name": "Apparent-power-peak-demand",
+        "description": "Apparent-power-peak-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "3814": {
+        "name": "Current-I1-demand",
+        "description": "Current-I1-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3818": {
+        "name": "Current-I1-peak-demand",
+        "description": "Current-I1-peak-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3830": {
+        "name": "Current-I2-demand",
+        "description": "Current-I2-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3834": {
+        "name": "Current-I2-peak-demand",
+        "description": "Current-I2-peak-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3846": {
+        "name": "Current-I3-demand",
+        "description": "Current-I3-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3850": {
+        "name": "Current-I3-peak-demand",
+        "description": "Current-I3-peak-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3878": {
+        "name": "Current-avg-demand",
+        "description": "Current-avg-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "3882": {
+        "name": "Current-avg-peak-demand",
+        "description": "Current-avg-peak-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    }
+}

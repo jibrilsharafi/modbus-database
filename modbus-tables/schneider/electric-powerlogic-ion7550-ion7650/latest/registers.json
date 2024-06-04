@@ -1,0 +1,502 @@
+{
+    "149": {
+        "name": "I-a,-Amp/freq/unbal",
+        "description": "I-a,-Amp/freq/unbal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "150": {
+        "name": "I-b,-Amp/freq/unbal",
+        "description": "I-b,-Amp/freq/unbal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "151": {
+        "name": "I-c,-Amp/freq/unbal",
+        "description": "I-c,-Amp/freq/unbal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "152": {
+        "name": "I-4,-Amp/freq/unbal",
+        "description": "I-4,-Amp/freq/unbal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "153": {
+        "name": "I-5,-Amp/freq/unbal",
+        "description": "I-5,-Amp/freq/unbal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "154": {
+        "name": "I-avg,-Amp/freq/unbal",
+        "description": "I-avg,-Amp/freq/unbal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "155": {
+        "name": "I-avg-mn,-Amp/freq/unbal",
+        "description": "I-avg-mn,-Amp/freq/unbal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "156": {
+        "name": "I-avg-mx,-Amp/freq/unbal",
+        "description": "I-avg-mx,-Amp/freq/unbal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "157": {
+        "name": "I-avg-mean,-Amp/freq/unbal",
+        "description": "I-avg-mean,-Amp/freq/unbal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "158": {
+        "name": "Freq,-Amp/freq/unbal",
+        "description": "Freq,-Amp/freq/unbal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "159": {
+        "name": "Freq-mn,-Amp/freq/unbal",
+        "description": "Freq-mn,-Amp/freq/unbal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "160": {
+        "name": "Freq-mx,-Amp/freq/unbal",
+        "description": "Freq-mx,-Amp/freq/unbal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "161": {
+        "name": "Freq-mean,-Amp/freq/unbal",
+        "description": "Freq-mean,-Amp/freq/unbal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "162": {
+        "name": "V-unbal,-Amp/freq/unbal",
+        "description": "V-unbal,-Amp/freq/unbal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "163": {
+        "name": "I-unbal,-Amp/freq/unbal",
+        "description": "I-unbal,-Amp/freq/unbal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "164": {
+        "name": "Phase-Rev,-Amp/freq/unbal",
+        "description": "Phase-Rev,-Amp/freq/unbal",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "165": {
+        "name": "Vln-a,-Volts",
+        "description": "Vln-a,-Volts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "167": {
+        "name": "Vln-b,-Volts",
+        "description": "Vln-b,-Volts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "169": {
+        "name": "Vln-c,-Volts",
+        "description": "Vln-c,-Volts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "171": {
+        "name": "Vln-avg,-Volts",
+        "description": "Vln-avg,-Volts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "173": {
+        "name": "Vln-avg-mx,-Volts",
+        "description": "Vln-avg-mx,-Volts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "177": {
+        "name": "Vll-ab,-Volts",
+        "description": "Vll-ab,-Volts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "179": {
+        "name": "Vll-bc,-Volts",
+        "description": "Vll-bc,-Volts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "181": {
+        "name": "Vll-ca,-Volts",
+        "description": "Vll-ca,-Volts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "183": {
+        "name": "Vll-avg,-Volts",
+        "description": "Vll-avg,-Volts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "185": {
+        "name": "Vll-avg-mx,-Volts",
+        "description": "Vll-avg-mx,-Volts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "187": {
+        "name": "Vll-avg-mean,-Volts",
+        "description": "Vll-avg-mean,-Volts",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "197": {
+        "name": "kW-a,-kW/kVAr/kVA",
+        "description": "kW-a,-kW/kVAr/kVA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "199": {
+        "name": "kW-b,-kW/kVAr/kVA",
+        "description": "kW-b,-kW/kVAr/kVA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "201": {
+        "name": "kW-c,-kW/kVAr/kVA",
+        "description": "kW-c,-kW/kVAr/kVA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "203": {
+        "name": "kW-tot,-kW/kVAr/kVA",
+        "description": "kW-tot,-kW/kVAr/kVA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "205": {
+        "name": "kW-tot-mx,-kW/kVAr/kVA",
+        "description": "kW-tot-mx,-kW/kVAr/kVA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "207": {
+        "name": "kVAR-a,-kW/kVAr/kVA",
+        "description": "kVAR-a,-kW/kVAr/kVA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "209": {
+        "name": "kVAR-b,-kW/kVAr/kVA",
+        "description": "kVAR-b,-kW/kVAr/kVA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "211": {
+        "name": "kVAR-c,-kW/kVAr/kVA",
+        "description": "kVAR-c,-kW/kVAr/kVA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "213": {
+        "name": "kVAR-tot,-kW/kVAr/kVA",
+        "description": "kVAR-tot,-kW/kVAr/kVA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "215": {
+        "name": "kVAR-tot-mx,-kW/kVAr/kVA",
+        "description": "kVAR-tot-mx,-kW/kVAr/kVA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "217": {
+        "name": "kVA-a,-kW/kVAr/kVA",
+        "description": "kVA-a,-kW/kVAr/kVA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "219": {
+        "name": "kVA-b,-kW/kVAr/kVA",
+        "description": "kVA-b,-kW/kVAr/kVA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "221": {
+        "name": "kVA-c,-kW/kVAr/kVA",
+        "description": "kVA-c,-kW/kVAr/kVA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "223": {
+        "name": "kVA-tot,-kW/kVAr/kVA",
+        "description": "kVA-tot,-kW/kVAr/kVA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "225": {
+        "name": "kVA-tot-mx,-kW/kVAr/kVA",
+        "description": "kVA-tot-mx,-kW/kVAr/kVA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "229": {
+        "name": "kWh-del,-kWh/kVArh",
+        "description": "kWh-del,-kWh/kVArh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "231": {
+        "name": "kWh-rec,-kWh/kVArh",
+        "description": "kWh-rec,-kWh/kVArh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "233": {
+        "name": "kVARh-del,-kWh/kVArh",
+        "description": "kVARh-del,-kWh/kVArh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "235": {
+        "name": "kVARh-rec,-kWh/kVArh",
+        "description": "kVARh-rec,-kWh/kVArh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "237": {
+        "name": "kVAh-del+rec,-kWh/kVArh",
+        "description": "kVAh-del+rec,-kWh/kVArh",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVArh",
+        "access": "read"
+    },
+    "261": {
+        "name": "PF-sign-a,-PF/THD/Kfactor",
+        "description": "PF-sign-a,-PF/THD/Kfactor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "262": {
+        "name": "PF-sign-b,-PF/THD/Kfactor",
+        "description": "PF-sign-b,-PF/THD/Kfactor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "263": {
+        "name": "PF-sign-c,-PF/THD/Kfactor",
+        "description": "PF-sign-c,-PF/THD/Kfactor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    }
+}

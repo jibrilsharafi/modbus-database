@@ -1,0 +1,562 @@
+{
+    "256": {
+        "name": "Voltage-lower-limit-(vl)-(9.6&lt;vl&lt;vu)",
+        "description": "Voltage-lower-limit-(vl)-(9.6&lt;vl&lt;vu)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "257": {
+        "name": "Voltage-upper-limit-(vu)-(vl&lt;vu&lt;264)",
+        "description": "Voltage-upper-limit-(vu)-(vl&lt;vu&lt;264)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "258": {
+        "name": "Current-lower-limit-(cl)-(0.1&lt;cl&lt;cu)",
+        "description": "Current-lower-limit-(cl)-(0.1&lt;cl&lt;cu)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "259": {
+        "name": "Current-upper-limit-(cu)-(cl&lt;cu&lt;5.867)",
+        "description": "Current-upper-limit-(cu)-(cl&lt;cu&lt;5.867)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "260": {
+        "name": "Frequency-lower-limit-(fl)-(40&lt;fl&lt;fu)",
+        "description": "Frequency-lower-limit-(fl)-(40&lt;fl&lt;fu)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "261": {
+        "name": "Frequency-upper-limit-(fu)-(fl&lt;fu&lt;70)",
+        "description": "Frequency-upper-limit-(fu)-(fl&lt;fu&lt;70)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2": {
+        "name": "Y-phase-voltage",
+        "description": "Y-phase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "4": {
+        "name": "B-phase-voltage",
+        "description": "B-phase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "6": {
+        "name": "R-phase-current",
+        "description": "R-phase-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "8": {
+        "name": "Y-phase-current",
+        "description": "Y-phase-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "10": {
+        "name": "B-phase-current",
+        "description": "B-phase-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "12": {
+        "name": "Active-power-R-phase",
+        "description": "Active-power-R-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "14": {
+        "name": "Active-power-R-phase",
+        "description": "Active-power-R-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "15": {
+        "name": "Active-power-Y-phase",
+        "description": "Active-power-Y-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "17": {
+        "name": "Active-power-Y-phase",
+        "description": "Active-power-Y-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "18": {
+        "name": "Active-power-B-phase",
+        "description": "Active-power-B-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "20": {
+        "name": "Active-power-B-phase",
+        "description": "Active-power-B-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "21": {
+        "name": "Reactive-power-R-phase",
+        "description": "Reactive-power-R-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "23": {
+        "name": "Reactive-power-R-phase",
+        "description": "Reactive-power-R-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "24": {
+        "name": "Reactive-power-Y-phase",
+        "description": "Reactive-power-Y-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "26": {
+        "name": "Reactive-power-Y-phase",
+        "description": "Reactive-power-Y-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "27": {
+        "name": "Reactive-power-B-phase",
+        "description": "Reactive-power-B-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "29": {
+        "name": "Reactive-power-B-phase",
+        "description": "Reactive-power-B-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "30": {
+        "name": "Apparent-power-R-phase",
+        "description": "Apparent-power-R-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "32": {
+        "name": "Apparent-power-R-phase",
+        "description": "Apparent-power-R-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "33": {
+        "name": "Apparent-power-Y-phase",
+        "description": "Apparent-power-Y-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "35": {
+        "name": "Apparent-power-Y-phase",
+        "description": "Apparent-power-Y-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "36": {
+        "name": "Apparent-power-B-phase",
+        "description": "Apparent-power-B-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "38": {
+        "name": "Apparent-power-B-phase",
+        "description": "Apparent-power-B-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "39": {
+        "name": "Power-factor-R-phase",
+        "description": "Power-factor-R-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "41": {
+        "name": "Power-factor-Y-phase",
+        "description": "Power-factor-Y-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "43": {
+        "name": "Power-factor-B-phase",
+        "description": "Power-factor-B-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "45": {
+        "name": "Total-active-power",
+        "description": "Total-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "47": {
+        "name": "Total-active-power",
+        "description": "Total-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "48": {
+        "name": "Total-reactive-power",
+        "description": "Total-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "50": {
+        "name": "Total-reactive-power",
+        "description": "Total-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "51": {
+        "name": "Total-apparent-power",
+        "description": "Total-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "53": {
+        "name": "Total-apparent-power",
+        "description": "Total-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "54": {
+        "name": "Total-power-factor",
+        "description": "Total-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "56": {
+        "name": "Line-frequency",
+        "description": "Line-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "58": {
+        "name": "Ry-line-voltage",
+        "description": "Ry-line-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "60": {
+        "name": "Yb-line-voltage",
+        "description": "Yb-line-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "62": {
+        "name": "Br-line-voltage",
+        "description": "Br-line-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "64": {
+        "name": "Average-phase-voltage",
+        "description": "Average-phase-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "66": {
+        "name": "Average-phase-current",
+        "description": "Average-phase-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "68": {
+        "name": "R-phase-voltage-harmonic",
+        "description": "R-phase-voltage-harmonic",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "70": {
+        "name": "Y-phase-voltage-harmonic",
+        "description": "Y-phase-voltage-harmonic",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "72": {
+        "name": "B-phase-voltage-harmonic",
+        "description": "B-phase-voltage-harmonic",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "74": {
+        "name": "R-phase-current-harmonic",
+        "description": "R-phase-current-harmonic",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "76": {
+        "name": "Y-phase-current-harmonic",
+        "description": "Y-phase-current-harmonic",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "78": {
+        "name": "B-phase-current-harmonic",
+        "description": "B-phase-current-harmonic",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "80": {
+        "name": "Phase-difference-R-voltage-and-current",
+        "description": "Phase-difference-R-voltage-and-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "82": {
+        "name": "Phase-difference-Y-voltage-and-current",
+        "description": "Phase-difference-Y-voltage-and-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "84": {
+        "name": "Phase-difference-B-voltage-and-current",
+        "description": "Phase-difference-B-voltage-and-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "86": {
+        "name": "Voltage-unbalance-R-phase",
+        "description": "Voltage-unbalance-R-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "88": {
+        "name": "Voltage-unbalance-Y-phase",
+        "description": "Voltage-unbalance-Y-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    }
+}

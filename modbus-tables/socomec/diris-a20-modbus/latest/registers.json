@@ -1,0 +1,502 @@
+{
+    "768": {
+        "name": "Phase-1-current",
+        "description": "Phase-1-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "770": {
+        "name": "Phase-2-current",
+        "description": "Phase-2-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "772": {
+        "name": "Phase-3-current",
+        "description": "Phase-3-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "774": {
+        "name": "Neutral-current",
+        "description": "Neutral-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "776": {
+        "name": "Phase-to-phase-voltage-U12",
+        "description": "Phase-to-phase-voltage-U12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "778": {
+        "name": "Phase-to-phase-voltage-U23",
+        "description": "Phase-to-phase-voltage-U23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "780": {
+        "name": "Phase-to-phase-voltage-U31",
+        "description": "Phase-to-phase-voltage-U31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "782": {
+        "name": "Phase-to-neutral-voltage-phase-1",
+        "description": "Phase-to-neutral-voltage-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "784": {
+        "name": "Phase-to-neutral-voltage-phase-2",
+        "description": "Phase-to-neutral-voltage-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "786": {
+        "name": "Phase-to-neutral-voltage-phase-3",
+        "description": "Phase-to-neutral-voltage-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "788": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "790": {
+        "name": "E-active-power",
+        "description": "E-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "792": {
+        "name": "E-reactive-power",
+        "description": "E-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "794": {
+        "name": "E-apparent-power",
+        "description": "E-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "796": {
+        "name": "E-power-factor",
+        "description": "E-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "838": {
+        "name": "Average-value-I1-max",
+        "description": "Average-value-I1-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "840": {
+        "name": "Average-value-I2-max",
+        "description": "Average-value-I2-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "842": {
+        "name": "Average-value-I3-max",
+        "description": "Average-value-I3-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "844": {
+        "name": "E-active-power--+-max",
+        "description": "E-active-power--+-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "856": {
+        "name": "Active-energy-+",
+        "description": "Active-energy-+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "858": {
+        "name": "Reactive-energy-+",
+        "description": "Reactive-energy-+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "916": {
+        "name": "Average-value-in-max",
+        "description": "Average-value-in-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "1792": {
+        "name": "Phase-1-current",
+        "description": "Phase-1-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1793": {
+        "name": "Phase-2-current",
+        "description": "Phase-2-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1794": {
+        "name": "Phase-3-current",
+        "description": "Phase-3-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1795": {
+        "name": "Neutral-current",
+        "description": "Neutral-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1796": {
+        "name": "Phase-to-phase-voltage-U12",
+        "description": "Phase-to-phase-voltage-U12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "1797": {
+        "name": "Phase-to-phase-voltage-U23",
+        "description": "Phase-to-phase-voltage-U23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "1798": {
+        "name": "Phase-to-phase-voltage-U31",
+        "description": "Phase-to-phase-voltage-U31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "1799": {
+        "name": "Phase-to-neutral-voltage-phase-1",
+        "description": "Phase-to-neutral-voltage-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "1800": {
+        "name": "Phase-to-neutral-voltage-phase-2",
+        "description": "Phase-to-neutral-voltage-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "1801": {
+        "name": "Phase-to-neutral-voltage-phase-3",
+        "description": "Phase-to-neutral-voltage-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "1802": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "1803": {
+        "name": "E-active-power",
+        "description": "E-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1804": {
+        "name": "E-reactive-power",
+        "description": "E-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kvar",
+        "access": "read"
+    },
+    "1805": {
+        "name": "E-apparent-power",
+        "description": "E-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "1806": {
+        "name": "E-power-factor",
+        "description": "E-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1827": {
+        "name": "Average-value-I1-max",
+        "description": "Average-value-I1-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1828": {
+        "name": "Average-value-I2-max",
+        "description": "Average-value-I2-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1829": {
+        "name": "Average-value-I3-max",
+        "description": "Average-value-I3-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1830": {
+        "name": "E-active-power--+-average-value-max",
+        "description": "E-active-power--+-average-value-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "1835": {
+        "name": "Active-power-+-&lt;-10-000",
+        "description": "Active-power-+-&lt;-10-000",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1836": {
+        "name": "Active-power-+",
+        "description": "Active-power-+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1837": {
+        "name": "Reactive-power-+-&lt;-10-000",
+        "description": "Reactive-power-+-&lt;-10-000",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1838": {
+        "name": "Reactive-power-+",
+        "description": "Reactive-power-+",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1891": {
+        "name": "Average-value-in-max",
+        "description": "Average-value-in-max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2816": {
+        "name": "Phase-1-current",
+        "description": "Phase-1-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2817": {
+        "name": "Phase-2-current",
+        "description": "Phase-2-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2818": {
+        "name": "Phase-2-current",
+        "description": "Phase-2-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2819": {
+        "name": "Neutral-current",
+        "description": "Neutral-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    }
+}

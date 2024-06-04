@@ -1,0 +1,502 @@
+{
+    "1300": {
+        "name": "In",
+        "description": "In",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "1302": {
+        "name": "P1",
+        "description": "P1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "1304": {
+        "name": "P2",
+        "description": "P2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "1306": {
+        "name": "P3",
+        "description": "P3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "1308": {
+        "name": "Pt",
+        "description": "Pt",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "1310": {
+        "name": "Q1",
+        "description": "Q1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "1312": {
+        "name": "Q2",
+        "description": "Q2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "1314": {
+        "name": "Q3",
+        "description": "Q3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "1316": {
+        "name": "Qt",
+        "description": "Qt",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "var",
+        "access": "read"
+    },
+    "1318": {
+        "name": "S1",
+        "description": "S1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "1320": {
+        "name": "S2",
+        "description": "S2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "1322": {
+        "name": "S3",
+        "description": "S3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "1324": {
+        "name": "St",
+        "description": "St",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "VA",
+        "access": "read"
+    },
+    "1326": {
+        "name": "FP1",
+        "description": "FP1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1327": {
+        "name": "Quadrant-FP1",
+        "description": "Quadrant-FP1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1328": {
+        "name": "FP2",
+        "description": "FP2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1329": {
+        "name": "Quadrant-FP2",
+        "description": "Quadrant-FP2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1330": {
+        "name": "FP3",
+        "description": "FP3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1331": {
+        "name": "Quadrant-FP3",
+        "description": "Quadrant-FP3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1332": {
+        "name": "Fpt",
+        "description": "Fpt",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1333": {
+        "name": "Quadrant-fpt",
+        "description": "Quadrant-fpt",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1334": {
+        "name": "Cos-phi-phase-1",
+        "description": "Cos-phi-phase-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1335": {
+        "name": "Quadrant",
+        "description": "Quadrant",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1336": {
+        "name": "Cos-phi-phase-2",
+        "description": "Cos-phi-phase-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1337": {
+        "name": "Quadrant",
+        "description": "Quadrant",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1338": {
+        "name": "Cos-phi-phase-3",
+        "description": "Cos-phi-phase-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1339": {
+        "name": "Quadrant",
+        "description": "Quadrant",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1340": {
+        "name": "Cos-phi-three-phase",
+        "description": "Cos-phi-three-phase",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1341": {
+        "name": "Quadrant",
+        "description": "Quadrant",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1342": {
+        "name": "V1-crest-factor",
+        "description": "V1-crest-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1343": {
+        "name": "V2-crest-factor",
+        "description": "V2-crest-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1344": {
+        "name": "V3-crest-factor",
+        "description": "V3-crest-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1345": {
+        "name": "I1-crest-factor",
+        "description": "I1-crest-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1346": {
+        "name": "I2-crest-factor",
+        "description": "I2-crest-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1347": {
+        "name": "I3-crest-factor",
+        "description": "I3-crest-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "1348": {
+        "name": "Unbalance-of-the-voltages",
+        "description": "Unbalance-of-the-voltages",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "1349": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "1350": {
+        "name": "Total-tan-phi",
+        "description": "Total-tan-phi",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "2788": {
+        "name": "Minima-of-V1",
+        "description": "Minima-of-V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "2790": {
+        "name": "Date-of-the-minimum-of-V1",
+        "description": "Date-of-the-minimum-of-V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "2792": {
+        "name": "Minima-of-V2",
+        "description": "Minima-of-V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "2794": {
+        "name": "Date-of-the-minimum-of-V2",
+        "description": "Date-of-the-minimum-of-V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "2796": {
+        "name": "Minima-of-V3",
+        "description": "Minima-of-V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "2798": {
+        "name": "Date-of-the-minimum-of-V3",
+        "description": "Date-of-the-minimum-of-V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "2800": {
+        "name": "Minima-of-vt",
+        "description": "Minima-of-vt",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "2802": {
+        "name": "Date-of-the-minimum-of-vt",
+        "description": "Date-of-the-minimum-of-vt",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "2804": {
+        "name": "Minima-of-U12",
+        "description": "Minima-of-U12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "2806": {
+        "name": "Date-of-the-minimum-of-U12",
+        "description": "Date-of-the-minimum-of-U12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "2808": {
+        "name": "Minima-of-U23",
+        "description": "Minima-of-U23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "2810": {
+        "name": "Date-of-the-minimum-of-U23",
+        "description": "Date-of-the-minimum-of-U23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    }
+}

@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "Current-system-time",
+        "description": "Current-system-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "5": {
+        "name": "Current-system-date",
+        "description": "Current-system-date",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "8": {
+        "name": "Active-energy-import-(+a)",
+        "description": "Active-energy-import-(+a)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "12": {
+        "name": "Active-energy-export-(a)",
+        "description": "Active-energy-export-(a)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "16": {
+        "name": "Reactive-energy-import-(+r)",
+        "description": "Reactive-energy-import-(+r)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "20": {
+        "name": "Reactive-energy-export-(-r)",
+        "description": "Reactive-energy-export-(-r)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "24": {
+        "name": "Reactive-energy-Q1-(+ri)",
+        "description": "Reactive-energy-Q1-(+ri)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "28": {
+        "name": "Reactive-energy-Q2-(+rc)",
+        "description": "Reactive-energy-Q2-(+rc)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "32": {
+        "name": "Reactive-energy-Q3-(-ri)",
+        "description": "Reactive-energy-Q3-(-ri)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "36": {
+        "name": "Reactive-energy-Q4-(-rc)",
+        "description": "Reactive-energy-Q4-(-rc)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "40": {
+        "name": "Apparent-energy-import-(+va)-(Q1-+-q4)",
+        "description": "Apparent-energy-import-(+va)-(Q1-+-q4)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "44": {
+        "name": "Apparent-energy-export-(-va)-(Q2-+-q3)",
+        "description": "Apparent-energy-export-(-va)-(Q2-+-q3)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "48": {
+        "name": "Active-energy-import-(+a)-L1",
+        "description": "Active-energy-import-(+a)-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "52": {
+        "name": "Active-energy-import-(+a)-L2",
+        "description": "Active-energy-import-(+a)-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "56": {
+        "name": "Active-energy-import-(+a)-L3",
+        "description": "Active-energy-import-(+a)-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "60": {
+        "name": "Active-energy-export-(-a)-L1",
+        "description": "Active-energy-export-(-a)-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "64": {
+        "name": "Active-energy-export-(-a)-L2",
+        "description": "Active-energy-export-(-a)-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "68": {
+        "name": "Active-energy-export-(-a)-L3",
+        "description": "Active-energy-export-(-a)-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "72": {
+        "name": "Reactive-energy-import-(+r)-L1",
+        "description": "Reactive-energy-import-(+r)-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "76": {
+        "name": "Reactive-energy-import-(+r)-L2",
+        "description": "Reactive-energy-import-(+r)-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "80": {
+        "name": "Reactive-energy-import-(+r)-L3",
+        "description": "Reactive-energy-import-(+r)-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "84": {
+        "name": "Reactive-energy-export-(-r)-L1",
+        "description": "Reactive-energy-export-(-r)-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "88": {
+        "name": "Reactive-energy-export-(-r)-L2",
+        "description": "Reactive-energy-export-(-r)-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "92": {
+        "name": "Reactive-energy-export-(-r)-L3",
+        "description": "Reactive-energy-export-(-r)-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "96": {
+        "name": "Reactive-energy-Q1-(+ri)-L1",
+        "description": "Reactive-energy-Q1-(+ri)-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "100": {
+        "name": "Reactive-energy-Q1-(+ri)-L2",
+        "description": "Reactive-energy-Q1-(+ri)-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "104": {
+        "name": "Reactive-energy-Q1-(+ri)-L3",
+        "description": "Reactive-energy-Q1-(+ri)-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "108": {
+        "name": "Reactive-energy-Q2-(+rc)-L1",
+        "description": "Reactive-energy-Q2-(+rc)-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "112": {
+        "name": "Reactive-energy-Q2-(+rc)-L2",
+        "description": "Reactive-energy-Q2-(+rc)-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "116": {
+        "name": "Reactive-energy-Q2-(+rc)-L3",
+        "description": "Reactive-energy-Q2-(+rc)-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "120": {
+        "name": "Reactive-energy-Q3-(-ri)-L1",
+        "description": "Reactive-energy-Q3-(-ri)-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "124": {
+        "name": "Reactive-energy-Q3-(-ri)-L2",
+        "description": "Reactive-energy-Q3-(-ri)-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "128": {
+        "name": "Reactive-energy-Q3-(-ri)-L3",
+        "description": "Reactive-energy-Q3-(-ri)-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "132": {
+        "name": "Reactive-energy-Q4-(-rc)-L1",
+        "description": "Reactive-energy-Q4-(-rc)-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "136": {
+        "name": "Reactive-energy-Q4-(-rc)-L2",
+        "description": "Reactive-energy-Q4-(-rc)-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "140": {
+        "name": "Reactive-energy-Q4-(-rc)-L3",
+        "description": "Reactive-energy-Q4-(-rc)-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "144": {
+        "name": "Apparent-energy-import-(+va)-(Q1-+-q4)-L1",
+        "description": "Apparent-energy-import-(+va)-(Q1-+-q4)-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "148": {
+        "name": "Apparent-energy-import-(+va)-(Q1-+-q4)-L2",
+        "description": "Apparent-energy-import-(+va)-(Q1-+-q4)-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "152": {
+        "name": "Apparent-energy-import-(+va)-(Q1-+-q4)-L3",
+        "description": "Apparent-energy-import-(+va)-(Q1-+-q4)-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "156": {
+        "name": "Apparent-energy-export-(-va)-(Q2-+-q3)-L1",
+        "description": "Apparent-energy-export-(-va)-(Q2-+-q3)-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "160": {
+        "name": "Apparent-energy-export-(-va)-(Q2-+-q3)-L2",
+        "description": "Apparent-energy-export-(-va)-(Q2-+-q3)-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "164": {
+        "name": "Apparent-energy-export-(-va)-(Q2-+-q3)-L3",
+        "description": "Apparent-energy-export-(-va)-(Q2-+-q3)-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "double",
+        "unit": "",
+        "access": "read"
+    },
+    "168": {
+        "name": "Instantaneous-active-power-(|+a|+|-a|)",
+        "description": "Instantaneous-active-power-(|+a|+|-a|)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "170": {
+        "name": "Instantaneous-active-import-power-(+a)",
+        "description": "Instantaneous-active-import-power-(+a)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "172": {
+        "name": "Instantaneous-active-import-power-(+a)-L1",
+        "description": "Instantaneous-active-import-power-(+a)-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "174": {
+        "name": "Instantaneous-active-import-power-(+a)-L2",
+        "description": "Instantaneous-active-import-power-(+a)-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "176": {
+        "name": "Instantaneous-active-import-power-(+a)-L3",
+        "description": "Instantaneous-active-import-power-(+a)-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "178": {
+        "name": "Instantaneous-active-export-power-(-a)",
+        "description": "Instantaneous-active-export-power-(-a)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "180": {
+        "name": "Instantaneous-active-export-power-(-a)-L1",
+        "description": "Instantaneous-active-export-power-(-a)-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "182": {
+        "name": "Instantaneous-active-export-power-(-a)-L2",
+        "description": "Instantaneous-active-export-power-(-a)-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    }
+}

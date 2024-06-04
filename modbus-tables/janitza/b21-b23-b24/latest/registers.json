@@ -1,0 +1,502 @@
+{
+    "19000": {
+        "name": "Voltage-L1-N",
+        "description": "Voltage-L1-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "19002": {
+        "name": "Voltage-L2-N",
+        "description": "Voltage-L2-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "19004": {
+        "name": "Voltage-L3-N",
+        "description": "Voltage-L3-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "19006": {
+        "name": "Voltage-L1-L2",
+        "description": "Voltage-L1-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "19008": {
+        "name": "Voltage-L2-L3",
+        "description": "Voltage-L2-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "19010": {
+        "name": "Voltage-L3-L1",
+        "description": "Voltage-L3-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "19012": {
+        "name": "Apparent-current,-L1-N",
+        "description": "Apparent-current,-L1-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "19014": {
+        "name": "Apparent-current,-L2-N",
+        "description": "Apparent-current,-L2-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "19016": {
+        "name": "Apparent-current,-L3-N",
+        "description": "Apparent-current,-L3-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "19020": {
+        "name": "Real-power-L1-N",
+        "description": "Real-power-L1-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "19022": {
+        "name": "Real-power-L2-N",
+        "description": "Real-power-L2-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "19024": {
+        "name": "Real-power-L3-N",
+        "description": "Real-power-L3-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "19026": {
+        "name": "Real-power-L1+L2+L3",
+        "description": "Real-power-L1+L2+L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "19028": {
+        "name": "Apparent-power-L1-N",
+        "description": "Apparent-power-L1-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "19030": {
+        "name": "Apparent-power-L2-N",
+        "description": "Apparent-power-L2-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "19032": {
+        "name": "Apparent-power-L3-N",
+        "description": "Apparent-power-L3-N",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "19034": {
+        "name": "Apparent-power-L1+L2+L3",
+        "description": "Apparent-power-L1+L2+L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "19036": {
+        "name": "Reactive-power-L1",
+        "description": "Reactive-power-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "19038": {
+        "name": "Reactive-power-L2",
+        "description": "Reactive-power-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "19040": {
+        "name": "Reactive-power-L3",
+        "description": "Reactive-power-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "19042": {
+        "name": "Reactive-power-L1+L2+L3",
+        "description": "Reactive-power-L1+L2+L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "19044": {
+        "name": "Power-factor-L1",
+        "description": "Power-factor-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "19046": {
+        "name": "Power-factor-L2",
+        "description": "Power-factor-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "19048": {
+        "name": "Power-factor-L3",
+        "description": "Power-factor-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "19050": {
+        "name": "Measured-frequency",
+        "description": "Measured-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "19054": {
+        "name": "Real-energy-L1",
+        "description": "Real-energy-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "19056": {
+        "name": "Real-energy-L2",
+        "description": "Real-energy-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "19058": {
+        "name": "Real-energy-L3",
+        "description": "Real-energy-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "19060": {
+        "name": "Real-energy-L1+L2+L3",
+        "description": "Real-energy-L1+L2+L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "19062": {
+        "name": "Real-energy-L1,-consumed",
+        "description": "Real-energy-L1,-consumed",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "19064": {
+        "name": "Real-energy-L2,-consumed",
+        "description": "Real-energy-L2,-consumed",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "19066": {
+        "name": "Real-energy-L3,-consumed",
+        "description": "Real-energy-L3,-consumed",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "19068": {
+        "name": "Real-energy-L1+L2+L3,-consumed",
+        "description": "Real-energy-L1+L2+L3,-consumed",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "19070": {
+        "name": "Real-energy-L1,-delivered",
+        "description": "Real-energy-L1,-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "19072": {
+        "name": "Real-energy-L2,-delivered",
+        "description": "Real-energy-L2,-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "19074": {
+        "name": "Real-energy-L3,-delivered",
+        "description": "Real-energy-L3,-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "19076": {
+        "name": "Real-energy-L1+L2+L3,-delivered",
+        "description": "Real-energy-L1+L2+L3,-delivered",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Wh",
+        "access": "read"
+    },
+    "19078": {
+        "name": "Apparent-energy-L1",
+        "description": "Apparent-energy-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "19080": {
+        "name": "Apparent-energy-L2",
+        "description": "Apparent-energy-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "19082": {
+        "name": "Apparent-energy-L3",
+        "description": "Apparent-energy-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "19084": {
+        "name": "Apparent-energy-L1+L2+L3",
+        "description": "Apparent-energy-L1+L2+L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAh",
+        "access": "read"
+    },
+    "19086": {
+        "name": "Reactive-energy-L1",
+        "description": "Reactive-energy-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "varh",
+        "access": "read"
+    },
+    "19088": {
+        "name": "Reactive-energy-L2",
+        "description": "Reactive-energy-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "varh",
+        "access": "read"
+    },
+    "19090": {
+        "name": "Reactive-energy-L3",
+        "description": "Reactive-energy-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "varh",
+        "access": "read"
+    },
+    "19092": {
+        "name": "Reactive-energy-L1+L2+L3",
+        "description": "Reactive-energy-L1+L2+L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "varh",
+        "access": "read"
+    },
+    "19094": {
+        "name": "Reactive-energy-L1,-inductive",
+        "description": "Reactive-energy-L1,-inductive",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "varh",
+        "access": "read"
+    },
+    "19096": {
+        "name": "Reactive-energy-L2,-inductive",
+        "description": "Reactive-energy-L2,-inductive",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "varh",
+        "access": "read"
+    },
+    "19098": {
+        "name": "Reactive-energy-L3,-inductive",
+        "description": "Reactive-energy-L3,-inductive",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "varh",
+        "access": "read"
+    },
+    "19100": {
+        "name": "Reactive-energy-L1+L2+L3,-inductive",
+        "description": "Reactive-energy-L1+L2+L3,-inductive",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "varh",
+        "access": "read"
+    },
+    "19102": {
+        "name": "Reactive-energy-L1,-capacitive",
+        "description": "Reactive-energy-L1,-capacitive",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "varh",
+        "access": "read"
+    }
+}

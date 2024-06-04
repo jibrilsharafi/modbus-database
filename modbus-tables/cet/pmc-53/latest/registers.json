@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "VB1",
+        "description": "VB1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "4": {
+        "name": "VC1",
+        "description": "VC1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "6": {
+        "name": "VLN-average",
+        "description": "VLN-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "8": {
+        "name": "Vab",
+        "description": "Vab",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "10": {
+        "name": "Vbc",
+        "description": "Vbc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "12": {
+        "name": "Vca",
+        "description": "Vca",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "14": {
+        "name": "VLL-average",
+        "description": "VLL-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "V",
+        "access": "read"
+    },
+    "16": {
+        "name": "Ia",
+        "description": "Ia",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "18": {
+        "name": "Ib",
+        "description": "Ib",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "20": {
+        "name": "Ic",
+        "description": "Ic",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "22": {
+        "name": "I-average",
+        "description": "I-average",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "24": {
+        "name": "kWa1",
+        "description": "kWa1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "26": {
+        "name": "kWb1",
+        "description": "kWb1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "28": {
+        "name": "kWc1",
+        "description": "kWc1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "30": {
+        "name": "kW",
+        "description": "kW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "32": {
+        "name": "Kvara1",
+        "description": "Kvara1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "34": {
+        "name": "Kvarb1",
+        "description": "Kvarb1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "36": {
+        "name": "Kvarc1",
+        "description": "Kvarc1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "38": {
+        "name": "Kvar",
+        "description": "Kvar",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "40": {
+        "name": "kVAa1",
+        "description": "kVAa1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "42": {
+        "name": "kVAb1",
+        "description": "kVAb1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "44": {
+        "name": "kVAc1",
+        "description": "kVAc1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "46": {
+        "name": "kVA",
+        "description": "kVA",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "48": {
+        "name": "PFa1",
+        "description": "PFa1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "49": {
+        "name": "PFb1",
+        "description": "PFb1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "50": {
+        "name": "PFc1",
+        "description": "PFc1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "51": {
+        "name": "PF",
+        "description": "PF",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "52": {
+        "name": "FREQ",
+        "description": "FREQ",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "HZ",
+        "access": "read"
+    },
+    "53": {
+        "name": "I4",
+        "description": "I4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "55": {
+        "name": "Voltage-unbalance",
+        "description": "Voltage-unbalance",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "56": {
+        "name": "Current-unbalance",
+        "description": "Current-unbalance",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "57": {
+        "name": "dPFa*,-1",
+        "description": "dPFa*,-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "58": {
+        "name": "dPFb*,-1",
+        "description": "dPFb*,-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "59": {
+        "name": "dPFc*,-1",
+        "description": "dPFc*,-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "60": {
+        "name": "kW-demand",
+        "description": "kW-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "62": {
+        "name": "Kvar-demand",
+        "description": "Kvar-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "64": {
+        "name": "kVA-demand",
+        "description": "kVA-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "66": {
+        "name": "Ia-demand",
+        "description": "Ia-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "68": {
+        "name": "Ib-demand",
+        "description": "Ib-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "70": {
+        "name": "Ic-demand",
+        "description": "Ic-demand",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "A",
+        "access": "read"
+    },
+    "72": {
+        "name": "Va-angle",
+        "description": "Va-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "73": {
+        "name": "Vb-angle",
+        "description": "Vb-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "74": {
+        "name": "Vc-angle",
+        "description": "Vc-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "75": {
+        "name": "Ia-angle",
+        "description": "Ia-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "76": {
+        "name": "Ib-angle",
+        "description": "Ib-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "77": {
+        "name": "Ic-angle",
+        "description": "Ic-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "78": {
+        "name": "I-residual#,-3",
+        "description": "I-residual#,-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "79": {
+        "name": "Temperature#,-4",
+        "description": "Temperature#,-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "95": {
+        "name": "Alarm#,-5",
+        "description": "Alarm#,-5",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "96": {
+        "name": "DO-status#,-6",
+        "description": "DO-status#,-6",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    }
+}

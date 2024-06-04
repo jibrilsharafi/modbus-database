@@ -1,0 +1,502 @@
+{
+    "10": {
+        "name": "Vln-a,-Modbus-Slave-1",
+        "description": "Vln-a,-Modbus-Slave-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "11": {
+        "name": "Vln-b,-Modbus-Slave-1",
+        "description": "Vln-b,-Modbus-Slave-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "12": {
+        "name": "Vln-c,-Modbus-Slave-1",
+        "description": "Vln-c,-Modbus-Slave-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "13": {
+        "name": "Vln-avg,-Modbus-Slave-1",
+        "description": "Vln-avg,-Modbus-Slave-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "14": {
+        "name": "Vll-ab,-Modbus-Slave-1",
+        "description": "Vll-ab,-Modbus-Slave-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "15": {
+        "name": "Vll-bc,-Modbus-Slave-1",
+        "description": "Vll-bc,-Modbus-Slave-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "16": {
+        "name": "Vll-ca,-Modbus-Slave-1",
+        "description": "Vll-ca,-Modbus-Slave-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "17": {
+        "name": "Vll-avg,-Modbus-Slave-1",
+        "description": "Vll-avg,-Modbus-Slave-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "18": {
+        "name": "I-a,-Modbus-Slave-1",
+        "description": "I-a,-Modbus-Slave-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "19": {
+        "name": "I-b,-Modbus-Slave-1",
+        "description": "I-b,-Modbus-Slave-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "20": {
+        "name": "I-c,-Modbus-Slave-1",
+        "description": "I-c,-Modbus-Slave-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "21": {
+        "name": "I-avg,-Modbus-Slave-1",
+        "description": "I-avg,-Modbus-Slave-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "22": {
+        "name": "V-unbal,-Modbus-Slave-1",
+        "description": "V-unbal,-Modbus-Slave-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "23": {
+        "name": "I-unbal,-Modbus-Slave-1",
+        "description": "I-unbal,-Modbus-Slave-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "24": {
+        "name": "Freq,-Modbus-Slave-1",
+        "description": "Freq,-Modbus-Slave-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "25": {
+        "name": "Phase-Rev,-Modbus-Slave-1",
+        "description": "Phase-Rev,-Modbus-Slave-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "26": {
+        "name": "kW-a,-Modbus-Slave-2",
+        "description": "kW-a,-Modbus-Slave-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "28": {
+        "name": "kW-b,-Modbus-Slave-2",
+        "description": "kW-b,-Modbus-Slave-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "30": {
+        "name": "kW-c,-Modbus-Slave-2",
+        "description": "kW-c,-Modbus-Slave-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "32": {
+        "name": "kW-tot,-Modbus-Slave-2",
+        "description": "kW-tot,-Modbus-Slave-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "34": {
+        "name": "kVAR-a,-Modbus-Slave-2",
+        "description": "kVAR-a,-Modbus-Slave-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "36": {
+        "name": "kVAR-b,-Modbus-Slave-2",
+        "description": "kVAR-b,-Modbus-Slave-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "38": {
+        "name": "kVAR-c,-Modbus-Slave-2",
+        "description": "kVAR-c,-Modbus-Slave-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "40": {
+        "name": "kVAR-tot,-Modbus-Slave-2",
+        "description": "kVAR-tot,-Modbus-Slave-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "42": {
+        "name": "kVA-a,-Modbus-Slave-2",
+        "description": "kVA-a,-Modbus-Slave-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "44": {
+        "name": "kVA-b,-Modbus-Slave-2",
+        "description": "kVA-b,-Modbus-Slave-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "46": {
+        "name": "kVA-c,-Modbus-Slave-2",
+        "description": "kVA-c,-Modbus-Slave-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "48": {
+        "name": "kVA-tot,-Modbus-Slave-2",
+        "description": "kVA-tot,-Modbus-Slave-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "50": {
+        "name": "PF-sign-a,-Modbus-Slave-2",
+        "description": "PF-sign-a,-Modbus-Slave-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "52": {
+        "name": "PF-sign-b,-Modbus-Slave-2",
+        "description": "PF-sign-b,-Modbus-Slave-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "54": {
+        "name": "PF-sign-c,-Modbus-Slave-2",
+        "description": "PF-sign-c,-Modbus-Slave-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "56": {
+        "name": "PF-sign-tot,-Modbus-Slave-2",
+        "description": "PF-sign-tot,-Modbus-Slave-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "58": {
+        "name": "kW-td,-Modbus-Slave-3",
+        "description": "kW-td,-Modbus-Slave-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "60": {
+        "name": "kVAR-td,-Modbus-Slave-3",
+        "description": "kVAR-td,-Modbus-Slave-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "62": {
+        "name": "kVA-td,-Modbus-Slave-3",
+        "description": "kVA-td,-Modbus-Slave-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "64": {
+        "name": "kW-td-mx,-Modbus-Slave-3",
+        "description": "kW-td-mx,-Modbus-Slave-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "66": {
+        "name": "kVAR-td-mx,-Modbus-Slave-3",
+        "description": "kVAR-td-mx,-Modbus-Slave-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "68": {
+        "name": "kVA-td-mx,-Modbus-Slave-3",
+        "description": "kVA-td-mx,-Modbus-Slave-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "70": {
+        "name": "Vln-avg-mx,-Modbus-Slave-3",
+        "description": "Vln-avg-mx,-Modbus-Slave-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "72": {
+        "name": "I-avg-mx,-Modbus-Slave-3",
+        "description": "I-avg-mx,-Modbus-Slave-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "74": {
+        "name": "kW-tot-mx,-Modbus-Slave-3",
+        "description": "kW-tot-mx,-Modbus-Slave-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "76": {
+        "name": "kVAR-tot-mx,-Modbus-Slave-3",
+        "description": "kVAR-tot-mx,-Modbus-Slave-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVAR",
+        "access": "read"
+    },
+    "78": {
+        "name": "kVA-tot-mx,-Modbus-Slave-3",
+        "description": "kVA-tot-mx,-Modbus-Slave-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "80": {
+        "name": "Freq-mx,-Modbus-Slave-3",
+        "description": "Freq-mx,-Modbus-Slave-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "82": {
+        "name": "Vln-avg-mn,-Modbus-Slave-3",
+        "description": "Vln-avg-mn,-Modbus-Slave-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "84": {
+        "name": "I-avg-mn,-Modbus-Slave-3",
+        "description": "I-avg-mn,-Modbus-Slave-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "86": {
+        "name": "Freq-mn,-Modbus-Slave-3",
+        "description": "Freq-mn,-Modbus-Slave-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "",
+        "access": "read"
+    },
+    "88": {
+        "name": "kWh-imp-(kWh-del)-1,-Modbus-Slave-4",
+        "description": "kWh-imp-(kWh-del)-1,-Modbus-Slave-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "90": {
+        "name": "kWh-exp-(kWh-rec)-1,-Modbus-Slave-4",
+        "description": "kWh-exp-(kWh-rec)-1,-Modbus-Slave-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "92": {
+        "name": "kWh-tot-(kWh-del+rec)-1,-Modbus-Slave-4",
+        "description": "kWh-tot-(kWh-del+rec)-1,-Modbus-Slave-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kWh",
+        "access": "read"
+    }
+}

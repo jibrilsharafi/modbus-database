@@ -1,0 +1,502 @@
+{
+    "2": {
+        "name": "Voltage",
+        "description": "Voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "4": {
+        "name": "Current-L1",
+        "description": "Current-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "6": {
+        "name": "THD%-current-L1",
+        "description": "THD%-current-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "8": {
+        "name": "THD%-voltage",
+        "description": "THD%-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "16": {
+        "name": "Active-power-L1",
+        "description": "Active-power-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KW",
+        "access": "read"
+    },
+    "18": {
+        "name": "Power-factor",
+        "description": "Power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "20": {
+        "name": "Reactive-power-L1",
+        "description": "Reactive-power-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Kvar",
+        "access": "read"
+    },
+    "22": {
+        "name": "Apparent-power-L1",
+        "description": "Apparent-power-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KVA",
+        "access": "read"
+    },
+    "24": {
+        "name": "Voltage",
+        "description": "Voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "32": {
+        "name": "Voltage",
+        "description": "Voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "34": {
+        "name": "Current-L2",
+        "description": "Current-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "36": {
+        "name": "THD%-current-L2",
+        "description": "THD%-current-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "38": {
+        "name": "THD%-voltage",
+        "description": "THD%-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "40": {
+        "name": "Active-power-L2",
+        "description": "Active-power-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KW",
+        "access": "read"
+    },
+    "48": {
+        "name": "Power-factor",
+        "description": "Power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "50": {
+        "name": "Reactive-power-L2",
+        "description": "Reactive-power-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Kvar",
+        "access": "read"
+    },
+    "52": {
+        "name": "Apparent-power-L2",
+        "description": "Apparent-power-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KVA",
+        "access": "read"
+    },
+    "54": {
+        "name": "Voltage",
+        "description": "Voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "56": {
+        "name": "Voltage",
+        "description": "Voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "64": {
+        "name": "Current-L3",
+        "description": "Current-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "66": {
+        "name": "THD%-current-L3",
+        "description": "THD%-current-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "68": {
+        "name": "THD%-voltage",
+        "description": "THD%-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "70": {
+        "name": "Active-power-L3",
+        "description": "Active-power-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KW",
+        "access": "read"
+    },
+    "72": {
+        "name": "Power-factor",
+        "description": "Power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "80": {
+        "name": "Reactive-power-L3",
+        "description": "Reactive-power-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Kvar",
+        "access": "read"
+    },
+    "82": {
+        "name": "Apparent-power-L3",
+        "description": "Apparent-power-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KVA",
+        "access": "read"
+    },
+    "84": {
+        "name": "Neutral-current",
+        "description": "Neutral-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "86": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "88": {
+        "name": "Power-factor",
+        "description": "Power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "96": {
+        "name": "Apparent-power-total",
+        "description": "Apparent-power-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KVA",
+        "access": "read"
+    },
+    "98": {
+        "name": "Active-power-total",
+        "description": "Active-power-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "KW",
+        "access": "read"
+    },
+    "100": {
+        "name": "Reactive-power-total",
+        "description": "Reactive-power-total",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Kvar",
+        "access": "read"
+    },
+    "102": {
+        "name": "Import-active-energy",
+        "description": "Import-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "104": {
+        "name": "Export-active-energy",
+        "description": "Export-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "112": {
+        "name": "Reactive-energy.-inductive",
+        "description": "Reactive-energy.-inductive",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "114": {
+        "name": "Reactive-energy.-capacitive",
+        "description": "Reactive-energy.-capacitive",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "116": {
+        "name": "Generator-mode.-import-active-energy",
+        "description": "Generator-mode.-import-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "118": {
+        "name": "Generator-mode.-export-active-energy",
+        "description": "Generator-mode.-export-active-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "120": {
+        "name": "Generator-mode.-reactive-energy.-inductive",
+        "description": "Generator-mode.-reactive-energy.-inductive",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "128": {
+        "name": "Generator-mode.-reactive-energy.-capacitive",
+        "description": "Generator-mode.-reactive-energy.-capacitive",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kvarh",
+        "access": "read"
+    },
+    "130": {
+        "name": "Import-active-energy-time-counter",
+        "description": "Import-active-energy-time-counter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "132": {
+        "name": "Export-active-energy-time-counter",
+        "description": "Export-active-energy-time-counter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "134": {
+        "name": "Generator-mode.-import-active-energy-time-counter",
+        "description": "Generator-mode.-import-active-energy-time-counter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "136": {
+        "name": "Generator-model.-export-active-energy-time-counter",
+        "description": "Generator-model.-export-active-energy-time-counter",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "256": {
+        "name": "Current-L1",
+        "description": "Current-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "258": {
+        "name": "Current-L1",
+        "description": "Current-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "260": {
+        "name": "Current-L2",
+        "description": "Current-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "262": {
+        "name": "Current-L2",
+        "description": "Current-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "264": {
+        "name": "Current-L3",
+        "description": "Current-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "272": {
+        "name": "Current-L3",
+        "description": "Current-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    }
+}

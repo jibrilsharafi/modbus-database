@@ -1,0 +1,502 @@
+{
+    "4000": {
+        "name": "kWh-System-LSW",
+        "description": "kWh-System-LSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4001": {
+        "name": "kWh-System-MSW",
+        "description": "kWh-System-MSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4002": {
+        "name": "kW-System",
+        "description": "kW-System",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4003": {
+        "name": "kW-Demand-System-Max",
+        "description": "kW-Demand-System-Max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4004": {
+        "name": "kW-Demand-System-Now",
+        "description": "kW-Demand-System-Now",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4005": {
+        "name": "kW-System-Max",
+        "description": "kW-System-Max",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4006": {
+        "name": "kW-System-Min",
+        "description": "kW-System-Min",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4007": {
+        "name": "kVARh-System-LSW",
+        "description": "kVARh-System-LSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4008": {
+        "name": "kVARh-System-MSW",
+        "description": "kVARh-System-MSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4009": {
+        "name": "kVAR-System",
+        "description": "kVAR-System",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4010": {
+        "name": "kVAh-System-LSW",
+        "description": "kVAh-System-LSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4011": {
+        "name": "kVAh-System-MSW",
+        "description": "kVAh-System-MSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4012": {
+        "name": "kVA-System",
+        "description": "kVA-System",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4013": {
+        "name": "Displacement-PF-System",
+        "description": "Displacement-PF-System",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4014": {
+        "name": "Apparent-PF-System",
+        "description": "Apparent-PF-System",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "4015": {
+        "name": "Amps-System-Avg",
+        "description": "Amps-System-Avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amps",
+        "access": "read"
+    },
+    "4016": {
+        "name": "Volts-Line-to-Line-Avg",
+        "description": "Volts-Line-to-Line-Avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "4017": {
+        "name": "Volts-Line-to-Neutral-Avg",
+        "description": "Volts-Line-to-Neutral-Avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "4018": {
+        "name": "Volts-L1-to-L2",
+        "description": "Volts-L1-to-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "4019": {
+        "name": "Volts-L2-to-L3",
+        "description": "Volts-L2-to-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "4020": {
+        "name": "Volts-L1-to-L3",
+        "description": "Volts-L1-to-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts",
+        "access": "read"
+    },
+    "4021": {
+        "name": "Line-Frequency",
+        "description": "Line-Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "4022": {
+        "name": "kWh-L1-LSW",
+        "description": "kWh-L1-LSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4023": {
+        "name": "kWh-L1-MSW",
+        "description": "kWh-L1-MSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4024": {
+        "name": "kWh-L2-LSW",
+        "description": "kWh-L2-LSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4025": {
+        "name": "kWh-L2-MSW",
+        "description": "kWh-L2-MSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4026": {
+        "name": "kWh-L3-LSW",
+        "description": "kWh-L3-LSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4027": {
+        "name": "kWh-L3-MSW",
+        "description": "kWh-L3-MSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "4028": {
+        "name": "kW-L1",
+        "description": "kW-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4029": {
+        "name": "kW-L2",
+        "description": "kW-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4030": {
+        "name": "kW-L3",
+        "description": "kW-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kW",
+        "access": "read"
+    },
+    "4031": {
+        "name": "kVARh-L1-LSW",
+        "description": "kVARh-L1-LSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4032": {
+        "name": "kVARh-L1-MSW",
+        "description": "kVARh-L1-MSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4033": {
+        "name": "kVARh-L2-LSW",
+        "description": "kVARh-L2-LSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4034": {
+        "name": "kVARh-L2-MSW",
+        "description": "kVARh-L2-MSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4035": {
+        "name": "kVARh-L3-LSW",
+        "description": "kVARh-L3-LSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4036": {
+        "name": "kVARh-L3-MSW",
+        "description": "kVARh-L3-MSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4037": {
+        "name": "kVAR-L1",
+        "description": "kVAR-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4038": {
+        "name": "kVAR-L2",
+        "description": "kVAR-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4039": {
+        "name": "kVAR-L3",
+        "description": "kVAR-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4040": {
+        "name": "kVAh-L1-LSW",
+        "description": "kVAh-L1-LSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4041": {
+        "name": "kVAh-L1-MSW",
+        "description": "kVAh-L1-MSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4042": {
+        "name": "kVAh-L2-LSW",
+        "description": "kVAh-L2-LSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4043": {
+        "name": "kVAh-L2-MSW",
+        "description": "kVAh-L2-MSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4044": {
+        "name": "kVAh-L3-LSW",
+        "description": "kVAh-L3-LSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4045": {
+        "name": "kVAh-L3-MSW",
+        "description": "kVAh-L3-MSW",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4046": {
+        "name": "kVA-L1",
+        "description": "kVA-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4047": {
+        "name": "kVA-L2",
+        "description": "kVA-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4048": {
+        "name": "kVA-L3",
+        "description": "kVA-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "4049": {
+        "name": "Displacement-PF-L1",
+        "description": "Displacement-PF-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    }
+}

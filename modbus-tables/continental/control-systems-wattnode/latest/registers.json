@@ -1,0 +1,502 @@
+{
+    "1001": {
+        "name": "Total-net-(bidirectional)-energy",
+        "description": "Total-net-(bidirectional)-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1003": {
+        "name": "Total-positive-energy",
+        "description": "Total-positive-energy",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1005": {
+        "name": "Total-net-(bidirectional)-energy-non-resettable",
+        "description": "Total-net-(bidirectional)-energy-non-resettable",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1007": {
+        "name": "Total-positive-energy-non-resettable",
+        "description": "Total-positive-energy-non-resettable",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1009": {
+        "name": "Real-power,-sum-of-active-phases",
+        "description": "Real-power,-sum-of-active-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "1011": {
+        "name": "Real-power,-phase-A",
+        "description": "Real-power,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "1013": {
+        "name": "Real-power,-phase-B",
+        "description": "Real-power,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "1015": {
+        "name": "Real-power,-phase-C",
+        "description": "Real-power,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "1017": {
+        "name": "Average-phase-to-neutral-voltage",
+        "description": "Average-phase-to-neutral-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1019": {
+        "name": "Rms-voltage,-phase-A-to-neutral",
+        "description": "Rms-voltage,-phase-A-to-neutral",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1021": {
+        "name": "Rms-voltage,-phase-B-to-neutral",
+        "description": "Rms-voltage,-phase-B-to-neutral",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1023": {
+        "name": "Rms-voltage,-phase-C-to-neutral",
+        "description": "Rms-voltage,-phase-C-to-neutral",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1025": {
+        "name": "Average-line-to-line-voltage",
+        "description": "Average-line-to-line-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1027": {
+        "name": "Rms-voltage,-line-to-line,-phase-A-to-B",
+        "description": "Rms-voltage,-line-to-line,-phase-A-to-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1029": {
+        "name": "Rms-voltage,-line-to-line,-phase-B-to-C",
+        "description": "Rms-voltage,-line-to-line,-phase-B-to-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1031": {
+        "name": "Rms-voltage,-line-to-line,-phase-A-to-C",
+        "description": "Rms-voltage,-line-to-line,-phase-A-to-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "1033": {
+        "name": "Power-line-frequency",
+        "description": "Power-line-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "1101": {
+        "name": "Net-(bidirectional)-energy,-phase-A",
+        "description": "Net-(bidirectional)-energy,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1103": {
+        "name": "Net-(bidirectional)-energy,-phase-B",
+        "description": "Net-(bidirectional)-energy,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1105": {
+        "name": "Net-(bidirectional)-energy,-phase-C",
+        "description": "Net-(bidirectional)-energy,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1107": {
+        "name": "Positive-energy,-phase-A",
+        "description": "Positive-energy,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1109": {
+        "name": "Positive-energy,-phase-B",
+        "description": "Positive-energy,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1111": {
+        "name": "Positive-energy,-phase-C",
+        "description": "Positive-energy,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1113": {
+        "name": "Negative-energy,-sum-of-active-phases",
+        "description": "Negative-energy,-sum-of-active-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1115": {
+        "name": "Negative-energy,-sum-of-active-phases-non-resettable",
+        "description": "Negative-energy,-sum-of-active-phases-non-resettable",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1117": {
+        "name": "Negative-energy,-phase-A",
+        "description": "Negative-energy,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1119": {
+        "name": "Negative-energy,-phase-B",
+        "description": "Negative-energy,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1121": {
+        "name": "Negative-energy,-phase-C",
+        "description": "Negative-energy,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "1123": {
+        "name": "Reactive-energy,-sum-of-active-phases",
+        "description": "Reactive-energy,-sum-of-active-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "1125": {
+        "name": "Net-reactive-energy,-phase-A",
+        "description": "Net-reactive-energy,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "1127": {
+        "name": "Net-reactive-energy,-phase-B",
+        "description": "Net-reactive-energy,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "1129": {
+        "name": "Net-reactive-energy,-phase-C",
+        "description": "Net-reactive-energy,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVARh",
+        "access": "read"
+    },
+    "1131": {
+        "name": "Apparent-energy,-sum-of-active-phases",
+        "description": "Apparent-energy,-sum-of-active-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "1133": {
+        "name": "Apparent-energy,-phase-A",
+        "description": "Apparent-energy,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "1135": {
+        "name": "Apparent-energy,-phase-B",
+        "description": "Apparent-energy,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "1137": {
+        "name": "Apparent-energy,-phase-C",
+        "description": "Apparent-energy,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "kVAh",
+        "access": "read"
+    },
+    "1139": {
+        "name": "Power-factor,-average-of-active-phases",
+        "description": "Power-factor,-average-of-active-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1141": {
+        "name": "Power-factor,-phase-A",
+        "description": "Power-factor,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1143": {
+        "name": "Power-factor,-phase-B",
+        "description": "Power-factor,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1145": {
+        "name": "Power-factor,-phase-C",
+        "description": "Power-factor,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "1147": {
+        "name": "Reactive-power,-sum-of-active-phases",
+        "description": "Reactive-power,-sum-of-active-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "1149": {
+        "name": "Reactive-power,-phase-A",
+        "description": "Reactive-power,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "1151": {
+        "name": "Reactive-power,-phase-B",
+        "description": "Reactive-power,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "1153": {
+        "name": "Reactive-power,-phase-C",
+        "description": "Reactive-power,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "1155": {
+        "name": "Apparent-power,-sum-of-active-phases",
+        "description": "Apparent-power,-sum-of-active-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "1157": {
+        "name": "Apparent-power,-phase-A",
+        "description": "Apparent-power,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "1159": {
+        "name": "Apparent-power,-phase-B",
+        "description": "Apparent-power,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "1161": {
+        "name": "Apparent-power,-phase-C",
+        "description": "Apparent-power,-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "1163": {
+        "name": "Rms-current,-phase-A",
+        "description": "Rms-current,-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "1165": {
+        "name": "Rms-current,-phase-B",
+        "description": "Rms-current,-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    }
+}

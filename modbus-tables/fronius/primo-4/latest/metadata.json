@@ -1,0 +1,11 @@
+{
+    "manufacturer": "fronius",
+    "model": "primo-4",
+    "description": "",
+    "version": "",
+    "url": "https://www.aggsoft.com/serial-data-logger/tutorials/modbus-data-logging/fronius-primo-4.htm",
+    "tags": {
+        "industry": "Unknown",
+        "application": "Unknown"
+    }
+}

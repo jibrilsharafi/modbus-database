@@ -1,0 +1,502 @@
+{
+    "69": {
+        "name": "Model-id",
+        "description": "Model-id",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "71": {
+        "name": "Number-of-mpp-trackers",
+        "description": "Number-of-mpp-trackers",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "72": {
+        "name": "Rated-power",
+        "description": "Rated-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "74": {
+        "name": "Maximum-active-power-(-max)",
+        "description": "Maximum-active-power-(-max)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "76": {
+        "name": "Maximum-apparent-power-(smax)",
+        "description": "Maximum-apparent-power-(smax)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kVA",
+        "access": "read"
+    },
+    "78": {
+        "name": "Maximum-reactive-power-(qmax,-fed-to-the-power-grid)",
+        "description": "Maximum-reactive-power-(qmax,-fed-to-the-power-grid)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVar",
+        "access": "read"
+    },
+    "80": {
+        "name": "Maximum-reactive-power-absorbed-from-the-power-grid)",
+        "description": "Maximum-reactive-power-absorbed-from-the-power-grid)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVar",
+        "access": "read"
+    },
+    "1999": {
+        "name": "State-1",
+        "description": "State-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2008": {
+        "name": "Alarm-2",
+        "description": "Alarm-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2009": {
+        "name": "Alarm-3",
+        "description": "Alarm-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2015": {
+        "name": "Pvlvoltage",
+        "description": "Pvlvoltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2016": {
+        "name": "Pvlcurrent",
+        "description": "Pvlcurrent",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "A",
+        "access": "read"
+    },
+    "2017": {
+        "name": "Pv2voltage",
+        "description": "Pv2voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2018": {
+        "name": "Pv2current",
+        "description": "Pv2current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "A",
+        "access": "read"
+    },
+    "2019": {
+        "name": "Pv3voltage",
+        "description": "Pv3voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2020": {
+        "name": "Pv3current",
+        "description": "Pv3current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "A",
+        "access": "read"
+    },
+    "2022": {
+        "name": "Pv4current",
+        "description": "Pv4current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "A",
+        "access": "read"
+    },
+    "2063": {
+        "name": "Input-power",
+        "description": "Input-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "2065": {
+        "name": "Power-grid-voltage/line-voltage-between-phases-A-and-B",
+        "description": "Power-grid-voltage/line-voltage-between-phases-A-and-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2066": {
+        "name": "Line-voltage-between-phases-B-and-C",
+        "description": "Line-voltage-between-phases-B-and-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2067": {
+        "name": "Line-voltage-between-phases-C-and-A",
+        "description": "Line-voltage-between-phases-C-and-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2068": {
+        "name": "Phase-A-voltage",
+        "description": "Phase-A-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2069": {
+        "name": "Phase-B-voltage",
+        "description": "Phase-B-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2070": {
+        "name": "Phase-C-voltage",
+        "description": "Phase-C-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "V",
+        "access": "read"
+    },
+    "2071": {
+        "name": "Power-grid-current/phase-A-current",
+        "description": "Power-grid-current/phase-A-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "A",
+        "access": "read"
+    },
+    "2073": {
+        "name": "Phase-B-current",
+        "description": "Phase-B-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "A",
+        "access": "read"
+    },
+    "2075": {
+        "name": "Phase-C-current",
+        "description": "Phase-C-current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "A",
+        "access": "read"
+    },
+    "2077": {
+        "name": "Peak-active-power-of-current-day",
+        "description": "Peak-active-power-of-current-day",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "2079": {
+        "name": "Active-power",
+        "description": "Active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kW",
+        "access": "read"
+    },
+    "2081": {
+        "name": "Reactive-power",
+        "description": "Reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "kVar",
+        "access": "read"
+    },
+    "2083": {
+        "name": "Power-factor",
+        "description": "Power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "",
+        "access": "read"
+    },
+    "2084": {
+        "name": "Grid-frequency",
+        "description": "Grid-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "2085": {
+        "name": "Efficiency",
+        "description": "Efficiency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "2086": {
+        "name": "Internal-temperature",
+        "description": "Internal-temperature",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int16",
+        "unit": "DC",
+        "access": "read"
+    },
+    "2087": {
+        "name": "Insulation-resistance",
+        "description": "Insulation-resistance",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "MW",
+        "access": "read"
+    },
+    "2088": {
+        "name": "Device-status",
+        "description": "Device-status",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2089": {
+        "name": "Fault-code",
+        "description": "Fault-code",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "2090": {
+        "name": "Startup-time",
+        "description": "Startup-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "2092": {
+        "name": "Shutdown-time",
+        "description": "Shutdown-time",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "2105": {
+        "name": "Accumulated-energy-yield",
+        "description": "Accumulated-energy-yield",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "2113": {
+        "name": "Daily-energy-yield",
+        "description": "Daily-energy-yield",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    },
+    "5299": {
+        "name": "[active]-adjustment-mode",
+        "description": "[active]-adjustment-mode",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "5301": {
+        "name": "[active]-adjustment-value",
+        "description": "[active]-adjustment-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "5302": {
+        "name": "[active]-adjustment-command",
+        "description": "[active]-adjustment-command",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "5303": {
+        "name": "[reactive]-adjustment-mode",
+        "description": "[reactive]-adjustment-mode",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "5304": {
+        "name": "[reactive]-adjustment-value",
+        "description": "[reactive]-adjustment-value",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "",
+        "access": "read"
+    },
+    "5306": {
+        "name": "[reactive]-adjustment-command",
+        "description": "[reactive]-adjustment-command",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "6999": {
+        "name": "[energy-storage-unit-1]-running-status",
+        "description": "[energy-storage-unit-1]-running-status",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "7000": {
+        "name": "[energy-storage-unit-1]-charge-and-discharge-power",
+        "description": "[energy-storage-unit-1]-charge-and-discharge-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "int32",
+        "unit": "W",
+        "access": "read"
+    },
+    "7014": {
+        "name": "[energy-storage-unit-1]-current-day-charge-capacity",
+        "description": "[energy-storage-unit-1]-current-day-charge-capacity",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint32",
+        "unit": "kWh",
+        "access": "read"
+    }
+}

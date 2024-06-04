@@ -1,0 +1,502 @@
+{
+    "200": {
+        "name": "Phase-to-neutral-voltage,-thd",
+        "description": "Phase-to-neutral-voltage,-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "202": {
+        "name": "Phase-to-neutral-voltage,-thd",
+        "description": "Phase-to-neutral-voltage,-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "204": {
+        "name": "Phase-to-neutral-voltage,-thd",
+        "description": "Phase-to-neutral-voltage,-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "206": {
+        "name": "Phase-to-phase-voltage,-thd",
+        "description": "Phase-to-phase-voltage,-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "208": {
+        "name": "Phase-to-phase-voltage,-thd",
+        "description": "Phase-to-phase-voltage,-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "210": {
+        "name": "Phase-to-phase-voltage,-thd",
+        "description": "Phase-to-phase-voltage,-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "212": {
+        "name": "Phase-current,-thd",
+        "description": "Phase-current,-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "214": {
+        "name": "Phase-current,-thd",
+        "description": "Phase-current,-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "216": {
+        "name": "Phase-current,-thd",
+        "description": "Phase-current,-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "218": {
+        "name": "Frequency-of-u1n",
+        "description": "Frequency-of-u1n",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "220": {
+        "name": "Phase-to-neutral-voltage,-rms-amplitude",
+        "description": "Phase-to-neutral-voltage,-rms-amplitude",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "222": {
+        "name": "Phase-to-neutral-voltage,-rms-amplitude",
+        "description": "Phase-to-neutral-voltage,-rms-amplitude",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "224": {
+        "name": "Phase-to-neutral-voltage,-rms-amplitude",
+        "description": "Phase-to-neutral-voltage,-rms-amplitude",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "226": {
+        "name": "Phase-to-phase-voltage,-rms-amplitude",
+        "description": "Phase-to-phase-voltage,-rms-amplitude",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "228": {
+        "name": "Phase-to-phase-voltage,-rms-amplitude",
+        "description": "Phase-to-phase-voltage,-rms-amplitude",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "230": {
+        "name": "Phase-to-phase-voltage,-rms-amplitude",
+        "description": "Phase-to-phase-voltage,-rms-amplitude",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "232": {
+        "name": "Phase-current,-rms-amplitude",
+        "description": "Phase-current,-rms-amplitude",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "234": {
+        "name": "Phase-current,-rms-amplitude",
+        "description": "Phase-current,-rms-amplitude",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "236": {
+        "name": "Phase-current,-rms-amplitude",
+        "description": "Phase-current,-rms-amplitude",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "238": {
+        "name": "Neutral-current,-rms-amplitude",
+        "description": "Neutral-current,-rms-amplitude",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "240": {
+        "name": "Phase-active-power-(imp/-exp)",
+        "description": "Phase-active-power-(imp/-exp)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "242": {
+        "name": "Phase-active-power-(imp/-exp)",
+        "description": "Phase-active-power-(imp/-exp)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "244": {
+        "name": "Phase-active-power-(imp/-exp)",
+        "description": "Phase-active-power-(imp/-exp)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "246": {
+        "name": "Phase-reactive-power-(imp/-exp)",
+        "description": "Phase-reactive-power-(imp/-exp)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "248": {
+        "name": "Phase-reactive-power-(imp/-exp)",
+        "description": "Phase-reactive-power-(imp/-exp)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "250": {
+        "name": "Phase-reactive-power-(imp/-exp)",
+        "description": "Phase-reactive-power-(imp/-exp)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "252": {
+        "name": "Phase-apparent-power",
+        "description": "Phase-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "254": {
+        "name": "Phase-apparent-power",
+        "description": "Phase-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "256": {
+        "name": "Phase-apparent-power",
+        "description": "Phase-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "258": {
+        "name": "Phase-power-factor-(imp/-exp)",
+        "description": "Phase-power-factor-(imp/-exp)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "-",
+        "access": "read"
+    },
+    "260": {
+        "name": "Phase-power-factor-(imp/-exp)",
+        "description": "Phase-power-factor-(imp/-exp)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "-",
+        "access": "read"
+    },
+    "262": {
+        "name": "Phase-power-factor-(imp/-exp)",
+        "description": "Phase-power-factor-(imp/-exp)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "-",
+        "access": "read"
+    },
+    "264": {
+        "name": "Phase-to-neutral-voltage,-mean-thd",
+        "description": "Phase-to-neutral-voltage,-mean-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "266": {
+        "name": "Phase-to-phase-voltage,-mean-thd",
+        "description": "Phase-to-phase-voltage,-mean-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "268": {
+        "name": "Phase-current,-mean-thd",
+        "description": "Phase-current,-mean-thd",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "270": {
+        "name": "Phase-to-neutral-voltage,-mean-rms-amplitude",
+        "description": "Phase-to-neutral-voltage,-mean-rms-amplitude",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "272": {
+        "name": "Phase-to-phase-voltage,-mean-rms-amplitude",
+        "description": "Phase-to-phase-voltage,-mean-rms-amplitude",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "274": {
+        "name": "Three-phase-current,-rms-amplitude",
+        "description": "Three-phase-current,-rms-amplitude",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "276": {
+        "name": "Total-active-power-(imp/-exp)",
+        "description": "Total-active-power-(imp/-exp)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "278": {
+        "name": "Total-reactive-power-(imp/-exp)",
+        "description": "Total-reactive-power-(imp/-exp)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "280": {
+        "name": "Total-apparent-power",
+        "description": "Total-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "282": {
+        "name": "Total-power-factor-(imp/-exp)",
+        "description": "Total-power-factor-(imp/-exp)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "-",
+        "access": "read"
+    },
+    "332": {
+        "name": "Phase-current,-rms-amplitude,-avg",
+        "description": "Phase-current,-rms-amplitude,-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "334": {
+        "name": "Phase-current,-rms-amplitude,-avg",
+        "description": "Phase-current,-rms-amplitude,-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "336": {
+        "name": "Phase-current,-rms-amplitude,-avg",
+        "description": "Phase-current,-rms-amplitude,-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "344": {
+        "name": "Total-imported-active-power,-avg",
+        "description": "Total-imported-active-power,-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "346": {
+        "name": "Total-imported-inductive-power,-avg",
+        "description": "Total-imported-inductive-power,-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "348": {
+        "name": "Total-imported-capacitive-power,-avg",
+        "description": "Total-imported-capacitive-power,-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "var",
+        "access": "read"
+    },
+    "350": {
+        "name": "Total-imported-apparent-power,-avg",
+        "description": "Total-imported-apparent-power,-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "352": {
+        "name": "Total-exported-active-power,-avg",
+        "description": "Total-exported-active-power,-avg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    }
+}

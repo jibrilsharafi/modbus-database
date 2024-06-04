@@ -1,0 +1,502 @@
+{
+    "1": {
+        "name": "Source-N-line-neutral-l1l0",
+        "description": "Source-N-line-neutral-l1l0",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "2": {
+        "name": "Source-N-line-neutral-L2-l0",
+        "description": "Source-N-line-neutral-L2-l0",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "3": {
+        "name": "Source-N-line-neutral-l3l0",
+        "description": "Source-N-line-neutral-l3l0",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "4": {
+        "name": "Source-E-line-neutral-L1-l0",
+        "description": "Source-E-line-neutral-L1-l0",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "5": {
+        "name": "Source-E-lineneutral-l2l0",
+        "description": "Source-E-lineneutral-l2l0",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "6": {
+        "name": "Source-E-line-neutral-L3-l0",
+        "description": "Source-E-line-neutral-L3-l0",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "7": {
+        "name": "Source-N-line-voltage-L1-L2",
+        "description": "Source-N-line-voltage-L1-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "8": {
+        "name": "Source-N-line-voltage-L2-L3",
+        "description": "Source-N-line-voltage-L2-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "9": {
+        "name": "Source-N-line-voltage-L3-L1",
+        "description": "Source-N-line-voltage-L3-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "10": {
+        "name": "Source-E-line-voltage-L1-L2",
+        "description": "Source-E-line-voltage-L1-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "11": {
+        "name": "Source-E-line-voltage-l2l3",
+        "description": "Source-E-line-voltage-l2l3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "12": {
+        "name": "Source-E-line-voltage-L3-L1",
+        "description": "Source-E-line-voltage-L3-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "13": {
+        "name": "Source-N-frequency",
+        "description": "Source-N-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "14": {
+        "name": "Source-E-frequency",
+        "description": "Source-E-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "15": {
+        "name": "Current-L1",
+        "description": "Current-L1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amps",
+        "access": "read"
+    },
+    "16": {
+        "name": "Current-L2",
+        "description": "Current-L2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amps",
+        "access": "read"
+    },
+    "17": {
+        "name": "Current-L3",
+        "description": "Current-L3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Amps",
+        "access": "read"
+    },
+    "18": {
+        "name": "Closed-transition-in-phase-degree-delta",
+        "description": "Closed-transition-in-phase-degree-delta",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Degrees",
+        "access": "read"
+    },
+    "38": {
+        "name": "Closed-programmed-transition-override-mode",
+        "description": "Closed-programmed-transition-override-mode",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0 = Auto Override, 1 = Non-Automatic",
+        "access": "read"
+    },
+    "39": {
+        "name": "Password-for-writing-register-40042",
+        "description": "Password-for-writing-register-40042",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0-32768",
+        "access": "read"
+    },
+    "40": {
+        "name": "Synchronous-voltage-phase-angle",
+        "description": "Synchronous-voltage-phase-angle",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0-10 degrees",
+        "access": "read"
+    },
+    "41": {
+        "name": "Synchronous-voltage-differential",
+        "description": "Synchronous-voltage-differential",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0%-5%",
+        "access": "read"
+    },
+    "42": {
+        "name": "Synchronous-frequency-differential",
+        "description": "Synchronous-frequency-differential",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0.0Hz.-0.3Hz.",
+        "access": "read"
+    },
+    "43": {
+        "name": "Service-entrance-type",
+        "description": "Service-entrance-type",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0 = None; 1 = Insulated Case Circuit Breaker, 2 = Molded Case Circuit Breaker, 3 = Contactor",
+        "access": "read"
+    },
+    "44": {
+        "name": "Phase-rotation-actual",
+        "description": "Phase-rotation-actual",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0 = disabled; 1 = ABC; 2 = CBA",
+        "access": "read"
+    },
+    "45": {
+        "name": "Phase-rotation-expected",
+        "description": "Phase-rotation-expected",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0 = disabled; 1 = ABC; 2 = CBA",
+        "access": "read"
+    },
+    "46": {
+        "name": "Nominal-normal-voltage",
+        "description": "Nominal-normal-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "47": {
+        "name": "Nominal-emergency-voltage",
+        "description": "Nominal-emergency-voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Volts AC",
+        "access": "read"
+    },
+    "48": {
+        "name": "Nominal-normal-frequency",
+        "description": "Nominal-normal-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "49": {
+        "name": "Nominal-emergency-frequency",
+        "description": "Nominal-emergency-frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "50": {
+        "name": "Normal-number-of-phases",
+        "description": "Normal-number-of-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "1 or 3",
+        "access": "read"
+    },
+    "51": {
+        "name": "Emergency-number-of-phases",
+        "description": "Emergency-number-of-phases",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "1 or 3",
+        "access": "read"
+    },
+    "52": {
+        "name": "Rated-amperage",
+        "description": "Rated-amperage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "04000",
+        "access": "read"
+    },
+    "57": {
+        "name": "Password-for-writing-register-40057",
+        "description": "Password-for-writing-register-40057",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0 32768",
+        "access": "read"
+    },
+    "58": {
+        "name": "Normal-engine-start-time-delay",
+        "description": "Normal-engine-start-time-delay",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0-10 sec",
+        "access": "read"
+    },
+    "59": {
+        "name": "Emergency-engine-start-time-delay",
+        "description": "Emergency-engine-start-time-delay",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "010 sec",
+        "access": "read"
+    },
+    "60": {
+        "name": "Normal-ext.-Engine-start-time-delay",
+        "description": "Normal-ext.-Engine-start-time-delay",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0-3600 sec",
+        "access": "read"
+    },
+    "61": {
+        "name": "Emergency-ext.-Engine-start-time-delay",
+        "description": "Emergency-ext.-Engine-start-time-delay",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "03600 sec",
+        "access": "read"
+    },
+    "62": {
+        "name": "Normal-engine-cooldown",
+        "description": "Normal-engine-cooldown",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0-3600 sec",
+        "access": "read"
+    },
+    "63": {
+        "name": "Emergency-engine-cooldown",
+        "description": "Emergency-engine-cooldown",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "03600 sec",
+        "access": "read"
+    },
+    "64": {
+        "name": "Standby-to-preferred",
+        "description": "Standby-to-preferred",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0-3600 sec",
+        "access": "read"
+    },
+    "65": {
+        "name": "Preferred-to-standby",
+        "description": "Preferred-to-standby",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "03600 sec",
+        "access": "read"
+    },
+    "66": {
+        "name": "Off-(preferred-to-standby-prog.-Transition)",
+        "description": "Off-(preferred-to-standby-prog.-Transition)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0-3600 sec",
+        "access": "read"
+    },
+    "67": {
+        "name": "Off-(standby-to-preferred-prog.-Transition)",
+        "description": "Off-(standby-to-preferred-prog.-Transition)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "03600 sec",
+        "access": "read"
+    },
+    "68": {
+        "name": "Fail-to-acquire-preferred",
+        "description": "Fail-to-acquire-preferred",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "1 -3600 sec",
+        "access": "read"
+    },
+    "69": {
+        "name": "Fail-to-acquire-standby",
+        "description": "Fail-to-acquire-standby",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "13600 sec",
+        "access": "read"
+    },
+    "70": {
+        "name": "Fail-to-synchronize",
+        "description": "Fail-to-synchronize",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "1 -3600 sec",
+        "access": "read"
+    },
+    "71": {
+        "name": "Fail-to-synch.-Enable",
+        "description": "Fail-to-synch.-Enable",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "0 = disabled; 1 = enabled",
+        "access": "read"
+    },
+    "74": {
+        "name": "Active-time-delay",
+        "description": "Active-time-delay",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "",
+        "access": "read"
+    },
+    "75": {
+        "name": "Active-time-delay-remaining",
+        "description": "Active-time-delay-remaining",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "Seconds",
+        "access": "read"
+    }
+}

@@ -1,0 +1,502 @@
+{
+    "1": {
+        "name": "Voltage-a-n",
+        "description": "Voltage-a-n",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "3": {
+        "name": "Voltage-b-n",
+        "description": "Voltage-b-n",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "5": {
+        "name": "Voltage-c-n",
+        "description": "Voltage-c-n",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "7": {
+        "name": "Voltage-a-b",
+        "description": "Voltage-a-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "9": {
+        "name": "Voltage-b-c",
+        "description": "Voltage-b-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "11": {
+        "name": "Voltage-c-a",
+        "description": "Voltage-c-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "13": {
+        "name": "Current-a",
+        "description": "Current-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "15": {
+        "name": "Current-b",
+        "description": "Current-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "17": {
+        "name": "Current-c",
+        "description": "Current-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "19": {
+        "name": "Apparent-Power-a",
+        "description": "Apparent-Power-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "21": {
+        "name": "Apparent-Power-b",
+        "description": "Apparent-Power-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "23": {
+        "name": "Apparent-Power-c",
+        "description": "Apparent-Power-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "25": {
+        "name": "Active-Power-a",
+        "description": "Active-Power-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "27": {
+        "name": "Active-Power-b",
+        "description": "Active-Power-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "29": {
+        "name": "Active-Power-c",
+        "description": "Active-Power-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "31": {
+        "name": "Reactive-Power-a-(VARn)",
+        "description": "Reactive-Power-a-(VARn)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "33": {
+        "name": "Reactive-Power-b-(VARn)",
+        "description": "Reactive-Power-b-(VARn)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "35": {
+        "name": "Reactive-Power-c-(VARn)",
+        "description": "Reactive-Power-c-(VARn)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "37": {
+        "name": "Power-Factor-a",
+        "description": "Power-Factor-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "-",
+        "access": "read"
+    },
+    "39": {
+        "name": "Power-Factor-b",
+        "description": "Power-Factor-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "-",
+        "access": "read"
+    },
+    "41": {
+        "name": "Power-Factor-c",
+        "description": "Power-Factor-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "-",
+        "access": "read"
+    },
+    "43": {
+        "name": "THD-Voltage-a-b",
+        "description": "THD-Voltage-a-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "45": {
+        "name": "THD-Voltage-b-c",
+        "description": "THD-Voltage-b-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "47": {
+        "name": "THD-Voltage-c-a",
+        "description": "THD-Voltage-c-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "55": {
+        "name": "Line-Frequency",
+        "description": "Line-Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "H",
+        "access": "read"
+    },
+    "57": {
+        "name": "3-Phase-Average-Voltage-ph-n",
+        "description": "3-Phase-Average-Voltage-ph-n",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "59": {
+        "name": "3-Phase-Average-Voltage-ph-ph",
+        "description": "3-Phase-Average-Voltage-ph-ph",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "61": {
+        "name": "3-Phase-Average-Current-ph-ph",
+        "description": "3-Phase-Average-Current-ph-ph",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "63": {
+        "name": "Total-Apparent-Power",
+        "description": "Total-Apparent-Power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "65": {
+        "name": "Total-Active-Power",
+        "description": "Total-Active-Power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "67": {
+        "name": "Total-Reactive-Power-(VARn)",
+        "description": "Total-Reactive-Power-(VARn)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "69": {
+        "name": "Total-Power-Factor",
+        "description": "Total-Power-Factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "-",
+        "access": "read"
+    },
+    "71": {
+        "name": "Amplitude-Unbalance-Voltage",
+        "description": "Amplitude-Unbalance-Voltage",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "73": {
+        "name": "Amplitude-Unbalance-Current",
+        "description": "Amplitude-Unbalance-Current",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "%",
+        "access": "read"
+    },
+    "75": {
+        "name": "Maximum-Voltage-a-n",
+        "description": "Maximum-Voltage-a-n",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "77": {
+        "name": "Maximum-Voltage-b-n",
+        "description": "Maximum-Voltage-b-n",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "79": {
+        "name": "Maximum-Voltage-c-n",
+        "description": "Maximum-Voltage-c-n",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "81": {
+        "name": "Maximum-Voltage-a-b",
+        "description": "Maximum-Voltage-a-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "83": {
+        "name": "Maximum-Voltage-b-c",
+        "description": "Maximum-Voltage-b-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "85": {
+        "name": "Maximum-Voltage-c-a",
+        "description": "Maximum-Voltage-c-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "87": {
+        "name": "Maximum-Current-a",
+        "description": "Maximum-Current-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "89": {
+        "name": "Maximum-Current-b",
+        "description": "Maximum-Current-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "91": {
+        "name": "Maximum-Current-c",
+        "description": "Maximum-Current-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "A",
+        "access": "read"
+    },
+    "93": {
+        "name": "Maximum-Apparent-Power-a",
+        "description": "Maximum-Apparent-Power-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "95": {
+        "name": "Maximum-Apparent-Power-b",
+        "description": "Maximum-Apparent-Power-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "97": {
+        "name": "Maximum-Apparent-Power-c",
+        "description": "Maximum-Apparent-Power-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    },
+    "99": {
+        "name": "Maximum-Active-Power-a",
+        "description": "Maximum-Active-Power-a",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "101": {
+        "name": "Maximum-Active-Power-b",
+        "description": "Maximum-Active-Power-b",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "103": {
+        "name": "Maximum-Active-Power-c",
+        "description": "Maximum-Active-Power-c",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "105": {
+        "name": "Maximum-Reactive-Power-a-(VARn)",
+        "description": "Maximum-Reactive-Power-a-(VARn)",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "V",
+        "access": "read"
+    }
+}

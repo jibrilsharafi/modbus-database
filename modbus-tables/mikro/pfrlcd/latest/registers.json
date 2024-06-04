@@ -1,0 +1,502 @@
+{
+    "17": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Hz",
+        "access": "read"
+    },
+    "19": {
+        "name": "Phase-voltage-A",
+        "description": "Phase-voltage-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Vrms",
+        "access": "read"
+    },
+    "21": {
+        "name": "Phase-voltage-B",
+        "description": "Phase-voltage-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Vrms",
+        "access": "read"
+    },
+    "23": {
+        "name": "Phase-voltage-C",
+        "description": "Phase-voltage-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Vrms",
+        "access": "read"
+    },
+    "25": {
+        "name": "Phase-current-A",
+        "description": "Phase-current-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Irms",
+        "access": "read"
+    },
+    "27": {
+        "name": "Phase-current-B",
+        "description": "Phase-current-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Irms",
+        "access": "read"
+    },
+    "29": {
+        "name": "Phase-current-C",
+        "description": "Phase-current-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Irms",
+        "access": "read"
+    },
+    "31": {
+        "name": "Active-power-phase-A",
+        "description": "Active-power-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "33": {
+        "name": "Reactive-power-phase-A",
+        "description": "Reactive-power-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "35": {
+        "name": "Apparent-power-phase-A",
+        "description": "Apparent-power-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "37": {
+        "name": "Power-factor-phase-A",
+        "description": "Power-factor-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "39": {
+        "name": "Active-power-phase-B",
+        "description": "Active-power-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "41": {
+        "name": "Reactive-power-phase-B",
+        "description": "Reactive-power-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "43": {
+        "name": "Apparent-power-phase-B",
+        "description": "Apparent-power-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "45": {
+        "name": "Power-factor-phase-B",
+        "description": "Power-factor-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "47": {
+        "name": "Active-power-phase-C",
+        "description": "Active-power-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "49": {
+        "name": "Reactive-power-phase-C",
+        "description": "Reactive-power-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "51": {
+        "name": "Apparent-power-phase-C",
+        "description": "Apparent-power-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "53": {
+        "name": "Power-factor-phase-C",
+        "description": "Power-factor-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "55": {
+        "name": "Total-active-power",
+        "description": "Total-active-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "57": {
+        "name": "Total-reactive-power",
+        "description": "Total-reactive-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "59": {
+        "name": "Total-apparent-power",
+        "description": "Total-apparent-power",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VA",
+        "access": "read"
+    },
+    "61": {
+        "name": "Total-power-factor",
+        "description": "Total-power-factor",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "63": {
+        "name": "Fundamental-active-power-phase-A",
+        "description": "Fundamental-active-power-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "65": {
+        "name": "Fundamental-active-power-phase-B",
+        "description": "Fundamental-active-power-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "67": {
+        "name": "Fundamental-active-power-phase-C",
+        "description": "Fundamental-active-power-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "69": {
+        "name": "Fundamental-reactive-power-phase-A",
+        "description": "Fundamental-reactive-power-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "71": {
+        "name": "Fundamental-reactive-power-phase-B",
+        "description": "Fundamental-reactive-power-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "73": {
+        "name": "Fundamental-reactive-power-phase-C",
+        "description": "Fundamental-reactive-power-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "75": {
+        "name": "Harmonic-active-power-phase-A",
+        "description": "Harmonic-active-power-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "77": {
+        "name": "Harmonic-active-power-phase-B",
+        "description": "Harmonic-active-power-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "79": {
+        "name": "Harmonic-active-power-phase-C",
+        "description": "Harmonic-active-power-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "W",
+        "access": "read"
+    },
+    "81": {
+        "name": "Harmonic-reactive-power-phase-A",
+        "description": "Harmonic-reactive-power-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "83": {
+        "name": "Harmonic-reactive-power-phase-B",
+        "description": "Harmonic-reactive-power-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "85": {
+        "name": "Harmonic-reactive-power-phase-C",
+        "description": "Harmonic-reactive-power-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "VAR",
+        "access": "read"
+    },
+    "87": {
+        "name": "Total-voltage-harmonic-phase-A",
+        "description": "Total-voltage-harmonic-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Vrms",
+        "access": "read"
+    },
+    "89": {
+        "name": "Total-voltage-harmonic-phase-B",
+        "description": "Total-voltage-harmonic-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Vrms",
+        "access": "read"
+    },
+    "91": {
+        "name": "Total-voltage-harmonic-phase-C",
+        "description": "Total-voltage-harmonic-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Vrms",
+        "access": "read"
+    },
+    "93": {
+        "name": "Total-current-harmonic-phase-A",
+        "description": "Total-current-harmonic-phase-A",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Irms",
+        "access": "read"
+    },
+    "95": {
+        "name": "Total-current-harmonic-phase-B",
+        "description": "Total-current-harmonic-phase-B",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Irms",
+        "access": "read"
+    },
+    "97": {
+        "name": "Total-current-harmonic-phase-C",
+        "description": "Total-current-harmonic-phase-C",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "Irms",
+        "access": "read"
+    },
+    "99": {
+        "name": "Voltage-A-harmonics-0",
+        "description": "Voltage-A-harmonics-0",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "100": {
+        "name": "Voltage-A-harmonics-1",
+        "description": "Voltage-A-harmonics-1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "101": {
+        "name": "Voltage-A-harmonics-2",
+        "description": "Voltage-A-harmonics-2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "102": {
+        "name": "Voltage-A-harmonics-3",
+        "description": "Voltage-A-harmonics-3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "103": {
+        "name": "Voltage-A-harmonics-4",
+        "description": "Voltage-A-harmonics-4",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "104": {
+        "name": "Voltage-A-harmonics-5",
+        "description": "Voltage-A-harmonics-5",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "105": {
+        "name": "Voltage-A-harmonics-6",
+        "description": "Voltage-A-harmonics-6",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "106": {
+        "name": "Voltage-A-harmonics-7",
+        "description": "Voltage-A-harmonics-7",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    },
+    "107": {
+        "name": "Voltage-A-harmonics-8",
+        "description": "Voltage-A-harmonics-8",
+        "function_codes": [
+            3
+        ],
+        "data_type": "uint16",
+        "unit": "%",
+        "access": "read"
+    }
+}

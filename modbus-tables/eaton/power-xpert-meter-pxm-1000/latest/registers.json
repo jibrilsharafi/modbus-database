@@ -1,0 +1,502 @@
+{
+    "12289": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12291": {
+        "name": "Phase-voltage-V1",
+        "description": "Phase-voltage-V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12293": {
+        "name": "Phase-voltage-V2",
+        "description": "Phase-voltage-V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12295": {
+        "name": "Phase-voltage-V3",
+        "description": "Phase-voltage-V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12297": {
+        "name": "Average-voltage-vavg",
+        "description": "Average-voltage-vavg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12299": {
+        "name": "Line-voltage-V12",
+        "description": "Line-voltage-V12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12301": {
+        "name": "Line-voltage-V23",
+        "description": "Line-voltage-V23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12303": {
+        "name": "Line-voltage-V31",
+        "description": "Line-voltage-V31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12305": {
+        "name": "Average-line-voltage-vlavg",
+        "description": "Average-line-voltage-vlavg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12307": {
+        "name": "Current-I1",
+        "description": "Current-I1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12309": {
+        "name": "Current-I2",
+        "description": "Current-I2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12311": {
+        "name": "Current-I3",
+        "description": "Current-I3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12313": {
+        "name": "Average-current-iavg",
+        "description": "Average-current-iavg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12315": {
+        "name": "Neutral-current-in",
+        "description": "Neutral-current-in",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12317": {
+        "name": "Phase-A-power-pa",
+        "description": "Phase-A-power-pa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12319": {
+        "name": "Phase-B-power-pb",
+        "description": "Phase-B-power-pb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12321": {
+        "name": "Phase-C-power-pc",
+        "description": "Phase-C-power-pc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12323": {
+        "name": "System-power-psum",
+        "description": "System-power-psum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12325": {
+        "name": "Phase-A-reactive-power-qa",
+        "description": "Phase-A-reactive-power-qa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12327": {
+        "name": "Phase-B-reactive-power-qb",
+        "description": "Phase-B-reactive-power-qb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12329": {
+        "name": "Phase-C-reactive-power-qc",
+        "description": "Phase-C-reactive-power-qc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12331": {
+        "name": "System-reactive-power-qsum",
+        "description": "System-reactive-power-qsum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12333": {
+        "name": "Phase-A-apparent-power-sa",
+        "description": "Phase-A-apparent-power-sa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12335": {
+        "name": "Phase-B-apparent-power-sb",
+        "description": "Phase-B-apparent-power-sb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12337": {
+        "name": "Phase-C-apparent-power-sc",
+        "description": "Phase-C-apparent-power-sc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12339": {
+        "name": "System-S-apparent-power-ssum",
+        "description": "System-S-apparent-power-ssum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12341": {
+        "name": "Phase-A-power-factor-PFa",
+        "description": "Phase-A-power-factor-PFa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12343": {
+        "name": "Phase-B-power-factor-PFb",
+        "description": "Phase-B-power-factor-PFb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12345": {
+        "name": "Phase-C-power-factor-PFc",
+        "description": "Phase-C-power-factor-PFc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "12347": {
+        "name": "System-power-factor-PFsum",
+        "description": "System-power-factor-PFsum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16385": {
+        "name": "Frequency",
+        "description": "Frequency",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16387": {
+        "name": "Phase-voltage-V1",
+        "description": "Phase-voltage-V1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16389": {
+        "name": "Phase-voltage-V2",
+        "description": "Phase-voltage-V2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16391": {
+        "name": "Phase-voltage-V3",
+        "description": "Phase-voltage-V3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16393": {
+        "name": "Average-voltage-vavg",
+        "description": "Average-voltage-vavg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16395": {
+        "name": "Line-voltage-V12",
+        "description": "Line-voltage-V12",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16397": {
+        "name": "Line-voltage-V23",
+        "description": "Line-voltage-V23",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16399": {
+        "name": "Line-voltage-V31",
+        "description": "Line-voltage-V31",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16401": {
+        "name": "Average-line-voltage-vlavg",
+        "description": "Average-line-voltage-vlavg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16403": {
+        "name": "Current-I1",
+        "description": "Current-I1",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16405": {
+        "name": "Current-I2",
+        "description": "Current-I2",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16407": {
+        "name": "Current-I3",
+        "description": "Current-I3",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16409": {
+        "name": "Average-current-iavg",
+        "description": "Average-current-iavg",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16411": {
+        "name": "Neutral-current-in",
+        "description": "Neutral-current-in",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16413": {
+        "name": "Phase-A-power-pa",
+        "description": "Phase-A-power-pa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16415": {
+        "name": "Phase-B-power-pb",
+        "description": "Phase-B-power-pb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16417": {
+        "name": "Phase-C-power-pc",
+        "description": "Phase-C-power-pc",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16419": {
+        "name": "System-power-psum",
+        "description": "System-power-psum",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16421": {
+        "name": "Phase-A-reactive-power-qa",
+        "description": "Phase-A-reactive-power-qa",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    },
+    "16423": {
+        "name": "Phase-B-reactive-power-qb",
+        "description": "Phase-B-reactive-power-qb",
+        "function_codes": [
+            3
+        ],
+        "data_type": "float",
+        "unit": "",
+        "access": "read"
+    }
+}
