@@ -1,7 +1,7 @@
 # Modbus Database
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/jibrilsharafi/AdvancedLogger/blob/master/LICENSE)
-[![Devices Count](https://img.shields.io/badge/Devices-273-blue)](#devices)
+[![Devices Count](https://img.shields.io/badge/Devices-274-blue)](#devices)
 
 Welcome to the **Modbus Database**! This repository is a comprehensive collection of Modbus tables from various manufacturers. The goal is to streamline any project that requires Modbus communication by providing a one-stop resource for Modbus maps. No more manual searching and writing of Modbus maps - we've got you covered!
 
@@ -81,6 +81,7 @@ Welcome to the **Modbus Database**! This repository is a comprehensive collectio
 | **[enerdis](modbus-tables/enerdis)** | [enerium-30](modbus-tables/enerdis/enerium-30/latest) | Unknown | Unknown |
 | **[enerdis](modbus-tables/enerdis)** | [enerium-50-150](modbus-tables/enerdis/enerium-50-150/latest) | Unknown | Unknown |
 | **[enerdis](modbus-tables/enerdis)** | [enerium-power-monitor-100-200-300](modbus-tables/enerdis/enerium-power-monitor-100-200-300/latest) | Unknown | Unknown |
+| **[EnergyMe](modbus-tables/EnergyMe)** | [Home](modbus-tables/EnergyMe/Home/latest) | Energy | Energy Metering |
 | **[entes](modbus-tables/entes)** | [emm](modbus-tables/entes/emm/latest) | Unknown | Unknown |
 | **[entes](modbus-tables/entes)** | [epm-07](modbus-tables/entes/epm-07/latest) | Unknown | Unknown |
 | **[entes](modbus-tables/entes)** | [epr04](modbus-tables/entes/epr04/latest) | Unknown | Unknown |

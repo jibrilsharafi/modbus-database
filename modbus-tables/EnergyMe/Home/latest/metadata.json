@@ -1,0 +1,11 @@
+{
+    "manufacturer": "EnergyMe",
+    "model": "Home",
+    "description": "Open-source energy monitoring system for home use, capable of monitoring up to 17 circuits with Restful API, MQTT, and Modbus TCP support",
+    "version": "1.0.0",
+    "url": "https://github.com/jibrilsharafi/energyme-home",
+    "tags": {
+        "industry": "Energy",
+        "application": "Energy Metering"
+    }
+}
